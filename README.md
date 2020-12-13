@@ -11,7 +11,16 @@ DoT : doh.proyekdns.fun:853
 
 Server : Singapura
 
-DNS blocklists: [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt) dan [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt)
+DNS blocklists:
+- [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)
+- [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt)
+- [uBlock filters](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt)
+- [Peter Lowe’s Ad and tracking server list ](http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext)
+- [EasyList](https://easylist.to/easylist/easylist.txt)
+- [StevenBlack](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)
+- [AdAway](https://adaway.org/hosts.txt)
+- [MVP's](https://winhelp2002.mvps.org/hosts.txt)
+- [Someonewhocares](https://someonewhocares.org/hosts/hosts)
 
 ## Donasi Kami
 

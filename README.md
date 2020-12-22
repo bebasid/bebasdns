@@ -22,6 +22,7 @@ DNS blocklists:
 - [AdAway](https://adaway.org/hosts.txt)
 - [MVP's](https://winhelp2002.mvps.org/hosts.txt)
 - [Someonewhocares](https://someonewhocares.org/hosts/hosts)
+- [Energized](https://block.energized.pro/ultimate/formats/hosts)
 
 ## Donasi Kami
 

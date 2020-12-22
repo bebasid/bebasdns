@@ -12,6 +12,7 @@ DoT : doh.proyekdns.fun:853
 Server : Singapura
 
 DNS blocklists:
+- [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
 - [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)
 - [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt)
 - [uBlock filters](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt)

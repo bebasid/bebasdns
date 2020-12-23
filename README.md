@@ -27,7 +27,7 @@ DNS blocklists:
 - [oisd](https://abp.oisd.nl/)
 - [Tiarapp](https://raw.githubusercontent.com/pengelana/blocklist/master/domain.txt)
 - [Cameleon](http://sysctl.org/cameleon/hosts)
-- [blah](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt)
+- [blah](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) [disabled]
 - [ABP](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)
 
 ## Donasi Kami

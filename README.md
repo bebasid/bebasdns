@@ -15,14 +15,20 @@ DNS blocklists:
 - [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
 - [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)
 - [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt)
-- [uBlock filters](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt)
-- [Peter Lowe’s Ad and tracking server list ](http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext)
+- [uBlock](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt)
+- [Peter Lowe’s list ](http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext)
 - [EasyList](https://easylist.to/easylist/easylist.txt)
 - [StevenBlack](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)
 - [AdAway](https://adaway.org/hosts.txt)
 - [MVP's](https://winhelp2002.mvps.org/hosts.txt)
-- [Someonewhocares](https://someonewhocares.org/hosts/hosts)
+- [Dan Pollock's List](https://someonewhocares.org/hosts/hosts)
 - [Energized](https://block.energized.pro/ultimate/formats/hosts)
+- [Mahakala](http://adblock.mahakala.is/)
+- [oisd](https://abp.oisd.nl/)
+- [Tiarapp](https://raw.githubusercontent.com/pengelana/blocklist/master/domain.txt)
+- [Cameleon](http://sysctl.org/cameleon/hosts)
+- [blah](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt)
+- [ABP](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)
 
 ## Donasi Kami
 

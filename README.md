@@ -7,7 +7,7 @@ IP : 139.59.122.159
 
 DoH : https://doh.proyekdns.fun/dns-query
 
-DoT : doh.proyekdns.fun:853
+DoT : doh.proyekdns.fun
 
 Server : Singapura
 

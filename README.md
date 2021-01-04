@@ -1,9 +1,21 @@
 # bebasdns
-bebasdns membantu kamu berselancar dengan aman dan tidak terbatas.
+Membantumu berselancar dengan aman dan tidak terbatas!.
 
-## Server
+bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan hosting DigitalOcean untuk server Singapura dan Google Cloud Platform untuk server Indonesia.
 
-IP : 139.59.122.159
+Saat ini ada beberapa resolver yang aktif dan akan terus dikembangkan dikarenakan permintaan yang semakin banyak.
+
+# Server
+
+### doh.my.id [Aktif]
+
+DoH : https://doh.doh.my.id/dns-query
+
+DoT : doh.doh.my.id
+
+Server : Singapura
+
+### proyekdns.fun [Aktif]
 
 DoH : https://doh.proyekdns.fun/dns-query
 
@@ -11,7 +23,15 @@ DoT : doh.proyekdns.fun
 
 Server : Singapura
 
-DNS blocklists:
+### proyekdns.online [Nonaktif]
+
+DoH : https://doh.proyekdns.online/dns-query
+
+DoT : doh.proyekdns.online
+
+Server : Indonesia
+
+# Daftar Blokir DNS
 - [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
 - [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)
 - [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt)
@@ -20,7 +40,7 @@ DNS blocklists:
 - [EasyList](https://easylist.to/easylist/easylist.txt)
 - [StevenBlack](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)
 - [AdAway](https://adaway.org/hosts.txt)
-- [MVP's](https://winhelp2002.mvps.org/hosts.txt)
+- [MVPS](https://winhelp2002.mvps.org/hosts.txt)
 - [Dan Pollock's List](https://someonewhocares.org/hosts/hosts)
 - [Energized](https://block.energized.pro/ultimate/formats/hosts)
 - [Mahakala](http://adblock.mahakala.is/)
@@ -28,9 +48,9 @@ DNS blocklists:
 - [Tiarapp](https://raw.githubusercontent.com/pengelana/blocklist/master/domain.txt)
 - [Cameleon](http://sysctl.org/cameleon/hosts)
 - [blah](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) [disabled]
-- [ABP](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)
+- [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)
 
-## Donasi Kami
+# Donasi Kami
 
 Bantu proyek ini tetap berjalan dengan cara berdonasi.
 
@@ -47,6 +67,6 @@ Bantu proyek ini tetap berjalan dengan cara berdonasi.
 </details>
 </div>
 
-## Syarat & Ketentuan
+# Syarat & Ketentuan
 
 Dengan menggunakan layanan ini, Anda setuju mematuhi peraturan yang kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md) nya.

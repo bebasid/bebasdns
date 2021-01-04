@@ -29,7 +29,7 @@ DoH : https://doh.proyekdns.online/dns-query
 
 DoT : doh.proyekdns.online
 
-Server : Indonesia
+Lokasi Peladen : Indonesia
 
 # Daftar Blokir DNS
 - [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
@@ -52,11 +52,11 @@ Server : Indonesia
 
 # Status Peladen
 
-Statistik kondisi peladen bisa dilihat di [sini](https://status.doh.my.id/).
+Statistik kondisi peladen - [status.doh.my.id](https://status.doh.my.id/).
 
 # Cara Pengaplikasian
 
-Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami Tiarapp.
+Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pengelana.
 
 [DNS-over-TLS](https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT))
 

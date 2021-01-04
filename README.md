@@ -1,7 +1,7 @@
 # bebasdns
 Membantumu berselancar dengan aman dan tidak terbatas!.
 
-bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan hosting DigitalOcean untuk server Singapura dan Google Cloud Platform untuk server Indonesia.
+bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan hosting DigitalOcean untuk lokasi peladen Singapura dan Google Cloud Platform untuk lokasi peladen Indonesia.
 
 Saat ini ada beberapa resolver yang aktif dan akan terus dikembangkan dikarenakan permintaan yang semakin banyak.
 
@@ -13,7 +13,7 @@ DoH : https://doh.doh.my.id/dns-query
 
 DoT : doh.doh.my.id
 
-Server : Singapura
+Lokasi Peladen : Singapura
 
 ### proyekdns.fun [Aktif]
 
@@ -21,7 +21,7 @@ DoH : https://doh.proyekdns.fun/dns-query
 
 DoT : doh.proyekdns.fun
 
-Server : Singapura
+Lokasi Peladen : Singapura
 
 ### proyekdns.online [Nonaktif]
 
@@ -49,6 +49,26 @@ Server : Indonesia
 - [Cameleon](http://sysctl.org/cameleon/hosts)
 - [blah](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) [disabled]
 - [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)
+
+# Status Peladen
+
+Statistik kondisi peladen bisa dilihat di [sini](https://status.doh.my.id/).
+
+# Cara Pengaplikasian
+
+Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami Tiarapp.
+
+[DNS-over-TLS](https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT))
+
+[DNS-over-HTTPS](https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH))
+
+# Uji Keamanan
+
+bebasdns telah diuji keamanannya dan mendapatkan nilai A+ pada website ImmuniWeb.
+
+[doh.my.id - A+](https://www.immuniweb.com/ssl/?id=Me1q7XZy)
+
+[proyekdns.fun - A+](https://www.immuniweb.com/ssl/?id=T12fJh5r)
 
 # Donasi Kami
 

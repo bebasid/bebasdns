@@ -36,12 +36,12 @@ Lokasi Peladen : Indonesia
 - [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)
 - [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt)
 - [uBlock](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt)
-- [Peter Lowe’s list ](http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext)
+- [Peter Lowe’s list](http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext)
 - [EasyList](https://easylist.to/easylist/easylist.txt)
 - [StevenBlack](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)
 - [AdAway](https://adaway.org/hosts.txt)
 - [MVPS](https://winhelp2002.mvps.org/hosts.txt)
-- [Dan Pollock's List](https://someonewhocares.org/hosts/hosts)
+- [Dan Pollock's list](https://someonewhocares.org/hosts/hosts)
 - [Energized](https://block.energized.pro/ultimate/formats/hosts)
 - [Mahakala](http://adblock.mahakala.is/)
 - [oisd](https://abp.oisd.nl/)
@@ -58,9 +58,9 @@ Statistik kondisi peladen - [status.doh.my.id](https://status.doh.my.id/).
 
 Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pengelana.
 
-[DNS-over-TLS](https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT))
-
 [DNS-over-HTTPS](https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH))
+
+[DNS-over-TLS](https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT))
 
 # Uji Keamanan
 

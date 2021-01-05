@@ -51,8 +51,11 @@ Lokasi Peladen : Indonesia
 - [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)
 
 # Daftar Putih DNS
-- [bebasdns Custom Filtering Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules) 
+- [bebasdns Custom Filtering Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules)
+- [bebasdns Whitelist](https://raw.githubusercontent.com/bebasid/bebasdns/main/whitelist.txt)
 - [Filterlist for AdGuard](https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard/master/filter_whitelist.txt)
+- [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)
+- [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)
 
 # Status Peladen
 

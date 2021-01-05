@@ -49,11 +49,10 @@ Lokasi Peladen : Indonesia
 - [Cameleon](http://sysctl.org/cameleon/hosts)
 - [blah](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) [disabled]
 - [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)
-- [Filterlist for AdGuard](https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard/master/filter_blocklist.txt)
 
 # Daftar Putih DNS
-- [Filterlist for AdGuard](https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard/master/filter_whitelist.txt)
 - [bebasdns Custom Filtering Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules) 
+- [Filterlist for AdGuard](https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard/master/filter_whitelist.txt)
 
 # Status Peladen
 

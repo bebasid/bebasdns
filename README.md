@@ -1,9 +1,9 @@
 # bebasdns
 Membantumu berselancar dengan aman dan tidak terbatas!.
 
-bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan hosting DigitalOcean untuk lokasi peladen Singapura dan Google Cloud Platform untuk lokasi peladen Indonesia.
+bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan Virtual Private Server Ubuntu 18.04. Dengan uptime yang cukup stabil dan tentu saja tanpa log. 
 
-Saat ini ada beberapa resolver yang aktif dan akan terus dikembangkan dikarenakan permintaan yang semakin banyak.
+Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak penting, dan tentu saja karena memakan resource. Kami sewaktu-waktu hanya akan mengaktifkan log apabila adanya laporan kutu misalnya tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan kutu tersebut.
 
 # Server
 
@@ -15,7 +15,7 @@ DoT : doh.doh.my.id
 
 Lokasi Peladen : Singapura
 
-### proyekdns.fun [Aktif]
+### proyekdns.fun [Nonaktif]
 
 DoH : https://doh.proyekdns.fun/dns-query
 

@@ -13,23 +13,9 @@ DoH : https://doh.doh.my.id/dns-query
 
 DoT : doh.doh.my.id
 
-Lokasi Peladen : Singapura
-
-### proyekdns.fun [Nonaktif]
-
-DoH : https://doh.proyekdns.fun/dns-query
-
-DoT : doh.proyekdns.fun
+DNSCrypt : sdns://AgMAAAAAAAAADzE1Ny4yMzAuNDIuMTE2IAAWIGh0dHBzOi8vZG9oLmRvaC5teS5pZAovZG5zLXF1ZXJ5
 
 Lokasi Peladen : Singapura
-
-### proyekdns.online [Nonaktif]
-
-DoH : https://doh.proyekdns.online/dns-query
-
-DoT : doh.proyekdns.online
-
-Lokasi Peladen : Indonesia
 
 # Daftar Blokir DNS
 - [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)

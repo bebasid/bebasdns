@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>PayloadContent</key>
+<array>
+<dict>
+<key>DNSSettings</key>
+<dict>
+<key>DNSProtocol</key>
+<string>TLS</string>
+<key>ServerName</key>
+<string>doh.doh.my.id</string>
+</dict>
+<key>OnDemandRules</key>
+<array>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+<key>InterfaceTypeMatch</key>
+<string>WiFi</string>
+</dict>
+<dict>
+<key>Action</key>
+<string>Connect</string>
+<key>InterfaceTypeMatch</key>
+<string>Cellular</string>
+</dict>
+<dict>
+<key>Action</key>
+<string>Disconnect</string>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>Configures device to use bebasdns Encrypted DNS over TLS</string>
+<key>PayloadDisplayName</key>
+<string>bebasdns DNS over TLS</string>
+<key>PayloadIdentifier</key>
+<string>com.apple.dnsSettings.managed.b2da0ab2-cc8f-4691-b32a-81b8b4d1600d</string>
+<key>PayloadType</key>
+<string>com.apple.dnsSettings.managed</string>
+<key>PayloadUUID</key>
+<string>cbf15ced-dc5d-40ac-9e12-891378b7da90</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>ProhibitDisablement</key>
+<false/>
+</dict>
+</array>
+<key>PayloadDescription</key>
+<string>Adds bebasdns Encrypted DNS over TLS to Big Sur and iOS 14 based systems</string>
+<key>PayloadDisplayName</key>
+<string>bebasdns DNS over TLS</string>
+<key>PayloadIdentifier</key>
+<string>com.notjakob.apple-dns.e4b39bbd-4647-40dc-a933-4cd172b61aee</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>cd11ae72-aa83-4e53-9687-5d001c1ea643</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+</dict>
+</plist>

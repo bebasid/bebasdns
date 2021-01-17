@@ -13,6 +13,8 @@ DoH : https://doh.doh.my.id/dns-query
 
 DoT : doh.doh.my.id
 
+iOS 14/macOS Big Sur : [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
+
 DNSCrypt : sdns://AgMAAAAAAAAADzE1Ny4yMzAuNDIuMTE2IAAWIGh0dHBzOi8vZG9oLmRvaC5teS5pZAovZG5zLXF1ZXJ5
 
 Lokasi Peladen : Singapura

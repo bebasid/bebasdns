@@ -30,7 +30,7 @@ Lokasi Peladen : Singapura
 - [AdAway](https://adaway.org/hosts.txt)
 - [MVPS](https://winhelp2002.mvps.org/hosts.txt)
 - [Dan Pollock's list](https://someonewhocares.org/hosts/hosts)
-- [Energized](https://block.energized.pro/ultimate/formats/hosts)
+- [Energized](https://block.energized.pro/ultimate/formats/hosts) [disabled]
 - [Mahakala](http://adblock.mahakala.is/)
 - [oisd](https://abp.oisd.nl/)
 - [Tiarapp](https://raw.githubusercontent.com/pengelana/blocklist/master/domain.txt)

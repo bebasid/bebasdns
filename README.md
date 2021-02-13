@@ -37,6 +37,9 @@ Lokasi Peladen : Singapura
 - [Cameleon](http://sysctl.org/cameleon/hosts)
 - [blah](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) [disabled]
 - [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)
+- [URLhaus](https://curben.gitlab.io/malware-filter/urlhaus-filter-agh.txt)
+- [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt)
+- [NoCoin](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt)
 
 # Daftar Putih DNS
 - [bebasdns Custom Filtering Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules)

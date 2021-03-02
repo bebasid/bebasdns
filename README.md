@@ -1,3 +1,6 @@
+# Informasi Pemeliharaan
+Peladen akan kami pindahkan dari DigitalOcean ke Linode pada 2/3/2021 (estimasi satu jam sampai satu hari), jika tiba-tiba layanan mati, artinya sedang dilakukan pengerjaan, mohon sedianya menunggu, terima kasih.
+
 # bebasdns
 Membantumu berselancar dengan aman dan tidak terbatas!.
 

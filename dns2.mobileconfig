@@ -10,7 +10,7 @@
 <key>DNSProtocol</key>
 <string>HTTPS</string>
 <key>ServerURL</key>
-<string>https://doh.doh.my.id/dns-query</string>
+<string>https://doh.kutu.my.id/dns-query</string>
 </dict>
 <key>OnDemandRules</key>
 <array>
@@ -36,11 +36,11 @@
 <key>PayloadDisplayName</key>
 <string>Kutu DNS over HTTPS</string>
 <key>PayloadIdentifier</key>
-<string>com.apple.dnsSettings.managed.4da493d8-3df8-4074-94ce-5184d7b5c27a</string>
+<string>com.apple.dnsSettings.managed.f9debc5b-61e5-4072-9811-a93e2805200b</string>
 <key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
 <key>PayloadUUID</key>
-<string>da4fa2eb-f5cd-468d-a409-8988c3bace7a</string>
+<string>c31626fe-e46e-451e-9656-683366dd3cea</string>
 <key>PayloadVersion</key>
 <integer>1</integer>
 <key>ProhibitDisablement</key>
@@ -52,13 +52,13 @@
 <key>PayloadDisplayName</key>
 <string>Kutu DNS over HTTPS</string>
 <key>PayloadIdentifier</key>
-<string>com.notjakob.apple-dns.c87df17d-a9ae-4d76-8249-ab85a1fea0c3</string>
+<string>com.notjakob.apple-dns.e0cd2194-6a33-4500-bba9-4b548dae9d4c</string>
 <key>PayloadRemovalDisallowed</key>
 <false/>
 <key>PayloadType</key>
 <string>Configuration</string>
 <key>PayloadUUID</key>
-<string>ed80496e-8f43-4412-8bcf-9578d37d0f63</string>
+<string>a7f366e1-d0e0-4ff6-bcc4-06f1b2eba452</string>
 <key>PayloadVersion</key>
 <integer>1</integer>
 </dict>

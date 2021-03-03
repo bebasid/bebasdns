@@ -1,7 +1,7 @@
 # bebasdns
 Membantumu berselancar dengan aman dan tidak terbatas!.
 
-bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan Virtual Private Server Ubuntu 18.04. Dengan uptime yang cukup stabil dan tentu saja tanpa log. 
+bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan Virtual Private Server Ubuntu dengan uptime yang cukup stabil dan tentu saja tanpa log. 
 
 Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak penting, dan tentu saja karena memakan resource. Kami sewaktu-waktu hanya akan mengaktifkan log apabila adanya laporan kutu misalnya tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan kutu tersebut.
 
@@ -78,7 +78,7 @@ bebasdns telah diuji keamanannya dan mendapatkan nilai A+ pada website ImmuniWeb
 
 [doh.my.id - A+](https://www.immuniweb.com/ssl/?id=Me1q7XZy)
 
-[proyekdns.fun - A+](https://www.immuniweb.com/ssl/?id=T12fJh5r)
+[kutu.my.id - A+](https://www.immuniweb.com/ssl/?id=lpsN4f8D)
 
 # Donasi Kami
 

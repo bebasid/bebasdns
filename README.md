@@ -1,6 +1,3 @@
-# Informasi Pemeliharaan
-Peladen akan kami pindahkan dari DigitalOcean ke Linode pada 2/3/2021 (estimasi satu jam sampai satu hari), jika tiba-tiba layanan mati, artinya sedang dilakukan pengerjaan, mohon sedianya menunggu, terima kasih.
-
 # bebasdns
 Membantumu berselancar dengan aman dan tidak terbatas!.
 
@@ -19,6 +16,18 @@ DoT : doh.doh.my.id
 iOS 14/macOS Big Sur : [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 
 DNSCrypt : sdns://AgMAAAAAAAAADzE1Ny4yMzAuNDIuMTE2IAAWIGh0dHBzOi8vZG9oLmRvaC5teS5pZAovZG5zLXF1ZXJ5
+
+Lokasi Peladen : Singapura
+
+### kutu.my.id [Aktif]
+
+DoH : https://doh.kutu.my.id/dns-query
+
+DoT : doh.kutu.my.id
+
+iOS 14/macOS Big Sur : [dns2.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns2.mobileconfig)
+
+DNSCrypt : sdns://AgcAAAAAAAAAIGh0dHBzOi8vZG9oLmt1dHUubXkuaWQvZG5zLXF1ZXJ5AAAKL2Rucy1xdWVyeQ
 
 Lokasi Peladen : Singapura
 

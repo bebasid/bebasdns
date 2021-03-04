@@ -1,7 +1,7 @@
 # bebasdns
 Membantumu berselancar dengan aman dan tidak terbatas!.
 
-bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan Virtual Private Server Ubuntu dengan uptime yang cukup stabil dan tentu saja tanpa log. 
+bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan Virtual Private Server dengan uptime yang cukup stabil dan tentu saja tanpa log. 
 
 Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak penting, dan tentu saja karena memakan resource. Kami sewaktu-waktu hanya akan mengaktifkan log apabila adanya laporan kutu misalnya tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan kutu tersebut.
 
@@ -19,6 +19,8 @@ DNSCrypt : sdns://AgMAAAAAAAAADzE1Ny4yMzAuNDIuMTE2IAAWIGh0dHBzOi8vZG9oLmRvaC5teS
 
 Lokasi Peladen : Singapura
 
+Awan : Linode
+
 ### kutu.my.id [Aktif]
 
 DoH : https://doh.kutu.my.id/dns-query
@@ -30,6 +32,22 @@ iOS 14/macOS Big Sur : [dns2.mobileconfig](https://raw.githubusercontent.com/beb
 DNSCrypt : sdns://AgcAAAAAAAAAIGh0dHBzOi8vZG9oLmt1dHUubXkuaWQvZG5zLXF1ZXJ5AAAKL2Rucy1xdWVyeQ
 
 Lokasi Peladen : Singapura
+
+Awan : DigitalOcean
+
+### cloud9.my.id [Aktif]
+
+DoH : https://id.cloud9.my.id/dns-query
+
+DoT : id.cloud9.my.id
+
+iOS 14/macOS Big Sur : [dns3.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns3.mobileconfig)
+
+DNSCrypt : sdns://AgcAAAAAAAAAIWh0dHBzOi8vaWQuY2xvdWQ5Lm15LmlkL2Rucy1xdWVyeQAACi9kbnMtcXVlcnk
+
+Lokasi Peladen : Indonesia
+
+Awan : Google Cloud Platform
 
 # Daftar Blokir DNS
 - [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)

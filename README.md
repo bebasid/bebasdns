@@ -60,12 +60,12 @@ Awan : Google Cloud Platform
 - [AdAway](https://adaway.org/hosts.txt)
 - [MVPS](https://winhelp2002.mvps.org/hosts.txt)
 - [Dan Pollock's list](https://someonewhocares.org/hosts/hosts)
-- [Energized](https://block.energized.pro/ultimate/formats/hosts) [disabled]
+- [Energized](https://block.energized.pro/ultimate/formats/hosts) [dimatikan]
 - [Mahakala](http://adblock.mahakala.is/)
 - [oisd](https://abp.oisd.nl/)
 - [Tiarapp](https://raw.githubusercontent.com/pengelana/blocklist/master/domain.txt)
 - [Cameleon](http://sysctl.org/cameleon/hosts)
-- [blah](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) [disabled]
+- [blah](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) [dimatikan]
 - [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)
 - [URLhaus](https://curben.gitlab.io/malware-filter/urlhaus-filter-agh.txt)
 - [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt)
@@ -97,6 +97,8 @@ bebasdns telah diuji keamanannya dan mendapatkan nilai A+ pada website ImmuniWeb
 [doh.my.id - A+](https://www.immuniweb.com/ssl/?id=Me1q7XZy)
 
 [kutu.my.id - A+](https://www.immuniweb.com/ssl/?id=lpsN4f8D)
+
+[cloud9.my.id - A+](https://www.immuniweb.com/ssl/?id=KO7CskcK)
 
 # Donasi Kami
 

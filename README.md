@@ -35,15 +35,15 @@ Lokasi Peladen : Singapura
 
 Awan : DigitalOcean
 
-### cloud9.my.id [Aktif]
+### terra.my.id [Aktif]
 
-DoH : https://id.cloud9.my.id/dns-query
+DoH : https://id.terra.my.id/dns-query
 
-DoT : id.cloud9.my.id
+DoT : id.terra.my.id
 
 iOS 14/macOS Big Sur : [dns3.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns3.mobileconfig)
 
-DNSCrypt : sdns://AgcAAAAAAAAAIWh0dHBzOi8vaWQuY2xvdWQ5Lm15LmlkL2Rucy1xdWVyeQAACi9kbnMtcXVlcnk
+DNSCrypt : sdns://AgcAAAAAAAAAIGh0dHBzOi8vaWQudGVycmEubXkuaWQvZG5zLXF1ZXJ5AAAKL2Rucy1xdWVyeQ
 
 Lokasi Peladen : Indonesia
 

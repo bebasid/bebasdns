@@ -10,7 +10,7 @@
 <key>DNSProtocol</key>
 <string>HTTPS</string>
 <key>ServerURL</key>
-<string>https://id.cloud9.my.id/dns-query</string>
+<string>https://id.terra.my.id/dns-query</string>
 </dict>
 <key>OnDemandRules</key>
 <array>
@@ -32,15 +32,15 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>Configures device to use cloud9.my.id Encrypted DNS over HTTPS</string>
+<string>Configures device to use terra.my.id Encrypted DNS over HTTPS</string>
 <key>PayloadDisplayName</key>
-<string>cloud9.my.id DNS over HTTPS</string>
+<string>terra.my.id DNS over HTTPS</string>
 <key>PayloadIdentifier</key>
-<string>com.apple.dnsSettings.managed.5b5db8ba-5966-4a8d-a42e-5e7d0f44fc2c</string>
+<string>com.apple.dnsSettings.managed.89e58802-4cea-4f08-8a12-8740ded350e8</string>
 <key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
 <key>PayloadUUID</key>
-<string>08fd67a7-0b02-420e-bfa3-7d297465cfd0</string>
+<string>5a384ed4-480e-45b8-98ce-fbbbd2f3a874</string>
 <key>PayloadVersion</key>
 <integer>1</integer>
 <key>ProhibitDisablement</key>
@@ -52,13 +52,13 @@
 <key>PayloadDisplayName</key>
 <string>Encrypted DNS (DoH, DoT)</string>
 <key>PayloadIdentifier</key>
-<string>com.notjakob.apple-dns.f6169bf7-cdcd-4428-9c14-621538f28fa1</string>
+<string>com.notjakob.apple-dns.6f2c6749-5f16-4568-bcc0-ef1c2094787e</string>
 <key>PayloadRemovalDisallowed</key>
 <false/>
 <key>PayloadType</key>
 <string>Configuration</string>
 <key>PayloadUUID</key>
-<string>661a1838-004a-4658-8da7-a85c4a4ec746</string>
+<string>3aeed2c5-865b-4b95-8ce4-7f31a9d9973d</string>
 <key>PayloadVersion</key>
 <integer>1</integer>
 </dict>

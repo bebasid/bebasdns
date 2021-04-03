@@ -7,7 +7,7 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 
 # Server
 
-### doh.my.id [Aktif]
+### doh.my.id
 
 DoH : https://doh.doh.my.id/dns-query
 
@@ -21,7 +21,7 @@ Lokasi Peladen : Singapura
 
 Awan : Linode
 
-### kutu.my.id [Aktif]
+### kutu.my.id
 
 DoH : https://doh.kutu.my.id/dns-query
 
@@ -34,20 +34,6 @@ DNSCrypt : sdns://AgcAAAAAAAAAIGh0dHBzOi8vZG9oLmt1dHUubXkuaWQvZG5zLXF1ZXJ5AAAKL2
 Lokasi Peladen : Singapura
 
 Awan : DigitalOcean
-
-### terra.my.id [Aktif]
-
-DoH : https://id.terra.my.id/dns-query
-
-DoT : id.terra.my.id
-
-iOS 14/macOS Big Sur : [dns3.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns3.mobileconfig)
-
-DNSCrypt : sdns://AgcAAAAAAAAAIGh0dHBzOi8vaWQudGVycmEubXkuaWQvZG5zLXF1ZXJ5AAAKL2Rucy1xdWVyeQ
-
-Lokasi Peladen : Indonesia
-
-Awan : Google Cloud Platform
 
 # Daftar Blokir DNS
 - [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)

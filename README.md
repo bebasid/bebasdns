@@ -84,8 +84,6 @@ bebasdns telah diuji keamanannya dan mendapatkan nilai A+ pada website ImmuniWeb
 
 [kutu.my.id - A+](https://www.immuniweb.com/ssl/?id=lpsN4f8D)
 
-[terra.my.id - A+](https://www.immuniweb.com/ssl/?id=GbFCxM53)
-
 # Donasi Kami
 
 Bantu proyek ini tetap berjalan dengan cara berdonasi.

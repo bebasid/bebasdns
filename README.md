@@ -17,24 +17,6 @@ iOS 14/macOS Big Sur : [dns.mobileconfig](https://raw.githubusercontent.com/beba
 
 DNSCrypt : sdns://AgMAAAAAAAAADzE1Ny4yMzAuNDIuMTE2IAAWIGh0dHBzOi8vZG9oLmRvaC5teS5pZAovZG5zLXF1ZXJ5
 
-Lokasi Peladen : Singapura
-
-Awan : Linode
-
-### kutu.my.id
-
-DoH : https://doh.kutu.my.id/dns-query
-
-DoT : doh.kutu.my.id
-
-iOS 14/macOS Big Sur : [dns2.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns2.mobileconfig)
-
-DNSCrypt : sdns://AgcAAAAAAAAAIGh0dHBzOi8vZG9oLmt1dHUubXkuaWQvZG5zLXF1ZXJ5AAAKL2Rucy1xdWVyeQ
-
-Lokasi Peladen : Singapura
-
-Awan : DigitalOcean
-
 # Daftar Blokir DNS
 - [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
 - [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)
@@ -81,8 +63,6 @@ Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pen
 bebasdns telah diuji keamanannya dan mendapatkan nilai A+ pada website ImmuniWeb.
 
 [doh.my.id - A+](https://www.immuniweb.com/ssl/?id=Me1q7XZy)
-
-[kutu.my.id - A+](https://www.immuniweb.com/ssl/?id=lpsN4f8D)
 
 # Donasi Kami
 

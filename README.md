@@ -31,7 +31,7 @@ DNSCrypt : sdns://AgMAAAAAAAAADzE1Ny4yMzAuNDIuMTE2IAAWIGh0dHBzOi8vZG9oLmRvaC5teS
 - [Energized](https://block.energized.pro/ultimate/formats/hosts) [dimatikan]
 - [Mahakala](http://adblock.mahakala.is/)
 - [oisd](https://abp.oisd.nl/)
-- [Tiarapp](https://raw.githubusercontent.com/pengelana/blocklist/master/domain.txt)
+- [Tiarapp](https://raw.githubusercontent.com/pengelana/blocklist/master/domain.txt) [dimatikan]
 - [Cameleon](http://sysctl.org/cameleon/hosts)
 - [blah](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) [dimatikan]
 - [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)

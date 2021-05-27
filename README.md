@@ -48,7 +48,7 @@ DNSCrypt : sdns://AgMAAAAAAAAADzE1Ny4yMzAuNDIuMTE2IAAWIGh0dHBzOi8vZG9oLmRvaC5teS
 
 # Status Peladen
 
-Statistik kondisi peladen - [status.doh.my.id](https://status.doh.my.id/).
+Statistik kondisi peladen - [status](https://stats.uptimerobot.com/j5MjytjV8y)
 
 # Cara Pengaplikasian
 

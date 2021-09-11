@@ -5,17 +5,21 @@ bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan meng
 
 Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak penting, dan tentu saja karena memakan resource. Kami sewaktu-waktu hanya akan mengaktifkan log apabila adanya laporan kutu misalnya tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan kutu tersebut.
 
-# Server
+# Peladen
 
-### doh.my.id
+### doh.my.id (Disajikan oleh [@azrielakbarfs](https://twitter.com/azrielakbarfs))
 
-DoH : https://doh.doh.my.id/dns-query
+DoH : https://dns.doh.my.id/dns-query (Berjalan pada port 443)
 
-DoT : doh.doh.my.id
+DoT : dns.doh.my.id (Berjalan pada port 853)
+
+DoQ : dns.doh.my.id (Berjalan pada port 784)
 
 iOS 14/macOS Big Sur : [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 
-DNSCrypt : sdns://AgMAAAAAAAAADzE1Ny4yMzAuNDIuMTE2IAAWIGh0dHBzOi8vZG9oLmRvaC5teS5pZAovZG5zLXF1ZXJ5
+DNSCrypt : sdns://AgcAAAAAAAAAH2h0dHBzOi8vZG5zLmRvaC5teS5pZC9kbnMtcXVlcnkAAAovZG5zLXF1ZXJ5
+
+Lokasi : Amerika Serikat
 
 # Daftar Blokir DNS
 - [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
@@ -58,6 +62,8 @@ Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pen
 
 [DNS-over-TLS](https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT))
 
+[DNS-over-QUIC](https://github.com/pengelana/blocklist/wiki/DNS-over-QUIC-(DoQ))
+
 # Uji Keamanan
 
 bebasdns telah diuji keamanannya dan mendapatkan nilai A+ pada website ImmuniWeb.
@@ -76,7 +82,7 @@ Bantu proyek ini tetap berjalan dengan cara berdonasi.
 
 <a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
 
-<a href="https://saweria.co/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasidbykini&color=FAAE2B"></a>
+<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasidbykini&color=FAAE2B"></a>
  
 </details>
 </div>

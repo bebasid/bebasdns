@@ -10,7 +10,7 @@
 <key>DNSProtocol</key>
 <string>HTTPS</string>
 <key>ServerURL</key>
-<string>https://doh.doh.my.id/dns-query</string>
+<string>https://dns.doh.my.id/dns-query</string>
 </dict>
 <key>OnDemandRules</key>
 <array>
@@ -36,11 +36,11 @@
 <key>PayloadDisplayName</key>
 <string>bebasdns DNS over HTTPS</string>
 <key>PayloadIdentifier</key>
-<string>com.apple.dnsSettings.managed.9a741ba6-0305-492e-aa84-792de1d1f306</string>
+<string>com.apple.dnsSettings.managed.44975fc3-e22f-4fcb-9bd2-acdf8f0d1864</string>
 <key>PayloadType</key>
 <string>com.apple.dnsSettings.managed</string>
 <key>PayloadUUID</key>
-<string>68afd5d0-bd96-4947-ab24-ddd9fa6908da</string>
+<string>3d8a6e07-ef16-4b0c-8cf1-3b3dcd786f07</string>
 <key>PayloadVersion</key>
 <integer>1</integer>
 <key>ProhibitDisablement</key>
@@ -52,13 +52,13 @@
 <key>PayloadDisplayName</key>
 <string>Encrypted DNS (DoH, DoT)</string>
 <key>PayloadIdentifier</key>
-<string>com.notjakob.apple-dns.9b654d3e-7202-45e9-a5cf-72e6dc958355</string>
+<string>com.notjakob.apple-dns.2d43035e-856e-4e07-9f6c-275375f7f3b6</string>
 <key>PayloadRemovalDisallowed</key>
 <false/>
 <key>PayloadType</key>
 <string>Configuration</string>
 <key>PayloadUUID</key>
-<string>c5a9db49-4af7-4027-9694-a0c9153003cd</string>
+<string>3e9a8f4a-bd30-45a4-8471-b4858f815d34</string>
 <key>PayloadVersion</key>
 <integer>1</integer>
 </dict>

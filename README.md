@@ -9,11 +9,11 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 
 ### doh.my.id (Disajikan oleh [@azrielakbarfs](https://twitter.com/azrielakbarfs))
 
-DoH : https://dns.doh.my.id/dns-query (Berjalan pada port 443)
+DoH : https://dns.doh.my.id/dns-query
 
-DoT : dns.doh.my.id (Berjalan pada port 853)
+DoT : dns.doh.my.id
 
-DoQ : dns.doh.my.id (Berjalan pada port 784)
+DoQ : quic://dns.doh.my.id
 
 iOS 14/macOS Big Sur : [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 

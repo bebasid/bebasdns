@@ -9,17 +9,17 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 
 ### doh.my.id (Disajikan oleh [@azrielakbarfs](https://twitter.com/azrielakbarfs))
 
-DoH : https://dns.doh.my.id/dns-query
+Lokasi: Amerika Serikat
 
-DoT : dns.doh.my.id
+DoH: https://dns.doh.my.id/dns-query
 
-DoQ : quic://dns.doh.my.id
+DoT: dns.doh.my.id
 
-iOS 14/macOS Big Sur : [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
+DoQ: quic://dns.doh.my.id
 
-DNSCrypt : sdns://AgcAAAAAAAAAH2h0dHBzOi8vZG5zLmRvaC5teS5pZC9kbnMtcXVlcnkAAAovZG5zLXF1ZXJ5
+iOS 14/macOS Big Sur: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 
-Lokasi : Amerika Serikat
+DNSCrypt: sdns://AgcAAAAAAAAAH2h0dHBzOi8vZG5zLmRvaC5teS5pZC9kbnMtcXVlcnkAAAovZG5zLXF1ZXJ5
 
 # Daftar Blokir DNS
 - [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
@@ -63,6 +63,12 @@ Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pen
 [DNS-over-TLS](https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT))
 
 [DNS-over-QUIC](https://github.com/pengelana/blocklist/wiki/DNS-over-QUIC-(DoQ))
+
+Untuk DNSCrypt masukkan ini di config dnscrpyt-proxy.toml di bagian [static]
+
+    [static.'bebasdns']
+
+    stamp = 'sdns://AgcAAAAAAAAAH2h0dHBzOi8vZG5zLmRvaC5teS5pZC9kbnMtcXVlcnkAAAovZG5zLXF1ZXJ5'
 
 # Uji Keamanan
 

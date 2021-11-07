@@ -7,7 +7,7 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 
 # Peladen
 
-### doh.my.id (Disajikan oleh [@azrielakbarfs](https://twitter.com/azrielakbarfs))
+### doh.my.id
 
 Lokasi: Amerika Serikat
 
@@ -20,6 +20,8 @@ DoQ: quic://dns.doh.my.id
 iOS 14/macOS Big Sur: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 
 DNSCrypt: sdns://AgcAAAAAAAAAH2h0dHBzOi8vZG5zLmRvaC5teS5pZC9kbnMtcXVlcnkAAAovZG5zLXF1ZXJ5
+
+Disajikan oleh [@azrielakbarfs](https://twitter.com/azrielakbarfs)
 
 # Daftar Blokir DNS
 - [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)

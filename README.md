@@ -1,4 +1,9 @@
 # bebasdns
+
+# MAINTENANCE
+
+# PROJECT SEDANG DILAKUKAN PEMINDAHAN DOMAIN, MOHON KESEDIAANNYA UNTUK MENUNGGU
+
 Membantumu berselancar dengan aman dan tidak terbatas!.
 
 bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan Virtual Private Server dengan uptime yang cukup stabil dan tentu saja tanpa log. 

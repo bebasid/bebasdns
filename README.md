@@ -2,7 +2,13 @@
 
 # MAINTENANCE
 
-# PROJECT SEDANG DILAKUKAN PEMINDAHAN DOMAIN, MOHON KESEDIAANNYA UNTUK MENUNGGU
+PROYEK SEDANG DILAKUKAN PEMINDAHAN DOMAIN, MOHON KESEDIAANNYA UNTUK MENUNGGU
+
+UPDATE: PROYEK TERKENA DAMPAK DARI KEBAKARAN DI GEDUNG CYBER 1
+
+https://news.detik.com/berita/d-5837157/gedung-cyber-1-di-mampang-jaksel-kebakaran
+
+=======================================================================
 
 Membantumu berselancar dengan aman dan tidak terbatas!.
 

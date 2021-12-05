@@ -1,15 +1,5 @@
 # bebasdns
 
-# MAINTENANCE
-
-PROYEK SEDANG DILAKUKAN PEMINDAHAN DOMAIN, MOHON KESEDIAANNYA UNTUK MENUNGGU
-
-UPDATE: PROYEK TERKENA DAMPAK DARI KEBAKARAN DI GEDUNG CYBER 1
-
-https://news.detik.com/berita/d-5837157/gedung-cyber-1-di-mampang-jaksel-kebakaran
-
-=======================================================================
-
 Membantumu berselancar dengan aman dan tidak terbatas!.
 
 bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan Virtual Private Server dengan uptime yang cukup stabil dan tentu saja tanpa log. 
@@ -18,19 +8,17 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 
 # Peladen
 
-### doh.my.id
+### bebasid.com
 
-Lokasi: Amerika Serikat
+Lokasi: Singapura
 
-DoH: https://dns.doh.my.id/dns-query
+DoH: https://dns.bebasid.com/dns-query
 
-DoT: dns.doh.my.id
+DoT: dns.bebasid.com
 
-DoQ: quic://dns.doh.my.id
+DoQ: quic://dns.bebasid.com
 
 iOS 14/macOS Big Sur: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
-
-DNSCrypt: sdns://AgcAAAAAAAAAH2h0dHBzOi8vZG5zLmRvaC5teS5pZC9kbnMtcXVlcnkAAAovZG5zLXF1ZXJ5
 
 Disajikan oleh [@azrielakbarfs](https://twitter.com/azrielakbarfs)
 
@@ -76,12 +64,6 @@ Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pen
 [DNS-over-TLS](https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT))
 
 [DNS-over-QUIC](https://github.com/pengelana/blocklist/wiki/DNS-over-QUIC-(DoQ))
-
-Untuk DNSCrypt masukkan ini di config dnscrpyt-proxy.toml di bagian [static]
-
-    [static.'bebasdns']
-
-    stamp = 'sdns://AgcAAAAAAAAAH2h0dHBzOi8vZG5zLmRvaC5teS5pZC9kbnMtcXVlcnkAAAovZG5zLXF1ZXJ5'
 
 # Uji Keamanan
 

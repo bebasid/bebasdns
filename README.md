@@ -65,9 +65,7 @@ Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pen
 
 # Uji Keamanan
 
-bebasdns telah diuji keamanannya dan mendapatkan nilai A+ pada website ImmuniWeb.
-
-[doh.my.id - A+](https://www.immuniweb.com/ssl/?id=Me1q7XZy)
+bebasdns telah diuji keamanannya dan mendapatkan nilai A+ pada website [ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/AjUEXAbS/).
 
 # Donasi Kami
 

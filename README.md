@@ -8,10 +8,6 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 
 # Peladen
 
-### bebasid.com
-
-Lokasi: Singapura
-
 DoH: https://dns.bebasid.com/dns-query
 
 DoT: dns.bebasid.com
@@ -19,6 +15,8 @@ DoT: dns.bebasid.com
 DoQ: quic://dns.bebasid.com
 
 iOS 14/macOS Big Sur: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
+
+Lokasi: Singapura
 
 Disajikan oleh [@azrielakbarfs](https://twitter.com/azrielakbarfs)
 

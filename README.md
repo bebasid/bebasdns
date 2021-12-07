@@ -41,6 +41,7 @@ Disajikan oleh [@azrielakbarfs](https://twitter.com/azrielakbarfs)
 - [URLhaus](https://curben.gitlab.io/malware-filter/urlhaus-filter-agh.txt)
 - [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt)
 - [NoCoin](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt)
+- [YouTube Ad Blocklist](https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt)
 
 # Daftar Putih DNS
 - [bebasdns Custom Filtering Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules)

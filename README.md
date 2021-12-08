@@ -16,10 +16,6 @@ DoQ: quic://dns.bebasid.com
 
 iOS 14/macOS Big Sur: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 
-Lokasi: Singapura
-
-Disajikan oleh [@azrielakbarfs](https://twitter.com/azrielakbarfs)
-
 # Daftar Blokir DNS
 - [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)
 - [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)
@@ -89,3 +85,7 @@ Bantu proyek ini tetap berjalan dengan cara berdonasi.
 # Syarat & Ketentuan
 
 Dengan menggunakan layanan ini, Anda setuju mematuhi peraturan yang kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md) nya.
+
+# Kontributor
+
+Server yang berlokasi di Singapura oleh [@azrielakbarfs](https://twitter.com/azrielakbarfs)

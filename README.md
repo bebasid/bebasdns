@@ -89,3 +89,5 @@ Dengan menggunakan layanan ini, Anda setuju mematuhi peraturan yang kami buat da
 # Kontributor
 
 Server yang berlokasi di Singapura oleh [@azrielakbarfs](https://twitter.com/azrielakbarfs)
+
+Server yang berlokasi di Australia oleh [@gvoze32](https://adena.my.id)

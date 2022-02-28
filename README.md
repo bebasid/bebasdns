@@ -40,6 +40,7 @@ iOS 14/macOS Big Sur: [dns.mobileconfig](https://raw.githubusercontent.com/bebas
 - [NoCoin](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt)
 - [YouTube Ad Blocklist](https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt)
 - [WindowsSpyBlocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)
+- [AdBlockID](https://raw.githubusercontent.com/realodix/AdBlockID/master/output/adblockid.txt)
 
 # Daftar Putih DNS
 - [bebasdns Custom Filtering Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules)

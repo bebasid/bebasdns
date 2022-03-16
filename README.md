@@ -87,9 +87,3 @@ Bantu proyek ini tetap berjalan dengan cara berdonasi.
 # Syarat & Ketentuan
 
 Dengan menggunakan layanan ini, Anda setuju mematuhi peraturan yang kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md) nya.
-
-# Kontributor
-
-Server yang berlokasi di Singapura oleh [@azrielakbarfs](https://twitter.com/azrielakbarfs)
-
-Server yang berlokasi di Australia oleh [@gvoze32](https://adena.my.id)

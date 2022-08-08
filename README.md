@@ -35,12 +35,16 @@ iOS 14/macOS Big Sur: [dns.mobileconfig](https://raw.githubusercontent.com/bebas
 - [Cameleon](http://sysctl.org/cameleon/hosts)
 - [blah](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt) [dimatikan]
 - [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)
-- [URLhaus](https://curben.gitlab.io/malware-filter/urlhaus-filter-agh.txt)
+- [URLhaus](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt)
 - [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt)
 - [NoCoin](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt)
 - [YouTube Ad Blocklist](https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt)
 - [WindowsSpyBlocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)
 - [AdBlockID](https://raw.githubusercontent.com/realodix/AdBlockID/master/output/adblockid.txt)
+- [Developerdan](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt) [dimatikan]
+- [1Hosts](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt) [dimatikan]
+- [iOSAdblockList](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)
+- [TheBlockListProject](https://blocklistproject.github.io/Lists/adguard/ads-ags.txt) [dimatikan]
 
 # Daftar Putih DNS
 - [bebasdns Custom Filtering Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules)

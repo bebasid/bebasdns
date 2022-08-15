@@ -14,7 +14,7 @@ DoT: dns.bebasid.com
 
 DoQ: quic://dns.bebasid.com
 
-iOS 14/macOS Big Sur: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
+iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 
 # Daftar Blokir DNS
 | Daftar Blokir                                                                                                     | Status |

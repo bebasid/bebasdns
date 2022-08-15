@@ -29,7 +29,7 @@ iOS 14/macOS Big Sur: [dns.mobileconfig](https://raw.githubusercontent.com/bebas
 - [MVPS](https://winhelp2002.mvps.org/hosts.txt)
 - [Dan Pollock's list](https://someonewhocares.org/hosts/hosts)
 - [Energized](https://block.energized.pro/ultimate/formats/hosts) [dimatikan]
-- [Mahakala](http://adblock.mahakala.is/)
+- [Mahakala](http://adblock.mahakala.is/) [dimatikan]
 - [oisd](https://abp.oisd.nl/)
 - [Tiarapp](https://raw.githubusercontent.com/pengelana/blocklist/master/domain.txt) [dimatikan]
 - [Cameleon](http://sysctl.org/cameleon/hosts)

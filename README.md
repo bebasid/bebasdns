@@ -17,6 +17,7 @@ DoQ: quic://dns.bebasid.com
 iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 
 # Daftar Blokir DNS
+
 | Daftar Blokir                                                                                                     | Status |
 |-------------------------------------------------------------------------------------------------------------------|--------|
 | [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)                                     | ✓      |
@@ -24,14 +25,14 @@ iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns
 | [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt)      | ✓      |
 | [uBlock Origin](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt)                | ✓      |
 | [uBlock Origin Filters](https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/combined-filters.txt)  | ✓      |
-| [Peter Lowe’s list](http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext) | ✓      |
+| [Peter Lowe’s list](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext)| ✓      |
 | [EasyList](https://easylist.to/easylist/easylist.txt)                                                             | ✓      |
 | [StevenBlack](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)                                   | ✓      |
 | [AdAway](https://adaway.org/hosts.txt)                                                                            | ✓      |
 | [MVPS](https://winhelp2002.mvps.org/hosts.txt)                                                                    | ✓      |
 | [Dan Pollock's list](https://someonewhocares.org/hosts/hosts)                                                     | ✓      |
 | [oisd](https://abp.oisd.nl/)                                                                                      | ✓      |
-| [Cameleon](http://sysctl.org/cameleon/hosts)                                                                      | ✓      |
+| [Cameleon](https://sysctl.org/cameleon/hosts)                                                                     | ✓      |
 | [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)                                | ✓      |
 | [URLhaus](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt)                                 | ✓      |
 | [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt)                                                       | ✓      |
@@ -42,7 +43,7 @@ iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns
 | [iOSAdblockList](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                    | ✓      |
 | [Huawei Block List](https://raw.githubusercontent.com/deep-bhatt/huawei-block-list/master/huawei-block-host.txt)  | ✓      |
 | [Energized](https://block.energized.pro/ultimate/formats/hosts)                                                   | X      |
-| [Mahakala](http://adblock.mahakala.is/)                                                                           | X      |
+| [Mahakala](https://adblock.mahakala.is/)                                                                          | X      |
 | [Tiarapp](https://raw.githubusercontent.com/pengelana/blocklist/master/domain.txt)                                | X      |
 | [blah](https://oooo.b-cdn.net/blahdns/lite_adblocker.txt)                                                         | X      |
 | [Developerdan](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt)                     | X      |

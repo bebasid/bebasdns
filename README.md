@@ -42,6 +42,7 @@ iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns
 | [AdBlockID](https://raw.githubusercontent.com/realodix/AdBlockID/master/output/adblockid.txt)                     | ✓      |
 | [iOSAdblockList](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                    | ✓      |
 | [Huawei Block List](https://raw.githubusercontent.com/deep-bhatt/huawei-block-list/master/huawei-block-host.txt)  | ✓      |
+| [bebasdns Custom Filtering Rules Blocklist](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules-blocklist) | ✓      |
 | [Energized](https://block.energized.pro/ultimate/formats/hosts)                                                   | X      |
 | [Mahakala](https://adblock.mahakala.is/)                                                                          | X      |
 | [Tiarapp](https://raw.githubusercontent.com/pengelana/blocklist/master/domain.txt)                                | X      |
@@ -51,13 +52,13 @@ iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns
 | [TheBlockListProject](https://blocklistproject.github.io/Lists/adguard/ads-ags.txt)                               | X      |
 
 # Daftar Putih DNS
-| Daftar Putih                                                                                                                      | Status |
-|-----------------------------------------------------------------------------------------------------------------------------------|--------|
-| [bebasdns Custom Filtering Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules)                 | ✓      |
-| [bebasdns Whitelist](https://raw.githubusercontent.com/bebasid/bebasdns/main/whitelist.txt)                                       | ✓      |
-| [Filterlist for AdGuard](https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard-or-PiHole/master/filter_whitelist.txt) | ✓      |
-| [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                    | ✓      |
-| [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                        | ✓      |
+| Daftar Putih                                                                                                                          | Status |
+|---------------------------------------------------------------------------------------------------------------------------------------|--------|
+| [bebasdns Custom Filtering Rules Whitelist](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules-whitelist) | ✓      |
+| [bebasdns Whitelist](https://raw.githubusercontent.com/bebasid/bebasdns/main/whitelist.txt)                                           | ✓      |
+| [Filterlist for AdGuard](https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard-or-PiHole/master/filter_whitelist.txt)     | ✓      |
+| [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | ✓      |
+| [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | ✓      |
 
 # Status Peladen
 

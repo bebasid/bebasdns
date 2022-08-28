@@ -67,8 +67,3 @@
 # [Indosat]
 127.0.0.1 ads.indosatooredoo.com
 127.0.0.1 netsafe.indosatm2.com
-
-# Blokir Kominfo
-/kominfo.*/
-/*.kominfo.*/
-/*.kominfo/

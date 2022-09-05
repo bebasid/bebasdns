@@ -8,13 +8,13 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 
 # Peladen
 
-DoH: https://dns.bebasid.com/dns-query
+• DoH: ``https://dns.bebasid.com/dns-query``
 
-DoT: dns.bebasid.com
+• DoT: ``dns.bebasid.com``
 
-DoQ: quic://dns.bebasid.com
+• DoQ: ``quic://dns.bebasid.com``
 
-iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
+• iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 
 # Daftar Blokir DNS
 
@@ -31,7 +31,7 @@ iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns
 | [AdAway](https://adaway.org/hosts.txt)                                                                            | ✓      |
 | [MVPS](https://winhelp2002.mvps.org/hosts.txt)                                                                    | ✓      |
 | [Dan Pollock's list](https://someonewhocares.org/hosts/hosts)                                                     | ✓      |
-| [oisd](https://abp.oisd.nl/)                                                                                      | ✓      |
+| [ABP Oisd](https://abp.oisd.nl/)                                                                                  | ✓      |
 | [Cameleon](https://sysctl.org/cameleon/hosts)                                                                     | ✓      |
 | [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)                                | ✓      |
 | [URLhaus](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt)                                 | ✓      |
@@ -50,6 +50,20 @@ iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns
 | [Developerdan](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt)                     | X      |
 | [1Hosts](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)                                | X      |
 | [TheBlockListProject](https://blocklistproject.github.io/Lists/adguard/ads-ags.txt)                               | X      |
+| [LDM-Simple Tracking](https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt )                          | X      |
+| [LDM-Simple Ad](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt)                                       | X      |
+| [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/hosts.txt)        | X      |
+| [FireBog AdguardDNS](https://v.firebog.net/hosts/AdguardDNS.txt)                                                  | X      |
+| [MinimalHostsBlocker](https://reddestdream.github.io/Projects/MinimalHosts/etc/MinimalHostsBlocker/minimalhosts)  | X      |
+| [StevenBlack's KADHosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/data/KADhosts/hosts)          | X      |
+| [StevenBlack's AddSpam](https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Spam/hosts)           | X      |
+| [FireBog's W3KBL](https://v.firebog.net/hosts/static/w3kbl.txt)                                                   | X      |
+| [anudeepND's Blacklist AdServers](https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt)     | X      |
+| [FireBog's EasyPrivacy](https://v.firebog.net/hosts/Easyprivacy.txt)                                              | X      |
+| [Perflyst's SmartTV](https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt)               | X      |
+| [Simple Malvertising](https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt)                       | X      |
+| [MalwareDomainList](https://www.malwaredomainlist.com/hostslist/hosts.txt)                                        | X      |
+| [DBL Oisd](https://dbl.oisd.nl/)                                                                                  | X      |
 
 # Daftar Putih DNS
 | Daftar Putih                                                                                                                          | Status |
@@ -60,6 +74,16 @@ iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns
 | [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | ✓      |
 | [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | ✓      |
 
+# Server Upstream
+| Server Upstream                                                                                                                       | Status |
+|---------------------------------------------------------------------------------------------------------------------------------------|--------|
+| Quad9 DNS10 (https://dns10.quad9.net/dns-query)                                                                                       | ✓      |
+| Google DNS (https://dns.google/dns-query)                                                                                             | ✓      |
+| OpenDns DoH (https://doh.opendns.com/dns-query)                                                                                       | ✓      |
+| CloudFlare DNS Security (https://security.cloudflare-dns.com/dns-query)                                                               | ✓      |
+| Quad9 DNS (https://dns.quad9.net/dns-query)                                                                                           | ✓      |
+| MyRepublic Uncensored DNS (tcp://158.140.186.19)                                                                                      | ✓      |
+
 # Status Peladen
 
 Statistik kondisi peladen - [status](https://stats.uptimerobot.com/j5MjytjV8y)
@@ -68,11 +92,11 @@ Statistik kondisi peladen - [status](https://stats.uptimerobot.com/j5MjytjV8y)
 
 Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pengelana.
 
-[DNS-over-HTTPS](https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH))
+• [DNS-over-HTTPS](https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH))
 
-[DNS-over-TLS](https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT))
+• [DNS-over-TLS](https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT))
 
-[DNS-over-QUIC](https://github.com/pengelana/blocklist/wiki/DNS-over-QUIC-(DoQ))
+• [DNS-over-QUIC](https://github.com/pengelana/blocklist/wiki/DNS-over-QUIC-(DoQ))
 
 # Uji Keamanan
 

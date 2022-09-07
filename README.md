@@ -86,7 +86,9 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 
 # Status Peladen
 
-Statistik kondisi peladen - [status](https://stats.uptimerobot.com/j5MjytjV8y)
+Statistik kondisi peladen:
+
+• [Status UptimeRobot](https://stats.uptimerobot.com/j5MjytjV8y)
 
 # Cara Pengaplikasian
 
@@ -100,7 +102,9 @@ Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pen
 
 # Uji Keamanan
 
-bebasdns telah diuji keamanannya dan mendapatkan nilai A+ pada website [ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/AjUEXAbS/).
+bebasdns telah diuji keamanannya dan mendapatkan nilai (A) pada website: 
+
+• [ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/zZEVpm0y/) (Sep 7th, 2022).
 
 # Donasi Kami
 

@@ -102,9 +102,9 @@ Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pen
 
 # Uji Keamanan
 
-bebasdns telah diuji keamanannya dan mendapatkan nilai (A) pada website: 
+bebasdns telah diuji keamanannya dan mendapatkan nilai pada website: 
 
-• [ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/zZEVpm0y/) (Sep 7th, 2022).
+• [ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/zZEVpm0y/) (A+) (Sep 7th, 2022).
 
 # Donasi Kami
 

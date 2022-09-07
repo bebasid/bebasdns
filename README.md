@@ -14,6 +14,8 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 
 • DoQ: ``quic://dns.bebasid.com``
 
+• DNSCrypt: ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5``
+
 • iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 
 # Daftar Blokir DNS
@@ -74,15 +76,13 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 | [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | ✓      |
 | [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | ✓      |
 
-# Server Upstream
+# Server Upstream ― (07/09/2022)
 | Server Upstream                                                                                                                       | Status |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------|
-| Quad9 DNS10 (https://dns10.quad9.net/dns-query)                                                                                       | ✓      |
-| Google DNS (https://dns.google/dns-query)                                                                                             | ✓      |
-| OpenDns DoH (https://doh.opendns.com/dns-query)                                                                                       | ✓      |
+| Quad9 DNS11 (https://dns11.quad9.net/dns-query)                                                                                       | ✓      |
 | CloudFlare DNS Security (https://security.cloudflare-dns.com/dns-query)                                                               | ✓      |
-| Quad9 DNS (https://dns.quad9.net/dns-query)                                                                                           | ✓      |
 | MyRepublic Uncensored DNS (tcp://158.140.186.19)                                                                                      | ✓      |
+| Quad9 DNS (https://dns.quad9.net/dns-query)                                                                                           | X      |
 
 # Status Peladen
 

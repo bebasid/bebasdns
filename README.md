@@ -75,12 +75,12 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 | [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | ✓      |
 | [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | ✓      |
 
-# Server Upstream ― (07/09/2022)
+# Server Upstream ― (10/09/2022)
 | Server Upstream                                                                                                                       | Status |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------|
 | Quad9 DNS11 (https://dns11.quad9.net/dns-query)                                                                                       | ✓      |
-| CloudFlare DNS Security (https://security.cloudflare-dns.com/dns-query)                                                               | ✓      |
-| MyRepublic Uncensored DNS (tcp://158.140.186.19)                                                                                      | ✓      |
+| CloudFlare DNS Security (https://security.cloudflare-dns.com/dns-query)                                                               | X      |
+| MyRepublic Uncensored DNS (158.140.186.19)                                                                                            | ✓      |
 | Quad9 DNS (https://dns.quad9.net/dns-query)                                                                                           | X      |
 
 # Status Peladen

@@ -18,8 +18,7 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 
 • iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 
-# Daftar Blokir DNS
-
+# Daftar Blokir DNS ― (08/09/2022)
 | Daftar Blokir                                                                                                     | Status |
 |-------------------------------------------------------------------------------------------------------------------|--------|
 | [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)                                     | ✓      |
@@ -52,6 +51,9 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 | [Developerdan](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt)                     | X      |
 | [1Hosts](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)                                | X      |
 | [TheBlockListProject](https://blocklistproject.github.io/Lists/adguard/ads-ags.txt)                               | X      |
+
+| Daftar Blokir (Custom)                                                                                            | Status |
+|-------------------------------------------------------------------------------------------------------------------|--------|
 | [LDM-Simple Tracking](https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt )                          | X      |
 | [LDM-Simple Ad](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt)                                       | X      |
 | [FireBog AdguardDNS](https://v.firebog.net/hosts/AdguardDNS.txt)                                                  | X      |
@@ -66,7 +68,7 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 | [MalwareDomainList](https://www.malwaredomainlist.com/hostslist/hosts.txt)                                        | X      |
 | [DBL Oisd](https://dbl.oisd.nl/)                                                                                  | X      |
 
-# Daftar Putih DNS
+# Daftar Putih DNS ― (23/08/2022)
 | Daftar Putih                                                                                                                          | Status |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------|
 | [bebasdns Custom Filtering Rules Whitelist](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules-whitelist) | ✓      |
@@ -75,11 +77,11 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 | [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | ✓      |
 | [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | ✓      |
 
-# Server Upstream ― (10/09/2022)
-| Server Upstream                                                                                                                       | Status |
+# Server Upstream ― (18/09/2022)
+| DNS Server Servers                                                                                                                    | Status |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------|
 | Quad9 DNS11 (https://dns11.quad9.net/dns-query)                                                                                       | ✓      |
-| CloudFlare DNS Security (https://security.cloudflare-dns.com/dns-query)                                                               | X      |
+| CloudFlare DNS Security (https://security.cloudflare-dns.com/dns-query)                                                               | ✓      |
 | MyRepublic Uncensored DNS (158.140.186.19)                                                                                            | ✓      |
 | Quad9 DNS (https://dns.quad9.net/dns-query)                                                                                           | X      |
 

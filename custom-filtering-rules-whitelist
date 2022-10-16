@@ -18,8 +18,8 @@
 @@||sdk.split.io^$important
 @@||analytics.google.com^$important
 @@||www.cultofmac.com^$important
-@@||digitalent.kominfo.go.id^$important
-@@||searchapi.agoda.com^$important
-@@||siasky.net^$important
-@@||link.dana.id^$important
+@@||*.agoda.com^$important
+@@||*.siasky.net^$important
+@@||*.dana.id^$important
 @@||adj.st^$important
+@@||*.jago.com^$important

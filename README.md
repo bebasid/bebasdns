@@ -4,6 +4,8 @@ Membantumu berselancar dengan aman dan tidak terbatas!.
 
 bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan Virtual Private Server dengan uptime yang cukup stabil dan tentu saja tanpa log. 
 
+bebasdns juga support tld dari [OpenNIC](https://www.opennic.org/) sehingga pengalaman anda mengakses website menjadi lebih bebas.
+
 Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak penting, dan tentu saja karena memakan resource. Kami sewaktu-waktu hanya akan mengaktifkan log apabila adanya laporan kutu misalnya tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan kutu tersebut.
 
 # Peladen
@@ -18,6 +20,17 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 • DNSCrypt: ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5``
 
 • iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
+
+# Peladen Alternatif
+### Family (Blokir konten dewasa)
+• DoH: ``https://dns.bebasid.com/dns-query/family``
+
+• DoT: **Coming Soon**
+
+### Unfiltered (Tanpa blokir iklan)
+• DoH: ``https://dns.bebasid.com/dns-query/unfiltered``
+
+• DoT: **Coming Soon**
 
 # Daftar Blokir DNS ― (08/09/2022)
 | Daftar Blokir                                                                                                     | Status |

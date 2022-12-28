@@ -83,8 +83,6 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 |---------------------------------------------------------------------------------------------------------------------------------------|--------|
 | Quad9 DNS11 (https://dns11.quad9.net/dns-query)                                                                                       | ✓      |
 | CloudFlare DNS Security (https://security.cloudflare-dns.com/dns-query)                                                               | ✓      |
-| MyRepublic Uncensored DNS (158.140.186.19)                                                                                            | ✓      |
-| Quad9 DNS (https://dns.quad9.net/dns-query)                                                                                           | X      |
 
 # Status Peladen
 
@@ -95,6 +93,8 @@ Statistik kondisi peladen:
 # Cara Pengaplikasian
 
 Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pengelana.
+
+• [Plain DNS](https://github.com/bebasid/bebasdns/blob/main/tutoraltport.md)
 
 • [DNS-over-HTTPS](https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH))
 

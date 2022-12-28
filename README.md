@@ -7,6 +7,7 @@ bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan meng
 Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak penting, dan tentu saja karena memakan resource. Kami sewaktu-waktu hanya akan mengaktifkan log apabila adanya laporan kutu misalnya tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan kutu tersebut.
 
 # Peladen
+• Do53: ``47.254.192.66`` Alternate Port: ``1753``
 
 • DoH: ``https://dns.bebasid.com/dns-query``
 

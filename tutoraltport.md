@@ -16,4 +16,9 @@ Silahkan copy & paste script ini di terminal:
 Silahkan tambahkan line ini dibelakang GoodbyeDPI.exe
 >  --dns-addr 47.254.192.66 --dns-port 1753
 
+<br><br>**Untuk mengecek bahwa konfigurasi sudah bekerja dengan baik, silahkan buka Command Prompt dan ketik:**
+```
+nslookup lamanlabuh.aduankonten.id
+```
 
+Jika hasil yang keluar adalah `0.0.0.0` dan `::`, maka BebasDNS sudah berfungsi

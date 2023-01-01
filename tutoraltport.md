@@ -35,4 +35,4 @@ Silahkan tambahkan line ini dibelakang GoodbyeDPI.exe
 nslookup lamanlabuh.aduankonten.id
 ```
 
-Jika hasil yang keluar adalah `0.0.0.0` dan `::`, maka BebasDNS sudah berfungsi
+Jika hasil yang keluar adalah `0.0.0.0` dan `::` atau `Server Failed`, maka BebasDNS sudah berfungsi

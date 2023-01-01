@@ -2,14 +2,14 @@
 
 Membantumu berselancar dengan aman dan tidak terbatas!.
 
-bebasdns mengimplementasikan sistem DNS sekaligus AdBlocker yang dijalankan menggunakan Virtual Private Server dengan uptime yang cukup stabil dan tentu saja tanpa log. 
+**bebasdns** mengimplementasikan sistem DNS sekaligus Ad-Blocker yang dijalankan menggunakan Virtual Private Server dengan uptime yang cukup stabil dan tentu saja tanpa log. 
 
-bebasdns juga support tld dari [OpenNIC](https://www.opennic.org/) sehingga pengalaman anda mengakses website menjadi lebih bebas.
+**bebasdns** juga support tld dari [OpenNIC](https://www.opennic.org/) sehingga pengalaman anda mengakses website menjadi lebih bebas.
 
 Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak penting, dan tentu saja karena memakan resource. Kami sewaktu-waktu hanya akan mengaktifkan log apabila adanya laporan kutu misalnya tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan kutu tersebut.
 
 # Peladen
-• Do53: ``47.254.192.66`` Alternate Port: ``1753``
+• Do53: ``47.254.192.66`` Port Alternatif: ``1753``
 
 • DoH: ``https://dns.bebasid.com/dns-query``
 
@@ -17,20 +17,26 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 
 • DoQ: ``quic://dns.bebasid.com``
 
-• DNSCrypt: ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5``
+• DNSCrypt: ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` atau [``bebasdns``](https://dnscrypt.info/public-servers/)
 
 • iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 
 # Peladen Alternatif
-### Family (Blokir konten dewasa)
+
+### Malware (Khusus Pemblokiran Malware)
+• DoH: ``https://dns.bebasid.com/dns-query/malware``
+
+• DoT: **malware.dns.bebasid.com (Segera Tersedia)**
+
+### Family (Khusus Pemblokiran Malware & Konten Dewasa)
 • DoH: ``https://dns.bebasid.com/dns-query/family``
 
-• DoT: **Coming Soon**
+• DoT: **family.dns.bebasid.com (Segera Tersedia)**
 
-### Unfiltered (Tanpa blokir iklan)
+### Unfiltered (Khusus Tanpa pemblokiran Iklan, Malware & Konten Dewasa)
 • DoH: ``https://dns.bebasid.com/dns-query/unfiltered``
 
-• DoT: **Coming Soon**
+• DoT: **unfiltered.dns.bebasid.com (Segera Tersedia)**
 
 # Daftar Blokir DNS ― (08/09/2022)
 | Daftar Blokir                                                                                                     | Status |
@@ -91,11 +97,18 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 | [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | ✓      |
 | [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | ✓      |
 
-# Server Upstream ― (18/09/2022)
-| DNS Server Servers                                                                                                                    | Status |
+# Server Upstream ― (02/01/2023)
+| DNS Default                                                                                                                           | Status |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------|
-| Quad9 DNS11 (https://dns11.quad9.net/dns-query)                                                                                       | ✓      |
-| CloudFlare DNS Security (https://security.cloudflare-dns.com/dns-query)                                                               | ✓      |
+| [Quad9 DNS11](https://dns11.quad9.net/dns-query)                                                                                      | ✓      |
+| MyRepublic Uncensored (TCP)                                                                                                           | ✓      |
+| [CloudFlare Security](https://security.cloudflare-dns.com/dns-query)                                                                  | X      |
+
+
+| DNS OpenNIC                                                                                                                                          | Status |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| glue, cyb, geek, free, indy, parody, bbs, null, oss, ing, dyn, gopher, micro, neo, pirate, oz, epic, o, chan, libre, fur, bazar, coin, emc, lib      | ✓      |
+
 
 # Status Peladen
 
@@ -103,9 +116,9 @@ Statistik kondisi peladen:
 
 • [Status UptimeRobot](https://stats.uptimerobot.com/j5MjytjV8y)
 
-# Cara Pengaplikasian
+# Cara Mengaplikasian
 
-Untuk cara pengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pengelana.
+Untuk cara mengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pengelana.
 
 • [Plain DNS](https://github.com/bebasid/bebasdns/blob/main/tutoraltport.md)
 
@@ -140,4 +153,4 @@ Bantu proyek ini tetap berjalan dengan cara berdonasi.
 
 # Syarat & Ketentuan
 
-Dengan menggunakan layanan ini, Anda setuju mematuhi peraturan yang kami buat dan Anda menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md) nya.
+Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md) nya.

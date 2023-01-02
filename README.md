@@ -101,8 +101,6 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 | DNS Default                                                                                                                           | Status |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------|
 | [Quad9 DNS11](https://dns11.quad9.net/dns-query)                                                                                      | ✓      |
-| MyRepublic Uncensored (TCP)                                                                                                           | ✓      |
-| [CloudFlare Security](https://security.cloudflare-dns.com/dns-query)                                                                  | X      |
 
 
 | DNS OpenNIC                                                                                                                                          | Status |

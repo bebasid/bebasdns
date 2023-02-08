@@ -23,10 +23,7 @@ Silahkan tambahkan line ini dibelakang GoodbyeDPI.exe
 ```
 ![Pi-Hole](https://media.discordapp.net/attachments/1059052464919298049/1059052488428372030/image.png)
 
-**2. Lalu ceklist Use DNSSEC**
-![DNSSEC](https://media.discordapp.net/attachments/1059052464919298049/1059053083214225478/image.png)
-
-**3. Click Save**
+**2. Click Save**
 
 
 

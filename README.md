@@ -23,20 +23,27 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 
 # Peladen Alternatif
 
-### Malware (Khusus Pemblokiran Malware)
+### Malware (Khusus Pemblokiran Malware dan Tanpa Blokir Iklan)
 • DoH: ``https://dns.bebasid.com/dns-query/malware``
 
-• DoT/DoQ: ``malware.dns.bebasid.com``
+• DoT: ``malware.dns.bebasid.com``
 
-### Family (Khusus Pemblokiran Malware & Konten Dewasa)
-• DoH: ``https://dns.bebasid.com/dns-query/family``
-
-• DoT/DoQ: ``family.dns.bebasid.com``
+• DoQ: ``quic://malware.dns.bebasid.com``
 
 ### Unfiltered (Khusus Tanpa pemblokiran Iklan, Malware & Konten Dewasa)
 • DoH: ``https://dns.bebasid.com/dns-query/unfiltered``
 
-• DoT/DoQ: ``unfiltered.dns.bebasid.com``
+• DoT: ``unfiltered.dns.bebasid.com``
+
+• DoQ: ``quic://unfiltered.dns.bebasid.com``
+
+
+### Family (Khusus Pemblokiran Malware & Konten Dewasa)
+• DoH: ``https://dns.bebasid.com/dns-query/family``
+
+• DoT: ``family.dns.bebasid.com``
+
+• DoQ: ``quic://family.dns.bebasid.com``
 
 # Daftar Blokir DNS ― (08/09/2022)
 | Daftar Blokir                                                                                                     | Status |

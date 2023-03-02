@@ -26,17 +26,17 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 ### Malware (Khusus Pemblokiran Malware)
 • DoH: ``https://dns.bebasid.com/dns-query/malware``
 
-• DoT: **malware.dns.bebasid.com (Segera Tersedia)**
+• DoT/DoQ: ``malware.dns.bebasid.com``
 
 ### Family (Khusus Pemblokiran Malware & Konten Dewasa)
 • DoH: ``https://dns.bebasid.com/dns-query/family``
 
-• DoT: **family.dns.bebasid.com (Segera Tersedia)**
+• DoT/DoQ: ``family.dns.bebasid.com``
 
 ### Unfiltered (Khusus Tanpa pemblokiran Iklan, Malware & Konten Dewasa)
 • DoH: ``https://dns.bebasid.com/dns-query/unfiltered``
 
-• DoT: **unfiltered.dns.bebasid.com (Segera Tersedia)**
+• DoT/DoQ: ``unfiltered.dns.bebasid.com``
 
 # Daftar Blokir DNS ― (08/09/2022)
 | Daftar Blokir                                                                                                     | Status |

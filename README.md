@@ -11,7 +11,7 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 # Peladen
 • Do53 (IPv4): ``47.254.192.66`` Port Alternatif: ``1753``
 
-• Do53 (IPv6): ``2001:470:36:b90:beba:5::1d`` Port Alternatif: ``1753``
+• Do53 (IPv6): ``2001:470:36:b90:beba:5::1d``
 
 • DoH: ``https://dns.bebasid.com/dns-query``
 

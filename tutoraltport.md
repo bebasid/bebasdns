@@ -16,7 +16,7 @@ Silahkan copy & paste script ini di terminal:
 /ipv6 firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-address=2001:470:36:b90:beba:5::1d to-ports=1753
 /ipv6 firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-address=2001:470:36:b90:beba:5::1d to-ports=1753
 ```
-<sup>Telkom & XL menggunakan <i>Transparent DNS Proxy</i>. Pastikan anda menjalankan perintah IPv6 diatas</sup>
+<sup>Telkom & XL menggunakan <i>Transparent DNS Proxy</i>. Pastikan anda menjalankan perintah IPv6 diatas jika anda menggunakan kedua ISP tersebut.</sup>
 
 
 ### GoodbyeDPI

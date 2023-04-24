@@ -109,7 +109,7 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 # Server Upstream ― (02/01/2023)
 | DNS Default                                                                                                                           | Status |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------|
-| [Quad9 DNS11](https://dns11.quad9.net/dns-query)                                                                                      | ✓      |
+| [Cloudflare](https://1dot1dot1dot1.cloudflare-dns.com/dns-query)                                                                                      | ✓      |
 
 
 | DNS OpenNIC                                                                                                                                          | Status |

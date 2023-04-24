@@ -11,13 +11,11 @@ Silahkan copy & paste script ini di terminal:
 /ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=47.254.192.66 to-ports=1753
 ```
 
-<b>Jika jaringan anda support IPv6 dan MikroTik anda dikonfigurasikan untuk IPv6</b><br>
+<b>Jika jaringan anda support IPv6 dan MikroTik anda dikonfigurasikan untuk IPv6 (RouterOS v7 or above only)</b><br>
 ```
 /ipv6 firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-address=2001:470:36:b90:beba:5::1d to-ports=1753
 /ipv6 firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-address=2001:470:36:b90:beba:5::1d to-ports=1753
 ```
-<h3>Pastikan routeros anda berada di Versi 7 atau keatas untuk penggunaan IPv6!</h3>
-
 
 
 ### GoodbyeDPI

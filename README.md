@@ -57,7 +57,6 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 | [uBlock Origin Filters](https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/combined-filters.txt)  | ✓      |
 | [Peter Lowe’s list](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext)| ✓      |
 | [EasyList](https://easylist.to/easylist/easylist.txt)                                                             | ✓      |
-| [StevenBlack](https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)                                   | ✓      |
 | [AdAway](https://adaway.org/hosts.txt)                                                                            | ✓      |
 | [MVPS](https://winhelp2002.mvps.org/hosts.txt)                                                                    | ✓      |
 | [Dan Pollock's list](https://someonewhocares.org/hosts/hosts)                                                     | ✓      |
@@ -87,8 +86,6 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 | [LDM-Simple Ad](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt)                                       | X      |
 | [FireBog AdguardDNS](https://v.firebog.net/hosts/AdguardDNS.txt)                                                  | X      |
 | [MinimalHostsBlocker](https://reddestdream.github.io/Projects/MinimalHosts/etc/MinimalHostsBlocker/minimalhosts)  | X      |
-| [StevenBlack's KADHosts](https://raw.githubusercontent.com/StevenBlack/hosts/master/data/KADhosts/hosts)          | X      |
-| [StevenBlack's AddSpam](https://raw.githubusercontent.com/StevenBlack/hosts/master/data/add.Spam/hosts)           | X      |
 | [FireBog's W3KBL](https://v.firebog.net/hosts/static/w3kbl.txt)                                                   | X      |
 | [anudeepND's Blacklist AdServers](https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt)     | X      |
 | [FireBog's EasyPrivacy](https://v.firebog.net/hosts/Easyprivacy.txt)                                              | X      |

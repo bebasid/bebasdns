@@ -9,7 +9,7 @@ Membantumu berselancar dengan aman dan tidak terbatas!.
 Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak penting, dan tentu saja karena memakan resource. Kami sewaktu-waktu hanya akan mengaktifkan log apabila adanya laporan kutu misalnya tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan kutu tersebut.
 
 # Peladen
-• Do53 (IPv4): ``47.254.192.66`` Port Alternatif: ``1753``
+• Do53 (IPv4): ``47.254.192.66`` dan ``147.139.211.126`` Port Alternatif: ``1753``
 
 • Do53 (IPv6): ``2001:470:36:b90:beba:5::1d`` Port Alternatif: ``1753``
 

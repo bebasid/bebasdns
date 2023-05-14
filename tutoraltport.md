@@ -6,7 +6,9 @@ Untuk mengelabuhi itu, maka kita akan memakai *alt-port* agar anda bisa mengguna
 
 Silahkan copy & paste script ini di terminal:
 
-```
+``` 
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=147.139.211.126 to-ports=1753
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=147.139.211.126 to-ports=1753
 /ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=47.254.192.66 to-ports=1753
 /ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=47.254.192.66 to-ports=1753
 ```
@@ -22,12 +24,13 @@ Silahkan copy & paste script ini di terminal:
 ### GoodbyeDPI
 
 Silahkan tambahkan line ini dibelakang GoodbyeDPI.exe
->  --dns-addr 47.254.192.66 --dns-port 1753
+>  --dns-addr 147.139.211.126 --dns-port 1753
 
 ### Pi-Hole
 **1. Silahkan tambahkan line ini di Custom DNS dan jangan lupa diceklist**
 ```
 47.254.192.66#1753
+147.139.211.126#1753
 ```
 ![Pi-Hole](https://media.discordapp.net/attachments/1059052464919298049/1059052488428372030/image.png)
 
@@ -40,4 +43,4 @@ Silahkan tambahkan line ini dibelakang GoodbyeDPI.exe
 nslookup lamanlabuh.aduankonten.id
 ```
 
-Jika hasil yang keluar adalah `0.0.0.0` dan `::` atau `Server Failed`, maka BebasDNS sudah berfungsi
+Jika hasil yang keluar adalah `0.0.0.0`, `127.0.0.1` dan `::` atau `Server Failed`, maka BebasDNS sudah berfungsi

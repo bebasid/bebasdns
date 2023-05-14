@@ -1,58 +1,77 @@
 # bebasdns
 
-Membantumu berselancar dengan aman dan tidak terbatas!.
+_Membantumu berselancar dengan aman dan tidak terbatas!_
 
-**bebasdns** mengimplementasikan sistem DNS sekaligus Ad-Blocker yang dijalankan menggunakan Virtual Private Server dengan uptime yang cukup stabil dan tentu saja tanpa log. 
+**bebasdns** mengimplementasikan sistem DNS sekaligus ad-blocker yang dijalankan menggunakan VPN dengan uptime yang cukup stabil dan tentu saja tanpa log. 
 
-**bebasdns** juga support tld dari [OpenNIC](https://www.opennic.org/) sehingga pengalaman anda mengakses website menjadi lebih bebas.
+**bebasdns** juga support top-level domain dari [OpenNIC](https://www.opennic.org/) sehingga pengalaman sebagai mengakses website menjadi lebih bebas.
 
-Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak penting, dan tentu saja karena memakan resource. Kami sewaktu-waktu hanya akan mengaktifkan log apabila adanya laporan kutu misalnya tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan kutu tersebut.
+**bebasdns** menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak penting, dan tentu saja karena memakan resource. **bebasdns** sewaktu-waktu hanya akan mengaktifkan log apabila adanya laporan bug, misalnya tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.
 
 # Peladen
-• Do53 (IPv4): ``47.254.192.66`` dan ``147.139.211.126`` | Port Alternatif: ``1753``
+• DNS, IPv4: ``147.139.211.126`` dan ``47.254.192.66`` | Port Alt: ``1753``
 
-• Do53 (IPv6): ``2001:470:36:b90:beba:5::1d`` dan ``2001:470:36:9be:ba5::1d`` | Port Alternatif: ``1753``
+• DNS, IPv6: ``2001:470:36:9be:ba5::1d``  dan ``2001:470:36:b90:beba:5::1d`` | Port Alt: ``1753``
 
-• DoH: ``https://dns.bebasid.com/dns-query``
+• DNS-over-HTTPS: ``https://dns.bebasid.com/dns-query``
 
-• DoT: ``dns.bebasid.com``
+• DNS-over-TLS: ``dns.bebasid.com``
 
-• DoQ: ``quic://dns.bebasid.com``
+• DNS-over-QUIC: ``quic://dns.bebasid.com``
 
-• DNSCrypt: ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5``
+• DNSCrypt, IPv4: ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` dan ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5``
+
+• DNSCrypt, IPv6: ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` dan ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5``
 
 • iOS/macOS: [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
 
 # Peladen Alternatif
 
-### Malware (Khusus Pemblokiran Malware dan Tanpa Blokir Iklan)
-• DoH: ``https://dns.bebasid.com/dns-query/malware``
+### Unfiltered 
+Khusus tanpa pemblokiran iklan, malware dan konten dewasa.
 
-• DoT: ``malware.dns.bebasid.com``
+• DNS-over-HTTPS: ``https://dns.bebasid.com/dns-query/unfiltered``
 
-• DoQ: ``quic://malware.dns.bebasid.com``
+• DNS-over-TLS: ``unfiltered.dns.bebasid.com``
 
-### Unfiltered (Khusus Tanpa pemblokiran Iklan, Malware & Konten Dewasa)
-• DoH: ``https://dns.bebasid.com/dns-query/unfiltered``
+• DNS-over-QUIC: ``quic://unfiltered.dns.bebasid.com``
 
-• DoT: ``unfiltered.dns.bebasid.com``
+• DNSCrypt, IPv4: ``Belum Tersedia``
 
-• DoQ: ``quic://unfiltered.dns.bebasid.com``
+• DNSCrypt, IPv6: ``Belum Tersedia``
 
+### Malware 
+Khusus pemblokiran malware dan tanpa mmeblokir iklan.
 
-### Family (Khusus Pemblokiran Malware & Konten Dewasa)
-• DoH: ``https://dns.bebasid.com/dns-query/family``
+• DNS-over-HTTPS: ``https://dns.bebasid.com/dns-query/malware``
 
-• DoT: ``family.dns.bebasid.com``
+• DNS-over-TLS: ``malware.dns.bebasid.com``
 
-• DoQ: ``quic://family.dns.bebasid.com``
+• DNS-over-QUIC: ``quic://malware.dns.bebasid.com``
 
-# Daftar Blokir DNS ― (08/09/2022)
-| Daftar Blokir                                                                                                     | Status |
+• DNSCrypt, IPv4: ``Belum Tersedia``
+
+• DNSCrypt, IPv6: ``Belum Tersedia``
+
+### Family
+Khusus pemblokiran malware dan konten dewasa.
+
+• DNS-over-HTTPS: ``https://dns.bebasid.com/dns-query/family``
+
+• DNS-over-TLS: ``family.dns.bebasid.com``
+
+• DNS-over-QUIC: ``quic://family.dns.bebasid.com``
+
+• DNSCrypt, IPv4: ``Belum Tersedia``
+
+• DNSCrypt, IPv6: ``Belum Tersedia``
+
+# Daftar Blokir DNS
+| Blocklist                                                                                                         | Status |
 |-------------------------------------------------------------------------------------------------------------------|--------|
 | [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)                                     | ✓      |
 | [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)            | ✓      |
-| [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt) + [Hosts](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/hosts.txt)      | ✓      |
+| [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt) + [Hosts](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/hosts.txt)                   | ✓      |
 | [uBlock Origin](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt)                | ✓      |
 | [uBlock Origin Filters](https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/combined-filters.txt)  | ✓      |
 | [Peter Lowe’s list](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext)| ✓      |
@@ -79,9 +98,6 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 | [Developerdan](https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt)                     | X      |
 | [1Hosts](https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt)                                | X      |
 | [TheBlockListProject](https://blocklistproject.github.io/Lists/adguard/ads-ags.txt)                               | X      |
-
-| Daftar Blokir (Custom)                                                                                            | Status |
-|-------------------------------------------------------------------------------------------------------------------|--------|
 | [LDM-Simple Tracking](https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt )                          | X      |
 | [LDM-Simple Ad](https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt)                                       | X      |
 | [FireBog AdguardDNS](https://v.firebog.net/hosts/AdguardDNS.txt)                                                  | X      |
@@ -94,8 +110,8 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 | [MalwareDomainList](https://www.malwaredomainlist.com/hostslist/hosts.txt)                                        | X      |
 | [DBL Oisd](https://dbl.oisd.nl/)                                                                                  | X      |
 
-# Daftar Putih DNS ― (23/08/2022)
-| Daftar Putih                                                                                                                          | Status |
+# Daftar Putih DNS
+| Whitelist                                                                                                                             | Status |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------|
 | [bebasdns Custom Filtering Rules Whitelist](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules-whitelist) | ✓      |
 | [bebasdns Whitelist](https://raw.githubusercontent.com/bebasid/bebasdns/main/whitelist.txt)                                           | ✓      |
@@ -103,26 +119,25 @@ Kami menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak
 | [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | ✓      |
 | [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | ✓      |
 
-# Server Upstream ― (02/01/2023)
-| DNS Default                                                                                                                           | Status |
+# Server Upstream DNS
+| Default                                                                                                                               | Status |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------|
-| [Cloudflare](https://1dot1dot1dot1.cloudflare-dns.com/dns-query)                                                                                      | ✓      |
+| [Cloudflare](https://www.cloudflare.com)                                                                                              | ✓      |
 
-
-| DNS OpenNIC                                                                                                                                          | Status |
+| [OpenNIC](https://www.opennic.org/)                                                                                                                  | Status |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | glue, cyb, geek, free, indy, parody, bbs, null, oss, ing, dyn, gopher, micro, neo, pirate, oz, epic, o, chan, libre, fur, bazar, coin, emc, lib      | ✓      |
 
 
 # Status Peladen
 
-Statistik kondisi peladen:
+Statistik kondisi servis pelayanan publik:
 
-• [Status UptimeRobot](https://stats.uptimerobot.com/j5MjytjV8y)
+• [UptimeRobot](https://stats.uptimerobot.com/j5MjytjV8y)
 
 # Cara Mengaplikasian
 
-Untuk cara mengaplikasian, silahkan ikuti panduan yang diberikan teman kami, pengelana.
+Silahkan ikuti panduan yang diberikan di bawah ini:
 
 • [Plain DNS](https://github.com/bebasid/bebasdns/blob/main/tutoraltport.md)
 
@@ -140,7 +155,7 @@ bebasdns telah diuji keamanannya dan mendapatkan nilai pada website:
 
 # Donasi Kami
 
-Bantu proyek ini tetap berjalan dengan cara berdonasi.
+Bantu proyek ini agar tetap berjalan dengan cara berdonasi.
 
 <div>
 <details>
@@ -155,6 +170,6 @@ Bantu proyek ini tetap berjalan dengan cara berdonasi.
 </details>
 </div>
 
-# Syarat & Ketentuan
+# Syarat dan Ketentuan
 
 Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md) nya.

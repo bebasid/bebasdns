@@ -31,7 +31,7 @@ Aplikasi ini disediakan sebagaimana adanya. Dalam keadaan apapun, Komunitas Inte
 ### Penolakan
 Pengguna bertanggung jawab atas keamanan komputer pengguna sendiri, karma sendiri, dosa sendiri, atas tindakannya sendiri dan beberapa hal yang telah disebutkan di atas. Jika pengguna mengacaukan sesuatu atau melanggar hukum apa pun saat menggunakan proyek ini, itu adalah kesalahan pengguna.
 
-Pengguna bertanggung jawab atas kepemilikan aplikasi, menggunakan aplikasi ini berarti hak kepemilikan pindah ke pengguna. bebasid merupakan proyek open source di bawah lisensi [MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE).
+Pengguna bertanggung jawab atas kepemilikan aplikasi, menggunakan aplikasi ini berarti hak kepemilikan pindah ke pengguna. bebasid merupakan proyek open source di bawah lisensi [MIT](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
 
 Jika ada pertanyaan atau sanggahan mengenai hak cipta dan kelegalan hukum, silahkan mengirimkan email ke bebasid@hotmail.com.
 

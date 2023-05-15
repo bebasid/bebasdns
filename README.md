@@ -165,7 +165,7 @@ Bantu proyek ini agar tetap berjalan dengan cara berdonasi.
 
 ## Lisensi
 
-bebasid dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE).
+bebasdns dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE).
 
 ---
 

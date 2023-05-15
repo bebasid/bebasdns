@@ -163,6 +163,12 @@ Bantu proyek ini agar tetap berjalan dengan cara berdonasi.
 </details>
 </div>
 
+## Lisensi
+
+bebasid dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE).
+
+---
+
 # Syarat dan Ketentuan
 
 Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md) nya.

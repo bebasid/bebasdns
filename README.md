@@ -135,6 +135,10 @@ Silahkan ikuti panduan yang diberikan di bawah ini:
 
 • [DNS-over-QUIC](https://github.com/pengelana/blocklist/wiki/DNS-over-QUIC-(DoQ))
 
+• [DNSCrypt](https://www.reddit.com/r/indonesia/comments/kyyxna/comment/gjjq578/?utm_source=share&utm_medium=web2x&context=3)
+
+• [iOS](https://www.reddit.com/r/indonesia/comments/kyyxna/comment/gjke3u7)/[macOS](https://translate.google.com/translate?hl=id&sl=en&u=https://simpledns.plus/kb/201/how-to-enable-dns-over-tls-dot-dns-over-https-doh-in-macos-v11&prev=search&pto=aue)
+
 # Uji Keamanan
 
 bebasdns telah diuji keamanannya dan mendapatkan nilai pada website: 

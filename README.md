@@ -18,8 +18,8 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/`` | |
 | DNS-over-TLS | ``dns.bebasid.com`` | |
 | DNS-over-QUIC | ``quic://dns.bebasid.com`` |
-| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig) | |
-| macOS | [dns-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns-macos.mobileconfig) | |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns.mobileconfig) | |
+| macOS | [dns-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-macos.mobileconfig) | |
 
 |  DNSCrypt Protocol   |                                         Address                                            |
 |----------------------|--------------------------------------------------------------------------------------------|
@@ -94,7 +94,7 @@ Khusus pemblokiran malware dan konten dewasa.
 | [YouTube Ad Blocklist](https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt)     | ✓       |
 | [WindowsSpyBlocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)      | ✓       |
 | [AdBlockID](https://raw.githubusercontent.com/realodix/AdBlockID/master/output/adblockid.txt)                     | X        |
-| [bebasdns Custom Filtering Rules Blocklist](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules-blocklist) | ✓      |
+| [bebasdns Custom Filtering Rules Blocklist](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | ✓      |
 | [OISD Blocklist Full](https://raw.githubusercontent.com/deep-bhatt/huawei-block-list/master/huawei-block-host.txt)      | ✓      |
 | [WindowsSpyBlocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                       | ✓      |
 | [URLHaus's Maliclious](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                    | ✓      |
@@ -102,8 +102,8 @@ Khusus pemblokiran malware dan konten dewasa.
 # Daftar Putih DNS
 | Whitelist                                                                                                                             | Enabled |
 |---------------------------------------------------------------------------------------------------------------------------------------|---------|
-| [bebasdns Custom Filtering Rules Whitelist](https://raw.githubusercontent.com/bebasid/bebasdns/main/custom-filtering-rules-whitelist) | ✓       |
-| [bebasdns Whitelist](https://raw.githubusercontent.com/bebasid/bebasdns/main/whitelist.txt)                                           | ✓       |
+| [bebasdns Custom Filtering Rules Whitelist](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-whitelist) | ✓       |
+| [bebasdns Whitelist](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/whitelist.txt)                                 | ✓       |
 | [Filterlist for AdGuard](https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard-or-PiHole/master/filter_whitelist.txt)     | ✓       |
 | [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | ✓       |
 | [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | ✓       |
@@ -128,7 +128,7 @@ Statistik kondisi servis pelayanan publik:
 
 Silahkan ikuti panduan yang diberikan di bawah ini:
 
-• [Plain DNS](https://github.com/bebasid/bebasdns/blob/main/tutoraltport.md)
+• [Plain DNS](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md)
 
 • [DNS-over-HTTPS](https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH))
 
@@ -165,10 +165,10 @@ Bantu proyek ini agar tetap berjalan dengan cara berdonasi.
 
 ## Lisensi
 
-bebasdns dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasid/blob/master/LICENSE).
+bebasdns dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
 
 ---
 
 # Syarat dan Ketentuan
 
-Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasid/blob/master/dev/readme/RULES.md) nya.
+Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasdns/blob/main/dev/readme/RULES.md) nya.

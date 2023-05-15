@@ -18,7 +18,8 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/`` | |
 | DNS-over-TLS | ``dns.bebasid.com`` | |
 | DNS-over-QUIC | ``quic://dns.bebasid.com`` |
-| iOS/macOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig) | |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig) | |
+| macOS | [dns-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns-macos.mobileconfig) | |
 
 |  DNSCrypt Protocol   |                                         Address                                            |
 |----------------------|--------------------------------------------------------------------------------------------|

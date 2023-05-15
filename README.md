@@ -11,19 +11,19 @@ Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri apabila jika adanya lapora
 Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.
 
 # Peladen
-| Protocol    |                                         Address                                                        |     Port     |
-|-------------|--------------------------------------------------------------------------------------------------------|--------------|
-| DNS, IPv4   | **Primary:** ``147.139.211.126`` (CGK), **Secondary:** ``47.254.192.66`` (KUL)                         | ``53, 1753`` | 
-| DNS, IPv6   | **Primary:** ``2001:470:36:9be:ba5::1d`` (SIN), **Secondary:** ``2001:470:36:b90:beba:5::1d`` (KUL)    | ``53, 1753`` |  
-| DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/``
-| DNS-over-TLS | ``dns.bebasid.com``
-| DNS-over-QUIC | ``quic://dns.bebasid.com``
-| iOS/macOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig)
+| Protocol | Address | Port |
+| -------- | ------- | :---: |
+| DNS, IPv4 | **1:** ``147.139.211.126`` (CGK), **2:** ``47.254.192.66`` (KUL) | **1:** ``53``, **2:** ``1753`` | 
+| DNS, IPv6 | **1:** ``2001:470:36:9be:ba5::1d`` (SIN), **2:** ``2001:470:36:b90:beba:5::1d`` (KUL) | **1:** ``53``, **2:** ``1753`` |  
+| DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/`` | |
+| DNS-over-TLS | ``dns.bebasid.com`` | |
+| DNS-over-QUIC | ``quic://dns.bebasid.com`` |
+| iOS/macOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dns.mobileconfig) | |
 
 |  DNSCrypt Protocol   |                                         Address                                            |
 |----------------------|--------------------------------------------------------------------------------------------|
-| IPv4, DNS-over-HTTPS | **Primary:** ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` (CGK), **Secondary:** ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) |           
-| IPv6, DNS-over-HTTPS | **Primary:** ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (SIN), **Secondary:** ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) | 
+| IPv4, DNS-over-HTTPS | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) |           
+| IPv6, DNS-over-HTTPS | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (SIN), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) | 
 
 
 
@@ -32,11 +32,11 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 ### Unfiltered 
 Khusus tanpa pemblokiran iklan, malware dan konten dewasa.
 
-| Protocol       |                                         Address                                            |
-|----------------|--------------------------------------------------------------------------------------------| 
-| DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/unfiltered/``                                          | 
-| DNS-over-TLS   | ``unfiltered.dns.bebasid.com``                                                             |
-| DNS-over-QUIC  | ``quic://unfiltered.dns.bebasid.com``                                                      | 
+| Protocol | Address |
+|----------|---------|
+| DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/unfiltered/`` | 
+| DNS-over-TLS   | ``unfiltered.dns.bebasid.com`` |
+| DNS-over-QUIC  | ``quic://unfiltered.dns.bebasid.com`` | 
 
 |  DNSCrypt Protocol   |                                         Address                                                                |
 |----------------------|----------------------------------------------------------------------------------------------------------------|

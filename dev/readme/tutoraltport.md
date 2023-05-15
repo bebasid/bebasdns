@@ -35,10 +35,11 @@ Salin dan tempel skrip di bawah ini ke terminal:
 
 ### Pi-Hole
 **1. Tambahkan baris di bawah ini ke Custom DNS dan wajib di ceklist.**
-```
-47.254.192.66#1753
-147.139.211.126#1753
-```
+
+Custom 1 (IPv4): ``147.139.211.126#1753``
+
+Custom 2 (IPv4): ``47.254.192.66#1753``
+
 ![Pi-Hole](https://media.discordapp.net/attachments/1059052464919298049/1059052488428372030/image.png)
 
 **2. Lalu klik simpan.**

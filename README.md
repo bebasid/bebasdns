@@ -13,8 +13,8 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 # Peladen
 | Protocol | Address | Port |
 | -------- | ------- | ---- |
-| DNS, IPv4 | **1:** ``147.139.211.126`` (CGK), **2:** ``47.254.192.66`` (KUL) | **1:** ``53``, ㅤㅤㅤㅤㅤㅤ**2:** ``1753`` | 
-| DNS, IPv6 | **1:** ``2001:470:36:9be:ba5::1d`` (SIN), ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ      **2:** ``2001:470:36:b90:beba:5::1d`` (KUL) | **1:** ``53``, ㅤㅤㅤㅤㅤ   **2:** ``1753`` |  
+| DNS, IPv4 | **1:** ``147.139.211.126`` (CGK), **2:** ``47.254.192.66`` (KUL) | **1:** ``53``, ㅤㅤㅤㅤㅤ**2:** ``1753`` | 
+| DNS, IPv6 | **1:** ``2001:470:36:9be:ba5::1d`` (SIN), ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ      **2:** ``2001:470:36:b90:beba:5::1d`` (KUL) | **1:** ``53``, ㅤㅤㅤㅤ   **2:** ``1753`` |  
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/`` | |
 | DNS-over-TLS | ``dns.bebasid.com`` | |
 | DNS-over-QUIC | ``quic://dns.bebasid.com`` |
@@ -22,8 +22,8 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 
 |  DNSCrypt Protocol   |                                         Address                                            |
 |----------------------|--------------------------------------------------------------------------------------------|
-| IPv4, DNS-over-HTTPS | **1:** ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` (CGK), ㅤ**2:** ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) |           
-| IPv6, DNS-over-HTTPS | **1:** ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (SIN), **2:** ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) | 
+| IPv4, DNS-over-HTTPS | **1:** ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` (CGK), ㅤㅤ**2:** ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) |           
+| IPv6, DNS-over-HTTPS | **1:** ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (SIN),ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ      **2:** ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) | 
 
 
 

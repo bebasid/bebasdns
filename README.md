@@ -11,10 +11,10 @@ Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri apabila jika adanya lapora
 Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.
 
 # Peladen
-| Protocol    |                                         Address                                            |        Port       |
-|-------------|--------------------------------------------------------------------------------------------|-------------------|
-| DNS, IPv4   | **Primary:** ``147.139.211.126`` (CGK)ㅤㅤㅤㅤㅤ**Secondary:** ``47.254.192.66`` (KUL)                 | ``53, 1753`` | 
-| DNS, IPv6   | **Primary:** ``2001:470:36:9be:ba5::1d``ㅤㅤㅤ **Secondary:** ``2001:470:36:b90:beba:5::1d``    | ``53, 1753`` |  
+| Protocol    |                                         Address                                                        |     Port     |
+|-------------|--------------------------------------------------------------------------------------------------------|--------------|
+| DNS, IPv4   | **Primary:** ``147.139.211.126`` (CGK), **Secondary:** ``47.254.192.66`` (KUL)                         | ``53, 1753`` | 
+| DNS, IPv6   | **Primary:** ``2001:470:36:9be:ba5::1d`` (SIN), **Secondary:** ``2001:470:36:b90:beba:5::1d`` (KUL)    | ``53, 1753`` |  
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/``
 | DNS-over-TLS | ``dns.bebasid.com``
 | DNS-over-QUIC | ``quic://dns.bebasid.com``
@@ -22,8 +22,8 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 
 |  DNSCrypt Protocol   |                                         Address                                            |
 |----------------------|--------------------------------------------------------------------------------------------|
-| IPv4                 | **Primary:** ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk``  ㅤㅤㅤㅤㅤㅤㅤㅤㅤ**Secondary:** ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` |           
-| IPv6                 | **Primary:** ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` ㅤㅤㅤ**Secondary:** ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` | 
+| IPv4, DNS-over-HTTPS | **Primary:** ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` (CGK), **Secondary:** ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) |           
+| IPv6, DNS-over-HTTPS | **Primary:** ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (SIN), **Secondary:** ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) | 
 
 
 
@@ -38,10 +38,10 @@ Khusus tanpa pemblokiran iklan, malware dan konten dewasa.
 | DNS-over-TLS   | ``unfiltered.dns.bebasid.com``                                                             |
 | DNS-over-QUIC  | ``quic://unfiltered.dns.bebasid.com``                                                      | 
 
-|  DNSCrypt Protocol   |                                         Address                                            |
-|----------------------|--------------------------------------------------------------------------------------------|
-|IPv4                  | ``Belum Tersedia``                                                                         |
-|IPv6                  | ``Belum Tersedia``                                                                         |
+|  DNSCrypt Protocol   |                                         Address                                                                |
+|----------------------|----------------------------------------------------------------------------------------------------------------|
+|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tFS9kbnMtcXVlcnkvdW5maWx0ZXJlZA``              |
+|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` |
 
 ### Malware 
 Khusus pemblokiran malware dan tanpa mmeblokir iklan.
@@ -52,10 +52,10 @@ Khusus pemblokiran malware dan tanpa mmeblokir iklan.
 | DNS-over-TLS   | ``malware.dns.bebasid.com``                                                                |
 | DNS-over-QUIC  | ``quic://malware.dns.bebasid.com``                                                         | 
 
-|  DNSCrypt Protocol   |                                         Address                                            |
-|----------------------|--------------------------------------------------------------------------------------------|
-|IPv4                  | ``Belum Tersedia``                                                                         |
-|IPv6                  | ``Belum Tersedia``                                                                         |
+|  DNSCrypt Protocol   |                                                  Address                                                    |
+|----------------------|-------------------------------------------------------------------------------------------------------------|
+|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tEi9kbnMtcXVlcnkvbWFsd2FyZQ``               |
+|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU``  |
 
 ### Family
 Khusus pemblokiran malware dan konten dewasa.
@@ -66,10 +66,10 @@ Khusus pemblokiran malware dan konten dewasa.
 | DNS-over-TLS   | ``family.dns.bebasid.com``                                                                 |
 | DNS-over-QUIC  | ``quic://family.dns.bebasid.com``                                                          | 
 
-|  DNSCrypt Protocol   |                                         Address                                            |
-|----------------------|--------------------------------------------------------------------------------------------|
-|IPv4                  | ``Belum Tersedia``                                                                         |
-|IPv6                  | ``Belum Tersedia``                                                                         |
+|  DNSCrypt Protocol   |                                                Address                                                    |
+|----------------------|-----------------------------------------------------------------------------------------------------------|
+|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tES9kbnMtcXVlcnkvZmFtaWx5``               |
+|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` |
 
 # Daftar Blokir DNS
 | Blocklist                                                                                                         | Enabled |

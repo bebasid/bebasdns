@@ -13,8 +13,8 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 # Peladen
 | Protocol    |                                         Address                                            |        Port       |
 |-------------|--------------------------------------------------------------------------------------------|-------------------|
-| DNS, IPv4   | **Primary:** ``147.139.211.126`` (CGK)ㅤㅤㅤㅤㅤ**Secondary:** ``47.254.192.66`` (KUL)                 | **Alt:** ``1753`` | 
-| DNS, IPv6   | **Primary:** ``2001:470:36:9be:ba5::1d`` (SIN) ㅤ **Secondary:** ``2001:470:36:b90:beba:5::1d`` (SIN)    | **Alt:** ``1753`` |  
+| DNS, IPv4   | **Primary:** ``147.139.211.126`` (CGK)ㅤㅤㅤㅤㅤ**Secondary:** ``47.254.192.66`` (KUL)                 | ``53, 1753`` | 
+| DNS, IPv6   | **Primary:** ``2001:470:36:9be:ba5::1d``ㅤㅤㅤ **Secondary:** ``2001:470:36:b90:beba:5::1d``    | ``53, 1753`` |  
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/``
 | DNS-over-TLS | ``dns.bebasid.com``
 | DNS-over-QUIC | ``quic://dns.bebasid.com``
@@ -33,9 +33,7 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 Khusus tanpa pemblokiran iklan, malware dan konten dewasa.
 
 | Protocol       |                                         Address                                            |
-|----------------|--------------------------------------------------------------------------------------------|
-| DNS, IPv4      | ``Belum Tersedia``                                                                         |       
-| DNS, IPv6      | ``Belum Tersedia``                                                                         | 
+|----------------|--------------------------------------------------------------------------------------------| 
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/unfiltered/``                                          | 
 | DNS-over-TLS   | ``unfiltered.dns.bebasid.com``                                                             |
 | DNS-over-QUIC  | ``quic://unfiltered.dns.bebasid.com``                                                      | 
@@ -49,9 +47,7 @@ Khusus tanpa pemblokiran iklan, malware dan konten dewasa.
 Khusus pemblokiran malware dan tanpa mmeblokir iklan.
 
 | Protocol       |                                         Address                                            |
-|----------------|--------------------------------------------------------------------------------------------|
-| DNS, IPv4      | ``Belum Tersedia``                                                                         |       
-| DNS, IPv6      | ``Belum Tersedia``                                                                         | 
+|----------------|--------------------------------------------------------------------------------------------| 
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/malware/``                                             | 
 | DNS-over-TLS   | ``malware.dns.bebasid.com``                                                                |
 | DNS-over-QUIC  | ``quic://malware.dns.bebasid.com``                                                         | 
@@ -66,8 +62,6 @@ Khusus pemblokiran malware dan konten dewasa.
 
 | Protocol       |                                         Address                                            |
 |----------------|--------------------------------------------------------------------------------------------|
-| DNS, IPv4      | ``Belum Tersedia``                                                                         |       
-| DNS, IPv6      | ``Belum Tersedia``                                                                         | 
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/family/``                                              | 
 | DNS-over-TLS   | ``family.dns.bebasid.com``                                                                 |
 | DNS-over-QUIC  | ``quic://family.dns.bebasid.com``                                                          | 

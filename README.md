@@ -12,9 +12,9 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 
 # Peladen
 | Protocol | Address | Port |
-| -------- | ------- | :---: |
+| -------- | ------- | ---- |
 | DNS, IPv4 | **1:** ``147.139.211.126`` (CGK), **2:** ``47.254.192.66`` (KUL) | **1:** ``53``, ㅤㅤㅤㅤㅤㅤ**2:** ``1753`` | 
-| DNS, IPv6 | **1:** ``2001:470:36:9be:ba5::1d`` (SIN), ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ**2:** ``2001:470:36:b90:beba:5::1d`` (KUL) | **1:** ``53``, ㅤㅤㅤㅤㅤㅤ**2:** ``1753`` |  
+| DNS, IPv6 | **1:** ``2001:470:36:9be:ba5::1d`` (SIN), ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ   **2:** ``2001:470:36:b90:beba:5::1d`` (KUL) | **1:** ``53``, ㅤㅤㅤㅤㅤ   **2:** ``1753`` |  
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/`` | |
 | DNS-over-TLS | ``dns.bebasid.com`` | |
 | DNS-over-QUIC | ``quic://dns.bebasid.com`` |

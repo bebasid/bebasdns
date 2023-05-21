@@ -14,7 +14,7 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
 | DNS, IPv4 | ``147.139.211.126`` (CGK),  ``47.254.192.66`` (KUL) | ``53``, ``1753`` | 
-| DNS, IPv6 | ``2001:470:36:9be:ba5::1d`` (SIN),  ``2001:470:36:b90:beba:5::1d`` (KUL) | ``53``,  ``1753`` |  
+| DNS, IPv6 | ``2001:470:36:9be:ba5::1d`` (CGK),  ``2001:470:36:b90:beba:5::1d`` (KUL) | ``53``,  ``1753`` |  
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/`` | |
 | DNS-over-TLS | ``dns.bebasid.com`` | |
 | DNS-over-QUIC | ``quic://dns.bebasid.com`` |
@@ -41,8 +41,8 @@ Khusus tanpa pemblokiran iklan, malware dan konten dewasa.
 
 |  DNSCrypt Protocol   |                                         Address                                                                |
 |----------------------|----------------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tFS9kbnMtcXVlcnkvdW5maWx0ZXJlZA``              |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` |
+|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tFS9kbnMtcXVlcnkvdW5maWx0ZXJlZA`` (CGK)        |
+|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` (CGK) |
 
 ### Malware 
 Khusus pemblokiran malware dan tanpa mmeblokir iklan.
@@ -55,8 +55,8 @@ Khusus pemblokiran malware dan tanpa mmeblokir iklan.
 
 |  DNSCrypt Protocol   |                                                  Address                                                    |
 |----------------------|-------------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tEi9kbnMtcXVlcnkvbWFsd2FyZQ``               |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU``  |
+|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tEi9kbnMtcXVlcnkvbWFsd2FyZQ`` (CGK)         |
+|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (CGK)  |
 
 ### Family
 Khusus pemblokiran malware dan konten dewasa.
@@ -69,8 +69,8 @@ Khusus pemblokiran malware dan konten dewasa.
 
 |  DNSCrypt Protocol   |                                                Address                                                    |
 |----------------------|-----------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tES9kbnMtcXVlcnkvZmFtaWx5``               |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` |
+|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tES9kbnMtcXVlcnkvZmFtaWx5`` (CGK)         |
+|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (CGK) |
 
 # Daftar Blokir DNS
 | Blocklist                                                                                                         | Enabled |
@@ -136,9 +136,9 @@ Silahkan ikuti panduan yang diberikan di bawah ini:
 
 • [DNS-over-QUIC](https://github.com/pengelana/blocklist/wiki/DNS-over-QUIC-(DoQ))
 
-• [DNSCrypt](https://www.reddit.com/r/indonesia/comments/kyyxna/comment/gjjq578/?utm_source=share&utm_medium=web2x&context=3)
+• [DNSCrypt](https://libreddit.eu.org/r/indonesia/comments/kyyxna/comment/gjjq578/)
 
-• [iOS](https://www.reddit.com/r/indonesia/comments/kyyxna/comment/gjke3u7)/[macOS](https://translate.google.com/translate?hl=id&sl=en&u=https://simpledns.plus/kb/201/how-to-enable-dns-over-tls-dot-dns-over-https-doh-in-macos-v11&prev=search&pto=aue)
+• [iOS](https://libreddit.eu.org/r/indonesia/comments/kyyxna/comment/gjke3u7)/[macOS](https://translate.google.com/translate?hl=id&sl=en&u=https://simpledns.plus/kb/201/how-to-enable-dns-over-tls-dot-dns-over-https-doh-in-macos-v11&prev=search&pto=aue)
 
 # Uji Keamanan
 

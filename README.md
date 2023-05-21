@@ -169,6 +169,11 @@ bebasdns dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasdns
 
 ---
 
+
+# Dukungan
+
+Jika anda mempunyai masalah/pertanyaan tentang **bebasdns**, anda bisa email kami di dukungan@bebasid.com atau membuka issue disini
+
 # Syarat dan Ketentuan
 
 Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasdns/blob/main/dev/readme/RULES.md) nya.

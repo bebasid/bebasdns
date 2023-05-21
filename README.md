@@ -1,4 +1,7 @@
 # bebasdns
+<!-- IPv6-test.com button BEGIN -->
+<a href='http://ipv6-test.com/validate.php?url=referer'><img src='http://ipv6-test.com/button-ipv6-80x15.png' alt='ipv6 ready' title='ipv6 ready' border='0' /></a>
+<!-- IPv6-test.com button END -->
 
 _Membantumu berselancar dengan aman dan tidak terbatas!_
 

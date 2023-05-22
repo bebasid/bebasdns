@@ -52,7 +52,7 @@
 
 _Helping you surfing securely and without limit!_
 
-**bebasdns** implementing DNS system and integrated ad-blocker which running with moderately stable uptime VPS/VPN and does not record queries.
+**bebasdns** implementing DNS resolver and integrated ad-blocker which running with moderately stable uptime VPS/VPN and does not record queries.
 
 **bebasdns** also supports top-level domain from [OpenNIC](https://www.opennic.org/) so you can enjoy a more liberating website access experience.
 **bebasdns** disabling logging feature for user privacy, also it is not important, and because it consumes resource. 

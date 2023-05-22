@@ -68,7 +68,7 @@ Khusus tanpa pemblokiran iklan, malware dan konten dewasa.
 |IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` (CGK) |
 
 ### Malware 
-Khusus pemblokiran malware dan tanpa mmeblokir iklan.
+Khusus pemblokiran malware dan tanpa memblokir iklan.
 
 | Protocol       |                                         Address                                            |
 |----------------|--------------------------------------------------------------------------------------------| 
@@ -82,7 +82,7 @@ Khusus pemblokiran malware dan tanpa mmeblokir iklan.
 |IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (CGK)  |
 
 ### Family
-Khusus pemblokiran malware dan konten dewasa.
+Khusus pemblokiran malware, konten dewasa, dan tanpa memblokir iklan.
 
 | Protocol       |                                         Address                                            |
 |----------------|--------------------------------------------------------------------------------------------|
@@ -96,40 +96,37 @@ Khusus pemblokiran malware dan konten dewasa.
 |IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (CGK) |
 
 # Daftar Blokir DNS
-| Blocklist                                                                                                         | Enabled |
-|-------------------------------------------------------------------------------------------------------------------|---------|
-| [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)                                     | ✓       |
-| [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)            | ✓       |
-| [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt)      | ✓       |
-| [uBlock Origin](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt)                | ✓       |
-| [uBlock Origin Filters](https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/combined-filters.txt)  | ✓       |
-| [Peter Lowe’s list](https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext)| X       |
-| [EasyList](https://easylist.to/easylist/easylist.txt)                                                             | ✓       |
-| [AdAway](https://adaway.org/hosts.txt)                                                                            | ✓       |
-| [MVPS](https://winhelp2002.mvps.org/hosts.txt)                                                                    | ✓       |
-| [Dan Pollock's list](https://someonewhocares.org/hosts/hosts)                                                     | X       |
-| [ABP Oisd](https://abp.oisd.nl/)                                                                                  | ✓       |
-| [Cameleon](https://sysctl.org/cameleon/hosts)                                                                     | ✓       |
-| [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)                                | ✓       |
-| [URLhaus](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt)                                 | ✓       |
-| [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt)                                                       | ✓       |
-| [NoCoin](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt)                       | ✓       |
-| [YouTube Ad Blocklist](https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt)     | ✓       |
-| [WindowsSpyBlocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)      | ✓       |
-| [AdBlockID](https://raw.githubusercontent.com/realodix/AdBlockID/master/output/adblockid.txt)                     | X        |
-| [bebasdns's Custom Filtering Blocklist Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | ✓      |
-| [OISD Blocklist Full](https://raw.githubusercontent.com/deep-bhatt/huawei-block-list/master/huawei-block-host.txt)      | ✓      |
-| [WindowsSpyBlocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                       | ✓      |
-| [URLHaus's Maliclious](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                    | ✓      |
+| Blocklist                                                                                                         |
+|-------------------------------------------------------------------------------------------------------------------|
+| [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)                                     | 
+| [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)            | 
+| [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt)      | 
+| [uBlock Origin](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt)                | 
+| [uBlock Origin Filters](https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/combined-filters.txt)  | 
+| [EasyList](https://easylist.to/easylist/easylist.txt)                                                             | 
+| [AdAway](https://adaway.org/hosts.txt)                                                                            | 
+| [MVPS](https://winhelp2002.mvps.org/hosts.txt)                                                                    | 
+| [ABP Oisd](https://abp.oisd.nl/)                                                                                  | 
+| [Cameleon](https://sysctl.org/cameleon/hosts)                                                                     | 
+| [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)                                | 
+| [URLhaus](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt)                                 | 
+| [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt)                                                       | 
+| [NoCoin](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt)                       | 
+| [YouTube Ad Blocklist](https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt)     | 
+| [WindowsSpyBlocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)      |
+| [bebasdns's Custom Filtering Blocklist Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
+| [OISD Blocklist Full](https://raw.githubusercontent.com/deep-bhatt/huawei-block-list/master/huawei-block-host.txt)      | 
+| [WindowsSpyBlocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                       |
+| [URLHaus's Maliclious](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                    | 
 
 # Daftar Putih DNS
-| Whitelist                                                                                                                             | Enabled |
-|---------------------------------------------------------------------------------------------------------------------------------------|---------|
-| [bebasdns's Custom Filtering Wihtelist Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-whitelist) | ✓       |
-| [bebasdns's Custom Filtering Whitelist Rules 2](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/whitelist.txt)                                 | ✓       |
-| [Filterlist for AdGuard](https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard-or-PiHole/master/filter_whitelist.txt)     | ✓       |
-| [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | ✓       |
-| [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | ✓       |
+| Whitelist                                                                                                                             |
+|---------------------------------------------------------------------------------------------------------------------------------------|
+| [bebasdns's Custom Filtering Wihtelist Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-whitelist) | 
+| [bebasdns's Custom Filtering Whitelist Rules 2](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/whitelist.txt) | 
+| [Filterlist for AdGuard](https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard-or-PiHole/master/filter_whitelist.txt)     | 
+| [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | 
+| [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | 
 
 # Server Upstream DNS
 | Default                                                                                                                               |
@@ -169,6 +166,16 @@ bebasdns telah diuji keamanannya dan mendapatkan nilai pada website:
 
 • [ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/M07B3FiY/) (A+) (May 14th, 2023).
 
+# Cara Melaporkan, atau Permintaan
+
+Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silakan [membuka isu baru](https://github.com/bebasid/bebasdns/issues/new/choose).
+
+# Soal Sering Ditanya
+
+Jika mengalami permasalahan saat menggunakan bebasid, silakan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu).
+
+Atau anda bisa email ke `dukungan@bebasid.com` dengan subject **BebasDNS: [Masalah/pertanyaan anda]**
+
 # Donasi Kami
 
 Bantu proyek ini agar tetap berjalan dengan cara berdonasi.
@@ -191,11 +198,6 @@ Bantu proyek ini agar tetap berjalan dengan cara berdonasi.
 bebasdns dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
 
 ---
-
-
-# Dukungan
-
-Jika anda mempunyai masalah/pertanyaan tentang **bebasdns**, anda bisa email kami di dukungan@bebasid.com atau membuka issue disini
 
 # Syarat dan Ketentuan
 

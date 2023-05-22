@@ -21,7 +21,7 @@
 <a href="https://github.com/bebasid/bebasdns/blob/main/LICENSE"><img src="https://img.shields.io/badge/lisensi-MIT-green"></a>
 </p>
 <p align="center">
-    <b>Indonesia</b> | English <em>(Not Available)</em>
+    <b>Indonesia</b> | <a href="README.en.md">English</a>
 </p>
 
 ---

@@ -60,7 +60,7 @@ _Helping you surfing securely and without limit!_
 We only record queries if there is a bug report.
 For example, if users can not access a website for troubleshooting purposes and fixing that bug report.
 
-# Peladen
+# Server
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
 | DNS, IPv4 | ``147.139.211.126`` (CGK),  ``47.254.192.66`` (KUL) | ``53``, ``1753`` | 

@@ -24,6 +24,30 @@
     <b>Indonesia</b> | English <em>(Not Available)</em>
 </p>
 
+---
+
+## Daftar Isi
+
+* [bebasdns](#bebasdns)
+  + [Peladen](#peladen)
+  + [Peladen Alternatif](#peladen-alternatif)
+    - [Unfiltered](#unfiltered)
+    - [Malware](#malware)
+    - [Family](#family)
+  + [Daftar Blokir DNS](#daftar-blokir-dns)
+  + [Daftar Putih DNS](#daftar-putih-dns)
+  + [Server Upstream DNS](#server-upstream-dns)
+  + [Status Peladen](#status-peladen)
+  + [Uji Keamanan](#uji-keamanan)
+  + [Cara Mengaplikasikan](#cara-mengaplikasikan)
+  + [Cara Melaporkan, atau Permintaan](#cara-melaporkan-atau-permintaan)
+  + [Soal Sering Ditanya](#soal-sering-ditanya)
+  + [Donasi Kami](#donasi-kami)
+  + [Lisensi](#lisensi)
+  + [Syarat dan Ketentuan](#syarat-dan-ketentuan)
+
+---
+
 # bebasdns
 
 _Membantumu berselancar dengan aman dan tidak terbatas!_
@@ -147,7 +171,13 @@ Statistik kondisi servis pelayanan publik:
 
 • [UptimeRobot](https://stats.uptimerobot.com/j5MjytjV8y)
 
-# Cara Mengaplikasian
+# Uji Keamanan
+
+bebasdns telah diuji keamanannya dan mendapatkan nilai pada website: 
+
+• [ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/M07B3FiY/) (A+) (May 14th, 2023).
+
+# Cara Mengaplikasikan
 
 Silahkan ikuti panduan yang diberikan di bawah ini:
 
@@ -162,12 +192,6 @@ Silahkan ikuti panduan yang diberikan di bawah ini:
 • [DNSCrypt](https://libreddit.eu.org/r/indonesia/comments/kyyxna/comment/gjjq578/)
 
 • [iOS](https://libreddit.eu.org/r/indonesia/comments/kyyxna/comment/gjke3u7)/[macOS](https://translate.google.com/translate?hl=id&sl=en&u=https://simpledns.plus/kb/201/how-to-enable-dns-over-tls-dot-dns-over-https-doh-in-macos-v11&prev=search&pto=aue)
-
-# Uji Keamanan
-
-bebasdns telah diuji keamanannya dan mendapatkan nilai pada website: 
-
-• [ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/M07B3FiY/) (A+) (May 14th, 2023).
 
 # Cara Melaporkan, atau Permintaan
 

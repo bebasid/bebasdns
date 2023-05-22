@@ -1,4 +1,11 @@
 <p align="center">
+    <b>Untuk ISP yang memakai DPI, gunakan <a href="https://github.com/bebasid/bebasit">bebasit</a> untuk melewati DPI atau menyalakan IPv6 jika ISP-nya mendukung.</b>
+    <br><sup>Ciri-Ciri ISP anda menggunakan DPI: HTTP mengalihkan ke <a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a> atau HTTPS keluar ERR_CONNECTION_RESET/PR_CONNECT_RESET_ERROR</sup><br>
+    <b>Bypass DPI Kominfo di Modem/Router:</b><br>
+    <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md">OpenWRT</a> |
+    <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md">MikroTik</a>
+</p>
+<p align="center">
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo-black.png#gh-light-mode-only" alt="bebasDNS Black Logo" width="330">
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo.png#gh-dark-mode-only" alt="bebasDNS White Logo" width="330">
 </p>

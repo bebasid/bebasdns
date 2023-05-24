@@ -1,6 +1,6 @@
 <p align="center">
-    <b>For ISP that uses DPI, use <a href="https://github.com/bebasid/bebasit">bebasit</a> to bypass the DPI or turn on IPv6 if the ISP supports it.</b>
-    <br><sup>Signs if your ISP implemented DPI: HTTP redirected to<code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> or HTTPS responded with <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
+    <b>For an ISP that uses DPI, use <a href="https://github.com/bebasid/bebasit">bebasit</a> to bypass the DPI or turn on IPv6 if the ISP supports it.</b>
+    <br><sup>Signs that your ISP implemented DPI: HTTP redirected to<code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> or HTTPS responded with <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
     <b>Bypass DPI on Modem/Router:</b><br>
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.en.md">OpenWRT</a> |
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.en.md">MikroTik</a>
@@ -50,15 +50,15 @@
 
 # bebasdns
 
-_Helping you surfing securely and without limit!_
+_Helping you surf securely and without limit!_
 
-**bebasdns** implementing DNS resolver and integrated ad-blocker which running with moderately stable uptime VPS/VPN and does not record queries.
+**bebasdns** implements a DNS resolver with an integrated ad-blocker that runs with moderately stable uptime on a VPS/VPN
 
-**bebasdns** also supports top-level domain from [OpenNIC](https://www.opennic.org/) so you can enjoy a more liberating website access experience.
-**bebasdns** disabling logging feature for user privacy, also it is not important, and because it consumes resource. 
+**bebasdns** also supports top-level domains from [OpenNIC](https://www.opennic.org/), so you can enjoy a more liberating website access experience.
+**bebasdns** disables the logging feature for user privacy because it is unimportant and consumes resources.
 
 We only record queries if there is a bug report.
-For example, if users can not access a website for troubleshooting purposes and fixing that bug report.
+For example, if users can not access a website for troubleshooting purposes, and fixing that bug report.
 
 # Server
 | Protocol | Address | Port |
@@ -179,7 +179,7 @@ bebasdns has been tested for security and graded according to website:
 
 # How to Use
 
-Please follow tutorial below:
+Please follow the tutorial below:
 
 • [Plain DNS (Alternative Port)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#cara-memakai-port-alternatif)
 
@@ -201,17 +201,17 @@ Please follow tutorial below:
 
 # Contributing, Question and Request
 
-If you have any request or bug report, please [open a new issue](https://github.com/bebasid/bebasid/issues/new/choose).
+If you have any requests or bug reports, please [open a new issue](https://github.com/bebasid/bebasid/issues/new/choose).
 
 # Frequently Asked Question
 
-If you have any problem in using bebasdns, please head to [Discord](https://discord.gg/EKrxZyu)
+If you have any problems using bebasdns, please head to [Discord](https://discord.gg/EKrxZyu).
 
-Or you can email to `dukungan@bebasid.com` with subject **BebasDNS: [Your problem/question]**
+Or you can email `dukungan@bebasid.com` with the subject **BebasDNS: [Your problem/question]**
 
 # Support Us!
 
-Help us to maintain this project by donating.
+Help us maintain this project by donating.
 
 <div>
 <details>
@@ -235,4 +235,4 @@ bebasdns is licensed under [MIT License](https://github.com/bebasid/bebasdns/blo
 # Terms and Conditions
 
 
-By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use this service. For more about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES.md).
+By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use this service. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES.md).

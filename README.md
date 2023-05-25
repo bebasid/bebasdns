@@ -20,6 +20,10 @@
 <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=penonton%3A+%28hari%20ini%2Ftotal%29&edge_flat=false"/></a>
 <a href="https://github.com/bebasid/bebasdns/blob/main/LICENSE"><img src="https://img.shields.io/badge/lisensi-MIT-green"></a>
 </p>
+<p align="center">Donasi kami:</br>
+<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
+<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
+ </p>
 <p align="center">
     <b>Indonesia</b> | <a href="README.en.md">English</a>
 </p>
@@ -28,20 +32,23 @@
 
 ## Daftar Isi
 
-* [bebasdns](#bebasdns)
+- [bebasdns](#bebasdns)
   + [Peladen](#peladen)
-  + [Peladen Alternatif](#peladen-alternatif)
-    - [Unfiltered](#unfiltered)
-    - [Malware](#malware)
-    - [Family](#family)
-  + [Daftar Blokir DNS](#daftar-blokir-dns)
-  + [Daftar Putih DNS](#daftar-putih-dns)
+    - [Alternatif](#peladen-alternatif)
+      + [Unfiltered](#unfiltered)
+      + [Malware](#malware)
+      + [Family](#family)
+  + [Penyaring](#penyaring)
+    - [Daftar Blokir DNS](#daftar-blokir-dns)
+    - [Daftar Putih DNS](#daftar-putih-dns)
   + [Server Upstream DNS](#server-upstream-dns)
-  + [Status Peladen](#status-peladen)
-  + [Uji Keamanan](#uji-keamanan)
-  + [Cara Mengaplikasikan](#cara-mengaplikasikan)
-  + [Cara Melaporkan, atau Permintaan](#cara-melaporkan-atau-permintaan)
-  + [Soal Sering Ditanya](#soal-sering-ditanya)
+  + [Pemeliharaan](#pemeliharaan)
+    - [Status Peladen](#status-peladen)
+    - [Uji Keamanan](#uji-keamanan)
+  + [Isi Tutorial dan Bertanya](#isi-tutorial-dan-bertanya)
+    - [Cara Mengaplikasikan](#cara-mengaplikasikan)
+    - [Cara Melaporkan, atau Permintaan](#cara-melaporkan-atau-permintaan)
+    - [Soal Sering Ditanya](#soal-sering-ditanya)
   + [Donasi Kami](#donasi-kami)
   + [Lisensi](#lisensi)
   + [Syarat dan Ketentuan](#syarat-dan-ketentuan)
@@ -60,7 +67,7 @@ _Membantumu berselancar dengan aman dan tidak terbatas!_
 Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri apabila jika adanya laporan bug. 
 Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.
 
-# Peladen
+## Peladen
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
 | DNS, IPv4 | ``147.139.211.126`` (CGK),  ``47.254.192.66`` (KUL) | ``53``, ``1753`` | 
@@ -74,13 +81,13 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 |  DNSCrypt Protocol   |                                         Address                                            |
 |----------------------|--------------------------------------------------------------------------------------------|
 | IPv4, DNS-over-HTTPS | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) |           
-| IPv6, DNS-over-HTTPS | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (SIN), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) | 
+| IPv6, DNS-over-HTTPS | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) | 
 
 
 
-# Peladen Alternatif
+## Peladen Alternatif
 
-### Unfiltered 
+### <ins>Unfiltered</ins> 
 Khusus tanpa pemblokiran iklan, malware dan konten dewasa.
 
 | Protocol | Address |
@@ -91,10 +98,10 @@ Khusus tanpa pemblokiran iklan, malware dan konten dewasa.
 
 |  DNSCrypt Protocol   |                                         Address                                                                |
 |----------------------|----------------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tFS9kbnMtcXVlcnkvdW5maWx0ZXJlZA`` (CGK)        |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` (CGK) |
+|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tFS9kbnMtcXVlcnkvdW5maWx0ZXJlZA`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` (KUL)        |
+|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` |
 
-### Malware 
+### <ins>Malware</ins> 
 Khusus pemblokiran malware dan tanpa memblokir iklan.
 
 | Protocol       |                                         Address                                            |
@@ -105,10 +112,10 @@ Khusus pemblokiran malware dan tanpa memblokir iklan.
 
 |  DNSCrypt Protocol   |                                                  Address                                                    |
 |----------------------|-------------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tEi9kbnMtcXVlcnkvbWFsd2FyZQ`` (CGK)         |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (CGK)  |
+|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tEi9kbnMtcXVlcnkvbWFsd2FyZQ`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (KUL)         |
+|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (KUL)  |
 
-### Family
+### <ins>Family</ins>
 Khusus pemblokiran malware, konten dewasa, dan tanpa memblokir iklan.
 
 | Protocol       |                                         Address                                            |
@@ -119,10 +126,12 @@ Khusus pemblokiran malware, konten dewasa, dan tanpa memblokir iklan.
 
 |  DNSCrypt Protocol   |                                                Address                                                    |
 |----------------------|-----------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tES9kbnMtcXVlcnkvZmFtaWx5`` (CGK)         |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (CGK) |
+|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tES9kbnMtcXVlcnkvZmFtaWx5`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (KUL)         |
+|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (KUL) |
 
-# Daftar Blokir DNS
+## Penyaring
+
+### <ins>Daftar Blokir DNS</ins>
 | Blocklist                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------|
 | [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)                                     | 
@@ -146,7 +155,7 @@ Khusus pemblokiran malware, konten dewasa, dan tanpa memblokir iklan.
 | [WindowsSpyBlocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                       |
 | [URLHaus's Maliclious](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                    | 
 
-# Daftar Putih DNS
+### <ins>Daftar Putih DNS</ins>
 | Whitelist                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------------------|
 | [bebasdns's Custom Filtering Wihtelist Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-whitelist) | 
@@ -155,7 +164,7 @@ Khusus pemblokiran malware, konten dewasa, dan tanpa memblokir iklan.
 | [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | 
 | [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | 
 
-# Server Upstream DNS
+## Server Upstream DNS
 | Default                                                                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------|
 | [Cloudflare](https://www.cloudflare.com)                                                                                              | 
@@ -165,19 +174,23 @@ Khusus pemblokiran malware, konten dewasa, dan tanpa memblokir iklan.
 | glue, cyb, geek, free, indy, parody, bbs, null, oss, ing, dyn, gopher, micro, neo, pirate, oz, epic, o, chan, libre, fur, bazar, coin, emc, lib      |
 
 
-# Status Peladen
+## Pemeliharaan
+
+### <ins>Status Peladen</ins>
 
 Statistik kondisi servis pelayanan publik:
 
 • [UptimeRobot](https://stats.uptimerobot.com/j5MjytjV8y)
 
-# Uji Keamanan
+### <ins>Uji Keamanan</ins>
 
 bebasdns telah diuji keamanannya dan mendapatkan nilai pada website: 
 
 • [ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/M07B3FiY/) (A+) (May 14th, 2023).
 
-# Cara Mengaplikasikan
+## Isi Tutorial dan Bertanya
+
+### <ins>Cara Mengaplikasikan</ins>
 
 Silahkan ikuti panduan yang diberikan di bawah ini:
 
@@ -199,17 +212,17 @@ Silahkan ikuti panduan yang diberikan di bawah ini:
 
 • [iOS](https://libreddit.eu.org/r/indonesia/comments/kyyxna/comment/gjke3u7)/[macOS](https://translate.google.com/translate?hl=id&sl=en&u=https://simpledns.plus/kb/201/how-to-enable-dns-over-tls-dot-dns-over-https-doh-in-macos-v11&prev=search&pto=aue)
 
-# Cara Melaporkan, atau Permintaan
+### <ins>Cara Melaporkan, atau Permintaan</ins>
 
-Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silakan [membuka isu baru](https://github.com/bebasid/bebasdns/issues/new/choose).
+Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silahkan [membuka isu baru](https://github.com/bebasid/bebasdns/issues/new/choose).
 
-# Soal Sering Ditanya
+### <ins>Soal Sering Ditanya</ins>
 
-Jika mengalami permasalahan saat menggunakan bebasid, silakan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu).
+Jika mengalami permasalahan saat menggunakan bebasid, silahkan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu).
 
 Atau anda bisa email ke `dukungan@bebasid.com` dengan subject **BebasDNS: [Masalah/pertanyaan anda]**
 
-# Donasi Kami
+## Donasi Kami
 
 Bantu proyek ini agar tetap berjalan dengan cara berdonasi.
 

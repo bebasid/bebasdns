@@ -20,6 +20,10 @@
 <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=watchers%3A+%28today%2Ftotal%29&edge_flat=false"/></a>
 <a href="https://github.com/bebasid/bebasdns/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green"></a>
 </p>
+<p align="center">Donate us:</br>
+<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
+<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
+ </p>
 <p align="center">
     <a href="README.md">Indonesia</a> | <b>English</b>
 </p>
@@ -28,20 +32,22 @@
 
 ## Table of Content
 
-* [bebasdns](#bebasdns)
+- [bebasdns](#bebasdns)
   + [Server](#server)
-  + [Alternative Servers](#altervative-servers)
+  + [Alternative](#altervative)
     - [Unfiltered](#unfiltered)
     - [Malware](#malware)
     - [Family](#family)
   + [DNS Blocklist](#dns-blocklist)
   + [DNS Whitelist](#dns-whitelist)
   + [Upstream DNS Server](#upstream-dns-server)
-  + [Server Status](#server-status)
-  + [Security Test](#security-test)
-  + [How to Use](#how-to-use)
-  + [Contributing, Question and Request](#contributing-question-and-request)
-  + [Frequently Asked Question](#frequently-asked-question)
+  + [Maintenance](#maintenance)
+    - [Server Status](#server-status)
+    - [Security Test](#security-test) 
+  + [List of Tutorials and Questions](#list-of-tutorials-and-questions)
+    - [How to Use](#how-to-use)
+    - [Contributing, Question and Request](#contributing-question-and-request)
+    - [Frequently Asked Question](#frequently-asked-questions)
   + [Support Us!](#donate-us)
   + [License](#license)
   + [Terms and Conditions](#terms-and-conditions)
@@ -60,7 +66,7 @@ _Helping you surf securely and without limit!_
 We only record queries if there is a bug report.
 For example, if users can not access a website for troubleshooting purposes, and fixing that bug report.
 
-# Server
+## Server
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
 | DNS, IPv4 | ``147.139.211.126`` (CGK),  ``47.254.192.66`` (KUL) | ``53``, ``1753`` | 
@@ -78,9 +84,9 @@ For example, if users can not access a website for troubleshooting purposes, and
 
 
 
-# Alternative Servers
+# Alternative
 
-### Unfiltered 
+### <ins>Unfiltered</ins> 
 Without adblocking, malware blocking, and adult content blocking.
 
 | Protocol | Address |
@@ -91,10 +97,10 @@ Without adblocking, malware blocking, and adult content blocking.
 
 |  DNSCrypt Protocol   |                                         Address                                                                |
 |----------------------|----------------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tFS9kbnMtcXVlcnkvdW5maWx0ZXJlZA`` (CGK)        |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` (CGK) |
+|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tFS9kbnMtcXVlcnkvdW5maWx0ZXJlZA`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` (KUL)       |
+|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` |
 
-### Malware 
+### <ins>Malware</ins> 
 Specialized for malware blocking and without adblocking.
 
 | Protocol       |                                         Address                                            |
@@ -105,10 +111,10 @@ Specialized for malware blocking and without adblocking.
 
 |  DNSCrypt Protocol   |                                                  Address                                                    |
 |----------------------|-------------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tEi9kbnMtcXVlcnkvbWFsd2FyZQ`` (CGK)         |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (CGK)  |
+|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tEi9kbnMtcXVlcnkvbWFsd2FyZQ`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (KUL)              |
+|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (KUL)  |
 
-### Family
+### <ins>Family</ins>
 Specialized for malware blocking, adult content blocking and without adblocking.
 
 | Protocol       |                                         Address                                            |
@@ -119,10 +125,12 @@ Specialized for malware blocking, adult content blocking and without adblocking.
 
 |  DNSCrypt Protocol   |                                                Address                                                    |
 |----------------------|-----------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tES9kbnMtcXVlcnkvZmFtaWx5`` (CGK)         |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (CGK) |
+|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tES9kbnMtcXVlcnkvZmFtaWx5`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (KUL)   |
+|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (KUL) |
 
-# DNS Blocklist
+## Filter
+
+### <ins>DNS Blocklist</ins>
 | Blocklist                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------|
 | [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)                                     | 
@@ -146,7 +154,7 @@ Specialized for malware blocking, adult content blocking and without adblocking.
 | [WindowsSpyBlocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                       |
 | [URLHaus's Maliclious](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                    | 
 
-# DNS Whitelist
+### <ins>DNS Whitelist</ins>
 | Whitelist                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------------------|
 | [bebasdns's Custom Filtering Wihtelist Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-whitelist) | 
@@ -165,19 +173,21 @@ Specialized for malware blocking, adult content blocking and without adblocking.
 | glue, cyb, geek, free, indy, parody, bbs, null, oss, ing, dyn, gopher, micro, neo, pirate, oz, epic, o, chan, libre, fur, bazar, coin, emc, lib      |
 
 
-# Server Status
+### <ins>Server Status</ins>
 
 Public service status statistic:
 
 • [UptimeRobot](https://stats.uptimerobot.com/j5MjytjV8y)
 
-# Security Test
+### <ins>Security Test</ins>
 
 bebasdns has been tested for security and graded according to website:
 
 • [ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/M07B3FiY/) (A+) (May 14th, 2023).
 
-# How to Use
+## List of Tutorials and Questions
+
+### <ins>How to Use</ins>
 
 Please follow the tutorial below:
 
@@ -199,17 +209,17 @@ Please follow the tutorial below:
 
 • [iOS](https://libreddit.eu.org/r/indonesia/comments/kyyxna/comment/gjke3u7)/[macOS](https://translate.google.com/translate?hl=id&sl=en&u=https://simpledns.plus/kb/201/how-to-enable-dns-over-tls-dot-dns-over-https-doh-in-macos-v11&prev=search&pto=aue)
 
-# Contributing, Question and Request
+### <ins>Contributing, Question and Request</ins>
 
 If you have any requests or bug reports, please [open a new issue](https://github.com/bebasid/bebasid/issues/new/choose).
 
-# Frequently Asked Question
+### <ins>Frequently Asked Questions</ins>
 
 If you have any problems using bebasdns, please head to [Discord](https://discord.gg/EKrxZyu).
 
 Or you can email `dukungan@bebasid.com` with the subject **BebasDNS: [Your problem/question]**
 
-# Support Us!
+## Support Us!
 
 Help us maintain this project by donating.
 

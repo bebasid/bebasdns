@@ -34,12 +34,13 @@
 
 - [bebasdns](#bebasdns)
   + [Server](#server)
-  + [Alternative](#altervative)
-    - [Unfiltered](#unfiltered)
-    - [Malware](#malware)
-    - [Family](#family)
-  + [DNS Blocklist](#dns-blocklist)
-  + [DNS Whitelist](#dns-whitelist)
+    + [Alternative](#alternative)
+      - [Unfiltered](#unfiltered)
+      - [Malware](#malware)
+      - [Family](#family)
+   + [Filter](#filter)
+      - [DNS Blocklist](#dns-blocklist)
+      - [DNS Whitelist](#dns-whitelist)
   + [Upstream DNS Server](#upstream-dns-server)
   + [Maintenance](#maintenance)
     - [Server Status](#server-status)
@@ -48,7 +49,7 @@
     - [How to Use](#how-to-use)
     - [Contributing, Question and Request](#contributing-question-and-request)
     - [Frequently Asked Question](#frequently-asked-questions)
-  + [Support Us!](#donate-us)
+  + [Support Us](#donate-us)
   + [License](#license)
   + [Terms and Conditions](#terms-and-conditions)
 
@@ -58,7 +59,7 @@
 
 _Helping you surf securely and without limit!_
 
-**bebasdns** implements a DNS resolver with an integrated ad-blocker that runs with moderately stable uptime on a VPS/VPN
+**bebasdns** implements a DNS resolver with an integrated ad-blocker that runs with moderately stable uptime on a VPS/VPN.
 
 **bebasdns** also supports top-level domains from [OpenNIC](https://www.opennic.org/), so you can enjoy a more liberating website access experience.
 **bebasdns** disables the logging feature for user privacy because it is unimportant and consumes resources.
@@ -163,7 +164,7 @@ Specialized for malware blocking, adult content blocking and without adblocking.
 | [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | 
 | [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | 
 
-# Upstream DNS Server
+## Upstream DNS Server
 | Default                                                                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------|
 | [Cloudflare](https://www.cloudflare.com)                                                                                              | 
@@ -172,6 +173,8 @@ Specialized for malware blocking, adult content blocking and without adblocking.
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | glue, cyb, geek, free, indy, parody, bbs, null, oss, ing, dyn, gopher, micro, neo, pirate, oz, epic, o, chan, libre, fur, bazar, coin, emc, lib      |
 
+
+## Maintenance
 
 ### <ins>Server Status</ins>
 
@@ -219,7 +222,7 @@ If you have any problems using bebasdns, please head to [Discord](https://discor
 
 Or you can email `dukungan@bebasid.com` with the subject **BebasDNS: [Your problem/question]**
 
-## Support Us!
+## Donate us
 
 Help us maintain this project by donating.
 
@@ -245,4 +248,4 @@ bebasdns is licensed under [MIT License](https://github.com/bebasid/bebasdns/blo
 # Terms and Conditions
 
 
-By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use this service. For more information about the rules, you can see them on the page. [RULES](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES.md).
+By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use this service. For more information about the rules, you can see them on the page [RULES](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES.md).

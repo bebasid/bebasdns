@@ -131,6 +131,11 @@ Specialized for malware blocking, adult content blocking and without adblocking.
 
 ## Filter
 
+A filter is a mechanism for blocking access to certain content on the Internet. When going to a website, the browser sends the website name (for example, <code>google.com</code>) to a DNS server. The DNS server answers with the IP address of the server hosting this website.</br>
+
+DNS Blocklists are used to block domains known to serve ads or trackers.</br>
+DNS Whitelists are used to allow domains that blocklists would otherwise block.
+
 ### <ins>DNS Blocklist</ins>
 | Blocklist                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------|

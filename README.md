@@ -131,7 +131,7 @@ Khusus pemblokiran malware, konten dewasa, dan tanpa memblokir iklan.
 
 ## Penyaring
 
-Penyaring adalah sistem untuk memblokir akses ke konten tertentu di Internet. Saat membuka situs web, browser mengirimkan nama situs web (misalnya, </code>google.com</code>) ke server DNS. Server DNS menjawab dengan alamat IP server yang menyimpan situs web ini.</br>
+Penyaring adalah sistem untuk memblokir akses ke konten tertentu di Internet. Saat membuka situs web, browser mengirimkan nama situs web (misalnya, <code>google.com</code>) ke server DNS. Server DNS menjawab dengan alamat IP server yang menyimpan situs web ini.</br>
 
 Daftar Blokir DNS digunakan untuk memblokir domain yang diketahui menjalankan iklan atau pelacak.</br>
 Daftar Putih DNS digunakan untuk membolehkan domain yang seharusnya diblokir oleh daftar blokir.</br>

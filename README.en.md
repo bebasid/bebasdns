@@ -246,7 +246,7 @@ Help us maintain this project by donating.
 
 ## License
 
-bebasdns is licensed under [MIT License](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
+bebasdns is licensed under [MPL-2.0 License](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
 
 ---
 

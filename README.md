@@ -246,7 +246,7 @@ Bantu proyek ini agar tetap berjalan dengan cara berdonasi.
 
 ## Lisensi
 
-bebasdns dilisensikan di bawah [Lisensi MIT](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
+bebasdns dilisensikan di bawah [Lisensi MPL-2.0](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
 
 ---
 

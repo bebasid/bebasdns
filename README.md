@@ -71,7 +71,7 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
 | DNS, IPv4 | ``147.139.211.126`` (CGK),  ``47.254.192.66`` (KUL) | ``53``, ``1753`` | 
-| DNS, IPv6 | ``2001:470:36:9be:ba5::1d`` (CGK),  ``2001:470:36:b90:beba:5::1d`` (KUL) | ``53``,  ``1753`` |  
+| DNS, IPv6 | ``2a06:1287:1605:5353::beba:51d`` (CGK),  ``2001:470:36:b90:beba:5::1d`` (KUL) | ``53``,  ``1753`` |  
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/`` | |
 | DNS-over-TLS | ``dns.bebasid.com`` | |
 | DNS-over-QUIC | ``quic://dns.bebasid.com`` |

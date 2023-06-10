@@ -15,8 +15,8 @@ Salin dan tempel skrip di bawah ini ke terminal:
 
 <b>Jika jaringan-nya mendukung IPv6 dan MikroTik telah di konfigurasikan untuk IPv6 (RouterOS versi 7 atau tinggi):</b><br>
 ```
-/ipv6 firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-address=2001:470:36:b90:beba:5::1d to-ports=1753
-/ipv6 firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-address=2001:470:36:b90:beba:5::1d to-ports=1753
+/ipv6 firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-address=2a06:1287:1605:5353::beba:51d to-ports=1753
+/ipv6 firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-address=2a06:1287:1605:5353::beba:51d to-ports=1753
 ```
 <sup>Telkomsel dan XL Axiata menggunakan <i>Transparent DNS Proxy</i> untuk IPv6 nya juga. Pastikan menjalankan perintah IPv6 diatas dan menggunakan kedua ISP tersebut.</sup>
 

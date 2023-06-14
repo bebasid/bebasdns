@@ -199,7 +199,7 @@ bebasdns has been tested for security and graded according to website:
 
 Please follow the tutorial below:
 
-• [Plain DNS (Alternative Port)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#cara-memakai-port-alternatif)
+• [Plain DNS (Alternative Port)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.en.md#how-to-use-alternative-port)
 
 • [DNS-over-HTTPS](https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH))
 

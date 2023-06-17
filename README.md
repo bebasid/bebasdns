@@ -1,6 +1,6 @@
 <head>
     <meta name="google-site-verification" content="rMj01w-DUdd0GIucGjWQKzZV-w6IE0hYYCWJWYnvfSw">
-    <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn" />
+    <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh" />
 </head>
 <p align="center">
     <b>Sponsored by Atharva</b><br><br>
@@ -8,7 +8,7 @@
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="250">
     </a><br>
     <i>A freedom oriented and neutral VPS provider for your need</i><br>
-    <a href="https://delapan.click">Starting from Rp 50k</a>
+    <a href="https://delapan.click/store/vps-ssd-kvm">Starting from Rp 50k</a>
 </p>
 <hr>
 <p align="center">

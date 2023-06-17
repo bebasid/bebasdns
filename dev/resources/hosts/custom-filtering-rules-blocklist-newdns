@@ -1,5 +1,5 @@
-# Blokir Pelacak
-# [Indihome]
+### Blokir Pelacak
+### Indihome
 0.0.0.0 a01.uadexchange.com
 0.0.0.0 a02.uadexchange.com
 0.0.0.0 a03.uadexchange.com
@@ -47,12 +47,12 @@
 0.0.0.0 www.x-tags.net
 0.0.0.0 x-tags.net
 
-# [Telkomsel]
+### Telkomsel
 0.0.0.0 ads.telkomsel.com
 
-# [XL]
+### XL
 0.0.0.0 ibnads.xl.co.id
 
-# [Indosat]
+### Indosat
 0.0.0.0 ads.indosatooredoo.com
 0.0.0.0 netsafe.indosatm2.com

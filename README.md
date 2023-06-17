@@ -5,8 +5,9 @@
 <p align="center">
     <b>Sponsored by Atharva</b><br><br>
     <a href="https://www.atharva.co.id/">
-        <img src="/dev/resources/logo/sponsor/atharva_white.svg" width="300px"><br>
-    </a>
+        <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-light-mode-only" width="250">
+    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-dark-mode-only" width="250">
+    </a><br>
     <i>A freedom oriented and neutral VPS provider for your need</i>
 </p>
 <hr>

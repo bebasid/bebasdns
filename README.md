@@ -4,11 +4,11 @@
 </head>
 <p align="center">
     <b>Sponsored by Atharva</b><br><br>
-        <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-light-mode-only" width="250">
-    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-dark-mode-only" width="250">
+        <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="250">
+    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="250">
     </a><br>
     <i>A freedom oriented and neutral VPS provider for your need</i><br>
-    <a href="https://delapan.click">Starting from Rp. 50k</a>
+    <a href="https://delapan.click">Starting from Rp 50k</a>
 </p>
 <hr>
 <p align="center">

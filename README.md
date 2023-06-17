@@ -3,6 +3,14 @@
     <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn" />
 </head>
 <p align="center">
+    <b>Sponsored by Atharva</b><br><br>
+    <a href="https://www.atharva.co.id/">
+        <img src="/dev/resources/logo/sponsor/atharva_white.svg" width="300px"><br>
+    </a>
+    <i>A freedom oriented and neutral VPS provider for your need</i>
+</p>
+<hr>
+<p align="center">
     <b>Untuk ISP yang memakai DPI, gunakan <a href="https://github.com/bebasid/bebasit">bebasit</a> untuk melewati DPI atau menyalakan IPv6 jika ISP-nya mendukung.</b>
     <br><sup>Ciri-Ciri ISP anda menggunakan DPI: HTTP mengalihkan ke <code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> atau HTTPS keluar <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
     <b>Bypass DPI Kominfo di Modem/Router:</b><br>
@@ -74,11 +82,10 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 ## Peladen
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
-| DNS, IPv4 | ``147.139.211.126`` (CGK),  ``47.254.192.66`` (KUL) | ``53``, ``1753`` | 
-| DNS, IPv6 | ``2a06:1287:1605:5353::beba:51d`` (CGK),  ``2001:470:36:b90:beba:5::1d`` (KUL) | ``53``,  ``1753`` |  
+| DNS, IPv4 | ``147.139.211.126``,  ``103.87.68.24`` | ``53``, ``1753`` | 
+| DNS, IPv6 | ``2a06:1287:1605:5353::beba:51d``,  ``2a06:1287:1605:beba:51d::`` | ``53``,  ``1753`` |  
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/`` | |
 | DNS-over-TLS | ``dns.bebasid.com`` | |
-| DNS-over-QUIC | ``quic://dns.bebasid.com`` |
 | iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns.mobileconfig) | |
 | macOS | [dns-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-macos.mobileconfig) | |
 
@@ -91,47 +98,10 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 
 ## Peladen Alternatif
 
-### <ins>Unfiltered</ins> 
-Khusus tanpa pemblokiran iklan, malware dan konten dewasa.
-
-| Protocol | Address |
-|----------|---------|
-| DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/unfiltered/`` | 
-| DNS-over-TLS   | ``unfiltered.dns.bebasid.com`` |
-| DNS-over-QUIC  | ``quic://unfiltered.dns.bebasid.com`` | 
-
-|  DNSCrypt Protocol   |                                         Address                                                                |
-|----------------------|----------------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tFS9kbnMtcXVlcnkvdW5maWx0ZXJlZA`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` (KUL)        |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` |
-
 ### <ins>Malware</ins> 
 Khusus pemblokiran malware dan tanpa memblokir iklan.
 
-| Protocol       |                                         Address                                            |
-|----------------|--------------------------------------------------------------------------------------------| 
-| DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/malware/``                                             | 
-| DNS-over-TLS   | ``malware.dns.bebasid.com``                                                                |
-| DNS-over-QUIC  | ``quic://malware.dns.bebasid.com``                                                         | 
-
-|  DNSCrypt Protocol   |                                                  Address                                                    |
-|----------------------|-------------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tEi9kbnMtcXVlcnkvbWFsd2FyZQ`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (KUL)         |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (KUL)  |
-
-### <ins>Family</ins>
-Khusus pemblokiran malware, konten dewasa, dan tanpa memblokir iklan.
-
-| Protocol       |                                         Address                                            |
-|----------------|--------------------------------------------------------------------------------------------|
-| DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/family/``                                              | 
-| DNS-over-TLS   | ``family.dns.bebasid.com``                                                                 |
-| DNS-over-QUIC  | ``quic://family.dns.bebasid.com``                                                          | 
-
-|  DNSCrypt Protocol   |                                                Address                                                    |
-|----------------------|-----------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tES9kbnMtcXVlcnkvZmFtaWx5`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (KUL)         |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (KUL) |
+## COMING SOON
 
 ## Penyaring
 
@@ -144,20 +114,6 @@ Daftar Putih DNS digunakan untuk membolehkan domain yang seharusnya diblokir ole
 | Blocklist                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------|
 | [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)                                     | 
-| [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)            | 
-| [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt)      | 
-| [uBlock Origin](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt)                | 
-| [uBlock Origin Filters](https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/combined-filters.txt)  | 
-| [EasyList](https://easylist.to/easylist/easylist.txt)                                                             | 
-| [AdAway](https://adaway.org/hosts.txt)                                                                            | 
-| [MVPS](https://winhelp2002.mvps.org/hosts.txt)                                                                    | 
-| [ABP Oisd](https://abp.oisd.nl/)                                                                                  | 
-| [Cameleon](https://sysctl.org/cameleon/hosts)                                                                     | 
-| [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)                                | 
-| [URLhaus](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt)                                 | 
-| [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt)                                                       | 
-| [NoCoin](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt)                       | 
-| [YouTube Ad Blocklist](https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt)     | 
 | [WindowsSpyBlocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)      |
 | [bebasdns's Custom Filtering Blocklist Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
 | [OISD Blocklist Full](https://raw.githubusercontent.com/deep-bhatt/huawei-block-list/master/huawei-block-host.txt)      | 
@@ -189,13 +145,13 @@ Daftar Putih DNS digunakan untuk membolehkan domain yang seharusnya diblokir ole
 
 Statistik kondisi servis pelayanan publik:
 
-• [UptimeRobot](https://stats.uptimerobot.com/j5MjytjV8y)
+• [UptimeRobot](https://stats.uptimerobot.com/w66Jkc0zm7)
 
 ### <ins>Uji Keamanan</ins>
 
 bebasdns telah diuji keamanannya dan mendapatkan nilai pada website: 
 
-• [ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/M07B3FiY/) (A+) (May 14th, 2023).
+• [ImmuniWeb](https://www.immuniweb.com/websec/dns.bebasid.com/TzfTp42V/) (A+) (May 14th, 2023).
 
 ## Isi Tutorial dan Bertanya
 

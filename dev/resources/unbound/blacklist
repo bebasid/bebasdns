@@ -7,6 +7,8 @@
 #
 # =====================================
 
+# UNBOUND BLACKLIST FILE
+
 
 # Gunakan tanda strip "-" sebagai penanda nama filter
 
@@ -15,3 +17,7 @@ https://adguardteam.github.io/HostlistsRegistry/assets/filter_23.txt
  
 - BebasDNS Blocklist
 https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist
+
+# Gunakan format [NAMA_CONTAINER] untuk mengaktifkan fitur hanya di container tertentu
+
+# - [FAMILY] Anti

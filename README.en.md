@@ -83,11 +83,11 @@ For example, if users can not access a website for troubleshooting purposes, and
 ## Server
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
-| DNS, IPv4 | ``147.139.211.126`` (CGK),  ``47.254.192.66`` (KUL) | ``53``, ``1753`` | 
-| DNS, IPv6 | ``2a06:1287:1605:5353::beba:51d`` (CGK),  ``2001:470:36:b90:beba:5::1d`` (KUL) | ``53``,  ``1753`` |  
-| DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/`` | |
-| DNS-over-TLS | ``dns.bebasid.com`` | |
-| DNS-over-QUIC | ``quic://dns.bebasid.com`` |
+| DNS, IPv4 | ``103.87.68.24`` | ``53``, ``1753`` | 
+| DNS, IPv6 | ``2a06:1287:1605:5353::beba:51d`` | ``53``,  ``1753`` |  
+| DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query`` | ``443`` |
+| DNS-over-TLS | ``dns.bebasid.com`` | ``853`` |
+| DNS-over-QUIC | ``quic://dns.bebasid.com`` | ``853`` |
 | iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns.mobileconfig) | |
 | macOS | [dns-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-macos.mobileconfig) | |
 
@@ -117,30 +117,20 @@ Without adblocking, malware blocking, and adult content blocking.
 ### <ins>Malware</ins> 
 Specialized for malware blocking and without adblocking.
 
-| Protocol       |                                         Address                                            |
-|----------------|--------------------------------------------------------------------------------------------| 
-| DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/malware/``                                             | 
-| DNS-over-TLS   | ``malware.dns.bebasid.com``                                                                |
-| DNS-over-QUIC  | ``quic://malware.dns.bebasid.com``                                                         | 
-
-|  DNSCrypt Protocol   |                                                  Address                                                    |
-|----------------------|-------------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tEi9kbnMtcXVlcnkvbWFsd2FyZQ`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (KUL)              |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRIvZG5zLXF1ZXJ5L21hbHdhcmU`` (KUL)  |
+| Protocol | Address | Port |
+| -------- | ------- | :--: |
+| DNS-over-HTTPS | ``https://malware.dns.bebasid.com/dns-query`` | ``443`` |
+| DNS-over-TLS | ``malware.dns.bebasid.com`` | ``853`` |
+| DNS-over-QUIC | ``quic://malware.dns.bebasid.com`` | ``853`` |
 
 ### <ins>Family</ins>
 Specialized for malware blocking, adult content blocking and without adblocking.
 
-| Protocol       |                                         Address                                            |
-|----------------|--------------------------------------------------------------------------------------------|
-| DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/family/``                                              | 
-| DNS-over-TLS   | ``family.dns.bebasid.com``                                                                 |
-| DNS-over-QUIC  | ``quic://family.dns.bebasid.com``                                                          | 
-
-|  DNSCrypt Protocol   |                                                Address                                                    |
-|----------------------|-----------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tES9kbnMtcXVlcnkvZmFtaWx5`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (KUL)   |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbREvZG5zLXF1ZXJ5L2ZhbWlseQ`` (KUL) |
+| Protocol | Address | Port |
+| -------- | ------- | :--: |
+| DNS-over-HTTPS | ``https://family.dns.bebasid.com/dns-query`` | ``443`` |
+| DNS-over-TLS | ``family.dns.bebasid.com`` | ``853`` |
+| DNS-over-QUIC | ``quic://family.dns.bebasid.com`` | ``853`` |
 
 ## Filter
 

@@ -1,0 +1,17 @@
+# Author: haibara <haibara@bebasid.com>
+# =====================================
+#
+# The copyright holder <haibara/bebasid> grant the freedom
+# to copy, modify, convey, adapt, and/or redistribute this work 
+# under the terms of the Massachusetts Institute of Technology License.
+#
+# =====================================
+
+
+# Gunakan tanda strip "-" sebagai penanda nama filter
+
+- AdGuard 
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_23.txt
+ 
+- BebasDNS Blocklist
+https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist

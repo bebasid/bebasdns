@@ -12,6 +12,9 @@
 </p>
 <hr>
 <p align="center">
+    <b>BEBASDNS SEDANG DALAM PROSES UPGRADE, KAMI MOHON MAAF ATAS TIDAK KENYAMANAN ANDA</b>
+</p>
+<p align="center">
     <b>Untuk ISP yang memakai DPI, gunakan <a href="https://github.com/bebasid/bebasit">bebasit</a> untuk melewati DPI atau menyalakan IPv6 jika ISP-nya mendukung.</b>
     <br><sup>Ciri-Ciri ISP anda menggunakan DPI: HTTP mengalihkan ke <code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> atau HTTPS keluar <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
     <b>Bypass DPI Kominfo di Modem/Router:</b><br>

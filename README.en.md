@@ -12,6 +12,9 @@
 </p>
 <hr>
 <p align="center">
+    <b>BEBASDNS IS UNDER MAINTENANCE, WE APOLOGIZE FOR YOUR INCONVENIENCE</b>
+</p>
+<p align="center">
     <b>For an ISP that uses DPI, use <a href="https://github.com/bebasid/bebasit">bebasit</a> to bypass the DPI or turn on IPv6 if the ISP supports it.</b>
     <br><sup>Signs that your ISP implemented DPI: HTTP redirected to<code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> or HTTPS responded with <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
     <b>Bypass DPI on Modem/Router:</b><br>
@@ -87,7 +90,7 @@ For example, if users can not access a website for troubleshooting purposes, and
 | DNS, IPv6 | ``2a06:1287:1605:5353::beba:51d`` | ``53``,  ``1753`` |  
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query`` | ``443`` |
 | DNS-over-TLS | ``dns.bebasid.com`` | ``853`` |
-| DNS-over-QUIC | ``quic://dns.bebasid.com`` | ``853`` |
+| DNS-over-QUIC | ~quic://dns.bebasid.com~ | ``853`` |
 | iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns.mobileconfig) | |
 | macOS | [dns-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-macos.mobileconfig) | |
 
@@ -119,18 +122,18 @@ Specialized for malware blocking and without adblocking.
 
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
-| DNS-over-HTTPS | ``https://malware.dns.bebasid.com/dns-query`` | ``443`` |
-| DNS-over-TLS | ``malware.dns.bebasid.com`` | ``853`` |
-| DNS-over-QUIC | ``quic://malware.dns.bebasid.com`` | ``853`` |
+| DNS-over-HTTPS | ~https://malware.dns.bebasid.com/dns-query~ | ``443`` |
+| DNS-over-TLS | ~malware.dns.bebasid.com~ | ``853`` |
+| DNS-over-QUIC | ~quic://malware.dns.bebasid.com~ | ``853`` |
 
 ### <ins>Family</ins>
 Specialized for malware blocking, adult content blocking and without adblocking.
 
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
-| DNS-over-HTTPS | ``https://family.dns.bebasid.com/dns-query`` | ``443`` |
-| DNS-over-TLS | ``family.dns.bebasid.com`` | ``853`` |
-| DNS-over-QUIC | ``quic://family.dns.bebasid.com`` | ``853`` |
+| DNS-over-HTTPS | ~https://family.dns.bebasid.com/dns-query~ | ``443`` |
+| DNS-over-TLS | ~family.dns.bebasid.com~ | ``853`` |
+| DNS-over-QUIC | ~quic://family.dns.bebasid.com~ | ``853`` |
 
 ## Filter
 

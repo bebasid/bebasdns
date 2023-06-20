@@ -90,7 +90,7 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 | DNS, IPv6 | ``2a06:1287:1605:5353::beba:51d`` | ``53``,  ``1753`` |  
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query`` | ``443`` |
 | DNS-over-TLS | ``dns.bebasid.com`` | ``853`` |
-| DNS-over-QUIC | ``quic://dns.bebasid.com`` | ``853`` |
+| DNS-over-QUIC | ~quic://dns.bebasid.com~ | ``853`` |
 | iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns.mobileconfig) | |
 | macOS | [dns-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-macos.mobileconfig) | |
 
@@ -108,18 +108,18 @@ Khusus pemblokiran malware dan tanpa memblokir iklan.
 
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
-| DNS-over-HTTPS | ``https://malware.dns.bebasid.com/dns-query`` | ``443`` |
-| DNS-over-TLS | ``malware.dns.bebasid.com`` | ``853`` |
-| DNS-over-QUIC | ``quic://malware.dns.bebasid.com`` | ``853`` |
+| DNS-over-HTTPS | ~https://malware.dns.bebasid.com/dns-query~ | ``443`` |
+| DNS-over-TLS | ~malware.dns.bebasid.com~ | ``853`` |
+| DNS-over-QUIC | ~quic://malware.dns.bebasid.com~ | ``853`` |
 
 ### <ins>Family</ins> 
 Khusus pemblokiran family dan malware.
 
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
-| DNS-over-HTTPS | ``https://family.dns.bebasid.com/dns-query`` | ``443`` |
-| DNS-over-TLS | ``family.dns.bebasid.com`` | ``853`` |
-| DNS-over-QUIC | ``quic://family.dns.bebasid.com`` | ``853`` |
+| DNS-over-HTTPS | ~https://family.dns.bebasid.com/dns-query~ | ``443`` |
+| DNS-over-TLS | ~family.dns.bebasid.com~ | ``853`` |
+| DNS-over-QUIC | ~quic://family.dns.bebasid.com~ | ``853`` |
 
 ## Penyaring
 

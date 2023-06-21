@@ -71,7 +71,6 @@ _Membantumu berselancar dengan aman dan tidak terbatas!_
 
 **bebasdns** mengimplementasikan sistem DNS sekaligus ad-blocker yang dijalankan dengan menggunakan VPS/VPN uptime yang cukup stabil dan tidak menyimpan kueri. 
 
-**bebasdns** juga support top-level domain dari [OpenNIC](https://www.opennic.org/) sehingga pengalaman sebagai mengakses website menjadi lebih bebas.
 **bebasdns** menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak penting, dan tentu saja karena memakan resource. 
 
 Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri apabila jika adanya laporan bug. 

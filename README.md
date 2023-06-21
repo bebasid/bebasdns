@@ -12,9 +12,6 @@
 </p>
 <hr>
 <p align="center">
-    <b>BEBASDNS SEDANG DALAM PROSES UPGRADE, KAMI MOHON MAAF ATAS TIDAK KENYAMANAN ANDA</b>
-</p>
-<p align="center">
     <b>Untuk ISP yang memakai DPI, gunakan <a href="https://github.com/bebasid/bebasit">bebasit</a> untuk melewati DPI atau menyalakan IPv6 jika ISP-nya mendukung.</b>
     <br><sup>Ciri-Ciri ISP anda menggunakan DPI: HTTP mengalihkan ke <code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> atau HTTPS keluar <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
     <b>Bypass DPI Kominfo di Modem/Router:</b><br>
@@ -51,13 +48,10 @@
 - [bebasdns](#bebasdns)
   + [Peladen](#peladen)
     - [Alternatif](#peladen-alternatif)
-      + [Unfiltered](#unfiltered)
       + [Malware](#malware)
-      + [Family](#family)
   + [Penyaring](#penyaring)
     - [Daftar Blokir DNS](#daftar-blokir-dns)
     - [Daftar Putih DNS](#daftar-putih-dns)
-  + [Server Upstream DNS](#server-upstream-dns)
   + [Pemeliharaan](#pemeliharaan)
     - [Status Peladen](#status-peladen)
     - [Uji Keamanan](#uji-keamanan)
@@ -90,14 +84,12 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 | DNS, IPv6 | ``2a06:1287:1605:5353::beba:51d`` | ``53``,  ``1753`` |  
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query`` | ``443`` |
 | DNS-over-TLS | ``dns.bebasid.com`` | ``853`` |
-| DNS-over-QUIC | ~quic://dns.bebasid.com~ | ``853`` |
 | iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns.mobileconfig) | |
 | macOS | [dns-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-macos.mobileconfig) | |
 
 |  DNSCrypt Protocol   |                                         Address                                            |
 |----------------------|--------------------------------------------------------------------------------------------|
-| IPv4, DNS-over-HTTPS | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) |           
-| IPv6, DNS-over-HTTPS | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) | 
+| DNSCrypt Stamp | ``sdns://AgMAAAAAAAAADDEwMy44Ny42OC4yNAAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` |           
 
 
 
@@ -108,18 +100,14 @@ Khusus pemblokiran malware dan tanpa memblokir iklan.
 
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
-| DNS-over-HTTPS | ~https://malware.dns.bebasid.com/dns-query~ | ``443`` |
-| DNS-over-TLS | ~malware.dns.bebasid.com~ | ``853`` |
-| DNS-over-QUIC | ~quic://malware.dns.bebasid.com~ | ``853`` |
+| DNS, IPv4 | ``103.87.68.23`` | ``53``, ``1753`` | 
+| DNS, IPv6 | ``2001:df1:7340:c::beba:51d`` | ``53``,  ``1753`` |
+| DNS-over-HTTPS | ``https://antivirus.bebasid.com/dns-query`` | ``443`` |
+| DNS-over-TLS | ``antivirus.bebasid.com`` | ``853`` |
 
-### <ins>Family</ins> 
-Khusus pemblokiran family dan malware.
-
-| Protocol | Address | Port |
-| -------- | ------- | :--: |
-| DNS-over-HTTPS | ~https://family.dns.bebasid.com/dns-query~ | ``443`` |
-| DNS-over-TLS | ~family.dns.bebasid.com~ | ``853`` |
-| DNS-over-QUIC | ~quic://family.dns.bebasid.com~ | ``853`` |
+|  DNSCrypt Protocol   |                                         Address                                            |
+|----------------------|--------------------------------------------------------------------------------------------|
+| DNSCrypt Stamp | ``sdns://AgMAAAAAAAAADDEwMy44Ny42OC4yMwAVYW50aXZpcnVzLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` |   
 
 ## Penyaring
 
@@ -131,8 +119,6 @@ Daftar Putih DNS digunakan untuk membolehkan domain yang seharusnya diblokir ole
 ### <ins>Daftar Blokir DNS</ins>
 | Blocklist                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------|
-| [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)                                     | 
-| [WindowsSpyBlocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)      |
 | [bebasdns's Custom Filtering Blocklist Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
 | [OISD Blocklist Full](https://raw.githubusercontent.com/deep-bhatt/huawei-block-list/master/huawei-block-host.txt)      | 
 | [WindowsSpyBlocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                       |
@@ -143,19 +129,6 @@ Daftar Putih DNS digunakan untuk membolehkan domain yang seharusnya diblokir ole
 |---------------------------------------------------------------------------------------------------------------------------------------|
 | [bebasdns's Custom Filtering Wihtelist Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-whitelist) | 
 | [bebasdns's Custom Filtering Whitelist Rules 2](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/whitelist.txt) | 
-| [Filterlist for AdGuard](https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard-or-PiHole/master/filter_whitelist.txt)     | 
-| [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | 
-| [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | 
-
-## Server Upstream DNS
-| Default                                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------|
-| [Cloudflare](https://www.cloudflare.com)                                                                                              | 
-
-| [OpenNIC](https://www.opennic.org/)                                                                                                                  |
-|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| glue, cyb, geek, free, indy, parody, bbs, null, oss, ing, dyn, gopher, micro, neo, pirate, oz, epic, o, chan, libre, fur, bazar, coin, emc, lib      |
-
 
 ## Pemeliharaan
 
@@ -182,8 +155,6 @@ Silahkan ikuti panduan yang diberikan di bawah ini:
 • [DNS-over-HTTPS](https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH))
 
 • [DNS-over-TLS](https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT))
-
-• [DNS-over-QUIC](https://github.com/pengelana/blocklist/wiki/DNS-over-QUIC-(DoQ))
 
 • [Pi-Hole](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#pi-hole)
 

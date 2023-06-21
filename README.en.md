@@ -12,9 +12,6 @@
 </p>
 <hr>
 <p align="center">
-    <b>BEBASDNS IS UNDER MAINTENANCE, WE APOLOGIZE FOR YOUR INCONVENIENCE</b>
-</p>
-<p align="center">
     <b>For an ISP that uses DPI, use <a href="https://github.com/bebasid/bebasit">bebasit</a> to bypass the DPI or turn on IPv6 if the ISP supports it.</b>
     <br><sup>Signs that your ISP implemented DPI: HTTP redirected to<code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> or HTTPS responded with <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code></sup><br>
     <b>Bypass DPI on Modem/Router:</b><br>
@@ -51,13 +48,10 @@
 - [bebasdns](#bebasdns)
   + [Server](#server)
     + [Alternative](#alternative)
-      - [Unfiltered](#unfiltered)
       - [Malware](#malware)
-      - [Family](#family)
    + [Filter](#filter)
       - [DNS Blocklist](#dns-blocklist)
       - [DNS Whitelist](#dns-whitelist)
-  + [Upstream DNS Server](#upstream-dns-server)
   + [Maintenance](#maintenance)
     - [Server Status](#server-status)
     - [Security Test](#security-test) 
@@ -77,7 +71,6 @@ _Helping you surf securely and without limit!_
 
 **bebasdns** implements a DNS resolver with an integrated ad-blocker that runs with moderately stable uptime on a VPS/VPN.
 
-**bebasdns** also supports top-level domains from [OpenNIC](https://www.opennic.org/), so you can enjoy a more liberating website access experience.
 **bebasdns** disables the logging feature for user privacy because it is unimportant and consumes resources.
 
 We only record queries if there is a bug report.
@@ -90,50 +83,29 @@ For example, if users can not access a website for troubleshooting purposes, and
 | DNS, IPv6 | ``2a06:1287:1605:5353::beba:51d`` | ``53``,  ``1753`` |  
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query`` | ``443`` |
 | DNS-over-TLS | ``dns.bebasid.com`` | ``853`` |
-| DNS-over-QUIC | ~quic://dns.bebasid.com~ | ``853`` |
 | iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns.mobileconfig) | |
 | macOS | [dns-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-macos.mobileconfig) | |
 
 |  DNSCrypt Protocol   |                                         Address                                            |
 |----------------------|--------------------------------------------------------------------------------------------|
-| IPv4, DNS-over-HTTPS | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) |           
-| IPv6, DNS-over-HTTPS | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (SIN), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbQovZG5zLXF1ZXJ5`` (KUL) | 
-
+| DNSCrypt Stamp | ``sdns://AgMAAAAAAAAADDEwMy44Ny42OC4yNAAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` |      
 
 
 # Alternative
-
-### <ins>Unfiltered</ins> 
-Without adblocking, malware blocking, and adult content blocking.
-
-| Protocol | Address |
-|----------|---------|
-| DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query/unfiltered/`` | 
-| DNS-over-TLS   | ``unfiltered.dns.bebasid.com`` |
-| DNS-over-QUIC  | ``quic://unfiltered.dns.bebasid.com`` | 
-
-|  DNSCrypt Protocol   |                                         Address                                                                |
-|----------------------|----------------------------------------------------------------------------------------------------------------|
-|IPv4, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAADzE0Ny4xMzkuMjExLjEyNgAPZG5zLmJlYmFzaWQuY29tFS9kbnMtcXVlcnkvdW5maWx0ZXJlZA`` (CGK), ``sdns://AgcAAAAAAAAADTQ3LjI1NC4xOTIuNjYAD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` (KUL)       |
-|IPv6, DNS-over-HTTPS  | ``sdns://AgcAAAAAAAAAGVsyMDAxOjQ3MDozNjo5YmU6YmE1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` (CGK), ``sdns://AgcAAAAAAAAAHFsyMDAxOjQ3MDozNjpiOTA6YmViYTo1OjoxZF0AD2Rucy5iZWJhc2lkLmNvbRUvZG5zLXF1ZXJ5L3VuZmlsdGVyZWQ`` |
 
 ### <ins>Malware</ins> 
 Specialized for malware blocking and without adblocking.
 
 | Protocol | Address | Port |
 | -------- | ------- | :--: |
-| DNS-over-HTTPS | ~https://malware.dns.bebasid.com/dns-query~ | ``443`` |
-| DNS-over-TLS | ~malware.dns.bebasid.com~ | ``853`` |
-| DNS-over-QUIC | ~quic://malware.dns.bebasid.com~ | ``853`` |
+| DNS, IPv4 | ``103.87.68.23`` | ``53``, ``1753`` | 
+| DNS, IPv6 | ``2001:df1:7340:c::beba:51d`` | ``53``,  ``1753`` |
+| DNS-over-HTTPS | ``https://antivirus.bebasid.com/dns-query`` | ``443`` |
+| DNS-over-TLS | ``antivirus.bebasid.com`` | ``853`` |
 
-### <ins>Family</ins>
-Specialized for malware blocking, adult content blocking and without adblocking.
-
-| Protocol | Address | Port |
-| -------- | ------- | :--: |
-| DNS-over-HTTPS | ~https://family.dns.bebasid.com/dns-query~ | ``443`` |
-| DNS-over-TLS | ~family.dns.bebasid.com~ | ``853`` |
-| DNS-over-QUIC | ~quic://family.dns.bebasid.com~ | ``853`` |
+|  DNSCrypt Protocol   |                                         Address                                            |
+|----------------------|--------------------------------------------------------------------------------------------|
+| DNSCrypt Stamp | ``sdns://AgMAAAAAAAAADDEwMy44Ny42OC4yMwAVYW50aXZpcnVzLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk`` |   
 
 ## Filter
 
@@ -145,22 +117,6 @@ DNS Whitelists are used to allow domains that blocklists would otherwise block.
 ### <ins>DNS Blocklist</ins>
 | Blocklist                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------|
-| [AdGuard](https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt)                                     | 
-| [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/adblock/adblock.txt)            | 
-| [ABPIndo](https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt)      | 
-| [uBlock Origin](https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt)                | 
-| [uBlock Origin Filters](https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/combined-filters.txt)  | 
-| [EasyList](https://easylist.to/easylist/easylist.txt)                                                             | 
-| [AdAway](https://adaway.org/hosts.txt)                                                                            | 
-| [MVPS](https://winhelp2002.mvps.org/hosts.txt)                                                                    | 
-| [ABP Oisd](https://abp.oisd.nl/)                                                                                  | 
-| [Cameleon](https://sysctl.org/cameleon/hosts)                                                                     | 
-| [Adblock Plus](https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt)                                | 
-| [URLhaus](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-agh.txt)                                 | 
-| [EasyPrivacy](https://easylist.to/easylist/easyprivacy.txt)                                                       | 
-| [NoCoin](https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt)                       | 
-| [YouTube Ad Blocklist](https://raw.githubusercontent.com/Ewpratten/youtube_ad_blocklist/master/blocklist.txt)     | 
-| [WindowsSpyBlocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt)      |
 | [bebasdns's Custom Filtering Blocklist Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
 | [OISD Blocklist Full](https://raw.githubusercontent.com/deep-bhatt/huawei-block-list/master/huawei-block-host.txt)      | 
 | [WindowsSpyBlocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                       |
@@ -171,19 +127,6 @@ DNS Whitelists are used to allow domains that blocklists would otherwise block.
 |---------------------------------------------------------------------------------------------------------------------------------------|
 | [bebasdns's Custom Filtering Wihtelist Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-whitelist) | 
 | [bebasdns's Custom Filtering Whitelist Rules 2](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/whitelist.txt) | 
-| [Filterlist for AdGuard](https://raw.githubusercontent.com/hl2guide/Filterlist-for-AdGuard-or-PiHole/master/filter_whitelist.txt)     | 
-| [AdGuard Home Whitelist](https://raw.githubusercontent.com/hg1978/AdGuard-Home-Whitelist/master/whitelist.txt)                        | 
-| [AdGuard Home Filters](https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/whitelist.txt)                            | 
-
-## Upstream DNS Server
-| Default                                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------|
-| [Cloudflare](https://www.cloudflare.com)                                                                                              | 
-
-| [OpenNIC](https://www.opennic.org/)                                                                                                                  |
-|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| glue, cyb, geek, free, indy, parody, bbs, null, oss, ing, dyn, gopher, micro, neo, pirate, oz, epic, o, chan, libre, fur, bazar, coin, emc, lib      |
-
 
 ## Maintenance
 
@@ -210,8 +153,6 @@ Please follow the tutorial below:
 • [DNS-over-HTTPS](https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH))
 
 • [DNS-over-TLS](https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT))
-
-• [DNS-over-QUIC](https://github.com/pengelana/blocklist/wiki/DNS-over-QUIC-(DoQ))
 
 • [Pi-Hole](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#pi-hole)
 

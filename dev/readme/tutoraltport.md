@@ -6,19 +6,31 @@ Untuk mengelabuhi, yaitu memakai *port alternatif* agar bisa menggunakan **bebas
 
 Salin dan tempel skrip di bawah ini ke terminal:
 
+<b>PILIH SALAH SATU</b>
+
+<b>Default DNS</b>
+
 ``` 
-/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=147.139.211.126 to-ports=1753
-/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=147.139.211.126 to-ports=1753
-/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=47.254.192.66 to-ports=1753
-/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=47.254.192.66 to-ports=1753
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=103.87.68.24 to-ports=1753
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=103.87.68.24 to-ports=1753
 ```
 
-<b>Jika jaringan-nya mendukung IPv6 dan MikroTik telah di konfigurasikan untuk IPv6 (RouterOS versi 7 atau tinggi):</b><br>
 ```
 /ipv6 firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-address=2a06:1287:1605:5353::beba:51d to-ports=1753
 /ipv6 firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-address=2a06:1287:1605:5353::beba:51d to-ports=1753
 ```
-<b>(Telkomsel, Indihome, XL Axiata, dan Indosat menggunakan <i>Transparent DNS Proxy</i> untuk IPv6 nya. Pastikan menjalankan perintah IPv6 diatas dan menggunakan kedua ISP tersebut)</b>
+
+<b>Malware Blocking Only (Hanya memblokir situs malware)</b>
+
+``` 
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-addresses=103.87.68.23 to-ports=1753
+/ip firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-addresses=103.87.68.23 to-ports=1753
+```
+
+```
+/ipv6 firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=tcp to-address=2001:df1:7340:c::beba:51d to-ports=1753
+/ipv6 firewall nat add action=dst-nat chain=dstnat comment="DNS BebasID" dst-port=53 protocol=udp to-address=2001:df1:7340:c::beba:51d to-ports=1753
+```
 
 ### GoodbyeDPI
 
@@ -27,7 +39,7 @@ Salin dan tempel skrip di bawah ini ke terminal:
 ![tutorialygy](https://media.discordapp.net/attachments/1059052464919298049/1107666667732992130/image.png)
 
 **2. Gantikan baris di bawah ini ke bagian ``start "" goodbyedpi.exe -5``**
->  --dns-addr 147.139.211.126 --dns-port 1753 --dnsv6-addr 2001:470:36:9be:ba5::1d --dnsv6-port 1753
+>  --dns-addr 103.87.68.24 --dns-port 1753 --dnsv6-addr 2a06:1287:1605:5353::beba:51d --dnsv6-port 1753
 
 ![goodbyedpi](https://media.discordapp.net/attachments/1059052464919298049/1107664890761580574/image.png)
 
@@ -36,9 +48,9 @@ Salin dan tempel skrip di bawah ini ke terminal:
 ### Pi-Hole
 **1. Tambahkan baris di bawah ini ke Custom DNS dan wajib di ceklist.**
 
-Custom 1 (IPv4): ``147.139.211.126#1753``
+Custom 1 (IPv4): ``103.87.68.24#1753``
 
-Custom 2 (IPv4): ``47.254.192.66#1753``
+Custom 2 (IPv4): ``103.87.68.23#1753``
 
 ![Pi-Hole](https://media.discordapp.net/attachments/1059052464919298049/1059052488428372030/image.png)
 

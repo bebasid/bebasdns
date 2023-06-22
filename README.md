@@ -70,7 +70,7 @@
 
 # BebasDNS /  BebasID DNS
 
-**bebasdns** adalah implementasi sistem DNS sekaligus ad-blocker dan anti-tracking yang dijalankan dengan menggunakan VPS (Virtual Private Server) uptime yang cukup stabil, tidak menyimpan kueri, dan tidak menyimpan log dikarenakan pengguna privasi. 
+**bebasdns** / **BebasID DNS** adalah implementasi sistem DNS sekaligus ad-blocker dan anti-tracking yang dijalankan dengan menggunakan VPS (Virtual Private Server) uptime yang cukup stabil, tidak menyimpan kueri, dan tidak menyimpan log dikarenakan pengguna privasi. 
 
 Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri dan log apabila jika adanya laporan bug. 
 Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.

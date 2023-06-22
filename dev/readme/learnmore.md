@@ -13,9 +13,9 @@ DPI adalah singkatan dari <b>Deep Packet Inspection</b> yang merupakan metode pe
 
 Bayangkan jika jaringan komputer adalah jalan tol dan paket data adalah mobil yang mengantri untuk membayar di gerbang. Di tol pasti ada gerbang buat bayar kan? Gerbang itu adalah Firewall DPI dikarenakan disitu lah titik akhir mobil di tol sebelum keluar tol / kerute selanjutnya.
 
-Dikarenakan mengantri inilah mengapa laju mobil menjadi lambat (Ini bisa dianalogikan kenapa internet kita tambah lambat terutama pada jam sibuk. Dikarenakan Firewall DPI yang ada di sisi provider harus membaca miliyaran trafik yang lewat sebelum dapat dikoneksikan sehingga menjadi delay alias macet beberapa detik)
+Dikarenakan mengantri inilah mengapa laju mobil menjadi lambat (Ini bisa dianalogikan kenapa internet kita tambah lambat terutama pada jam sibuk. Dikarenakan Firewall DPI yang ada di sisi provider harus membaca miliyaran trafik yang lewat sebelum dapat dikoneksikan sehingga menjadi delay alias macet)
 
-Setiap mobil (Trafik yang anda coba kirim melalui ISP anda) harus membuktikan kalau mereka adalah pengendara yang sah di Jalan Tol tersebut (Dalam kasus ini, 'pengendara yang sah' adalah situs yang diperbolehkan untuk diakses)
+Setiap mobil (Trafik yang anda coba kirim melalui ISP anda) harus membuktikan kalau mereka adalah pengendara yang sah di Jalan Tol tersebut dengan cara membayar (Dalam kasus ini, 'pengendara yang sah' adalah situs yang diperbolehkan untuk diakses sedangkan 'cara membayar' adalah perumpamaan dari trafik-trafik yang kita lewatkan di sisi provider yang harus memberi identifikasi kepada sang provider sebelum mereka bisa lewat)
 
 ## Apa Dampak dari ISP menggunakan DPI
 

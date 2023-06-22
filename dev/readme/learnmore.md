@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://www.pngitem.com/pimgs/m/10-107139_confused-anime-girl-png-transparent-png.png" width="300px"><br>
-  <i>Saya kok mau akses situs R**dit atau V(meo gak bisa walau pake BebasDNS / File Host BebasID?</i><br><br>
+  <img src="https://www.pngitem.com/pimgs/m/10-107139_confused-anime-girl-png-transparent-png.png" width="250px"><br>
+  <i>Saya kok mau akses situs R**dit atau V*meo gak bisa walau pake BebasDNS / File Host BebasID?</i><br><br>
   <b>Itu dikarenakan provider internet anda menggunakan teknologi DPI untuk memaksa pemblokiran sehingga mengganti DNS atau pake file host tidak cukup.</b><br><br>
   <i>Apa itu DPI?</i><br><br>
   <b>Yok! Kita cari tahu!</b>
@@ -8,6 +8,14 @@
 
 ## Apa itu DPI?
 DPI adalah singkatan dari <b>Deep Packet Inspection</b> yang merupakan metode pengawasan dan analisis lalu lintas internet yang memeriksa paket data yang dikirim melalui jaringan komputer. DPI menganalisis konten dan informasi dalam paket data, termasuk header dan payload, untuk mengidentifikasi jenis aplikasi, protokol, atau layanan yang digunakan.
+
+**Masih gak ngerti?**
+
+Bayangkan jika jaringan komputer adalah jalan tol dan paket data adalah mobil yang mengantri untuk membayar di gerbang. Di tol pasti ada gerbang buat bayar kan? Gerbang itu adalah Firewall DPI dikarenakan disitu lah titik akhir mobil di tol sebelum keluar tol / kerute selanjutnya.
+
+Dikarenakan mengantri inilah mengapa laju mobil menjadi lambat (Ini bisa dianalogikan kenapa internet kita tambah lambat terutama pada jam sibuk. Dikarenakan Firewall DPI yang ada di sisi provider harus membaca miliyaran trafik yang lewat sebelum dapat dikoneksikan sehingga menjadi delay alias macet beberapa detik)
+
+Setiap mobil (Trafik yang anda coba kirim melalui ISP anda) harus membuktikan kalau mereka adalah pengendara yang sah di Jalan Tol tersebut (Dalam kasus ini, 'pengendara yang sah' adalah situs yang diperbolehkan untuk diakses)
 
 ## Apa Dampak dari ISP menggunakan DPI
 

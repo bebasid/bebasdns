@@ -122,6 +122,7 @@ Daftar Putih DNS digunakan untuk membolehkan domain yang seharusnya diblokir ole
 | [OISD Blocklist Full](https://raw.githubusercontent.com/deep-bhatt/huawei-block-list/master/huawei-block-host.txt)      | 
 | [WindowsSpyBlocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                       |
 | [URLHaus's Maliclious](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                    | 
+| [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/unbound/unbound.blacklist.conf)       |
 
 ### <ins>Daftar Putih DNS</ins>
 | Whitelist                                                                                                                             |

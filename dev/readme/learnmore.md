@@ -28,3 +28,16 @@ Dalam beberapa negara, pemerintah atau ISP menerapkan DPI sebagai bagian dari pr
 
 ## Bagaimana DPI Nasional di Indonesia bekerja?
 
+Cara Great Firewall of Indonesia bekerja adalah dengan mengirimkan paket RST ke client (dan terkadang servernya juga) jika mendeteksi user mengunjungi situs yang diblokir dengan melihat headernya. Ini mengapa mengganti DNS atau sebagainya tidak akan bekerja jika ISP anda memakai DPI untuk memblokir situs.
+
+Header yang ditargetkan untuk memblokir website oleh DPI ialah
+- Host header<br>
+  Host header merupakan identifikasi pada header http yang mengandung informasi situs yang akan kita kunjungi dan dikirimkan tanpa enkripsi sehingga Great Firewall of Indonesia bisa membacanya, menyamar menjadi server tujuan, dan membelokan request ke `http://lamanlabuh.aduankonten.id` dikarenakan situs http tidak mempunyai pengecekan seperti https dengan certificate<br>
+  
+  ![image](https://github.com/bebasid/KominFudge/assets/115700386/848147a7-a296-4686-a83e-52a844aeaeaf)<br>
+ 
+ - SNI (Server Name Indication)<br>
+   SNI (Server Name Indication) merupakan identifikasi pada header https yang mengandung informasi situs yang kita kunjungi dan biasa dikirimkan dengan bentuk plaintext sehingga bisa dibaca. Dikarenakan https bersifat terenkripsi dan aman, maka untuk memblokir situs https hanya bisa mengirimkan paket RST agar tidak bisa diakses karena semua data yang lewat terenkripsi dengan sertifikat SSL
+   
+   ![image](https://github.com/bebasid/KominFudge/assets/115700386/1e774621-2495-4434-860c-6a3d747d47e0)<br>
+   ![image](https://github.com/bebasid/KominFudge/assets/115700386/f0c4c87d-e172-44f6-8102-d3996b3e3669)<br>

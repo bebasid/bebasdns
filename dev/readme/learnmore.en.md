@@ -12,6 +12,7 @@
 </p>
 DPI is the acronym for <b>Deep Packet Inspection</b> which is a method to monitor and analyze internet traffic by inspecting data packets that are being sent via the computer network. DPI analyses information and content in every data packet, including header and payload, to identify the type of application, protocol, or service. 
 
+
 **Still do not understand?**
 
 Imagine if the computer network is a motorway and the data packet is the car which queuing to pay at the booth. You can see booth for payment, right? That booth is DPI Firewall because that is the final point of the car on the motorway before exiting the motorway / continuing to the next route.

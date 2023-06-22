@@ -3,7 +3,7 @@
     <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh" />
 </head>
 <p align="center">
-    <b><ins>BebasDNS ini telah disponsori oleh</ins>:</b><br><br>
+    <b><ins>BebasDNS / BebasID DNS ini telah disponsori oleh</ins>:</b><br><br>
         <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="330">
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="330">
     </a><br>
@@ -46,9 +46,9 @@
 
 ---
 
-## Daftar Isi
+## Daftar Isi:
 
-- [bebasdns / BebasDNS](#bebasdns---bebasdns)
+- [BebasDNS / BebasID DNS](#bebasdns---bebasid-dns)
   + [Peladen Utama](#peladen-utama)
     - [Alternatif](#peladen-alternatif)
       + [Malware](#malware)
@@ -68,16 +68,14 @@
 
 ---
 
-# bebasdns /  BebasDNS
+# BebasDNS /  BebasID DNS
 
-**bebasdns** mengimplementasikan sistem DNS sekaligus ad-blocker yang dijalankan dengan menggunakan VPS/VPN uptime yang cukup stabil dan tidak menyimpan kueri. 
+**bebasdns** adalah implementasi sistem DNS sekaligus ad-blocker dan anti-tracking yang dijalankan dengan menggunakan VPS (Virtual Private Server) uptime yang cukup stabil, tidak menyimpan kueri, dan tidak menyimpan log dikarenakan pengguna privasi. 
 
-**bebasdns** menonaktifkan fitur log dikarenakan privasi pengguna, selain itu juga tidak penting, dan tentu saja karena memakan resource. 
-
-Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri apabila jika adanya laporan bug. 
+Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri dan log apabila jika adanya laporan bug. 
 Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.
 
-## Peladen Utama
+## Peladen Utama:
 Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking), dan iklan (ads).
 
 | Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
@@ -89,7 +87,7 @@ Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking), dan ik
 | iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns.mobileconfig) | - | - |
 | macOS | [dns-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-macos.mobileconfig) | - | - |
 
-## Peladen Alternatif
+## Peladen Alternatif:
 
 ### <ins>Malware</ins> 
 Khusus pemblokiran perangkat lunak jahat (malware), Dan tanpa pelacakan (tracking) dan memblokir iklan (ads).
@@ -103,7 +101,7 @@ Khusus pemblokiran perangkat lunak jahat (malware), Dan tanpa pelacakan (trackin
 | iOS | [dns-malware.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-malware.mobileconfig) | - | - |
 | macOS | [dns-malware-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-malware-macos.mobileconfig) | - | - |
 
-## Penyaring (Ad-Blocker & Anti-Tracking)
+## Penyaring (Ad-Blocker & Anti-Tracking):
 
 Penyaring adalah sistem untuk memblokir akses ke konten tertentu di Internet. Saat membuka situs web, browser mengirimkan nama situs web (misalnya, <code><a href="https://google.com">google.com</a></code>) ke server DNS. Server DNS menjawab dengan alamat IP server yang menyimpan situs web ini.</br>
 
@@ -124,7 +122,7 @@ Digunakan untuk membolehkan domain yang seharusnya diblokir oleh daftar blokir.<
 | [BebasDNS's Custom Filtering Whitelists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-whitelist) | 
 | [BebasDNS's Whitelists](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/whitelist.txt) | 
 
-## Pemeliharaan
+## Pemeliharaan:
 
 ### <ins>Status Peladen</ins>
 
@@ -138,7 +136,7 @@ bebasdns telah diuji keamanannya dan mendapatkan nilai pada website:
 
 • [ImmuniWeb](https://www.immuniweb.com/websec/dns.bebasid.com/TzfTp42V/) (A+) (May 14th, 2023).
 
-## Isi Tutorial dan Bertanya
+## Isi Tutorial dan Bertanya:
 
 ### <ins>Cara Mengaplikasikan</ins>
 
@@ -187,12 +185,12 @@ Bantu proyek ini agar tetap berjalan dengan cara berdonasi.
 </details>
 </div>
 
-## Lisensi
+## Lisensi:
 
 bebasdns dilisensikan di bawah [Lisensi MPL-2.0](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
 
 ---
 
-# Syarat dan Ketentuan
+# Syarat dan Ketentuan:
 
 Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasdns/blob/main/dev/readme/RULES.md) nya.

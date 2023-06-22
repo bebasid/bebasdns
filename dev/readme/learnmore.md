@@ -7,6 +7,9 @@
 </p>
 
 ## Apa itu DPI?
+<p align="center">
+  <img src="https://files.horizon.pics/c40608b3-b0a7-4645-8955-4fec157fcab1?a=550&mime1=image&mime2=png">
+</p>
 DPI adalah singkatan dari <b>Deep Packet Inspection</b> yang merupakan metode pengawasan dan analisis lalu lintas internet yang memeriksa paket data yang dikirim melalui jaringan komputer. DPI menganalisis konten dan informasi dalam paket data, termasuk header dan payload, untuk mengidentifikasi jenis aplikasi, protokol, atau layanan yang digunakan.
 
 **Masih gak ngerti?**

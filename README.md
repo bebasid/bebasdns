@@ -13,7 +13,7 @@
 </p>
 <hr>
 <p align="center">
-    <b>Untuk ISP yang memakai DPI, gunakan <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> untuk melewati DPI atau menyalakan IPv6 jika ISP-nya mendukung.</b>
+    <b>Untuk ISP yang memakai Deep Packet Inspection (DPI), gunakan <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> untuk melewati DPI atau menyalakan IPv6 agar terpaksa jika ISP-nya mendukung.</b>
     <br><sup><ins>Ciri-ciri ISP-nya menggunakan DPI</ins>: <b>HTTP</b> mengalihkan ke <code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> sedangkan <b>HTTPS</b> mengerluarkan ke <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code>.</sup><br>
     <b><ins>Cara melewati DPI Kominfo di Modem/Router</ins>:</b><br>
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md">OpenWRT</a> |
@@ -50,8 +50,8 @@
 
 - [BebasDNS / BebasID DNS](#bebasdns---bebasid-dns)
   + [Peladen Utama](#peladen-utama)
-    - [Alternatif](#peladen-alternatif)
-      + [Malware](#malware)
+    - [Peladen Alternatif](#peladen-alternatif)
+      + [DNS Antivirus (Malware)](#dns-antivirus-malware)
   + [Penyaring (Ad-Blocker & Anti-Tracking)](#penyaring-ad-blocker--anti-tracking)
     - [Daftar Blokir DNS](#daftar-blokir-dns)
     - [Daftar Putih DNS](#daftar-putih-dns)
@@ -89,8 +89,8 @@ Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking), dan ik
 
 ## Peladen Alternatif:
 
-### <ins>Malware</ins> 
-Khusus pemblokiran perangkat lunak jahat (malware), Dan tanpa pelacakan (tracking) dan memblokir iklan (ads).
+### <ins>DNS Antivirus (Malware)</ins> 
+Khusus pemblokiran perangkat lunak jahat (malware), tanpa pelacakan (tracking) dan tidak memblokir iklan (ads).
 
 | Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
 | -------- | ------- | ------- | :--: |
@@ -166,7 +166,7 @@ Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silahkan [membuka
 
 Jika mengalami permasalahan saat menggunakan bebasid, silahkan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu).
 
-Atau anda bisa email ke `dukungan@bebasid.com` dengan subject **BebasDNS: [Masalah/pertanyaan anda]**
+Atau anda bisa email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subject **BebasDNS / BebasID DNS: [Masalah/pertanyaan anda]**
 
 ## Donasi Kami
 

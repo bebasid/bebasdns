@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.pngitem.com/pimgs/m/10-107139_confused-anime-girl-png-transparent-png.png" width="250px"><br>
+  <img src="https://media.discordapp.net/attachments/1059052464919298049/1121832072743485490/ezgif.com-crop.png" width="250px"><br>
   <i>I want to access R**ddit or Vimeo but am still unable to access them even with BebasID Host File / BebasDNS?</i><br><br>
   <b>That is because your internet provider is using DPI technology to enforce blocking so changing DNS or using the host file is not enough.</b><br><br>
   <i>What is DPI?</i><br><br>

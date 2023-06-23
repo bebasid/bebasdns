@@ -13,7 +13,7 @@
 </p>
 <hr>
 <p align="center">
-    <b>Untuk ISP yang memakai Deep Packet Inspection (DPI), gunakan <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> untuk melewati DPI atau menyalakan IPv6 agar terpaksa jika ISP-nya mendukung.</b>
+    <b>Untuk Penyedia Jasa Internet / Internet Service Provider (ISP) yang memakai Deep Packet Inspection (DPI), gunakan <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> untuk melewati DPI atau menyalakan versi 6 dari Protokol Internet / Internet Protocol version 6 (IPv6) agar terpaksa jika ISP-nya mendukung.</b>
     <br><sup><ins>Ciri-ciri ISP-nya menggunakan DPI</ins>: <b>HTTP</b> mengalihkan ke <code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> sedangkan <b>HTTPS</b> mengerluarkan ke <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code>.</sup><br>
     <b><ins>Cara melewati DPI Kominfo di Modem/Router</ins>:</b><br>
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md">OpenWRT</a> |
@@ -164,17 +164,15 @@ Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silahkan [membuka
 
 ### <ins>Soal Sering Ditanya</ins>
 
-Jika mengalami permasalahan saat menggunakan bebasid, silahkan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu).
-
-Atau anda bisa email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subject **BebasDNS / BebasID DNS: [Masalah/pertanyaan anda]**
+Jika mengalami permasalahan saat menggunakan BebasDNS / BebasID DNS, silahkan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu), atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasDNS / BebasID DNS: [Masalah/pertanyaan anda]**.
 
 ## Donasi Kami
 
-Bantu proyek ini agar tetap berjalan dengan cara berdonasi.
+Bantu proyek ini agar VPS BebasDNS / BebasID DNS tetap berjalan dengan cara berdonasi.
 
 <div>
 <details>
- <summary>:coffee: Traktir kita kopi.</summary>
+ <summary>:coffee: Traktir kita kopi: [v]</summary>
 
 </br>
 
@@ -193,4 +191,4 @@ bebasdns dilisensikan di bawah [Lisensi MPL-2.0](https://github.com/bebasid/beba
 
 # Syarat dan Ketentuan:
 
-Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN](https://github.com/bebasid/bebasdns/blob/main/dev/readme/RULES.md) nya.
+Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN-nya pada berikut](https://github.com/bebasid/bebasdns/blob/main/dev/readme/RULES.md).

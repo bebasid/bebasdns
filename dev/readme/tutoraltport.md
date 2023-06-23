@@ -1,3 +1,13 @@
+## Daftar Isi:
+
+- [Cara Mengaplikasikan / Memakai Port Alternatif](#cara-mengaplikasikan--memakai-port-alternatif)
+  + [MikroTik](#mikrotik)
+  + [GoodbyeDPI](#goodbyedpi)
+  + [Pi-Hole](#pi-hole)
+- [Periksa konfigurasi BebasDNS / BebasID DNS sudah berfungsi atau belum](#periksa-konfigurasi-bebasdns--bebasid-dns-sudah-berfungsi-atau-belum)
+
+---
+
 # Cara Mengaplikasikan / Memakai Port Alternatif
 Jika ISP-nya menggunakan *Transparent DNS Proxy*, maka itu tidak akan bisa menggunakan **BebasDNS / BebasID DNS** melalui `Do53 IPv4/6`.<br>
 Untuk mengelabuhi, yaitu dengan cara memakai *port alternatif* pada tersebut.
@@ -83,16 +93,14 @@ Maka hasil yang keluar adalah `0.0.0.0`, `127.0.0.1`, `::`, atau `Server Failed`
 
 ---
 
-<p align="center">Semoga bermanfaat!</br></br>Share proyek ini!</p>
+<p align="center">Terima kasih telah menggunakan layanan <a href="https://github.com/bebasid/bebasdns#readme">BebasDNS / BebasID DNS</a>.</br> Selamat meikmati kebebasan akses internet anda, selamanya!</br></br>Bagikan proyek kami!</br></br>
+    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo-black.png#gh-light-mode-only" alt="bebasDNS Black Logo" width="160">
+    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo.png#gh-dark-mode-only" alt="bebasDNS White Logo" width="160">
+</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasdns%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/bebasdns"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white"/></a>
-  <p align="center">
-:coffee: Traktir kami kopi!
-    </br>
-<a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
-<a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
     </br>
     </p>
   <p align="center">

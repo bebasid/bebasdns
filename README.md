@@ -13,7 +13,7 @@
 </p>
 <hr>
 <p align="center">
-    <b>Untuk Penyedia Jasa Internet / Internet Service Provider (ISP) yang memakai <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md">Deep Packet Inspection (DPI)</a>, gunakan <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> untuk melewati DPI atau menyalakan versi 6 dari Protokol Internet / Internet Protocol version 6 (IPv6) agar terpaksa jika ISP-nya mendukung.</b>
+    <b>Untuk Penyedia Jasa Internet / Internet Service Provider (ISP) yang memakai <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi">Deep Packet Inspection (DPI)</a>, gunakan <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> untuk melewati DPI atau menyalakan versi 6 dari Protokol Internet / Internet Protocol version 6 (IPv6) agar terpaksa jika ISP-nya mendukung.</b>
     <br><sup><ins>Ciri-ciri ISP-nya menggunakan DPI</ins>: <b>HTTP</b> mengalihkan ke <code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code> sedangkan <b>HTTPS</b> mengerluarkan ke <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code>. </br> <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md">Lihat selengkapnya</a>.</sup><br>
     <b><ins>Cara melewati DPI Kominfo di Modem/Router</ins>:</b><br>
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md">OpenWRT</a> |

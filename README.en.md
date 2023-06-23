@@ -52,7 +52,7 @@
   + [Primary Server](#primary-server)
     + [Alternative](#alternative)
       - [Malware](#malware)
-   + [Filter (Ad-Blocker & Anti-Tracking)](#filter-ad-blocker---anti-tracking)
+   + [Filter (Ad-Blocker & Anti-Tracking)](#filter-ad-blocker--anti-tracking)
       - [DNS Blocklist](#dns-blocklist)
       - [DNS Whitelist](#dns-whitelist)
   + [Maintenance](#maintenance)

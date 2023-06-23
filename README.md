@@ -20,8 +20,8 @@
     <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md">MikroTik</a>
 </p>
 <p align="center">
-    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/bebasdns-black.png#gh-light-mode-only" alt="bebasDNS Black Logo" width="445">
-    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/bebasdns-white.png#gh-dark-mode-only" alt="bebasDNS White Logo" width="445"></br>
+    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/bebasdns-black.svg#gh-light-mode-only" alt="bebasDNS Black Logo" width="445">
+    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/bebasdns-white.svg#gh-dark-mode-only" alt="bebasDNS White Logo" width="445"></br>
     <i>Membantumu berselancar dengan aman dan tidak terbatas!</i>
 </p>
 <p align="center">

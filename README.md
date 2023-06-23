@@ -187,8 +187,20 @@ Bantu proyek ini agar VPS BebasDNS / BebasID DNS tetap berjalan dengan cara berd
 
 bebasdns dilisensikan di bawah [Lisensi MPL-2.0](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
 
+## Syarat dan Ketentuan:
+
+Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. </br>Untuk selengkapnya, lihat [ATURAN-nya pada berikut](https://github.com/bebasid/bebasdns/blob/main/dev/readme/RULES.md).
+
 ---
 
-# Syarat dan Ketentuan:
-
-Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan. Untuk selengkapnya, lihat [ATURAN-nya pada berikut](https://github.com/bebasid/bebasdns/blob/main/dev/readme/RULES.md).
+<p align="center">Terima kasih telah menggunakan layanan <a href="#bebasdns---bebasid-dns">BebasDNS / BebasID DNS</a>.</br> Selamat meikmati kebebasan akses internet anda, selamanya!</br></br>Bagikan proyek kami!</br></br>
+    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo-black.png#gh-light-mode-only" alt="bebasDNS Black Logo" width="160">
+    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo.png#gh-dark-mode-only" alt="bebasDNS White Logo" width="160">
+</p>
+<div id="sosial">
+ <p align="center">
+  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasdns%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/bebasdns"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white"/></a>
+    </br>
+        </p>
+</div>

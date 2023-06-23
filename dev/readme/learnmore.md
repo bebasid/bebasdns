@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.pngitem.com/pimgs/m/10-107139_confused-anime-girl-png-transparent-png.png" width="250px"><br>
+  <img src="https://media.discordapp.net/attachments/1059052464919298049/1121832072743485490/ezgif.com-crop.png" width="250px"><br>
   <i>Saya kok mau akses situs R**dit atau V*meo gak bisa walau pake BebasDNS / File Host BebasID?</i><br><br>
   <b>Itu dikarenakan provider internet anda menggunakan teknologi DPI untuk memaksa pemblokiran sehingga mengganti DNS atau pake file host tidak cukup.</b><br><br>
   <i>Apa itu DPI?</i><br><br>

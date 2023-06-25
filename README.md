@@ -114,6 +114,7 @@ Digunakan untuk memblokir domain yang diketahui menjalankan iklan atau pelacak.<
 | [Windows Spy Blocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt) |
 | [URLHaus's Maliclious](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt) | 
 | [No Tracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/unbound/unbound.blacklist.conf) |
+| [Hagezi](https://github.com/hagezi/dns-blocklists#multi-normal---all-round-protection-) |
 
 ### <ins>Daftar Putih DNS</ins>
 Digunakan untuk membolehkan domain yang seharusnya diblokir oleh daftar blokir.</br>

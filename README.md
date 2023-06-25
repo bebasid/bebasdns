@@ -110,7 +110,7 @@ Digunakan untuk memblokir domain yang diketahui menjalankan iklan atau pelacak.<
 | Blocklists |
 | --------- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
-| [OISD Full Blocklists](https://raw.githubusercontent.com/deep-bhatt/huawei-block-list/master/huawei-block-host.txt) | 
+| [OISD Full Blocklists](https://oisd.nl/downloads) | 
 | [Windows Spy Blocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt) |
 | [URLHaus's Maliclious](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt) | 
 | [No Tracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/unbound/unbound.blacklist.conf) |

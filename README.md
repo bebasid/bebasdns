@@ -76,7 +76,7 @@ Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri dan log apabila jika adany
 Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.
 
 ## Peladen Utama:
-Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking), dan iklan (ads).
+Khusus pemblokiran perangkat lunak jahat (malware) dan link pelacakan (tracking). Tidak memblokir iklan (ads).
 
 | Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
 | -------- | ------- | ------- | :--: |

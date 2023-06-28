@@ -31,7 +31,7 @@
 <a href="#"><img src="https://img.shields.io/static/v1?label=tahun%20diluncurkan:&message=2020&color=yellowgreen&style=plastic%22"></a>
  <a href="https://ready.chair6.net/?url=dns.bebasid.com"><img src="https://img.shields.io/badge/ipv6-ready-darkblue"></a>
   <a href="https://stats.uptimerobot.com/w66Jkc0zm7"><img src="https://img.shields.io/badge/status-up-brightgreen"></a>
- <a href='https://www.immuniweb.com/ssl/dns.bebasid.com/M07B3FiY'><img src="https://img.shields.io/badge/imuniweb-A%2B-green"></a>
+ <a href='https://www.immuniweb.com/ssl/dns.bebasid.com/M07B3FiY'><img src="https://img.shields.io/badge/immuniweb-A%2B-green"></a>
 <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=penonton%3A+%28hari%20ini%2Ftotal%29&edge_flat=false"/></a>
 <a href="https://github.com/bebasid/bebasdns/blob/main/LICENSE"><img src="https://img.shields.io/badge/lisensi-MPL--2.0-blue"></a>
 </p>
@@ -70,7 +70,7 @@
 
 # BebasDNS /  BebasID DNS
 
-**bebasdns** / **BebasID DNS** adalah implementasi sistem DNS sekaligus ad-blocker dan anti-tracking yang dijalankan dengan menggunakan VPS (Virtual Private Server) Atharva dan Alibaba dengan uptime-nya cukup stabil, tidak menyimpan kueri, dan tidak menyimpan log dikarenakan pengguna privasi. 
+**bebasdns** / **BebasID DNS** adalah implementasi sistem DNS sekaligus ad-blocker dan anti-tracking yang dijalankan dengan menggunakan VPS (Virtual Private Server) Atharva dan Alibaba dengan uptime-nya cukup stabil, tidak menyimpan kueri, dan tidak menyimpan log dikarenakan privasi pengguna. 
 
 Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri dan log apabila jika adanya laporan bug. 
 Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.
@@ -110,10 +110,10 @@ Digunakan untuk memblokir domain yang diketahui menjalankan iklan atau pelacak.<
 | Blocklists |
 | --------- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
-| [OISD Full Blocklists](https://oisd.nl/downloads) | 
-| [Windows Spy Blocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt) |
-| [URLHaus's Maliclious](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt) | 
-| [No Tracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/unbound/unbound.blacklist.conf) |
+| [oisd Blocklist Big](https://big.oisd.nl/unbound) | 
+| [Windows Spy Blocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/firewall/update.txt) |
+| [Online Malicious URL Blocklist](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-unbound.conf) | 
+| [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/unbound/unbound.blacklist.conf) |
 | [Hagezi](https://github.com/hagezi/dns-blocklists#multi-normal---all-round-protection-) |
 
 ### <ins>Daftar Putih DNS</ins>
@@ -129,7 +129,7 @@ Digunakan untuk membolehkan domain yang seharusnya diblokir oleh daftar blokir.<
 
 Statistik kondisi servis pelayanan publik:
 
-• [UptimeRobot](https://stats.uptimerobot.com/w66Jkc0zm7) (Up, 100%)
+• [UptimeRobot](https://stats.uptimerobot.com/w66Jkc0zm7)
 
 ### <ins>Uji Keamanan</ins>
 

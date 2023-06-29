@@ -30,7 +30,7 @@
 <p align="center">
 <a href="#"><img src="https://img.shields.io/static/v1?label=year%20released:&message=2020&color=yellowgreen&style=plastic%22"></a>
  <a href="https://ready.chair6.net/?url=dns.bebasid.com"><img src="https://img.shields.io/badge/ipv6-ready-darkblue"></a>
-  <a href="https://stats.uptimerobot.com/j5MjytjV8y"><img src="https://img.shields.io/badge/status-up-brightgreen"></a>
+  <a href="https://stats.uptimerobot.com/w66Jkc0zm7"><img src="https://img.shields.io/badge/status-up-brightgreen"></a>
  <a href='https://www.immuniweb.com/ssl/dns.bebasid.com/M07B3FiY'><img src="https://img.shields.io/badge/immuniweb-A%2B-green"></a>
 <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=watchers%3A+%28today%2Ftotal%29&edge_flat=false"/></a>
 <a href="https://github.com/bebasid/bebasdns/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MPL--2.0-blue"></a>
@@ -76,7 +76,7 @@ We only record queries if there is a bug report.
 For example, if users can not access a website for troubleshooting purposes, and fixing that bug report.
 
 ## Primary Server:
-Specialized for malware blocking, anti-tracking, and with adblocking.
+With malware blocking and anti-tracking. Does not block ads.
 
  Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
 | -------- | ------- | ------- | :--: |
@@ -112,10 +112,11 @@ DNS Blocklists are used to block domains known to serve ads or trackers.</br>
 | Blocklist                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------|
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
-| [OISD Blocklist Full](https://raw.githubusercontent.com/deep-bhatt/huawei-block-list/master/huawei-block-host.txt)      | 
+| [OISD Full Blocklists](https://oisd.nl/downloads) | 
 | [WindowsSpyBlocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                       |
 | [URLHaus's Maliclious](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                    | 
 | [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/unbound/unbound.blacklist.conf)       |
+| [Hagezi](https://github.com/hagezi/dns-blocklists#multi-normal---all-round-protection-) |
 
 ### <ins>DNS Whitelist</ins>
 DNS Whitelists are used to allow domains that blocklists would otherwise block.

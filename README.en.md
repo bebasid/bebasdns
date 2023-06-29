@@ -198,7 +198,7 @@ By using this service, you are deemed to have read, understood, and agreed to al
 
 ---
 
-<p align="center">Thank you for using <a href="#bebasdns---bebasid-dns">BebasDNS / BebasID DNS</a> service.</br> Enjoy your internet access freedom, forever!</br></br>Share our project!</br></br>
+<p align="center">Thank you for using <a href="#bebasdns--bebasid-dns">BebasDNS / BebasID DNS</a> service.</br> Enjoy your internet access freedom, forever!</br></br>Share our project!</br></br>
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo-black.png#gh-light-mode-only" alt="bebasDNS Black Logo" width="160">
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo.png#gh-dark-mode-only" alt="bebasDNS White Logo" width="160">
 </p>

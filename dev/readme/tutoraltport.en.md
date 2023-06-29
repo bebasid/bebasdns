@@ -93,6 +93,7 @@ nslookup lamanlabuh.aduankonten.id
 
 If the result is either `0.0.0.0`, `127.0.0.1`, `::`, or `Server Failed`, **bebasdns** is already running and working properly.
 
+---
 
 <p align="center">Thank you for using <a href="#bebasdns--bebasid-dns">BebasDNS / BebasID DNS</a> service.</br> Enjoy your internet access freedom, forever!</br></br>Share our project!</br></br>
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo-black.png#gh-light-mode-only" alt="bebasDNS Black Logo" width="160">

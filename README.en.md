@@ -190,9 +190,22 @@ Help us maintain this project and keep BebasDNS / BebasID DNS VPS running by don
 
 BebasDNS / BebasID DNS is licensed under [MPL-2.0 License](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
 
----
 
 # Terms and Conditions:
 
 
 By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use this service. For more information about the rules, you can see them on the page [RULES here](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES.md).
+
+---
+
+<p align="center">Thank you for using <a href="#bebasdns---bebasid-dns">BebasDNS / BebasID DNS</a> service.</br> Enjoy your internet access freedom, forever!</br></br>Share our project!</br></br>
+    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo-black.png#gh-light-mode-only" alt="bebasDNS Black Logo" width="160">
+    <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/logo.png#gh-dark-mode-only" alt="bebasDNS White Logo" width="160">
+</p>
+<div id="sosial">
+ <p align="center">
+  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasdns%20%23BlokirKominfo%20%23BlokirGakPakeMikir"><img src="https://img.shields.io/badge/Twitter-blue?style=flat&logo=twitter&logoColor=white"/></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/bebasdns"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white"/></a>
+    </br>
+        </p>
+</div>

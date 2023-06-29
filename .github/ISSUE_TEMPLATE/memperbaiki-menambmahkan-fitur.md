@@ -3,7 +3,7 @@ name: Memperbaiki/Menambmahkan fitur
 about: Memperbaiki atau Menambahkan untuk mengenai DNS.
 title: "[REQ/FIX]"
 labels: dns, request
-assignees: SlashyID, icaksh
+assignees: SlashyID, icaksh, gvoze32
 
 ---
 

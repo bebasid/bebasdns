@@ -93,8 +93,8 @@ With malware blocking and anti-tracking. Does not block ads.
 ### <ins>Malware</ins> 
 Specialized for malware blocking and without anti-tracking and adblocking.
 
-| Protocol | Address | Port |
-| -------- | ------- | :--: |
+| Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
+| -------- | ------- | ------- | :--: |
 | Plain DNS, IPv4 | ``103.87.68.23`` | IPv4 (Port 53):</br> ``sdns://AAcAAAAAAAAADzEwMy44Ny42OC4yMzo1Mw``,</br> IPv4 (Port 1753):</br> ``sdns://AAcAAAAAAAAAETEwMy44Ny42OC4yMzoxNzUz`` | ``53``,</br> ``1753`` | 
 | Plain DNS, IPv6 | ``2001:df1:7340:c::beba:51d`` | IPv6 (Port 53):</br> ``sdns://sdns://AAcAAAAAAAAAHlsyMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXTo1Mw``,</br> IPv6 (Port 1753):</br> ``sdns://AAcAAAAAAAAAIFsyMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXToxNzUz``  | ``53``,</br>  ``1753`` |  
 | DNS-over-HTTPS | ``https://antivirus.bebasid.com/dns-query`` | IPv4:</br> ``sdns://AgcAAAAAAAAADDEwMy44Ny42OC4yMwAZYW50aXZpcnVzLmJlYmFzaWQuY29tOjQ0MwovZG5zLXF1ZXJ5``,</br> IPv6:</br> ``sdns://AgcAAAAAAAAAG1syMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXQAZYW50aXZpcnVzLmJlYmFzaWQuY29tOjQ0MwovZG5zLXF1ZXJ5`` | ``443`` |

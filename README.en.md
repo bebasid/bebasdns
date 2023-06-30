@@ -90,7 +90,7 @@ With malware blocking and anti-tracking. Does not block ads.
 
 # Alternative:
 
-### <ins>Malware</ins> 
+### <ins>Antivirus</ins> 
 Specialized for malware blocking and without anti-tracking and adblocking.
 
 | Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |

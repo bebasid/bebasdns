@@ -3,7 +3,7 @@
     <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh" />
 </head>
 <p align="center">
-    <b><ins>BebasDNS / BebasID DNS ini telah disponsori oleh</ins>:</b><br><br>
+    <b><ins><a href=#bebasdns---bebasid-dns>BebasDNS / BebasID DNS</a> ini telah disponsori oleh</ins>:</b><br><br>
         <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="330">
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="330">
     </a><br>

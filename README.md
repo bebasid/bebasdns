@@ -28,7 +28,7 @@
 <a href="#"><img src="https://img.shields.io/static/v1?label=tahun%20diluncurkan:&message=2020&color=yellowgreen&style=plastic%22"></a>
  <a href="https://ready.chair6.net/?url=dns.bebasid.com"><img src="https://img.shields.io/badge/ipv6-ready-darkblue"></a>
   <a href="https://stats.uptimerobot.com/w66Jkc0zm7"><img src="https://img.shields.io/badge/status-up-brightgreen"></a>
- <a href='https://www.immuniweb.com/ssl/dns.bebasid.com/M07B3FiY'><img src="https://img.shields.io/badge/immuniweb-A%2B-green"></a>
+ <a href='https://www.immuniweb.com/ssl/dns.bebasid.com/RVFRHImh'><img src="https://img.shields.io/badge/immuniweb-A%2B-green"></a>
 <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=penonton%3A+%28hari%20ini%2Ftotal%29&edge_flat=false"/></a>
 <a href="https://github.com/bebasid/bebasdns/blob/main/LICENSE"><img src="https://img.shields.io/badge/lisensi-MPL--2.0-blue"></a>
 </p>
@@ -145,7 +145,7 @@ Statistik kondisi servis pelayanan publik:
 
 bebasdns telah diuji keamanannya dan mendapatkan nilai pada website: 
 
-• [ImmuniWeb](https://www.immuniweb.com/websec/dns.bebasid.com/TzfTp42V/) (A+) (May 14th, 2023).
+• [ImmuniWeb](https://www.immuniweb.com/websec/dns.bebasid.com/RVFRHImh/) **(A+)** (13 Juli 2023).
 
 ## Isi Tutorial dan Bertanya:
 

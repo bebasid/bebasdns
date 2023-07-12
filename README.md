@@ -169,7 +169,7 @@ Silahkan ikuti panduan yang diberikan di bawah ini:
 
 • [iOS](https://libreddit.eu.org/r/indonesia/comments/kyyxna/comment/gjke3u7)/[macOS](https://translate.google.com/translate?hl=id&sl=en&u=https://simpledns.plus/kb/201/how-to-enable-dns-over-tls-dot-dns-over-https-doh-in-macos-v11&prev=search&pto=aue)
 
-### <ins>Cara Melaporkan, atau Permintaan</ins>
+### <ins>Cara Melaporkan atau Permintaan</ins>
 
 Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silahkan [membuka isu baru](https://github.com/bebasid/bebasdns/issues/new/choose).
 

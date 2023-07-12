@@ -177,7 +177,7 @@ Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silahkan [membuka
 
 Jika mengalami permasalahan saat menggunakan [BebasDNS / BebasID DNS](#bebasdns---bebasid-dns), silahkan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu), atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasDNS / BebasID DNS: [Masalah/pertanyaan anda]**.
 
-## Donasi Kami
+## Donasi Kami:
 
 Bantu proyek ini agar VPS [BebasDNS / BebasID DNS](#bebasdns---bebasid-dns) tetap berjalan dengan cara berdonasi.
 

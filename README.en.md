@@ -128,8 +128,7 @@ DNS Blocklists are used to block domains known to serve ads or trackers.</br>
 
 ### <ins>DNS Whitelist</ins>
 DNS Whitelists are used to allow domains that blocklists would otherwise block.
-| Whitelists
-|
+| Whitelists                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------------------|
 | [BebasDNS's Custom Filtering Whitelists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-whitelist) | 
 | [BebasDNS's Whitelists](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/whitelist.txt) | 

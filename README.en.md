@@ -3,7 +3,7 @@
     <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh" />
 </head>
 <p align="center">
-    <b>BebasDNS / BebasID DNS is sponsored by Atharva</b><br><br>
+    <b><a href=#bebasdns---bebasid-dns>BebasDNS / BebasID DNS</a> is sponsored by Atharva</b><br><br>
         <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="330">
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="330">
     </a><br>
@@ -25,24 +25,32 @@
 <i>Helping you surfing securely and without limit!</i>
 </p>
 <p align="center">
-<a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join BEBASID Discord"></a>
- </p>
-<p align="center">
-<a href="#"><img src="https://img.shields.io/static/v1?label=year%20released:&message=2020&color=yellowgreen&style=plastic%22"></a>
+<a href="#"><img src="https://img.shields.io/static/v1?label=year%20released:&message=2020&color=yellowgreen&style=plastic%22"></a></br>
  <a href="https://ready.chair6.net/?url=dns.bebasid.com"><img src="https://img.shields.io/badge/ipv6-ready-darkblue"></a>
   <a href="https://stats.uptimerobot.com/w66Jkc0zm7"><img src="https://img.shields.io/badge/status-up-brightgreen"></a>
- <a href='https://www.immuniweb.com/ssl/dns.bebasid.com/M07B3FiY'><img src="https://img.shields.io/badge/immuniweb-A%2B-green"></a>
-<a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=watchers%3A+%28today%2Ftotal%29&edge_flat=false"/></a>
+ <a href='https://www.immuniweb.com/ssl/dns.bebasid.com/RVFRHImh'><img src="https://img.shields.io/badge/ssl%20immuniweb-A%2B-green"></a></br>
+<a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=penonton%3A+%28hari%20ini%2Ftotal%29&edge_flat=false"/></a></br>
 <a href="https://github.com/bebasid/bebasdns/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MPL--2.0-blue"></a>
 </p>
+
+<p align="center">
+        <code>Discord Server:</code></br>
+<a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner2" alt="Join BEBASID Discord"></a>
+ </p>
+
 <p align="center"><code>Donate us:</code></br>
 <a href="https://trakteer.id/bebasidbykini"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433"></a>
 <a href="https://saweria.co/bebasid"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B"></a>
  </p>
-<p align="center">
+
+<div align="center">
     <code>Bahasa / Languages:</code></br>
-    <a href="README.md">Indonesia</a> | <b><ins>English</ins></b>
-</p>
+<table>
+  <tr>
+    <td valign="center"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/>Indonesia</td>
+    <td valign="center"><a href="README.en.md"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> <b><ins>English<ins></b></td>
+</table>
+</div>
 
 ---
 
@@ -109,18 +117,19 @@ A filter is a mechanism for blocking access to certain content on the Internet. 
 
 ### <ins>DNS Blocklist</ins>
 DNS Blocklists are used to block domains known to serve ads or trackers.</br>
-| Blocklist                                                                                                         |
-|-------------------------------------------------------------------------------------------------------------------|
+| Blocklists |
+| --------- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
-| [OISD Full Blocklists](https://oisd.nl/downloads) | 
-| [WindowsSpyBlocker](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                       |
-| [URLHaus's Maliclious](https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/Hosts.txt)                    | 
+| [oisd Blocklist Big](https://big.oisd.nl/unbound) | 
+| [Windows Spy Blocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/firewall/update.txt) |
+| [Online Malicious URL Blocklist](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-unbound.conf) | 
 | [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/unbound/unbound.blacklist.conf)       |
 | [Hagezi](https://github.com/hagezi/dns-blocklists#multi-normal---all-round-protection-) |
 
 ### <ins>DNS Whitelist</ins>
 DNS Whitelists are used to allow domains that blocklists would otherwise block.
-| Whitelist                                                                                                                             |
+| Whitelists
+|
 |---------------------------------------------------------------------------------------------------------------------------------------|
 | [BebasDNS's Custom Filtering Whitelists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-whitelist) | 
 | [BebasDNS's Whitelists](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/whitelist.txt) | 
@@ -137,7 +146,7 @@ Public service status statistic:
 
 BebasDNS / BebasID DNS has been tested for security and graded according to website:
 
-• [ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/M07B3FiY/) (A+) (May 14th, 2023).
+• [ImmuniWeb SSL](https://www.immuniweb.com/ssl/dns.bebasid.com/RVFRHImh/) (A+) (13 July 2023).
 
 ## List of Tutorials and Questions:
 

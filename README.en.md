@@ -47,8 +47,8 @@
     <code>Bahasa / Languages:</code></br>
 <table>
   <tr>
-    <td valign="center"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/>Indonesia</td>
-    <td valign="center"><a href="README.en.md"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> <b><ins>English<ins></b></td>
+    <td valign="center"><a href="README.md"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/>Indonesia</td>
+    <td valign="center"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> <b><ins>English<ins></b></td>
 </table>
 </div>
 

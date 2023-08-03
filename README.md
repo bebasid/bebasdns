@@ -124,7 +124,6 @@ Digunakan untuk memblokir domain yang diketahui menjalankan iklan atau pelacak.<
 | [Windows Spy Blocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/firewall/update.txt) |
 | [Online Malicious URL Blocklist](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-unbound.conf) | 
 | [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/unbound/unbound.blacklist.conf) |
-| [Hagezi](https://github.com/hagezi/dns-blocklists#multi-normal---all-round-protection-) |
 
 ### <ins>Daftar Putih DNS</ins>
 Digunakan untuk membolehkan domain yang seharusnya diblokir oleh daftar blokir.</br>

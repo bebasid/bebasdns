@@ -124,7 +124,6 @@ DNS Blocklists are used to block domains known to serve ads or trackers.</br>
 | [Windows Spy Blocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/firewall/update.txt) |
 | [Online Malicious URL Blocklist](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-unbound.conf) | 
 | [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/unbound/unbound.blacklist.conf)       |
-| [Hagezi](https://github.com/hagezi/dns-blocklists#multi-normal---all-round-protection-) |
 
 ### <ins>DNS Whitelist</ins>
 DNS Whitelists are used to allow domains that blocklists would otherwise block.

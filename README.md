@@ -152,6 +152,8 @@ bebasdns telah diuji keamanannya dan mendapatkan nilai pada website:
 
 Silahkan ikuti panduan yang diberikan di bawah ini:
 
+• [Microsoft Windows 11](https://github.com/bebasid/bebasdns/blob/main/dev/readme/windows11.md)
+
 • [Plain DNS (Port Alternatif)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#cara-memakai-port-alternatif)
 
 • [DNS-over-HTTPS](https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH))

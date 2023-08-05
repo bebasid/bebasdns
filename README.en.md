@@ -152,6 +152,8 @@ BebasDNS / BebasID DNS has been tested for security and graded according to webs
 
 Please follow the tutorial below:
 
+• [Microsoft Windows 11](https://github.com/bebasid/bebasdns/blob/main/dev/readme/windows11.en.md)
+
 • [Plain DNS (Alternative Port)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.en.md#how-to-use-alternative-port)
 
 • [DNS-over-HTTPS](https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH))

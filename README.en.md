@@ -60,7 +60,7 @@
   + [Primary Server](#primary-server)
     + [Alternative](#alternative)
       - [Antivirus](#antivirus)
-      - [Healthy Internet DNS (Family)](#family)
+      - [Family](#family)
    + [Filter (Ad-Blocker & Anti-Tracking)](#filter-ad-blocker--anti-tracking)
       - [DNS Blocklist](#dns-blocklist)
       - [DNS Whitelist](#dns-whitelist)
@@ -116,7 +116,7 @@ Specialized for malware blocking and without anti-tracking and adblocking.
 | iOS | [dns-malware.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-malware.mobileconfig) | - | - |
 | macOS | [dns-malware-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-malware-macos.mobileconfig) | - | - |
 
-### <ins>Healthy Internet DNS (Family)</ins> r
+### <ins>Family</ins> 
 Specialized for hate speech/gore, adult (18+), gambling, and other negative things.</br> Only blocking malware and tracker and does not block ads.
 
 | Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |

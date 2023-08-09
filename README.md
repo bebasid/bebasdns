@@ -135,14 +135,21 @@ Khusus pemblokiran situs kebencian/gore, stius 18+, situs judi, dan situs hal ne
 Penyaring adalah sistem untuk memblokir akses ke konten tertentu di Internet. Saat membuka situs web, browser mengirimkan nama situs web (misalnya, <code><a href="https://google.com">google.com</a></code>) ke server DNS. Server DNS menjawab dengan alamat IP server yang menyimpan situs web ini.</br>
 
 ### <ins>Daftar Blokir DNS</ins>
-Digunakan untuk memblokir domain yang diketahui menjalankan iklan atau pelacak.</br>
-| Blocklists |
+Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
+| Blocklists - For Default |
 | --------- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
-| [oisd Blocklist Big](https://big.oisd.nl/unbound) | 
-| [Windows Spy Blocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/firewall/update.txt) |
-| [Online Malicious URL Blocklist](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-unbound.conf) | 
-| [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/unbound/unbound.blacklist.conf) |
+| [Hagezi](https://github.com/hagezi/dns-blocklists/) | 
+
+| Blocklists - For Antivirus Variant |
+| --------- |
+| [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
+| [Hagezi](https://github.com/hagezi/dns-blocklists/) | 
+| [URLHaus](https://urlhaus.abuse.ch/) |
+
+| Blocklists - For Internet Sehat Variant |
+| --------- |
+| UNDER CONSTRUCTION | 
 
 ### <ins>Daftar Putih DNS</ins>
 Digunakan untuk membolehkan domain yang seharusnya diblokir oleh daftar blokir.</br>

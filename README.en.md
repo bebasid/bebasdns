@@ -136,14 +136,21 @@ Specialized for hate speech/gore, adult (18+), gambling, and other negative thin
 A filter is a mechanism for blocking access to certain content on the Internet. When going to a website, the browser sends the website name (for example, <code>google.com</code>) to a DNS server. The DNS server answers with the IP address of the server hosting this website.</br>
 
 ### <ins>DNS Blocklist</ins>
-DNS Blocklists are used to block domains known to serve ads or trackers.</br>
-| Blocklists |
+DNS Blocklists are used to block domains according to each DNS resolver specializations.</br>
+| Blocklists  - For Default |
 | --------- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
-| [oisd Blocklist Big](https://big.oisd.nl/unbound) | 
-| [Windows Spy Blocker](https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/firewall/update.txt) |
-| [Online Malicious URL Blocklist](https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-unbound.conf) | 
-| [NoTracking](https://raw.githubusercontent.com/notracking/hosts-blocklists/master/unbound/unbound.blacklist.conf)       |
+| [Hagezi](https://github.com/hagezi/dns-blocklists/) | 
+
+| Blocklists - For Antivirus Variant |
+| --------- |
+| [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
+| [Hagezi](https://github.com/hagezi/dns-blocklists/) | 
+| [URLHaus](https://urlhaus.abuse.ch/) |
+
+| Blocklists - For Healthy Internet Variant |
+| --------- |
+| UNDER CONSTRUCTION | 
 
 ### <ins>DNS Whitelist</ins>
 DNS Whitelists are used to allow domains that blocklists would otherwise block.

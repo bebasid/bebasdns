@@ -60,6 +60,7 @@
   + [Peladen Utama](#peladen-utama)
     - [Peladen Alternatif](#peladen-alternatif)
       + [DNS Antivirus (Malware)](#dns-antivirus-malware)
+      + [DNS Internet Sehat (Family)](#dns-internet-sehat-family)
   + [Penyaring (Ad-Blocker & Anti-Tracking)](#penyaring-ad-blocker--anti-tracking)
     - [Daftar Blokir DNS](#daftar-blokir-dns)
     - [Daftar Putih DNS](#daftar-putih-dns)

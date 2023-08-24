@@ -60,6 +60,7 @@
   + [Peladen Utama](#peladen-utama)
     - [Peladen Alternatif](#peladen-alternatif)
       + [DNS Antivirus (Malware)](#dns-antivirus-malware)
+      + [DNS Unfiltered](#dns-unfiltered)
       + [DNS Internet Sehat (Family)](#dns-internet-sehat-family)
   + [Penyaring (Ad-Blocker & Anti-Tracking)](#penyaring-ad-blocker--anti-tracking)
     - [Daftar Blokir DNS](#daftar-blokir-dns)
@@ -107,6 +108,18 @@ Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking) dan tid
 | Plain DNS, IPv6 | ``2a12:dd47:d303:beba:51d::5353`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://sdns://AAcAAAAAAAAAHlsyMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXTo1Mw``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAIFsyMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXToxNzUz``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``antivirus.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwcAAAAAAAAAEDEwMy44Ny42OC4yMzo4NTMAFWFudGl2aXJ1cy5iZWJhc2lkLmNvbQ``,</br> <ins>IPv6</ins>:</br> ``sdns://AwcAAAAAAAAAH1syMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXTo4NTMAFWFudGl2aXJ1cy5iZWJhc2lkLmNvbQ`` | ``853`` |
 | DNS-over-HTTPS | ``https://antivirus.bebasid.com/dns-query`` | <ins>IPv4</ins>:</br> ``sdns://AgcAAAAAAAAADDEwMy44Ny42OC4yMwAZYW50aXZpcnVzLmJlYmFzaWQuY29tOjQ0MwovZG5zLXF1ZXJ5``,</br> <ins>IPv6</ins>:</br> ``sdns://AgcAAAAAAAAAG1syMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXQAZYW50aXZpcnVzLmJlYmFzaWQuY29tOjQ0MwovZG5zLXF1ZXJ5`` | ``443`` |
+| iOS | [dns-malware.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-malware.mobileconfig) | - | - |
+| macOS | [dns-malware-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-malware-macos.mobileconfig) | - | - |
+
+### <ins>DNS Unfiltered</ins> 
+BebasDNS Tanpa Pemblokiran Apapun
+
+| Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
+| -------- | ------- | ------- | :--: |
+| Plain DNS, IPv4 | ``103.87.68.193`` | | ``53``,</br> ``1753`` | 
+| Plain DNS, IPv6 | ``2a05:dfc7:bca0:d01c::2`` |  | ``53``,</br>  ``1753`` |  
+| DNS-over-TLS | ``unfiltered.dns.bebasid.com`` | | ``853`` |
+| DNS-over-HTTPS | ``https://dns.bebasid.com/unfiltered`` | | ``443`` |
 | iOS | [dns-malware.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-malware.mobileconfig) | - | - |
 | macOS | [dns-malware-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-malware-macos.mobileconfig) | - | - |
 

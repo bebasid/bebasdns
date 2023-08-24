@@ -89,8 +89,8 @@ With malware blocking and anti-tracking. Does not block ads.
 
  Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
 | -------- | ------- | ------- | :--: |
-| Plain DNS, IPv4 | ``103.87.68.24`` | IPv4 (Port 53):</br> ``sdns://AAMAAAAAAAAADzEwMy44Ny42OC4yNDo1Mw``,</br> IPv4 (Port 1753):</br> ``sdns://AAMAAAAAAAAAETEwMy44Ny42OC4yNDoxNzUz`` | ``53``,</br> ``1753`` | 
-| Plain DNS, IPv6 | ``2a06:1287:1605:5353::beba:51d`` | IPv6 (Port 53):</br> ``sdns://AAMAAAAAAAAAIlsyYTA2OjEyODc6MTYwNTo1MzUzOjpiZWJhOjUxZF06NTM``,</br> IPv6 (Port 1753):</br> ``sdns://AAMAAAAAAAAAJFsyYTA2OjEyODc6MTYwNTo1MzUzOjpiZWJhOjUxZF06MTc1Mw``  | ``53``,</br>  ``1753`` |  
+| Plain DNS, IPv4 | ``103.87.68.194`` | <ins>IPv4 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAADzEwMy44Ny42OC4yNDo1Mw``,</br> <ins>IPv4 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAETEwMy44Ny42OC4yNDoxNzUz`` | ``53``,</br> ``1753`` | 
+| Plain DNS, IPv6 | ``2a12:dd47:d303:beba:51d::53`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAIlsyYTA2OjEyODc6MTYwNTo1MzUzOjpiZWJhOjUxZF06NTM``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAJFsyYTA2OjEyODc6MTYwNTo1MzUzOjpiZWJhOjUxZF06MTc1Mw``  | ``53``,</br>  ``1753`` |  
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query`` | IPv4:</br> ``sdns://AgMAAAAAAAAADDEwMy44Ny42OC4yNAAPZG5zLmJlYmFzaWQuY29tCi9kbnMtcXVlcnk``,</br> IPv6:</br> ``sdns://AgMAAAAAAAAAH1syYTA2OjEyODc6MTYwNTo1MzUzOjpiZWJhOjUxZF0AE2Rucy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`` | ``443`` |
 | DNS-over-TLS | ``dns.bebasid.com`` | IPv4:</br> ``sdns://AwMAAAAAAAAAEDEwMy44Ny42OC4yNDo4NTMAD2Rucy5iZWJhc2lkLmNvbQ``,</br> IPv6:</br> ``sdns://AwMAAAAAAAAAI1syYTA2OjEyODc6MTYwNTo1MzUzOjpiZWJhOjUxZF06ODUzAA9kbnMuYmViYXNpZC5jb20`` | ``853`` |
 | DNS-over-QUIC (HTTP/3) | **[Not Available Yet](https://github.com/bebasid/bebasdns/issues/34#issuecomment-1656274731)** | **[Not Available Yet](https://github.com/bebasid/bebasdns/issues/34#issuecomment-1656274731)** | **[Not Available Yet](https://github.com/bebasid/bebasdns/issues/34#issuecomment-1656274731)** |
@@ -106,8 +106,8 @@ Specialized for malware blocking and without anti-tracking and adblocking.
 
 | Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
 | -------- | ------- | ------- | :--: |
-| Plain DNS, IPv4 | ``103.87.68.23`` | IPv4 (Port 53):</br> ``sdns://AAcAAAAAAAAADzEwMy44Ny42OC4yMzo1Mw``,</br> IPv4 (Port 1753):</br> ``sdns://AAcAAAAAAAAAETEwMy44Ny42OC4yMzoxNzUz`` | ``53``,</br> ``1753`` | 
-| Plain DNS, IPv6 | ``2001:df1:7340:c::beba:51d`` | IPv6 (Port 53):</br> ``sdns://sdns://AAcAAAAAAAAAHlsyMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXTo1Mw``,</br> IPv6 (Port 1753):</br> ``sdns://AAcAAAAAAAAAIFsyMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXToxNzUz``  | ``53``,</br>  ``1753`` |  
+| Plain DNS, IPv4 | ``103.87.68.195`` | <ins>IPv4 (**Port 53**)</ins>:</br> ``sdns://AAcAAAAAAAAADzEwMy44Ny42OC4yMzo1Mw``,</br> <ins>IPv4 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAETEwMy44Ny42OC4yMzoxNzUz`` | ``53``,</br> ``1753`` | 
+| Plain DNS, IPv6 | ``2a12:dd47:d303:beba:51d::5353`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://sdns://AAcAAAAAAAAAHlsyMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXTo1Mw``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAIFsyMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXToxNzUz``  | ``53``,</br>  ``1753`` |  
 | DNS-over-HTTPS | ``https://antivirus.bebasid.com/dns-query`` | IPv4:</br> ``sdns://AgcAAAAAAAAADDEwMy44Ny42OC4yMwAZYW50aXZpcnVzLmJlYmFzaWQuY29tOjQ0MwovZG5zLXF1ZXJ5``,</br> IPv6:</br> ``sdns://AgcAAAAAAAAAG1syMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXQAZYW50aXZpcnVzLmJlYmFzaWQuY29tOjQ0MwovZG5zLXF1ZXJ5`` | ``443`` |
 | DNS-over-TLS | ``antivirus.bebasid.com`` | IPv4:</br> ``sdns://AwcAAAAAAAAAEDEwMy44Ny42OC4yMzo4NTMAFWFudGl2aXJ1cy5iZWJhc2lkLmNvbQ``,</br> IPv6:</br> ``sdns://AwcAAAAAAAAAH1syMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXTo4NTMAFWFudGl2aXJ1cy5iZWJhc2lkLmNvbQ`` | ``853`` |
 | DNS-over-QUIC (HTTP/3) | **[Not Available Yet](https://github.com/bebasid/bebasdns/issues/34#issuecomment-1656274731)** | **[Not Available Yet](https://github.com/bebasid/bebasdns/issues/34#issuecomment-1656274731)** | **[Not Available Yet](https://github.com/bebasid/bebasdns/issues/34#issuecomment-1656274731)** |
@@ -121,8 +121,8 @@ Specialized for hate speech/gore, adult (18+), gambling, and other negative thin
 
 | Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
 | -------- | ------- | ------- | :--: |
-| Plain DNS, IPv4 | ``103.87.68.72`` | <ins>IPv4 (**Port 53**)</ins>:</br> ``sdns://AAcAAAAAAAAADzEwMy44Ny42OC43Mjo1Mw``,</br> <ins>IPv4 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAETEwMy44Ny42OC43MjoxNzUz`` | ``53``,</br> ``1753`` | 
-| Plain DNS, IPv6 | ``2a06:1287:1605:b00b:beba::51d`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAcAAAAAAAAAIlsyYTA2OjEyODc6MTYwNTpiMDBiOmJlYmE6OjUxZF06NTM``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAJFsyYTA2OjEyODc6MTYwNTpiMDBiOmJlYmE6OjUxZF06MTc1Mw``  | ``53``,</br>  ``1753`` |  
+| Plain DNS, IPv4 | ``103.87.68.196`` | <ins>IPv4 (**Port 53**)</ins>:</br> ``sdns://AAcAAAAAAAAADzEwMy44Ny42OC43Mjo1Mw``,</br> <ins>IPv4 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAETEwMy44Ny42OC43MjoxNzUz`` | ``53``,</br> ``1753`` | 
+| Plain DNS, IPv6 | ``2a12:dd47:d303:b00b:beba::51d`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAcAAAAAAAAAIlsyYTA2OjEyODc6MTYwNTpiMDBiOmJlYmE6OjUxZF06NTM``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAJFsyYTA2OjEyODc6MTYwNTpiMDBiOmJlYmE6OjUxZF06MTc1Mw``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``internetsehat.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwcAAAAAAAAAEDEwMy44Ny42OC43Mjo4NTMAGWludGVybmV0c2VoYXQuYmViYXNpZC5jb20``,</br> <ins>IPv6</ins>:</br> ``sdns://AwcAAAAAAAAAI1syYTA2OjEyODc6MTYwNTpiMDBiOmJlYmE6OjUxZF06ODUzABlpbnRlcm5ldHNlaGF0LmJlYmFzaWQuY29t`` | ``853`` |
 | DNS-over-HTTPS | ``https://internetsehat.bebasid.com/dns-query`` | <ins>IPv4</ins>:</br> ``sdns://AgcAAAAAAAAADDEwMy44Ny42OC43MgAdaW50ZXJuZXRzZWhhdC5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ``,</br> <ins>IPv6</ins>:</br> ``sdns://AgcAAAAAAAAAH1syYTA2OjEyODc6MTYwNTpiMDBiOmJlYmE6OjUxZF0AHWludGVy7uybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk`` | ``443`` |
 | DNS-over-QUIC (HTTP/3) | **[Not Available Yet](https://github.com/bebasid/bebasdns/issues/34#issuecomment-1656274731)** | **[Not Available Yet](https://github.com/bebasid/bebasdns/issues/34#issuecomment-1656274731)** | **[Not Available Yet](https://github.com/bebasid/bebasdns/issues/34#issuecomment-1656274731)** |

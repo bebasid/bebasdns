@@ -91,7 +91,7 @@ Memblokir perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan 
 | Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
 | -------- | ------- | ------- | :--: |
 | Plain DNS, IPv4 | ``103.87.68.194`` | <ins>IPv4 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAADzEwMy44Ny42OC4yNDo1Mw``,</br> <ins>IPv4 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAETEwMy44Ny42OC4yNDoxNzUz`` | ``53``,</br> ``1753`` | 
-| Plain DNS, IPv6 | ``2a12:dd47:d303:beba:51d::53`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAIlsyYTA2OjEyODc6MTYwNTo1MzUzOjpiZWJhOjUxZF06NTM``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAJFsyYTA2OjEyODc6MTYwNTo1MzUzOjpiZWJhOjUxZF06MTc1Mw``  | ``53``,</br>  ``1753`` |  
+| Plain DNS, IPv6 | ``2a05:dfc7:bca0:beba:51d::53`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAIlsyYTA2OjEyODc6MTYwNTo1MzUzOjpiZWJhOjUxZF06NTM``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAJFsyYTA2OjEyODc6MTYwNTo1MzUzOjpiZWJhOjUxZF06MTc1Mw``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``dns.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwMAAAAAAAAAEDEwMy44Ny42OC4yNDo4NTMAD2Rucy5iZWJhc2lkLmNvbQ``,</br> <ins>IPv6</ins>:</br> ``sdns://AwMAAAAAAAAAI1syYTA2OjEyODc6MTYwNTo1MzUzOjpiZWJhOjUxZF06ODUzAA9kbnMuYmViYXNpZC5jb20`` | ``853`` |
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query`` | <ins>IPv4</ins>:</br> ``sdns://AgMAAAAAAAAADDEwMy44Ny42OC4yNAATZG5zLmJlYmFzaWQuY29tOjQ0MwovZG5zLXF1ZXJ5``,</br> <ins>IPv6</ins>:</br> ``sdns://AgMAAAAAAAAAH1syYTA2OjEyODc6MTYwNTo1MzUzOjpiZWJhOjUxZF0AE2Rucy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`` | ``443`` |
 | iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns.mobileconfig) | - | - |
@@ -105,7 +105,7 @@ Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking) dan tid
 | Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
 | -------- | ------- | ------- | :--: |
 | Plain DNS, IPv4 | ``103.87.68.195`` | <ins>IPv4 (**Port 53**)</ins>:</br> ``sdns://AAcAAAAAAAAADzEwMy44Ny42OC4yMzo1Mw``,</br> <ins>IPv4 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAETEwMy44Ny42OC4yMzoxNzUz`` | ``53``,</br> ``1753`` | 
-| Plain DNS, IPv6 | ``2a12:dd47:d303:beba:51d::5353`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://sdns://AAcAAAAAAAAAHlsyMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXTo1Mw``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAIFsyMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXToxNzUz``  | ``53``,</br>  ``1753`` |  
+| Plain DNS, IPv6 | ``2a05:dfc7:bca0:beba:51d::5353`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://sdns://AAcAAAAAAAAAHlsyMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXTo1Mw``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAIFsyMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXToxNzUz``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``antivirus.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwcAAAAAAAAAEDEwMy44Ny42OC4yMzo4NTMAFWFudGl2aXJ1cy5iZWJhc2lkLmNvbQ``,</br> <ins>IPv6</ins>:</br> ``sdns://AwcAAAAAAAAAH1syMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXTo4NTMAFWFudGl2aXJ1cy5iZWJhc2lkLmNvbQ`` | ``853`` |
 | DNS-over-HTTPS | ``https://antivirus.bebasid.com/dns-query`` | <ins>IPv4</ins>:</br> ``sdns://AgcAAAAAAAAADDEwMy44Ny42OC4yMwAZYW50aXZpcnVzLmJlYmFzaWQuY29tOjQ0MwovZG5zLXF1ZXJ5``,</br> <ins>IPv6</ins>:</br> ``sdns://AgcAAAAAAAAAG1syMDAxOmRmMTo3MzQwOmM6OmJlYmE6NTFkXQAZYW50aXZpcnVzLmJlYmFzaWQuY29tOjQ0MwovZG5zLXF1ZXJ5`` | ``443`` |
 | iOS | [dns-malware.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-malware.mobileconfig) | - | - |
@@ -132,7 +132,7 @@ Tidak Memblokir provider VPN dan DNS
 | Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
 | -------- | ------- | ------- | :--: |
 | Plain DNS, IPv4 | ``103.87.68.196`` | <ins>IPv4 (**Port 53**)</ins>:</br> ``sdns://AAcAAAAAAAAADzEwMy44Ny42OC43Mjo1Mw``,</br> <ins>IPv4 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAETEwMy44Ny42OC43MjoxNzUz`` | ``53``,</br> ``1753`` | 
-| Plain DNS, IPv6 | ``2a12:dd47:d303:b00b:beba::51d`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAcAAAAAAAAAIlsyYTA2OjEyODc6MTYwNTpiMDBiOmJlYmE6OjUxZF06NTM``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAJFsyYTA2OjEyODc6MTYwNTpiMDBiOmJlYmE6OjUxZF06MTc1Mw``  | ``53``,</br>  ``1753`` |  
+| Plain DNS, IPv6 | ``2a05:dfc7:bca0:b00b:beba::51d`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAcAAAAAAAAAIlsyYTA2OjEyODc6MTYwNTpiMDBiOmJlYmE6OjUxZF06NTM``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAJFsyYTA2OjEyODc6MTYwNTpiMDBiOmJlYmE6OjUxZF06MTc1Mw``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``internetsehat.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwcAAAAAAAAAEDEwMy44Ny42OC43Mjo4NTMAGWludGVybmV0c2VoYXQuYmViYXNpZC5jb20``,</br> <ins>IPv6</ins>:</br> ``sdns://AwcAAAAAAAAAI1syYTA2OjEyODc6MTYwNTpiMDBiOmJlYmE6OjUxZF06ODUzABlpbnRlcm5ldHNlaGF0LmJlYmFzaWQuY29t`` | ``853`` |
 | DNS-over-HTTPS | ``https://internetsehat.bebasid.com/dns-query`` | <ins>IPv4</ins>:</br> ``sdns://AgcAAAAAAAAADDEwMy44Ny42OC43MgAdaW50ZXJuZXRzZWhhdC5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ``,</br> <ins>IPv6</ins>:</br> ``sdns://AgcAAAAAAAAAH1syYTA2OjEyODc6MTYwNTpiMDBiOmJlYmE6OjUxZF0AHWludGVy7uybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk`` | ``443`` |
 | iOS | [dns-family.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-family.mobileconfig) | - | - |
@@ -143,7 +143,6 @@ Memblokir provider VPN dan DNS  selain BebasDNS Family
 
 | Protocols | IP/Domain Addresses | DNSCrypt Stamps & Ports | Supported Ports |
 | -------- | ------- | ------- | :--: |
-| Plain DNS, IPv6 | ``2a12:dd47:d303:d00c::2`` | | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``1984.bebasid.com`` | | ``853`` |
 | DNS-over-HTTPS | ``https://internetsehat.bebasid.com/dns-strict`` | | ``443`` |
 | iOS | [dns-family.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-family.mobileconfig) | - | - |

@@ -37,6 +37,15 @@
 <a href="https://github.com/bebasid/bebasdns/blob/main/LICENSE"><img src="https://img.shields.io/badge/lisensi-MPL--2.0-blue"></a>
 </p>
 
+<div align="center">
+    <code>Bahasa / Languages:</code></br></br>
+<table>
+  <tr>
+    <td valign="center"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> <b><ins>Indonesia</ins></b></td>
+    <td valign="center"><a href="README.en.md"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> English</td>
+</table>
+</div>
+
 <p align="center">
         <code>Server Discord:</code></br></br>
 <a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner4" alt="Join Discord BEBASID"></a>
@@ -48,15 +57,6 @@
 <a href="https://saweria.co/bebasid" target="_blank"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B" alt="Donasi BebasID Saweria"></a></br>
 <a href="https://saweria.co/bebasid" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="Donasi BebasID Saweria" height="72" width="313"></a>
  </p>
-
-<div align="center">
-    <code>Bahasa / Languages:</code></br></br>
-<table>
-  <tr>
-    <td valign="center"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> <b><ins>Indonesia</ins></b></td>
-    <td valign="center"><a href="README.en.md"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> English</td>
-</table>
-</div>
 
 ---
 

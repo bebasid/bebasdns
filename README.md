@@ -6,7 +6,7 @@
     <b><code><a href=#bebasdns---bebasid-dns>BebasDNS / BebasID DNS</a> ini telah disponsori oleh:</code></b><br><br>
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="330" href="https://atharva.co.id" target="_blank" alt="Website Provider Atharva">
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="330" href="https://atharva.co.id" target="_blank" alt="Website Provider Atharva">
-    </a><br>
+    </a><br><sup>https://www.atharva.co.id/</sup></br>
     <i>Penyedia VPS yang berorientasi pada kebebasan dan netral untuk kebutuhannya.</i></br>
     <m>Dimulai dari <b>Rp. 50.000,00</b></m>.</br>
     <a href="https://delapan.click/store/vps-ssd-kvm">Lihat paket langganan VPS selengkapnya</a>.

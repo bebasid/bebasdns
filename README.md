@@ -281,7 +281,7 @@ Statistik kondisi servis pelayanan publik:
 
 bebasdns telah diuji keamanannya dan mendapatkan nilai pada website: 
 
-• [SSL Security Test ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/0olenw8Q/) **(A+)** (02 September 2023).
+• [SSL Security Test ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/0olenw8Q/) **(A+)** (02 September 2023).</br>
 • [Is your site IPv6 ready?](https://ready.chair6.net/?url=https%3A%2F%2Fdns.bebasid.com%2Fdns-query)  **(PASS)**
 
 ## Isi Tutorial dan Bertanya:

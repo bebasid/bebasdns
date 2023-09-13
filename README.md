@@ -30,9 +30,9 @@
 </p>
 <p align="center">
 <a href="#"><img src="https://img.shields.io/static/v1?label=tahun%20diluncurkan:&message=2020&color=yellowgreen&style=plastic%22"></a></br>
- <a href="https://ready.chair6.net/?url=dns.bebasid.com"><img src="https://img.shields.io/badge/ipv6-ready-darkblue"></a>
+ <a href="https://ready.chair6.net/?url=https%3A%2F%2Fdns.bebasid.com%2Fdns-query"><img src="https://img.shields.io/badge/ipv6-ready-darkblue"></a>
   <a href="https://stats.uptimerobot.com/w66Jkc0zm7"><img src="https://img.shields.io/badge/status-up-brightgreen"></a>
- <a href='https://www.immuniweb.com/ssl/dns.bebasid.com/RVFRHImh'><img src="https://img.shields.io/badge/ssl%20immuniweb-A%2B-green"></a></br>
+ <a href='https://www.immuniweb.com/ssl/dns.bebasid.com/0olenw8Q/'><img src="https://img.shields.io/badge/ssl%20immuniweb-A%2B-green"></a></br>
 <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=penonton%3A+%28hari%20ini%2Ftotal%29&edge_flat=false"/></a></br>
 <a href="https://github.com/bebasid/bebasdns/blob/main/LICENSE"><img src="https://img.shields.io/badge/lisensi-MPL--2.0-blue"></a>
 </p>
@@ -281,7 +281,8 @@ Statistik kondisi servis pelayanan publik:
 
 bebasdns telah diuji keamanannya dan mendapatkan nilai pada website: 
 
-• [SSL ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/0olenw8Q/) **(A+)** (02 September 2023).
+• [SSL Security Test ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/0olenw8Q/) **(A+)** (02 September 2023).
+• [Is your site IPv6 ready?](https://ready.chair6.net/?url=https%3A%2F%2Fdns.bebasid.com%2Fdns-query)  **(PASS)**
 
 ## Isi Tutorial dan Bertanya:
 
@@ -299,13 +300,13 @@ Silahkan ikuti panduan yang diberikan di bawah ini:
 
 • [Pi-Hole](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#pi-hole)
 
-• [DNSCrypt](https://libreddit.eu.org/r/indonesia/comments/kyyxna/comment/gjjq578/)
+• [DNSCrypt](https://reddit.com/r/indonesia/comments/kyyxna/comment/gjjq578/)
 
 • [GoodbyeDPI](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#goodbyedpi)
 
 • [MikroTik](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#mikrotik)
 
-• [iOS](https://libreddit.eu.org/r/indonesia/comments/kyyxna/comment/gjke3u7)/[macOS](https://translate.google.com/translate?hl=id&sl=en&u=https://simpledns.plus/kb/201/how-to-enable-dns-over-tls-dot-dns-over-https-doh-in-macos-v11&prev=search&pto=aue)
+• [iOS](https://reddit.com/r/indonesia/comments/kyyxna/comment/gjke3u7)/[macOS](https://translate.google.com/translate?hl=id&sl=en&u=https://simpledns.plus/kb/201/how-to-enable-dns-over-tls-dot-dns-over-https-doh-in-macos-v11&prev=search&pto=aue)
 
 ### <ins>Cara Melaporkan atau Permintaan</ins>
 

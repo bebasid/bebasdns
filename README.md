@@ -15,12 +15,20 @@
 <div align="center">
     <b>Untuk Penyedia Jasa Internet / Internet Service Provider (ISP) yang memakai <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi">Deep Packet Inspection (DPI)</a>, harap gunakan <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> untuk melewati DPI. Atau dengan menyalakan versi 6 dari Protokol Internet / Internet Protocol version 6 (IPv6), agar DNS-nya bisa terpaksa jika ISP-nya mendukung.</b></br>
     <br><b><code>Ciri-ciri ISP-nya menggunakan DPI:</code></b></br></br> <b>Protokol HTTP</b> mengalihkan ke <code><a href="http://lamanlabuh.aduankonten.id" target="_blank">lamanlabuh.aduankonten.id</a></code>.</br> Sedangkan <b>Protokol HTTPS</b> mengerluarkan ke <code>ERR_CONNECTION_RESET</code>/<code>PR_CONNECT_RESET_ERROR</code>. </br> <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md">Lihat penjelasan tentang DPI selengkapnya</a>.<br></br>
-    <b><code>Cara melewati DPI Kominfo di Modem/Router:</code></b></br></br>
+<b><code>Cara melewati DPI Kominfo di Modem/Router atau Sistem Operasi/Operation System (OS):</b></i></code></b></br></br>
+        Modem/<b><i>Router</b></i>:</br>
 <table>
   <tr>
     <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md"><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="24"/> OpenWRT</td>
     <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md"><img src="https://cdn.discordapp.com/attachments/381569782257811456/1147154206063611994/Sb0qyQ88hIP9IdDM.png" width="16"/> MikroTik</td>
-</table>
+</table></br>
+        Sistem Operasi/<b><i>Operation System (OS)</b></i>:</br>
+<table>
+  <tr>
+    <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/README.md#windows"><img src="https://seeklogo.com/images/W/windows-11-icon-logo-6C39629E45-seeklogo.com.png" width="24"/> Windows</td>
+    <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/README.md#macos"><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="24"/> MacOS</td>
+    <td valign="center"><a href="https://github.com/bebasid/bebasit/blob/master/README.md#linux"><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="24"/> Linux</td>
+</table></br>
 </div>
 <hr>
 <p align="center"><code>KINI Memperkenalkan:</code></br></br>
@@ -107,10 +115,12 @@ Memblokir perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan 
 | -------- | ------- | ------- | :--: |
 | Plain DNS, IPv4 | ``103.87.68.194`` | <ins>IPv4 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAEDEwMy44Ny42OC4xOTQ6NTM``,</br> <ins>IPv4 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAEjEwMy44Ny42OC4xOTQ6MTc1Mw`` | ``53``,</br> ``1753`` | 
 | Plain DNS, IPv6 | ``2a05:dfc7:bca0:beba:51d::53`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAIFsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTNdOjUz``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAIlsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTNdOjE3NTM``  | ``53``,</br>  ``1753`` |  
-| DNS-over-TLS | ``dns.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzAA9kbnMuYmViYXNpZC5jb20``,</br> <ins>IPv6</ins>:</br> ``sdns://AwMAAAAAAAAAIVsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTNdOjg1MwAPZG5zLmJlYmFzaWQuY29t`` | ``853`` |
+| DNS-over-TLS | ``tls://dns.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzAA9kbnMuYmViYXNpZC5jb20``,</br> <ins>IPv6</ins>:</br> ``sdns://AwMAAAAAAAAAIVsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTNdOjg1MwAPZG5zLmJlYmFzaWQuY29t`` | ``853`` |
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-query`` | <ins>IPv4</ins>:</br> ``sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ``,</br> <ins>IPv6</ins>:</br> ``sdns://AgMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTNdABNkbnMuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk`` | ``443`` |
-| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns.mobileconfig) | - | - |
-| macOS | [dns-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-macos.mobileconfig) | - | - |
+| DNS-over-HTTPS/3 | [**Sedang pemeliharaan**](https://github.com/bebasid/bebasdns/issues/34) | [**Sedang pemeliharaan**](https://github.com/bebasid/bebasdns/issues/34) | [**Sedang pemeliharaan**](https://github.com/bebasid/bebasdns/issues/34) |
+| DNS-over-QUIC | ``quic.dns.bebasid.com`` | <ins>Hanya IPv4</ins>:</br> ``sdns://BAMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABRxdWljLmRucy5iZWJhc2lkLmNvbQ``</br> | ``853`` |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/ios/dns_default/dns.mobileconfig) | - | - |
+| macOS | [dns-profile.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/macos/dns_default/dns-profile.mobileconfig) | - | - |
 
 ## Peladen Alternatif:
 
@@ -123,8 +133,10 @@ Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking) dan tid
 | Plain DNS, IPv6 | ``2a05:dfc7:bca0:beba:51d::5353`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAIlsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTM1M106NTM``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAJFsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTM1M106MTc1Mw``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``antivirus.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTU6ODUzABVhbnRpdmlydXMuYmViYXNpZC5jb20``,</br> <ins>IPv6</ins>:</br> ``sdns://AwMAAAAAAAAAI1syYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTM1M106ODUzABVhbnRpdmlydXMuYmViYXNpZC5jb20`` | ``853`` |
 | DNS-over-HTTPS | ``https://antivirus.bebasid.com/dns-query`` | <ins>IPv4</ins>:</br> ``sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTUAGWFudGl2aXJ1cy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ``,</br> <ins>IPv6</ins>:</br> ``sdns://AgMAAAAAAAAAH1syYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTM1M10AGWFudGl2aXJ1cy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`` | ``443`` |
-| iOS | [dns-malware.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-malware.mobileconfig) | - | - |
-| macOS | [dns-malware-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-malware-macos.mobileconfig) | - | - |
+| DNS-over-HTTPS/3 | [**Sedang pemeliharaan**](https://github.com/bebasid/bebasdns/issues/34) | [**Sedang pemeliharaan**](https://github.com/bebasid/bebasdns/issues/34) | [**Sedang pemeliharaan**](https://github.com/bebasid/bebasdns/issues/34) |
+| DNS-over-QUIC | ``quic-antivirus.dns.bebasid.com`` | <ins>Hanya IPv4</ins>:</br> ``sdns://BAMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzAB5xdWljLWFudGl2aXJ1cy5kbnMuYmViYXNpZC5jb20``</br> | ``853`` |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/ios/dns_malware/dns.mobileconfig) | - | - |
+| macOS | [dns-profile.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/macos/dns_malware/dns-profile.mobileconfig) | - | - |
 
 ### <ins>DNS Tanpa Disaring (Unfiltered)</ins> 
 Khusus tanpa pemblokiran perangkat lunak jahat (malware), tanpa blokir pelacakan (tracking) dan tidak memblokir iklan (ads).
@@ -135,8 +147,10 @@ Khusus tanpa pemblokiran perangkat lunak jahat (malware), tanpa blokir pelacakan
 | Plain DNS, IPv6 | ``2a05:dfc7:bca0:d01c::2`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAcAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjoyXTo1Mw``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAcAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjoyXToxNzUz``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``unfiltered.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwcAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABZ1bmZpbHRlcmVkLmJlYmFzaWQuY29t``,</br> <ins>IPv6</ins>:</br> ``sdns://AwcAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjoyXTo4NTMAFnVuZmlsdGVyZWQuYmViYXNpZC5jb20`` | ``853`` |
 | DNS-over-HTTPS | ``https://dns.bebasid.com/unfiltered`` | <ins>IPv4</ins>:</br> ``sdns://AgcAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL3VuZmlsdGVyZWQ``,</br> <ins>IPv6</ins>:</br> ``sdns://AgcAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjoyXQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvdW5maWx0ZXJlZA`` | ``443`` |
-| iOS | [dns-unfiltered.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-unfiltered.mobileconfig) | - | - |
-| macOS | [dns-unfiltered-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-unfiltered-macos.mobileconfig) | - | - |
+| DNS-over-HTTPS/3 | [**Sedang pemeliharaan**](https://github.com/bebasid/bebasdns/issues/34) | [**Sedang pemeliharaan**](https://github.com/bebasid/bebasdns/issues/34) | [**Sedang pemeliharaan**](https://github.com/bebasid/bebasdns/issues/34) |
+| DNS-over-QUIC | ``unfiltered.dns.bebasid.com`` | <ins>Hanya IPv4</ins>:</br> ``sdns://BAcAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABp1bmZpbHRlcmVkLmRucy5iZWJhc2lkLmNvbQ``</br> | ``853`` |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/ios/dns_unfiltered/dns.mobileconfig) | - | - |
+| macOS | [dns-profile.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/macos/dns_unfiltered/dns-profile.mobileconfig) | - | - |
 
 ### <ins>DNS Internet Sehat (Family)</ins> 
 Khusus pemblokiran situs kebencian/gore, situs dewasa (18+), situs judi/kasino, dan situs hal bernegatif lainnya.</br> Hanya memblokir perangkat lunak jahat (malware), pelacakan (tracking) dan tidak memblokir iklan (ads).<br></br>
@@ -151,8 +165,10 @@ Varian khusus memblokir tanpa provider VPN dan DNS penyedia.
 | Plain DNS, IPv6 | ``2a05:dfc7:bca0:b00b:beba::51d`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAIlsyYTA1OmRmYzc6YmNhMDpiMDBiOmJlYmE6OjUxZF06NTM``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAJFsyYTA1OmRmYzc6YmNhMDpiMDBiOmJlYmE6OjUxZF06MTc1Mw``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``internetsehat.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTY6ODUzABlpbnRlcm5ldHNlaGF0LmJlYmFzaWQuY29t``,</br> <ins>IPv6</ins>:</br> ``sdns://AwMAAAAAAAAAI1syYTA1OmRmYzc6YmNhMDpiMDBiOmJlYmE6OjUxZF06ODUzABlpbnRlcm5ldHNlaGF0LmJlYmFzaWQuY29t`` | ``853`` |
 | DNS-over-HTTPS | ``https://internetsehat.bebasid.com/dns-query`` | <ins>IPv4</ins>:</br> ``sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTYAHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk``,</br> <ins>IPv6</ins>:</br> ``sdns://AgMAAAAAAAAAH1syYTA1OmRmYzc6YmNhMDpiMDBiOmJlYmE6OjUxZF0AHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk`` | ``443`` |
-| iOS | [dns-family-default.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-family-default.mobileconfig) | - | - |
-| macOS | [dns-family-default-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-family-default-macos.mobileconfig) | - | - |
+| DNS-over-HTTPS/3 | [**Sedang pemeliharaan**](https://github.com/bebasid/bebasdns/issues/34) | [**Sedang pemeliharaan**](https://github.com/bebasid/bebasdns/issues/34) | [**Sedang pemeliharaan**](https://github.com/bebasid/bebasdns/issues/34) |
+| DNS-over-QUIC | ``quic-sehat.dns.bebasid.com`` | <ins>Hanya IPv4</ins>:</br> ``sdns://BAMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABpxdWljLXNlaGF0LmRucy5iZWJhc2lkLmNvbQ``</br> | ``853`` |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/ios/dns_family/default/dns.mobileconfig) | - | - |
+| macOS | [dns-profile.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/macos/dns_family/default/dns-profile.mobileconfig) | - | - |
 
 ### <b><ins>Family Strict</ins></b>:
 Varian khusus memblokir provider VPN dan DNS penyedia.
@@ -163,8 +179,10 @@ Varian khusus memblokir provider VPN dan DNS penyedia.
 | Plain DNS, IPv6 | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b><ins>Belum Tersedia</b> |  
 | DNS-over-TLS | ``1984.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTY6ODUzABAxOTg0LmJlYmFzaWQuY29t``,</br> <ins>IPv6</ins>:</br> ``sdns://AwMAAAAAAAAAI1syYTA1OmRmYzc6YmNhMDpiMDBiOmJlYmE6OjUxZF06ODUzABAxOTg0LmJlYmFzaWQuY29t`` | ``853`` |
 | DNS-over-HTTPS | ``https://internetsehat.bebasid.com/dns-strict`` | <ins>IPv4</ins>:</br> ``sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTYAHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCy9kbnMtc3RyaWN0``,</br> <ins>IPv6</ins>:</br> ``sdns://AgMAAAAAAAAAH1syYTA1OmRmYzc6YmNhMDpiMDBiOmJlYmE6OjUxZF0AHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCy9kbnMtc3RyaWN0`` | ``443`` |
-| iOS | [dns-family-strict.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-family-strict.mobileconfig) | - | - |
-| macOS | [dns-family-strict-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-family-strict-macos.mobileconfig) | - | - |
+| DNS-over-HTTPS/3 | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| DNS-over-QUIC | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/ios/dns_family/strict/dns.mobileconfig) | - | - |
+| macOS | [dns-profile.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/macos/dns_family/strict/dns-profile.mobileconfig) | - | - |
 
 ### <ins>DNS Penyaring Kustom</ins>
 Khusus dimana bisa dapat memilih penyaring daftar blokir DNS penyedia sesuai dengan selera diri sendiri. </br>Hanya memblokir tergantung dari perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan (ads).<br></br>
@@ -179,8 +197,10 @@ Varian khusus provider filter blocklist OISD.
 | Plain DNS, IPv6 | ``2a05:dfc7:bca0:d01c::3`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjozXTo1Mw``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjozXToxNzUz``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``oisd.dns.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzABRvaXNkLmRucy5iZWJhc2lkLmNvbQ``,</br> <ins>IPv6</ins>:</br> ``sdns://AwMAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjozXTo4NTMAFG9pc2QuZG5zLmJlYmFzaWQuY29t`` | ``853`` |
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-oisd`` | <ins>IPv4</ins>:</br> ``sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMJL2Rucy1vaXNk``,</br> <ins>IPv6</ins>:</br> ``sdns://AgMAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjozXQATZG5zLmJlYmFzaWQuY29tOjQ0MwkvZG5zLW9pc2Q`` | ``443`` |
-| iOS | [dns-custom-filter-oisd.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-custom-filter-oisd.mobileconfig) | - | - |
-| macOS | [dns-custom-filter-oisd-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-custom-filter-oisd.mobileconfig) | - | - |
+| DNS-over-HTTPS/3 | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| DNS-over-QUIC | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/ios/dns_default/oisdbig/dns.mobileconfig) | - | - |
+| macOS | [dns-profile.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/macos/dns_default/oisdbig/dns-profile.mobileconfig) | - | - |
 
 ### <b><ins>Filter Hagezi Multi-Normal</ins></b>:
 Varian khusus provider filter blocklist Hagezi.
@@ -191,8 +211,10 @@ Varian khusus provider filter blocklist Hagezi.
 | Plain DNS, IPv6 | ``2a05:dfc7:bca0:d01c::4`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjo0XTo1Mw``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjo0XToxNzUz``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``hagezi.dns.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzABZoYWdlemkuZG5zLmJlYmFzaWQuY29t``,</br> <ins>IPv6</ins>:</br> ``sdns://AwMAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo0XTo4NTMAFmhhZ2V6aS5kbnMuYmViYXNpZC5jb20`` | ``853`` |
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-hagezi`` | <ins>IPv4</ins>:</br> ``sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL2Rucy1oYWdlemk``,</br> <ins>IPv6</ins>:</br> ``sdns://AgMAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo0XQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvZG5zLWhhZ2V6aQ`` | ``443`` |
-| iOS | [dns-custom-filter-hagezi.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-custom-filter-hagezi.mobileconfig) | - | - |
-| macOS | [dns-custom-filter-hagezi-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-custom-filter-hagezi.mobileconfig) | - | - |
+| DNS-over-HTTPS/3 | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| DNS-over-QUIC | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/ios/dns_default/hagezimultinormal/dns.mobileconfig) | - | - |
+| macOS | [dns-profile.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/macos/dns_default/hagezimultinormal/dns-profile.mobileconfig) | - | - |
 
 ### <b><ins>Filter StevenBlack</ins></b>:
 Varian khusus provider filter blocklist StevenBlack.
@@ -203,8 +225,10 @@ Varian khusus provider filter blocklist StevenBlack.
 | Plain DNS, IPv6 | ``2a05:dfc7:bca0:d01c::5`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjo1XTo1Mw``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjo1XToxNzUz``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``stevenblack.dns.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzABtzdGV2ZW5ibGFjay5kbnMuYmViYXNpZC5jb20``,</br> <ins>IPv6</ins>:</br> ``sdns://AwMAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo1XTo4NTMAG3N0ZXZlbmJsYWNrLmRucy5iZWJhc2lkLmNvbQ`` | ``853`` |
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-stevenblack`` | <ins>IPv4</ins>:</br> ``sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMQL2Rucy1zdGV2ZW5ibGFjaw``,</br> <ins>IPv6</ins>:</br> ``sdns://AgMAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo1XQATZG5zLmJlYmFzaWQuY29tOjQ0MxAvZG5zLXN0ZXZlbmJsYWNr`` | ``443`` |
-| iOS | [dns-custom-filter-stevenblack.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-custom-filter-stevenblack.mobileconfig) | - | - |
-| macOS | [dns-custom-filter-stevenblack-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-custom-filter-stevenblack.mobileconfig) | - | - |
+| DNS-over-HTTPS/3 | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| DNS-over-QUIC | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/ios/dns_default/stevenblack/dns.mobileconfig) | - | - |
+| macOS | [dns-profile.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/macos/dns_default/stevenblack/dns-profile.mobileconfig) | - | - |
 
 ### <b><ins>Filter 1Hosts Lite</ins></b>:
 Varian khusus provider filter blocklist 1Hosts.
@@ -215,8 +239,10 @@ Varian khusus provider filter blocklist 1Hosts.
 | Plain DNS, IPv6 | ``2a05:dfc7:bca0:d01c::6`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjo2XTo1Mw``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjo2XToxNzUz``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``1hosts.dns.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzABYxaG9zdHMuZG5zLmJlYmFzaWQuY29t``,</br> <ins>IPv6</ins>:</br> ``sdns://AwMAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo2XTo4NTMAFjFob3N0cy5kbnMuYmViYXNpZC5jb20`` | ``853`` |
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-1hosts`` | <ins>IPv4</ins>:</br> ``sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL2Rucy0xaG9zdHM``,</br> <ins>IPv6</ins>:</br> ``sdns://AgMAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo2XQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvZG5zLTFob3N0cw`` | ``443`` |
-| iOS | [dns-custom-filter-1hosts.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-custom-filter-1hosts.mobileconfig) | - | - |
-| macOS | [dns-custom-filter-1hosts-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-custom-filter-1hosts.mobileconfig) | - | - |
+| DNS-over-HTTPS/3 | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| DNS-over-QUIC | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/ios/dns_default/1hostslite/dns.mobileconfig) | - | - |
+| macOS | [dns-profile.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/macos/dns_default/1hostslite/dns-profile.mobileconfig) | - | - |
 
 ### <b><ins>AdGuard Filter</ins></b>:
 Varian khusus provider filter blocklist AdGuard.
@@ -227,8 +253,10 @@ Varian khusus provider filter blocklist AdGuard.
 | Plain DNS, IPv6 | ``2a05:dfc7:bca0:d01c::7`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjo3XTo1Mw``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjo3XToxNzUz``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``adguard.dns.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzABdhZGd1YXJkLmRucy5iZWJhc2lkLmNvbQ``,</br> <ins>IPv6</ins>:</br> ``sdns://AwMAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo3XTo4NTMAF2FkZ3VhcmQuZG5zLmJlYmFzaWQuY29t`` | ``853`` |
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-adguard`` | <ins>IPv4</ins>:</br> ``sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMML2Rucy1hZGd1YXJk``,</br> <ins>IPv6</ins>:</br> ``sdns://AgMAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo3XQATZG5zLmJlYmFzaWQuY29tOjQ0MwwvZG5zLWFkZ3VhcmQ`` | ``443`` |
-| iOS | [dns-custom-filter-adguard.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-custom-filter-adguard.mobileconfig) | - | - |
-| macOS | [dns-custom-filter-adguard-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-custom-filter-adguard.mobileconfig) | - | - |
+| DNS-over-HTTPS/3 | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| DNS-over-QUIC | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/ios/dns_default/adguardfilter/dns.mobileconfig) | - | - |
+| macOS | [dns-profile.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/macos/dns_default/adguardfilter/dns-profile.mobileconfig) | - | - |
 
 ### <b><ins>Developer Dan's Filter Blacklist (Devdan)</ins></b>:
 Varian khusus provider filter blocklist Developer Dan's (Devdan).
@@ -239,8 +267,10 @@ Varian khusus provider filter blocklist Developer Dan's (Devdan).
 | Plain DNS, IPv6 | ``2a05:dfc7:bca0:d01c::8`` | <ins>IPv6 (**Port 53**)</ins>:</br> ``sdns://AAMAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjo4XTo1Mw``,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> ``sdns://AAMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjo4XToxNzUz``  | ``53``,</br>  ``1753`` |  
 | DNS-over-TLS | ``devdan.dns.bebasid.com`` | <ins>IPv4</ins>:</br> ``sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzABZkZXZkYW4uZG5zLmJlYmFzaWQuY29t``,</br> <ins>IPv6</ins>:</br> ``sdns://AwMAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo4XTo4NTMAFmRldmRhbi5kbnMuYmViYXNpZC5jb20`` | ``853`` |
 | DNS-over-HTTPS | ``https://dns.bebasid.com/dns-devdan`` | <ins>IPv4</ins>:</br> ``sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL2Rucy1kZXZkYW4``,</br> <ins>IPv6</ins>:</br> ``sdns://AgMAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo4XQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvZG5zLWRldmRhbg`` | ``443`` |
-| iOS | [dns-custom-filter-adguard.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-custom-filter-adguard.mobileconfig) | - | - |
-| macOS | [dns-custom-filter-adguard-macos.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/dns-custom-filter-adguard.mobileconfig) | - | - |
+| DNS-over-HTTPS/3 | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| DNS-over-QUIC | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> | <b>Belum Tersedia</b> |
+| iOS | [dns.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/ios/dns_default/devdan/dns.mobileconfig) | - | - |
+| macOS | [dns-profile.mobileconfig](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/config/macos/dns_default/devdan/dns-profile.mobileconfig) | - | - |
 
 ## Penyaring (Ad-Blocker & Anti-Tracking):
 
@@ -279,9 +309,12 @@ Statistik kondisi servis pelayanan publik:
 
 ### <ins>Uji Keamanan</ins>
 
-bebasdns telah diuji keamanannya dan mendapatkan nilai pada website: 
+[BebasDNS / BebasID DNS](#bebasdns---bebasid-dns) telah diuji keamanannya dan mendapatkan nilai pada website: 
 
-• [SSL Security Test ImmuniWeb](https://www.immuniweb.com/ssl/dns.bebasid.com/0olenw8Q/) **(A+)** (02 September 2023).</br>
+• [SSL Security Test ImmuniWeb DoH](https://www.immuniweb.com/ssl/dns.bebasid.com/0olenw8Q/) **(A+)** (19 September 2023).</br>
+• [SSL Security Test ImmuniWeb TLS](https://www.immuniweb.com/ssl/dns.bebasid.com/Q4537Du7/) **(A+)** (19 September 2023).</br>
+• [SSL Labs IPv4](https://www.ssllabs.com/analyze.html?d=dns.bebasid.com&s=103.87.68.194&latest) **(A+)** (19 September 2023).</br>
+• [SSL Labs IPv6](https://www.ssllabs.com/ssltest/analyze.html?d=dns.bebasid.com&s=2a05%3Adfc7%3Abca0%3Abeba%3A51d%3A0%3A0%3A53) **(A+)** (19 September 2023).</br>
 • [Is your site IPv6 ready?](https://ready.chair6.net/?url=https%3A%2F%2Fdns.bebasid.com%2Fdns-query)  **(PASS)**
 
 ## Isi Tutorial dan Bertanya:

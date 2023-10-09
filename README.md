@@ -255,7 +255,8 @@ Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 | Blocklists - Untuk DNS Default |
 | --------- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
-| [Hagezi Multi-Light](https://github.com/hagezi/dns-blocklists#light) | 
+| [OISD Big](https://oisd.nl/) | 
+| [URLHaus](https://urlhaus.abuse.ch/) |
 
 | Blocklists - Untuk DNS Antivirus (Malware) |
 | --------- |
@@ -265,6 +266,7 @@ Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 | Blocklists - Untuk DNS Internet Sehat (Family) |
 | --------- |
 | [List Filter yang dipakai DNS Internet Sehat Family](https://internetsehat.bebasid.com/blacklist/2023/) | 
+| [URLHaus](https://urlhaus.abuse.ch/) |
 
 ### <ins>Daftar Putih DNS</ins>
 Digunakan untuk membolehkan domain yang seharusnya diblokir oleh daftar blokir.</br>

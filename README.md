@@ -262,6 +262,7 @@ Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 | --------- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) | 
 | [URLHaus](https://urlhaus.abuse.ch/) |
+| [Hagezi Threat Blocking](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/tif.blacklist.conf) |
 
 | Blocklists - Untuk DNS Internet Sehat (Family) |
 | --------- |

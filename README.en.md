@@ -318,7 +318,7 @@ DNS Whitelists are used to allow domains that blocklists would otherwise block.
 
 ### <ins>Server Status</ins>
 
-Public service status statistic can be seen at [bebasdns status] (https://uptime.bebasid.com/).
+Public service status statistic can be seen at [bebasdns status](https://uptime.bebasid.com/).
 
 ### <ins>Security Test</ins>
 

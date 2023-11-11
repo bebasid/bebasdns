@@ -1,5 +1,6 @@
-<meta name="google-site-verification" content="rMj01w-DUdd0GIucGjWQKzZV-w6IE0hYYCWJWYnvfSw">
-<meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh" />
+<head>
+  <meta name="google-site-verification" content="rMj01w-DUdd0GIucGjWQKzZV-w6IE0hYYCWJWYnvfSw">
+  <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh" />
 </head>
 <p align="center">
     <b><code><a href=#bebasdns--bebasid-dns>BebasDNS / BebasID DNS</a> ini telah disponsori oleh:</code></b><br><br>

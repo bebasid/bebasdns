@@ -16,7 +16,7 @@
 <div align="center">
 <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-black.png#gh-light-mode-only" width="96">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-white.png#gh-dark-mode-only" width="96"><br><br>
-    <b>Untuk Wi-Fi / Servis Provider Internet (ISP) yang memakai For Internet Service Provider (ISP) that use <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi">Deep Packet Inspection (DPI)</a>, please use <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> to bypass DPI. Or by using Internet Protocol version 6 (IPv6), to force the DNS to use it if the ISP supported it.</b></br>
+    <b>For Internet Service Provider (ISP) that use <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi">Deep Packet Inspection (DPI)</a>, please use <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> to bypass DPI. Or by using Internet Protocol version 6 (IPv6), to force the DNS to use it if the ISP supported it.</b></br>
 <br><b><code>Signs if the ISP is using DPI:</code></b></br></br>
 <table align="center">
 <thead>
@@ -68,8 +68,8 @@
     <code>Bahasa / Languages:</code></br></br>
 <table>
   <tr>
-    <td valign="center"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> <b><ins>Indonesia</ins></b></td>
-    <td valign="center"><a href="README.en.md"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> English</td>
+    <td valign="center"><a href="README.md"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> <b>Indonesia</b></td>
+    <td valign="center"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/><ins>English</ins></td>
 </table>
 </div>
 

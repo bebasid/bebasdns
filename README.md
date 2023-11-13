@@ -116,7 +116,8 @@
 
 - [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns)
   - [Peladen Utama](#peladen-utama)
-    - [Peladen Alternatif](#peladen-alternatif)
+      - [DNS Bawaan (Default)](#dns-bawaan-default)
+  - [Peladen Alternatif](#peladen-alternatif)
       - [DNS Antivirus (Malware)](#dns-antivirus-malware)
       - [DNS Tanpa Disaring (Unfiltered)](#dns-tanpa-disaring-unfiltered)
       - [DNS Internet Sehat (Family)](#dns-internet-sehat-family)
@@ -153,6 +154,8 @@ Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri dan log apabila jika adany
 Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.
 
 ## Peladen Utama:
+
+### <ins>DNS Bawaan (Default)</ins>
 
 Memblokir perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan (ads).
 

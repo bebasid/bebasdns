@@ -92,7 +92,7 @@
 </table>
 </p>
 
-p align="center"><code>Donate Us:</code></br></br>
+<p align="center"><code>Donate Us:</code></br></br>
 <table align="center">
 <thead>
 <tr>

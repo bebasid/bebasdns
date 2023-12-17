@@ -97,7 +97,6 @@
 <tr>
 <th><a href="https://discord.gg/bebasid-630415907021389825"><img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=flat&logo=discord&label=Join%20Discord&color=%234248f5"/></a></th>
 <th><a href="https://t.me/bebasidbykini"><img alt=""Join Telegram src="https://img.shields.io/badge/build-bebasidbykini-blue?logo=telegram&label=Join%20Telegram&link=https%3A%2F%2Ft.me%2Fbebasidbykini"/></a></th>
-<th><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img alt="Join WhatsApp" src="https://img.shields.io/badge/build-bebasid-brightgreen?style=flat&logo=whatsapp&logoColor=%231bcc2f&label=Join%20WhatsApp&link=https%3A%2F%2Fchat.whatsapp.com%2FJmn5Uv4UYj0GdQooI1Jwbi"></th>
 </tr>
 </thead>
 <tbody>
@@ -105,6 +104,16 @@
 <td>
 <a href="https://discord.gg/EKrxZyu"><img src="https://discordapp.com/api/guilds/630415907021389825/widget.png?style=banner4" alt="Join Discord BEBASID"></a></td>
 <td><a href="https://t.me/bebasidbykini"><img src="https://raw.githubusercontent.com/bebasid/bebasid/150f487f9b9978e98e93dc1552908a71f31d4e38/dev/resources/bebasidbykini-join-telegram-group.png" height="340" alt="Join Grup Telegram BEBASID"></a></td>
+</tr>
+</tbody>
+</table>
+<table align="center">
+<thead>
+<tr>
+<th><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img alt="Join WhatsApp" src="https://img.shields.io/badge/build-bebasid-brightgreen?style=flat&logo=whatsapp&logoColor=%231bcc2f&label=Join%20WhatsApp&link=https%3A%2F%2Fchat.whatsapp.com%2FJmn5Uv4UYj0GdQooI1Jwbi"></th>
+</tr>
+</thead>
+<tbody>
 <td><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/bebasid-join-whatsapp-group.png?raw=true" height="340" alt="Join Grup Telegram BEBASID"></a></td>
 </tr>
 </tbody>
@@ -349,6 +358,7 @@ Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 | ------------------------------------------------------------------------------------------------------- |
 | [Daftar isi penyaring yang dipakai DNS Internet Sehat Family](https://internetsehat.bebasid.com/blacklist/2023/) |
 | [URLHaus](https://urlhaus.abuse.ch/)                                                                    |
+| [OISD NSFW](https://oisd.nl/downloads) |
 
 ### <ins>Daftar Putih DNS</ins>
 

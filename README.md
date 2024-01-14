@@ -33,7 +33,7 @@
 <div align="center">
 
    # Pemberitahuan sebelum memakai proyek ini:
-   <h3>Plain DNS hanya berfungsi di IP range Indonesia dan Singapura yang sudah diwhitelist untuk menghindari serangan DDOS, untuk meminta whitelist IP, silahkan kontak kami atau gabung ke Discord kami</h3>
+   <h3>Plain DNS hanya berfungsi di IP range Indonesia dan Singapura yang sudah diwhitelist untuk menghindari serangan DDOS, untuk meminta whitelist IP atau daftar IP yang kami whitelist, silahkan kontak kami atau gabung ke Discord kami</h3>
    <br></br>
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-black.png#gh-light-mode-only" width="96">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-white.png#gh-dark-mode-only" width="96"><br><br>

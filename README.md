@@ -4,6 +4,15 @@
 </head>
 
 <div align="center">
+    <code>Bahasa / Languages:</code></br></br>
+<table>
+  <tr>
+    <td valign="center"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> <b><ins>Indonesia</ins></b></td>
+    <td valign="center"><a href="README.en.md"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> English</td>
+</table>
+</div><br>
+
+<div align="center">
     <b><code><a href=#bebasdns--bebasid-dns>BebasDNS / BebasID DNS</a> ini telah disponsori oleh:</code></b><br><br>
   <table align="center">
 <thead>
@@ -86,14 +95,7 @@
 <a href="https://github.com/bebasid/bebasdns/blob/main/LICENSE"><img src="https://img.shields.io/badge/lisensi-MPL--2.0-blue"></a>
 </p>
 
-<div align="center">
-    <code>Bahasa / Languages:</code></br></br>
-<table>
-  <tr>
-    <td valign="center"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> <b><ins>Indonesia</ins></b></td>
-    <td valign="center"><a href="README.en.md"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/> English</td>
-</table>
-</div><br>
+<br>
 
 <p align="center">
 <code>Server Komunitas:</code></br>

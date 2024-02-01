@@ -10,9 +10,9 @@
     <td valign="center"><a href="README.md"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> <b>Indonesia</b></td>
     <td valign="center"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/><ins>English</ins></td>
 </table>
-</div>
+</div><br>
         
-<p align="center">
+<div align="center">
     <b><code><a href=#bebasdns--bebasid-dns>BebasDNS / BebasID DNS</a> is sponsored by:</code></b><br><br>
   <table align="center">
 <thead>
@@ -28,15 +28,15 @@
 <td>    
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-atharva-cloud-black.png#gh-light-mode-only" width="330" target="_blank" alt="Website Provider Cloud Atharva">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-atharva-cloud-whitepng.png?raw=true#gh-dark-mode-only" width="330" target="_blank" alt="Website Provider Cloud Atharva">
-  </td><tr>  
-  <th>https://www.atharva.co.id/</th>
+</td><tr>  
+   <th>https://www.atharva.co.id/</th>
   <th>https://www.atharva.cloud/</th>
-  </tr>
+</tr>
 </tbody>
 </table>
-    <i>A freedom oriented and neutral VPS provider for your need</i><br>
+    <i>A freedom oriented and neutral VPS provider for your need</i></br>
     <m>Starting from <b>Rp. 50.000,00</b></m>.</br>
-    <a href="https://www.atharva.cloud/index.php?rp=/store/cloud-vm-lite">See the complete VPS packages</a>
+    <a href="https://www.atharva.cloud/index.php?rp=/store/cloud-vm-lite">See the complete VPS packages</a>.
 </div>
 <hr>
 <div align="center">

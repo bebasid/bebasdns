@@ -1,22 +1,53 @@
+<head>
 <meta name="google-site-verification" content="rMj01w-DUdd0GIucGjWQKzZV-w6IE0hYYCWJWYnvfSw">
 <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh" />
 </head>
+
+<div align="center">
+    <code>Bahasa / Languages:</code></br></br>
+<table>
+  <tr>
+    <td valign="center"><a href="README.md"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> <b>Indonesia</b></td>
+    <td valign="center"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/><ins>English</ins></td>
+</table>
+</div>
+        
 <p align="center">
     <b><code><a href=#bebasdns--bebasid-dns>BebasDNS / BebasID DNS</a> is sponsored by:</code></b><br><br>
+  <table align="center">
+<thead>
+<tr>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> 
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva.svg#gh-light-mode-only" width="330" target="_blank" alt="Website Provider Atharva">
     <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/sponsor/atharva_white.svg#gh-dark-mode-only" width="330" target="_blank" alt="Website Provider Atharva">
+  </td>
+<td>    
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-atharva-cloud-black.png#gh-light-mode-only" width="330" target="_blank" alt="Website Provider Cloud Atharva">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/logo-atharva-cloud-whitepng.png?raw=true#gh-dark-mode-only" width="330" target="_blank" alt="Website Provider Cloud Atharva">
-    </a><br><sup>https://www.atharva.co.id/ | https://www.atharva.cloud/</sup></br>
+  </td><tr>  
+  <th>https://www.atharva.co.id/</th>
+  <th>https://www.atharva.cloud/</th>
+  </tr>
+</tbody>
+</table>
     <i>A freedom oriented and neutral VPS provider for your need</i><br>
     <m>Starting from <b>Rp. 50.000,00</b></m>.</br>
     <a href="https://www.atharva.cloud/index.php?rp=/store/cloud-vm-lite">See the complete VPS packages</a>
-</p>
+</div>
 <hr>
 <div align="center">
-<img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-black.png#gh-light-mode-only" width="96">
+
+ # Notice before using this project:
+   <h3>Plain DNS is only usable within allowlisted Indonesian and Singaporean IP range to prevent DDOS attack, if you need your IP address to be allowlisted or want to request a list of allowlisted IP, please contact us or join our Discord</h3>
+   <br></br>    
+    <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-black.png#gh-light-mode-only" width="96">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-white.png#gh-dark-mode-only" width="96"><br><br>
     <b>For Internet Service Provider (ISP) that use <a href="https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi">Deep Packet Inspection (DPI)</a>, please use <a href="https://github.com/bebasid/bebasit">BebasIT / BebasID IT</a> to bypass DPI. Or by using Internet Protocol version 6 (IPv6), to force the DNS to use it if the ISP supported it.</b></br>
+ <p><b>For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please contact us at <a href="mailto:dukungan@bebasid.com">dukungan[at]bebasid.com</a> for alternative domain to be able to use BebasID DNS service.</b></p><br>
 <br><b><code>Signs if the ISP is using DPI:</code></b></br></br>
 <table align="center">
 <thead>
@@ -57,21 +88,14 @@
 </p>
 <p align="center">
 <a href="#"><img src="https://img.shields.io/static/v1?label=year%20released:&message=2020&color=yellowgreen&style=plastic%22"></a></br>
- <a href="https://ready.chair6.net/?url=dns.bebasid.com"><img src="https://img.shields.io/badge/ipv6-ready-darkblue"></a>
-  <a href="https://uptime.bebasid.com/"><img src="https://img.shields.io/badge/status-up-brightgreen"></a>
- <a href='https://www.immuniweb.com/ssl/dns.bebasid.com/RVFRHImh'><img src="https://img.shields.io/badge/ssl%20immuniweb-A%2B-green"></a></br>
+ <a href="https://ready.chair6.net/?url=https%3A%2F%2Fdns.bebasid.com%2Fdns-query"><img src="https://img.shields.io/badge/ipv6-ready-darkblue"></a>
+  <a href="https://uptime.bebasid.com/"><img src="https://img.shields.io/uptimerobot/status/m794595675-62c4ce7e4ea62609764f8f0c?style=flat&logo=uptimerobot"></a>
+ <a href='https://www.immuniweb.com/ssl/dns.bebasid.com/0olenw8Q'><img src="https://img.shields.io/badge/ssl%20immuniweb-A%2B-green"></a></br>
 <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns_fGHyh&count_bg=%234572CD&title_bg=%23555555&icon_color=%23E7E7E7&title=watchers%3A+%28today%2Ftotal%29&edge_flat=false"/></a></br>
 <a href="https://github.com/bebasid/bebasdns/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MPL--2.0-blue"></a>
 </p>
 
-<div align="center">
-    <code>Bahasa / Languages:</code></br></br>
-<table>
-  <tr>
-    <td valign="center"><a href="README.md"><img src="https://em-content.zobj.net/thumbs/120/twitter/351/flag-indonesia_1f1ee-1f1e9.png" width="16"/> <b>Indonesia</b></td>
-    <td valign="center"><img src="https://github.com/twitter/twemoji/blob/master/assets/svg/1f1fa-1f1f8.svg" width="16"/><ins>English</ins></td>
-</table>
-</div>
+<br>
 
 <p align="center">
         <code>Community Server:</code></br></br>
@@ -90,7 +114,18 @@
 </tr>
 </tbody>
 </table>
-</p>
+<table align="center">
+<thead>
+<tr>
+<th><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img alt="Join WhatsApp" src="https://img.shields.io/badge/build-bebasid-brightgreen?style=flat&logo=whatsapp&logoColor=%231bcc2f&label=Join%20WhatsApp&link=https%3A%2F%2Fchat.whatsapp.com%2FJmn5Uv4UYj0GdQooI1Jwbi"></th>
+</tr>
+</thead>
+<tbody>
+<td><a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi"><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/bebasid-join-whatsapp-group.png?raw=true" height="340" alt="Join BEBASID Telegram Group"></a></td>
+</tr>
+</tbody>
+</table>
+</p><br>
 
 <p align="center"><code>Donate Us:</code></br></br>
 <table align="center">
@@ -115,6 +150,7 @@
 
 - [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns)
   - [Primary Server](#primary-server)
+      - [Default DNS](#default-dns)
     - [Alternative](#alternative)
       - [Antivirus](#antivirus)
       - [Unfiltered DNS](#unfiltered)
@@ -153,18 +189,20 @@ For example, if users can not access a website for troubleshooting purposes, and
 
 ## Primary Server:
 
+### <ins>Default DNS</ins>
+
 With malware blocking and anti-tracking. Does not block ads.
 
 | Protocols       | IP/Domain Addresses                                                                                               | DNSCrypt Stamps & Ports                                                                                                                                                                                                                        |  Supported Ports  |
 | --------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
-| Plain DNS, IPv4 | 1: `103.87.68.194`, 2: `35.219.67.150`                                                                                  | <ins>IPv4 (**Port 53**)</ins>:</br> `1: sdns://AAMAAAAAAAAAEDEwMy44Ny42OC4xOTQ6NTM`,</br> `2: sdns://AAMAAAAAAAAAEDM1LjIxOS42Ny4xNTA6NTM`</br><ins>IPv4 (**Port 1753**)</ins>:</br> `1: sdns://AAMAAAAAAAAAEjEwMy44Ny42OC4xOTQ6MTc1Mw`, </br> `2: sdns://AAMAAAAAAAAAEjM1LjIxOS42Ny4xNTA6MTc1Mw`                        | `53`,</br> `1753` |
-| Plain DNS, IPv6 | 1: `2a05:dfc7:bca0:beba:51d::53`,</br> 2: `2600:1901:8170:268::`                                                             | <ins>IPv6 (**Port 53**)</ins>:</br> `1: sdns://AAMAAAAAAAAAIFsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTNdOjUz`,</br> `2: sdns://AAMAAAAAAAAAGVsyNjAwOjE5MDE6ODE3MDoyNjg6Ol06NTM`</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `1: sdns://AAMAAAAAAAAAIlsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTNdOjE3NTM`, </br> `2: sdns://AAMAAAAAAAAAG1syNjAwOjE5MDE6ODE3MDoyNjg6Ol06MTc1Mw`                      | `53`,</br> `1753` |
-| DNS-over-TLS    | 1: `tls://dns.bebasid.com`, </br> 2: `tls://loadbalance.dns.bebasid.com`                                                     | <ins>IPv4</ins>:</br> `1: sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzAA9kbnMuYmViYXNpZC5jb20`,</br> `2: sdns://AwMAAAAAAAAAETM1LjIxOS42Ny4xNTA6ODUzABtsb2FkYmFsYW5jZS5kbnMuYmViYXNpZC5jb20` </br> <ins>IPv6</ins>:</br> `1: sdns://AwMAAAAAAAAAIVsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTNdOjg1MwAPZG5zLmJlYmFzaWQuY29t` </br> `2: sdns://AwMAAAAAAAAAGlsyNjAwOjE5MDE6ODE3MDoyNjg6Ol06ODUzABtsb2FkYmFsYW5jZS5kbnMuYmViYXNpZC5jb20`                               |       `853`       |
-| DNS-over-HTTPS  | 1: `https://dns.bebasid.com/dns-query`, </br> 2: `https://loadbalance.dns.bebasid.com/dns-query`                             | <ins>IPv4</ins>:</br> `1: sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`,</br> `2: sdns://AgMAAAAAAAAADTM1LjIxOS42Ny4xNTAAH2xvYWRiYWxhbmNlLmRucy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ` </br> <ins>IPv6</ins>:</br> `1 sdns://AgMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTNdABNkbnMuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk` </br> `2: sdns://AgMAAAAAAAAAFlsyNjAwOjE5MDE6ODE3MDoyNjg6Ol0AH2xvYWRiYWxhbmNlLmRucy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ` |       `443`       |
-| DNS-over-QUIC, IPv4   | `quic.dns.bebasid.com`                                                                                           | `sdns://BAMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABRxdWljLmRucy5iZWJhc2lkLmNvbQ`</br>                                                                                |       `853`       |
+| Plain DNS, IPv4 | 1: `103.87.68.194`, 2: ~~`35.219.67.150`~~                                                                                  | <ins>IPv4 (**Port 53**)</ins>:</br> `1: sdns://AAMAAAAAAAAAEDEwMy44Ny42OC4xOTQ6NTM`,</br> ~~`2: sdns://AAMAAAAAAAAAEDM1LjIxOS42Ny4xNTA6NTM`~~</br><ins>IPv4 (**Port 1753**)</ins>:</br> `1: sdns://AAMAAAAAAAAAEjEwMy44Ny42OC4xOTQ6MTc1Mw`, </br> ~~`2: sdns://AAMAAAAAAAAAEjM1LjIxOS42Ny4xNTA6MTc1Mw`~~                                                                  | `53`,</br> `1753` |
+| Plain DNS, IPv6 | 1: `2a06:9f44:f3e0:beba:51d::53`,</br> 2: ~~`2600:1901:8170:268::`~~                                                             | <ins>IPv6 (**Port 53**)</ins>:</br> `1: sdns://AAMAAAAAAAAAIFsyYTA2OjlmNDQ6ZjNlMDpiZWJhOjUxZDo6NTNdOjUz`,</br> ~~`2: sdns://AAMAAAAAAAAAGVsyNjAwOjE5MDE6ODE3MDoyNjg6Ol06NTM`~~</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `1: sdns://AAMAAAAAAAAAIlsyYTA2OjlmNDQ6ZjNlMDpiZWJhOjUxZDo6NTNdOjE3NTM`, </br> ~~`2: sdns://AAMAAAAAAAAAG1syNjAwOjE5MDE6ODE3MDoyNjg6Ol06MTc1Mw`~~                         | `53`,</br> `1753` |
+| DNS-over-TLS    | 1: `tls://dns.bebasid.com`, </br> 2: ~~`tls://loadbalance.dns.bebasid.com`~~                                                     | <ins>IPv4</ins>:</br> `1: sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzAA9kbnMuYmViYXNpZC5jb20`,</br> ~~`2: sdns://AwMAAAAAAAAAETM1LjIxOS42Ny4xNTA6ODUzABtsb2FkYmFsYW5jZS5kbnMuYmViYXNpZC5jb20`~~ </br> <ins>IPv6</ins>:</br> `1: sdns://AwMAAAAAAAAAIVsyYTA2OjlmNDQ6ZjNlMDpiZWJhOjUxZDo6NTNdOjg1MwAPZG5zLmJlYmFzaWQuY29t` </br> ~~`2: sdns://AwMAAAAAAAAAGlsyNjAwOjE5MDE6ODE3MDoyNjg6Ol06ODUzABtsb2FkYmFsYW5jZS5kbnMuYmViYXNpZC5jb20`~~                               |       `853`       |
+| DNS-over-HTTPS  | 1: `https://dns.bebasid.com/dns-query`, </br> 2: ~~`https://loadbalance.dns.bebasid.com/dns-query`~~                             | <ins>IPv4</ins>:</br> `1: sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`,</br> ~~`2: sdns://AgMAAAAAAAAADTM1LjIxOS42Ny4xNTAAH2xvYWRiYWxhbmNlLmRucy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`~~ </br> <ins>IPv6</ins>:</br> `1 sdns://AgMAAAAAAAAAHVsyYTA2OjlmNDQ6ZjNlMDpiZWJhOjUxZDo6NTNdABNkbnMuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk` </br> ~~`2: sdns://AgMAAAAAAAAAFlsyNjAwOjE5MDE6ODE3MDoyNjg6Ol0AH2xvYWRiYWxhbmNlLmRucy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`~~ |       `443`       |
+| DNS-over-QUIC, IPv4   | `quic.dns.bebasid.com`                                                                                            | `sdns://BAMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABRxdWljLmRucy5iZWJhc2lkLmNvbQ`</br>                                                                                                                                   |       `853`       |
 | DNSCrypt, IPv4 | Provider: <br> `2.dnscrypt-cert.dns.bebasid.com` </br> IP: `103.87.68.194:8443` | `sdns://AQMAAAAAAAAAEjEwMy44Ny42OC4xOTQ6ODQ0MyAxXDKkdrOao8ZeLyu7vTnVrT0C7YlPNNf6trdMkje7QR8yLmRuc2NyeXB0LWNlcnQuZG5zLmJlYmFzaWQuY29t` | `8443` |
-| iOS/macOS, DoH       | `1:` [dns.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh/ios-macos/dns_default/dns.mobileconfig) </br> `2:` [loadbalance-dns.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh/ios-macos/dns_default/loadbalance/dns.mobileconfig) | -                                                                                                                       |         -         |
-| iOS/macOS, TLS | - | - | - |
+| iOS/macOS, DoH IPv4/6       | `1:` [doh-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_default/doh-default.dns.bebasid.com-signed.mobileconfig) </br> `2:` ~~[doh-loadbalance.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_default/doh-loadbalance.dns.bebasid.com-signed.mobileconfig)~~ | -                                                                                                                                                                                                                                             |         `443`         |
+| iOS/macOS, DoT IPv4/6 | `1:` [dot-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_default/dot-default.dns.bebasid.com-signed.mobileconfig) </br> `2:` ~~[dot-loadbalance.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_default/dot-loadbalance.dns.bebasid.com-signed.mobileconfig)~~ | -                                                                                                                                                                                                                                             |         `853`         |
 
 # Alternative:
 
@@ -175,13 +213,13 @@ Specialized for malware blocking and without anti-tracking and adblocking.
 | Protocols       | IP/Domain Addresses                       | DNSCrypt Stamps & Ports                                                                                                                                                                                                                                           |  Supported Ports  |
 | --------------- | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
 | Plain DNS, IPv4 | `103.87.68.195`                           | <ins>IPv4 (**Port 53**)</ins>:</br> `sdns://AAMAAAAAAAAAEDEwMy44Ny42OC4xOTU6NTM`,</br> <ins>IPv4 (**Port 1753**)</ins>:</br> `sdns://AAMAAAAAAAAAEjEwMy44Ny42OC4xOTU6MTc1Mw`                                                                                      | `53`,</br> `1753` |
-| Plain DNS, IPv6 | `2a05:dfc7:bca0:beba:51d::5353`           | <ins>IPv6 (**Port 53**)</ins>:</br> `sdns://AAMAAAAAAAAAIlsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTM1M106NTM`,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `sdns://AAMAAAAAAAAAJFsyYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTM1M106MTc1Mw`                                      | `53`,</br> `1753` |
-| DNS-over-TLS    | `antivirus.bebasid.com`                   | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTU6ODUzABVhbnRpdmlydXMuYmViYXNpZC5jb20`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAI1syYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTM1M106ODUzABVhbnRpdmlydXMuYmViYXNpZC5jb20`                               |       `853`       |
-| DNS-over-HTTPS  | `https://antivirus.bebasid.com/dns-query` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTUAGWFudGl2aXJ1cy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAH1syYTA1OmRmYzc6YmNhMDpiZWJhOjUxZDo6NTM1M10AGWFudGl2aXJ1cy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ` |       `443`       
-| DNS-over-QUIC, IPv4   | `quic-antivirus.dns.bebasid.com`          | `sdns://BAMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzAB5xdWljLWFudGl2aXJ1cy5kbnMuYmViYXNpZC5jb20`</br>                                                                   |       `853`       |
+| Plain DNS, IPv6 | `2a06:9f44:f3e0:beba:51d::5353`           | <ins>IPv6 (**Port 53**)</ins>:</br> `sdns://AAMAAAAAAAAAIlsyYTA2OjlmNDQ6ZjNlMDpiZWJhOjUxZDo6NTM1M106NTM`,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `sdns://AAMAAAAAAAAAJFsyYTA2OjlmNDQ6ZjNlMDpiZWJhOjUxZDo6NTM1M106MTc1Mw`                                      | `53`,</br> `1753` |
+| DNS-over-TLS    | `antivirus.bebasid.com`                   | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTU6ODUzABVhbnRpdmlydXMuYmViYXNpZC5jb20`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAI1syYTA2OjlmNDQ6ZjNlMDpiZWJhOjUxZDo6NTM1M106ODUzABVhbnRpdmlydXMuYmViYXNpZC5jb20`                               |       `853`       |
+| DNS-over-HTTPS  | `https://antivirus.bebasid.com/dns-query` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTUAGWFudGl2aXJ1cy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAH1syYTA2OjlmNDQ6ZjNlMDpiZWJhOjUxZDo6NTM1M10AGWFudGl2aXJ1cy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ` |       `443`       |
+| DNS-over-QUIC, IPv4   | `quic-antivirus.dns.bebasid.com`          | `sdns://BAMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzAB5xdWljLWFudGl2aXJ1cy5kbnMuYmViYXNpZC5jb20`</br>                                                                                                                                         |       `853`       |
 | DNSCrypt, IPv4 | Provider: <br> `2.dnscrypt-cert.antivirus.bebasid.com` </br> IP: `103.87.68.195:8443` | `sdns://AQMAAAAAAAAAEjEwMy44Ny42OC4xOTU6ODQ0MyDxbZzPMadetG2FodrzRfoiJjJi3cxbOsvKAvMyJ09rfiUyLmRuc2NyeXB0LWNlcnQuYW50aXZpcnVzLmJlYmFzaWQuY29t` | `8443` |
-| iOS/macOS, DoH | [malware-dns.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh/ios-macos/dns_malware/dns.mobileconfig) | -                                                                                                                                   |         -         |
-| iOS/macOS, TLS | - | - | - |
+| iOS/macOS, DoH IPv4/6       | [doh-malware.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_malware/doh-malware.dns.bebasid.com-signed.mobileconfig)                                         | -                                                                                                                                                                                                                                                                 |         `443`         |
+| iOS/macOS, DoT IPv4/6       | [dot-malware.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_malware/dot-malware.dns.bebasid.com-signed.mobileconfig)                                         | -                                                                                                                                                                                                                                                                 |         `853`         |
 
 ### <ins>Unfiltered</ins>
 
@@ -189,14 +227,12 @@ Does not block malware, tracking, and ads
 
 | Protocols       | IP/Domain Addresses                  | DNSCrypt Stamps & Ports                                                                                                                                                                                                                    |  Supported Ports  |
 | --------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------: |
-| Plain DNS, IPv4 | `103.87.68.193`                      | <ins>IPv4 (**Port 53**)</ins>:</br> `sdns://AAcAAAAAAAAAEDEwMy44Ny42OC4xOTM6NTM`,</br> <ins>IPv4 (**Port 1753**)</ins>:</br> `sdns://AAcAAAAAAAAAEjEwMy44Ny42OC4xOTM6MTc1Mw`                                                               | `53`,</br> `1753` |
-| Plain DNS, IPv6 | `2a05:dfc7:bca0:d01c::2`             | <ins>IPv6 (**Port 53**)</ins>:</br> `sdns://AAcAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjoyXTo1Mw`,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `sdns://AAcAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjoyXToxNzUz`                                  | `53`,</br> `1753` |
-| DNS-over-TLS    | `unfiltered.dns.bebasid.com`         | <ins>IPv4</ins>:</br> `sdns://AwcAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABZ1bmZpbHRlcmVkLmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwcAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjoyXTo4NTMAFnVuZmlsdGVyZWQuYmViYXNpZC5jb20`               |       `853`       |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/unfiltered` | <ins>IPv4</ins>:</br> `sdns://AgcAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL3VuZmlsdGVyZWQ`,</br> <ins>IPv6</ins>:</br> `sdns://AgcAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjoyXQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvdW5maWx0ZXJlZA` |       `443`       |
+| DNS-over-TLS    | `unfiltered.dns.bebasid.com`         | <ins>IPv4</ins>:</br> `sdns://AwcAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABZ1bmZpbHRlcmVkLmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwcAAAAAAAAAHFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjoyXTo4NTMAFnVuZmlsdGVyZWQuYmViYXNpZC5jb20`               |       `853`       |
+| DNS-over-HTTPS  | `https://dns.bebasid.com/unfiltered` | <ins>IPv4</ins>:</br> `sdns://AgcAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL3VuZmlsdGVyZWQ`,</br> <ins>IPv6</ins>:</br> `sdns://AgcAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjoyXQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvdW5maWx0ZXJlZA` |       `443`       |
 | DNS-over-QUIC, IPv4   | `unfiltered.dns.bebasid.com`         | `sdns://BAcAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABp1bmZpbHRlcmVkLmRucy5iZWJhc2lkLmNvbQ`</br>                                                                                                                       |       `853`       |
-| DNSCrypt, IPv4 | Provider: <br> `2.dnscrypt-cert.unfiltered.dns.bebasid.com` </br> IP: `35.219.67.150:5443` | `sdns://AQcAAAAAAAAAEjM1LjIxOS42Ny4xNTA6NTQ0MyAtDC9I4194j3U0lZcEBPPd43IvR8gGNOS5QNVIx_7PNyoyLmRuc2NyeXB0LWNlcnQudW5maWx0ZXJlZC5kbnMuYmViYXNpZC5jb20` | `5443` |
-| iOS/macOS, DoH       | [unfiltered-dns.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh/ios-macos/dns_unfiltered/dns.mobileconfig) | -                                                                                                                                                                                                                                          |         -   |
-| iOS/macOS, TLS | - | - | - |
+| ~~DNSCrypt, IPv4~~ | Provider: <br> `2.dnscrypt-cert.unfiltered.dns.bebasid.com` </br> IP: ~~`35.219.67.150:5443`~~ | ~~`sdns://AQcAAAAAAAAAEjM1LjIxOS42Ny4xNTA6NTQ0MyAtDC9I4194j3U0lZcEBPPd43IvR8gGNOS5QNVIx_7PNyoyLmRuc2NyeXB0LWNlcnQudW5maWx0ZXJlZC5kbnMuYmViYXNpZC5jb20`~~ | `5443` |
+| iOS/macOS, DoH IPv4/6       | [doh-unfiltered.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_unfiltered/doh-unfiltered.dns.bebasid.com-signed.mobileconfig)                                    | -                                                                                                                                                                                                                                          |         `443`         |
+| iOS/macOS, DoT IPv4/6 | [dot-unfiltered.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_unfiltered/dot-unfiltered.dns.bebasid.com-signed.mobileconfig)                                    | -                                                                                                                                                                                                                                          |         `853`         |
 
 ### <ins>Family</ins>
 
@@ -210,12 +246,12 @@ Specialized to block without DNS resolvers and VPN providers blocking.
 | Protocols       | IP/Domain Addresses                           | DNSCrypt Stamps & Ports                                                                                                                                                                                                                                                     |  Supported Ports  |
 | --------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
 | Plain DNS, IPv4 | `103.87.68.196`                               | <ins>IPv4 (**Port 53**)</ins>:</br> `sdns://AAMAAAAAAAAAEDEwMy44Ny42OC4xOTY6NTM`,</br> <ins>IPv4 (**Port 1753**)</ins>:</br> `sdns://AAMAAAAAAAAAEjEwMy44Ny42OC4xOTY6MTc1Mw`                                                                                                | `53`,</br> `1753` |
-| Plain DNS, IPv6 | `2a05:dfc7:bca0:b00b:beba::51d`               | <ins>IPv6 (**Port 53**)</ins>:</br> `sdns://AAMAAAAAAAAAIlsyYTA1OmRmYzc6YmNhMDpiMDBiOmJlYmE6OjUxZF06NTM`,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `sdns://AAMAAAAAAAAAJFsyYTA1OmRmYzc6YmNhMDpiMDBiOmJlYmE6OjUxZF06MTc1Mw`                                                | `53`,</br> `1753` |
-| DNS-over-TLS    | `internetsehat.bebasid.com`                   | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTY6ODUzABlpbnRlcm5ldHNlaGF0LmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAI1syYTA1OmRmYzc6YmNhMDpiMDBiOmJlYmE6OjUxZF06ODUzABlpbnRlcm5ldHNlaGF0LmJlYmFzaWQuY29t`                               |       `853`       |
-| DNS-over-HTTPS  | `https://internetsehat.bebasid.com/dns-query` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTYAHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAH1syYTA1OmRmYzc6YmNhMDpiMDBiOmJlYmE6OjUxZF0AHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk` |       `443`       |
-| DNS-over-QUIC, IPv4   | `quic-sehat.dns.bebasid.com`                  | `sdns://BAMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABpxdWljLXNlaGF0LmRucy5iZWJhc2lkLmNvbQ`</br>                                                                        |       `853`       |
-| iOS/macOS, DoH       | [familydefault-dns.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh/ios-macos/dns_family/default/dns.mobileconfig)                                             | -                                                                                                                                                                                                                                       |         -         |
-| iOS/macOS, TLS | - | - | - |
+| Plain DNS, IPv6 | `2a06:9f44:f3e0:b00b:beba::51d`               | <ins>IPv6 (**Port 53**)</ins>:</br> `sdns://AAMAAAAAAAAAIlsyYTA2OjlmNDQ6ZjNlMDpiMDBiOmJlYmE6OjUxZF06NTM`,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `sdns://AAMAAAAAAAAAJFsyYTA2OjlmNDQ6ZjNlMDpiMDBiOmJlYmE6OjUxZF06MTc1Mw`                                                | `53`,</br> `1753` |
+| DNS-over-TLS    | `internetsehat.bebasid.com`                   | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTY6ODUzABlpbnRlcm5ldHNlaGF0LmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAI1syYTA2OjlmNDQ6ZjNlMDpiMDBiOmJlYmE6OjUxZF06ODUzABlpbnRlcm5ldHNlaGF0LmJlYmFzaWQuY29t`                               |       `853`       |
+| DNS-over-HTTPS  | `https://internetsehat.bebasid.com/dns-query` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTYAHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAH1syYTA2OjlmNDQ6ZjNlMDpiMDBiOmJlYmE6OjUxZF0AHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk` |       `443`       |
+| DNS-over-QUIC, IPv4   | `quic-sehat.dns.bebasid.com`                  | `sdns://BAMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABpxdWljLXNlaGF0LmRucy5iZWJhc2lkLmNvbQ`</br>                                                                                                                                                        |       `853`       |
+| iOS/macOS, DoH IPv4/6       | [doh-familydefault.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familydefault.dns.bebasid.com-signed.mobileconfig)                                             | -                                                                                                                                                                                                                                                                           |         `443`         |
+| iOS/macOS, DoT IPv4/6 | [dot-familydefault.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familydefault.dns.bebasid.com-signed.mobileconfig)                                             | -                                                                                                                                                                                                                                                                           |         `853`         |
 
 ### <b><ins>Family Strict</ins></b>:
 
@@ -223,10 +259,10 @@ Specialized to block with DNS resolvers and VPN providers blocking.
 
 | Protocols      | IP/Domain Addresses                            | DNSCrypt Stamps & Ports                                                                                                                                                                                                                                                       | Supported Ports |
 | -------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------: |
-| DNS-over-TLS   | `1984.bebasid.com`                             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTY6ODUzABAxOTg0LmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAI1syYTA1OmRmYzc6YmNhMDpiMDBiOmJlYmE6OjUxZF06ODUzABAxOTg0LmJlYmFzaWQuY29t`                                                         |      `853`      |
-| DNS-over-HTTPS | `https://internetsehat.bebasid.com/dns-strict` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTYAHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCy9kbnMtc3RyaWN0`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAH1syYTA1OmRmYzc6YmNhMDpiMDBiOmJlYmE6OjUxZF0AHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCy9kbnMtc3RyaWN0` |      `443`      |
-| iOS/macOS, DoH      | [familystrict-dns.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh/ios-macos/dns_family/strict/dns.mobileconfig)                                              | -                                                                                                                                                                                                                                      |        -        |
-| iOS/macOS, TLS | - | - | - |
+| DNS-over-TLS   | `1984.bebasid.com`                             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTY6ODUzABAxOTg0LmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAI1syYTA2OjlmNDQ6ZjNlMDpiMDBiOmJlYmE6OjUxZF06ODUzABAxOTg0LmJlYmFzaWQuY29t`                                                         |      `853`      |
+| DNS-over-HTTPS | `https://internetsehat.bebasid.com/dns-strict` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTYAHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCy9kbnMtc3RyaWN0`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAH1syYTA2OjlmNDQ6ZjNlMDpiMDBiOmJlYmE6OjUxZF0AHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCy9kbnMtc3RyaWN0` |      `443`      |
+| iOS/macOS, DoH IPv4/6      | [doh-familystrict.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familystrict.dns.bebasid.com-signed.mobileconfig)                                              | -                                                                                                                                                                                                                                                                             |        `443`        |
+| iOS/macOS, DoT IPv4/6 | [dot-familystrict.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familystrict.dns.bebasid.com-signed.mobileconfig)                                              | -                                                                                                                                                                                                                                                                             |        `853`        |
 
 ### <ins>Custom Filter DNS</ins>
 
@@ -239,11 +275,10 @@ Special variant for OISD blocklist filter.
 
 | Protocols       | IP/Domain Addresses                | DNSCrypt Stamps & Ports                                                                                                                                                                                                              |  Supported Ports  |
 | --------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------: |
-| Plain DNS, IPv6 | `2a05:dfc7:bca0:d01c::3`           | <ins>IPv6 (**Port 53**)</ins>:</br> `sdns://AAMAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjozXTo1Mw`,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `sdns://AAMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjozXToxNzUz`                            | `53`,</br> `1753` |
-| DNS-over-TLS    | `oisd.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzABRvaXNkLmRucy5iZWJhc2lkLmNvbQ`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjozXTo4NTMAFG9pc2QuZG5zLmJlYmFzaWQuY29t`              |       `853`       |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-oisd` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMJL2Rucy1vaXNk`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjozXQATZG5zLmJlYmFzaWQuY29tOjQ0MwkvZG5zLW9pc2Q` |       `443`       |
-| iOS/macOS, DoH       | [oisdbig-dns.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh/ios-macos/dns_default/oisdbig/dns.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         -         |
-| iOS/macOS, TLS | - | - | - |
+| DNS-over-TLS    | `oisd.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABRvaXNkLmRucy5iZWJhc2lkLmNvbQ`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjozXTo4NTMAFG9pc2QuZG5zLmJlYmFzaWQuY29t`              |       `853`       |
+| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-oisd` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMJL2Rucy1vaXNk`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjozXQATZG5zLmJlYmFzaWQuY29tOjQ0MwkvZG5zLW9pc2Q` |       `443`       |
+| iOS/macOS, DoH IPv4/6       | [doh-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-oisdbig.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
+| iOS/macOS, DoT IPv4/6       | [dot-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-oisdbig.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
 
 ### <b><ins>Hagezi Multi-Normal Filter</ins></b>:
 
@@ -251,11 +286,10 @@ Special variant for Hagezi blocklist filter.
 
 | Protocols       | IP/Domain Addresses                  | DNSCrypt Stamps & Ports                                                                                                                                                                                                                    |  Supported Ports  |
 | --------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------: |
-| Plain DNS, IPv6 | `2a05:dfc7:bca0:d01c::4`             | <ins>IPv6 (**Port 53**)</ins>:</br> `sdns://AAMAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjo0XTo1Mw`,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `sdns://AAMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjo0XToxNzUz`                                  | `53`,</br> `1753` |
-| DNS-over-TLS    | `hagezi.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzABZoYWdlemkuZG5zLmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo0XTo4NTMAFmhhZ2V6aS5kbnMuYmViYXNpZC5jb20`               |       `853`       |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-hagezi` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL2Rucy1oYWdlemk`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo0XQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvZG5zLWhhZ2V6aQ` |       `443`       |
-| iOS/macOS, DoH       | [hagezimultinormal-dns.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh/ios-macos/dns_default/hagezimultinormal/dns.mobileconfig)                                    | -                                                                                                                                                                                                                                          |         -         |
-| iOS/macOS, TLS | - | - | - |
+| DNS-over-TLS    | `hagezi.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABZoYWdlemkuZG5zLmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo0XTo4NTMAFmhhZ2V6aS5kbnMuYmViYXNpZC5jb20`               |       `853`       |
+| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-hagezi` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL2Rucy1oYWdlemk`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo0XQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvZG5zLWhhZ2V6aQ` |       `443`       |
+| iOS/macOS, DoH IPv4/6       | [doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
+| iOS/macOS, DoT IPv4/6       | [dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
 
 ### <b><ins>StevenBlack Filter</ins></b>:
 
@@ -263,11 +297,10 @@ Special variant for StevenBlack blocklist filter.
 
 | Protocols       | IP/Domain Addresses                       | DNSCrypt Stamps & Ports                                                                                                                                                                                                                                 |  Supported Ports  |
 | --------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
-| Plain DNS, IPv6 | `2a05:dfc7:bca0:d01c::5`                  | <ins>IPv6 (**Port 53**)</ins>:</br> `sdns://AAMAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjo1XTo1Mw`,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `sdns://AAMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjo1XToxNzUz`                                               | `53`,</br> `1753` |
-| DNS-over-TLS    | `stevenblack.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzABtzdGV2ZW5ibGFjay5kbnMuYmViYXNpZC5jb20`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo1XTo4NTMAG3N0ZXZlbmJsYWNrLmRucy5iZWJhc2lkLmNvbQ`              |       `853`       |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-stevenblack` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMQL2Rucy1zdGV2ZW5ibGFjaw`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo1XQATZG5zLmJlYmFzaWQuY29tOjQ0MxAvZG5zLXN0ZXZlbmJsYWNr` |       `443`       |
-| iOS/macOS, DoH       | [stevenblack-dns.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh/ios-macos/dns_default/stevenblack/dns.mobileconfig)                                         | -                                                                                                                                                                                                                                                       |         -         |
-| iOS/macOS, TLS | - | - | - |
+| DNS-over-TLS    | `stevenblack.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABtzdGV2ZW5ibGFjay5kbnMuYmViYXNpZC5jb20`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo1XTo4NTMAG3N0ZXZlbmJsYWNrLmRucy5iZWJhc2lkLmNvbQ`              |       `853`       |
+| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-stevenblack` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMQL2Rucy1zdGV2ZW5ibGFjaw`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo1XQATZG5zLmJlYmFzaWQuY29tOjQ0MxAvZG5zLXN0ZXZlbmJsYWNr` |       `443`       |
+| iOS/macOS, DoH IPv4/6       | [doh-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-stevenblack.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
+| iOS/macOS, DoT IPv4/6       | [dot-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-stevenblack.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
 
 ### <b><ins>1Hosts Lite Filter</ins></b>:
 
@@ -275,11 +308,10 @@ Special variant for 1Hosts blocklist filter.
 
 | Protocols       | IP/Domain Addresses                  | DNSCrypt Stamps & Ports                                                                                                                                                                                                                    |  Supported Ports  |
 | --------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------: |
-| Plain DNS, IPv6 | `2a05:dfc7:bca0:d01c::6`             | <ins>IPv6 (**Port 53**)</ins>:</br> `sdns://AAMAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjo2XTo1Mw`,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `sdns://AAMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjo2XToxNzUz`                                  | `53`,</br> `1753` |
-| DNS-over-TLS    | `1hosts.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzABYxaG9zdHMuZG5zLmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo2XTo4NTMAFjFob3N0cy5kbnMuYmViYXNpZC5jb20`               |       `853`       |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-1hosts` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL2Rucy0xaG9zdHM`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo2XQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvZG5zLTFob3N0cw` |       `443`       |
-| iOS/macOS, DoH       | [1hostslite-dns.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh/ios-macos/dns_default/1hostslite/dns.mobileconfig)                                    | -                                                                                                                                                                                                                                          |         -         |
-| iOS/macOS, TLS | - | - | - |
+| DNS-over-TLS    | `1hosts.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABYxaG9zdHMuZG5zLmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo2XTo4NTMAFjFob3N0cy5kbnMuYmViYXNpZC5jb20`               |       `853`       |
+| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-1hosts` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL2Rucy0xaG9zdHM`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo2XQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvZG5zLTFob3N0cw` |       `443`       |
+| iOS/macOS, DoH IPv4/6       | [doh-1hostslite.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-1hostslite.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
+| iOS/macOS, DoT IPv4/6       | [dot-1hostslite.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-1hostslite.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
 
 ### <b><ins>AdGuard Filter</ins></b>:
 
@@ -287,11 +319,10 @@ Special variant for AdGuard blocklist filter.
 
 | Protocols       | IP/Domain Addresses                   | DNSCrypt Stamps & Ports                                                                                                                                                                                                                      |  Supported Ports  |
 | --------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
-| Plain DNS, IPv6 | `2a05:dfc7:bca0:d01c::7`              | <ins>IPv6 (**Port 53**)</ins>:</br> `sdns://AAMAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjo3XTo1Mw`,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `sdns://AAMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjo3XToxNzUz`                                    | `53`,</br> `1753` |
-| DNS-over-TLS    | `adguard.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzABdhZGd1YXJkLmRucy5iZWJhc2lkLmNvbQ`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo3XTo4NTMAF2FkZ3VhcmQuZG5zLmJlYmFzaWQuY29t`              |       `853`       |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-adguard` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMML2Rucy1hZGd1YXJk`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo3XQATZG5zLmJlYmFzaWQuY29tOjQ0MwwvZG5zLWFkZ3VhcmQ` |       `443`       |
-| iOS/macOS, DoH       | [adguardfilter-dns.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh/ios-macos/dns_default/adguardfilter/dns.mobileconfig)                                     | -                                                                                                                                                                                                                                         |         -         |
-| iOS/macOS, TLS | - | - | - |
+| DNS-over-TLS    | `adguard.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABdhZGd1YXJkLmRucy5iZWJhc2lkLmNvbQ`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo3XTo4NTMAF2FkZ3VhcmQuZG5zLmJlYmFzaWQuY29t`              |       `853`       |
+| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-adguard` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMML2Rucy1hZGd1YXJk`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo3XQATZG5zLmJlYmFzaWQuY29tOjQ0MwwvZG5zLWFkZ3VhcmQ` |       `443`       |
+| iOS/macOS, DoH IPv4/6       | [doh-adguard.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-adguard.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
+| iOS/macOS, DoT IPv4/6       | [dot-adguard.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-adguard.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
 
 ### <b><ins>Developer Dan's Filter Blacklist (Devdan)</ins></b>:
 
@@ -299,11 +330,10 @@ Special variant for Developer Dan's (Devdan) blocklist filter.
 
 | Protocols       | IP/Domain Addresses                  | DNSCrypt Stamps & Ports                                                                                                                                                                                                                    |  Supported Ports  |
 | --------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------: |
-| Plain DNS, IPv6 | `2a05:dfc7:bca0:d01c::8`             | <ins>IPv6 (**Port 53**)</ins>:</br> `sdns://AAMAAAAAAAAAG1syYTA1OmRmYzc6YmNhMDpkMDFjOjo4XTo1Mw`,</br> <ins>IPv6 (**Port 1753**)</ins>:</br> `sdns://AAMAAAAAAAAAHVsyYTA1OmRmYzc6YmNhMDpkMDFjOjo4XToxNzUz`                                  | `53`,</br> `1753` |
-| DNS-over-TLS    | `devdan.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTQ6ODUzABZkZXZkYW4uZG5zLmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo4XTo4NTMAFmRldmRhbi5kbnMuYmViYXNpZC5jb20`               |       `853`       |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-devdan` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL2Rucy1kZXZkYW4`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA1OmRmYzc6YmNhMDpkMDFjOjo4XQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvZG5zLWRldmRhbg` |       `443`       |
-| iOS/macOS, DoH       | [devdan-dns.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh/ios-macos/dns_default/devdan/dns.mobileconfig)                                    | -                                                                                                                                                                                                                                          |         -         |
-| iOS/macOS, TLS | - | - | - |
+| DNS-over-TLS    | `devdan.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABZkZXZkYW4uZG5zLmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo4XTo4NTMAFmRldmRhbi5kbnMuYmViYXNpZC5jb20`               |       `853`       |
+| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-devdan` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL2Rucy1kZXZkYW4`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo4XQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvZG5zLWRldmRhbg` |       `443`       |
+| iOS/macOS, DoH IPv4/6       | [doh-devdan.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-devdan.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
+| iOS/macOS, DoT IPv4/6       | [dot-devdan.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-devdan.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
 
 ## Filter (Ad-Blocker & Anti-Tracking):
 
@@ -327,7 +357,8 @@ DNS Blocklists are used to block domains according to each DNS resolver speciali
 | Blocklists - For Healthy Internet Variant                                                        |
 | ------------------------------------------------------------------------------------------------ |
 | [List of Filter used by Healthy Internet DNS](https://internetsehat.bebasid.com/blacklist/2023/) |
-| [URLHaus](https://urlhaus.abuse.ch/)                                                             |
+| [URLHaus](https://urlhaus.abuse.ch/)     
+| [OISD NSFW](https://oisd.nl/downloads) ||
 
 ### <ins>DNS Allowlist</ins>
 
@@ -342,6 +373,9 @@ DNS Allowlists are used to allow domains that blocklists would otherwise block.
 ### <ins>Server Status</ins>
 
 Public service status statistic can be seen at [BebasDNS/BebasID DNS Status](https://uptime.bebasid.com/).
+List of server status:
+- [Better Stack](https://bebasid.betteruptime.com/)
+- [UptimeRobot Status](https://stats.uptimerobot.com/w66Jkc0zm7)
 
 ### <ins>Security Test</ins>
 
@@ -349,10 +383,10 @@ Public service status statistic can be seen at [BebasDNS/BebasID DNS Status](htt
 
 | SSL Sites | Grade | Latest Test Date |
 | --------- | --------- |  --------- |
-| [SSL Security Test ImmuniWeb DoH](https://www.immuniweb.com/ssl/dns.bebasid.com/0olenw8Q/) | **A+** | 12 November 2023 |
-| [SSL Security Test ImmuniWeb TLS](https://www.immuniweb.com/ssl/dns.bebasid.com/Q4537Du7/) | **A+** | 12 November 2023 |
-| [SSL Labs IPv4/IPv6](https://www.ssllabs.com/ssltest/analyze.html?d=dns.bebasid.com) | **A+ / A** | 12 November 2023 |
-| [SSL Labs IPv6](https://www.ssllabs.com/ssltest/analyze.html?d=dns.bebasid.com&s=2a05%3adfc7%3abca0%3abeba%3a51d%3a0%3a0%3a53&latest) | **A+** | 12 November 2023 |
+| [SSL Security Test ImmuniWeb DoH](https://www.immuniweb.com/ssl/dns.bebasid.com/0olenw8Q/) | **A+** | 17 Desember 2023 |
+| [SSL Security Test ImmuniWeb TLS](https://www.immuniweb.com/ssl/dns.bebasid.com/Q4537Du7/) | **A+** | 17 Desember 2023 |
+| [SSL Labs IPv4/IPv6](https://www.ssllabs.com/ssltest/analyze.html?d=dns.bebasid.com) | **A+** | 17 Desember 2023 |
+| [SSL Labs IPv6](https://www.ssllabs.com/ssltest/analyze.html?d=dns.bebasid.com&s=2a06%3a9f44%3af3e0%3abeba%3a51d%3a0%3a0%3a53) | **A+** | 17 Desember 2023 |
 | [Is your site IPv6 ready?](https://ready.chair6.net/?url=https%3A%2F%2Fdns.bebasid.com%2Fdns-query) | **PASS** | - |
 
 ## List of Tutorials and Questions:
@@ -377,7 +411,7 @@ If you have any requests or bug reports, please [open a new issue](https://githu
 
 ### <ins>Frequently Asked Questions</ins>
 
-If you have any problems using [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), please head to [Discord](https://discord.gg/EKrxZyu) or send email to `dukungan@bebasid.com` with the subject **BebasDNS: [Your problem/question]**
+If you have any problems using [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), please head to [Discord](https://discord.gg/EKrxZyu) or send email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasDNS / BebasID DNS: [Your problem/question]**
 
 ## Donate us:
 

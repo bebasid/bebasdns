@@ -161,9 +161,6 @@
         - [Filter OISD Big](#filter-oisd-big)
         - [Filter Hagezi Multi-Normal](#filter-hagezi-multi-normal)
         - [Filter StevenBlack](#filter-stevenblack)
-        - [Filter 1Hosts Lite](#filter-1hosts-lite)
-        - [AdGuard Filter](#adguard-filter)
-        - [Developer Dan's Filter Blacklist (DevDan)](#developer-dans-filter-blacklist-devdan)
   - [Penyaring (Ad-Blocker & Anti-Tracking)](#penyaring-ad-blocker--anti-tracking)
     - [Daftar Blokir DNS](#daftar-blokir-dns)
     - [Daftar Putih DNS](#daftar-putih-dns)
@@ -301,39 +298,6 @@ Varian khusus provider filter blocklist StevenBlack.
 | DNS-over-HTTPS  | `https://dns.bebasid.com/dns-stevenblack` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMQL2Rucy1zdGV2ZW5ibGFjaw`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo1XQATZG5zLmJlYmFzaWQuY29tOjQ0MxAvZG5zLXN0ZXZlbmJsYWNr` |       `443`       |
 | iOS/macOS, DoH IPv4/6       | [doh-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-stevenblack.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
 | iOS/macOS, DoT IPv4/6       | [dot-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-stevenblack.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
-
-### <b><ins>Filter 1Hosts Lite</ins></b>:
-
-Varian khusus provider filter blocklist 1Hosts.
-
-| Protocols       | IP/Domain Addresses                  | DNSCrypt Stamps & Ports                                                                                                                                                                                                                    |  Supported Ports  |
-| --------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------: |
-| DNS-over-TLS    | `1hosts.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABYxaG9zdHMuZG5zLmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo2XTo4NTMAFjFob3N0cy5kbnMuYmViYXNpZC5jb20`               |       `853`       |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-1hosts` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL2Rucy0xaG9zdHM`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo2XQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvZG5zLTFob3N0cw` |       `443`       |
-| iOS/macOS, DoH IPv4/6       | [doh-1hostslite.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-1hostslite.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
-| iOS/macOS, DoT IPv4/6       | [dot-1hostslite.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-1hostslite.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
-
-### <b><ins>AdGuard Filter</ins></b>:
-
-Varian khusus provider filter blocklist AdGuard.
-
-| Protocols       | IP/Domain Addresses                   | DNSCrypt Stamps & Ports                                                                                                                                                                                                                      |  Supported Ports  |
-| --------------- | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
-| DNS-over-TLS    | `adguard.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABdhZGd1YXJkLmRucy5iZWJhc2lkLmNvbQ`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo3XTo4NTMAF2FkZ3VhcmQuZG5zLmJlYmFzaWQuY29t`              |       `853`       |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-adguard` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMML2Rucy1hZGd1YXJk`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo3XQATZG5zLmJlYmFzaWQuY29tOjQ0MwwvZG5zLWFkZ3VhcmQ` |       `443`       |
-| iOS/macOS, DoH IPv4/6       | [doh-adguard.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-adguard.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
-| iOS/macOS, DoT IPv4/6       | [dot-adguard.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-adguard.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
-
-### <b><ins>Developer Dan's Filter Blacklist (Devdan)</ins></b>:
-
-Varian khusus provider filter blocklist Developer Dan's (Devdan).
-
-| Protocols       | IP/Domain Addresses                  | DNSCrypt Stamps & Ports                                                                                                                                                                                                                    |  Supported Ports  |
-| --------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------: |
-| DNS-over-TLS    | `devdan.dns.bebasid.com`             | <ins>IPv4</ins>:</br> `sdns://AwMAAAAAAAAAETEwMy44Ny42OC4xOTM6ODUzABZkZXZkYW4uZG5zLmJlYmFzaWQuY29t`,</br> <ins>IPv6</ins>:</br> `sdns://AwMAAAAAAAAAHFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo4XTo4NTMAFmRldmRhbi5kbnMuYmViYXNpZC5jb20`               |       `853`       |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-devdan` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL2Rucy1kZXZkYW4`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo4XQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvZG5zLWRldmRhbg` |       `443`       |
-| iOS/macOS, DoH IPv4/6       | [doh-devdan.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-devdan.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
-| iOS/macOS, DoT IPv4/6       | [dot-devdan.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-devdan.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
 
 ## Penyaring (Ad-Blocker & Anti-Tracking):
 

@@ -225,8 +225,8 @@ Khusus tanpa pemblokiran perangkat lunak jahat (malware), tanpa blokir pelacakan
 
 ### <ins>DNS Internet Sehat (Family)</ins>
 
-Khusus pemblokiran situs kebencian/gore, situs dewasa (18+), situs judi/kasino, dan situs hal bernegatif lainnya.</br> Hanya memblokir perangkat lunak jahat (malware), pelacakan (tracking) dan tidak memblokir iklan (ads).<br></br>
-Anda bisa memilih dari 2 (dua) varian: [Family Default](#family-default) dan [Family Strict](#family-strict), yang memblokir provider VPN dan DNS penyedia.
+Khusus pemblokiran situs kebencian/gore, situs dewasa (18+), situs judi, dan situs hal bernegatif lainnya. BebasDNS Internet Sehat merupakan implementasi Internet Sehat tanpa pemblokiran yang tidak perlu sehingga anda dapat berselancar di Internet dengan nyaman. Blocklist untuk BebasDNS Internet Sehat ada 2 yaitu OISD NSFW dan Blocklist Komunitas KINI yang dibuat dengan melibatkan seluruh komunitas BebasID dan masyarakat Indonesia.<br><br>Anda dapat bergabung ke Komunitas kami di [Discord](https://discord.gg/EKrxZyu) atau [Telegram](https://t.me/bebasidbykini) untuk berkontribusi dalam blacklist Internet Sehat BebasDNS. Selain itu anda dapat membuka issue untuk menambahkan blocklist atau menghapus blocklist.<br></br>
+Anda bisa memilih dari 3 (dua) varian: [Family Default](#family-default), [Family with AdBlock](#family-adblock), dan [Family Strict](#family-strict).
 
 ### <b><ins>Family Default</ins></b>:
 

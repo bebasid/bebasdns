@@ -180,7 +180,7 @@
 
 # BebasDNS / BebasID DNS
 
-[**BebasDNS** / **BebasID DNS**](#bebasdns--bebasid-dns) adalah implementasi sistem DNS sekaligus ad-blocker dan anti-tracking dengan uptime-nya cukup stabil, tidak menyimpan kueri, dan tidak menyimpan log dikarenakan privasi pengguna. Bahkan sudah mendukung [TLD](https://id.wikipedia.org/wiki/Ranah_internet_tingkat_teratas) dari [OpenNIC](https://www.opennic.org/).
+[**BebasDNS** / **BebasID DNS**](#bebasdns--bebasid-dns) adalah implementasi sistem DNS sekaligus ad-blocker dan anti-tracking dengan uptime-nya cukup stabil, tidak menyimpan kueri, dan tidak menyimpan log dikarenakan privasi pengguna.
 
 Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri dan log apabila jika adanya laporan bug.
 Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.

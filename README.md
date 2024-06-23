@@ -321,6 +321,7 @@ Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 | [Daftar isi penyaring yang dipakai DNS Internet Sehat Family](https://internetsehat.bebasid.com/blacklist/2023/) |
 | [URLHaus](https://urlhaus.abuse.ch/)                                                                    |
 | [OISD NSFW](https://oisd.nl/downloads) |
+| [Hagezi Gambling Blocklist](https://github.com/hagezi/dns-blocklists) |
 
 ### <ins>Daftar Putih DNS</ins>
 

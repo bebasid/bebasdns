@@ -226,7 +226,7 @@ Khusus tanpa pemblokiran perangkat lunak jahat (malware), tanpa blokir pelacakan
 ### <ins>DNS Internet Sehat (Family)</ins>
 
 Khusus pemblokiran situs kebencian, gore, situs dewasa (18+), situs judi, dan situs hal bernegatif lainnya. BebasDNS Internet Sehat merupakan implementasi Internet Sehat tanpa pemblokiran yang tidak perlu atau <i>censorship</i> sehingga anda dapat berselancar di Internet dengan nyaman. Blocklist untuk BebasDNS Internet Sehat ada 2 yaitu OISD NSFW dan Blocklist Komunitas KINI yang dibuat dengan melibatkan seluruh komunitas BebasID dan masyarakat Indonesia.<br><br>Anda dapat bergabung ke Komunitas kami di [Discord](https://discord.gg/EKrxZyu) atau [Telegram](https://t.me/bebasidbykini) untuk berkontribusi dalam blacklist Internet Sehat BebasDNS. Selain itu anda dapat membuka issue untuk menambahkan blocklist atau jika ada situs yang seharusnya tidak diblokir.<br></br>
-Anda bisa memilih dari 3 (dua) varian: [Family Default](#family-default), [Family with AdBlock](#family-adblock), dan [Family Strict](#family-strict).
+Anda bisa memilih dari 3 (tiga) varian: [Family Default](#family-default), [Family with AdBlock](#family-adblock), dan [Family Strict](#family-strict).
 
 ### <b><ins>Family Default</ins></b>:
 
@@ -262,7 +262,7 @@ Varian khusus memblokir provider VPN dan DNS penyedia.
 ### <ins>DNS Penyaring Kustom</ins>
 
 Khusus dimana bisa dapat memilih penyaring daftar blokir DNS penyedia sesuai dengan selera diri sendiri. </br>Hanya memblokir tergantung dari perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan (ads).<br></br>
-Memiliki 6 varian penyaring: </br> [OISD Big](#filter-oisd-big), [Hagezi Multi-Normal](#filter-hagezi-multi-normal), [StevenBlack](#filter-stevenblack), [1Hosts Lite](#filter-1hosts-lite), [AdGuard Filter](#adguard-filter), dan [Developer Dan's Filter Blacklist (Devdan)](#developer-dans-filter-blacklist-devdan).
+Memiliki 3 varian penyaring: </br> [OISD Big](#filter-oisd-big), [Hagezi Multi-Normal](#filter-hagezi-multi-normal), dan [StevenBlack](#filter-stevenblack)
 
 ### <b><ins>Filter OISD Big</ins></b>:
 

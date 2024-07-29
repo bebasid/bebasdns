@@ -42,7 +42,7 @@
 <div align="center">
 
    # Pemberitahuan sebelum memakai proyek ini:
-   <h3>Plain DNS hanya berfungsi di IP range Indonesia dan Singapura yang sudah diwhitelist untuk menghindari serangan DDOS, untuk meminta whitelist IP atau daftar IP yang kami whitelist, silahkan kontak kami atau gabung ke Discord kami</h3>
+   <h3>Plain DNS hanya berfungsi di IP range Indonesia dan Singapura yang sudah diallowlist untuk menghindari serangan DDOS, untuk meminta allowlist IP atau daftar IP yang kami allowlist, silahkan kontak kami atau gabung ke Discord kami</h3>
    <br></br>
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-black.png#gh-light-mode-only" width="96">
     <img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-white.png#gh-dark-mode-only" width="96"><br><br>
@@ -164,7 +164,7 @@
         - [Filter StevenBlack](#filter-stevenblack)
   - [Penyaring (Ad-Blocker & Anti-Tracking)](#penyaring-ad-blocker--anti-tracking)
     - [Daftar Blokir DNS](#daftar-blokir-dns)
-    - [Daftar Putih DNS](#daftar-putih-dns)
+    - [Daftar Boleh DNS](#daftar-boleh-dns)
   - [Pemeliharaan](#pemeliharaan)
     - [Status Peladen](#status-peladen)
     - [Uji Keamanan](#uji-keamanan)
@@ -225,7 +225,7 @@ Khusus tanpa pemblokiran perangkat lunak jahat (malware), tanpa blokir pelacakan
 
 ### <ins>DNS Internet Sehat (Family)</ins>
 
-Khusus pemblokiran situs kebencian, gore, situs dewasa (18+), situs judi, dan situs hal bernegatif lainnya. BebasDNS Internet Sehat merupakan implementasi Internet Sehat tanpa pemblokiran yang tidak perlu atau <i>censorship</i> sehingga anda dapat berselancar di Internet dengan nyaman. Blocklist untuk BebasDNS Internet Sehat ada 2 yaitu OISD NSFW dan Blocklist Komunitas KINI yang dibuat dengan melibatkan seluruh komunitas BebasID dan masyarakat Indonesia.<br><br>Anda dapat bergabung ke Komunitas kami di [Discord](https://discord.gg/EKrxZyu) atau [Telegram](https://t.me/bebasidbykini) untuk berkontribusi dalam blacklist Internet Sehat BebasDNS. Selain itu anda dapat membuka issue untuk menambahkan blocklist atau jika ada situs yang seharusnya tidak diblokir.<br></br>
+Khusus pemblokiran situs kebencian, gore, situs dewasa (18+), situs judi, dan situs hal bernegatif lainnya. BebasDNS Internet Sehat merupakan implementasi Internet Sehat tanpa pemblokiran yang tidak perlu atau <i>censorship</i> sehingga anda dapat berselancar di Internet dengan nyaman. Blocklist untuk BebasDNS Internet Sehat ada 2 yaitu OISD NSFW dan Blocklist Komunitas KINI yang dibuat dengan melibatkan seluruh komunitas BebasID dan masyarakat Indonesia.<br><br>Anda dapat bergabung ke Komunitas kami di [Discord](https://discord.gg/EKrxZyu) atau [Telegram](https://t.me/bebasidbykini) untuk berkontribusi dalam blocklist Internet Sehat BebasDNS. Selain itu anda dapat membuka issue untuk menambahkan blocklist atau jika ada situs yang seharusnya tidak diblokir.<br></br>
 Anda bisa memilih dari 3 (tiga) varian: [Family Default](#family-default), [Family with AdBlock](#family-adblock), dan [Family Strict](#family-strict).
 
 ### <b><ins>Family Default</ins></b>:
@@ -314,22 +314,22 @@ Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
 | [URLHaus](https://urlhaus.abuse.ch/)                                                                                                                         |
-| [Hagezi Threat Blocking](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/tif.blacklist.conf)                                            |
+| [Hagezi Threat Blocking](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/tif.blocklist.conf)                                            |
 
 | Blocklists - Untuk DNS Internet Sehat (Family)                                                          |
 | ------------------------------------------------------------------------------------------------------- |
-| [Daftar isi penyaring yang dipakai DNS Internet Sehat Family](https://internetsehat.bebasid.com/blacklist/2023/) |
+| [Daftar isi penyaring yang dipakai DNS Internet Sehat Family](https://internetsehat.bebasid.com/blocklist/2023/) |
 | [URLHaus](https://urlhaus.abuse.ch/)                                                                    |
 | [OISD NSFW](https://oisd.nl/downloads) |
 | [Hagezi Gambling Blocklist](https://github.com/hagezi/dns-blocklists) |
 
-### <ins>Daftar Putih DNS</ins>
+### <ins>Daftar Boleh DNS</ins>
 
 Digunakan untuk membolehkan domain yang seharusnya diblokir oleh daftar blokir.</br>
-| Whitelists - Untuk DNS Default |
+| Allowlists - Untuk DNS Default |
 |---------------------------------------------------------------------------------------------------------------------------------------|
-| [BebasDNS's Custom Filtering Whitelists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-whitelist) |
-| [BebasDNS's Whitelists](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/whitelist.txt) |
+| [BebasDNS's Custom Filtering Allowlists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-allowlist) |
+| [BebasDNS's Allowlists](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/allowlist.txt) |
 
 ## Pemeliharaan:
 

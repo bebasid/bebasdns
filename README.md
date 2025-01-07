@@ -37,9 +37,7 @@
 
 ### Plain DNS hanya berfungsi di IP range termasuk negara Indonesia dan Singapura yang sudah didaftarkan untuk menghindari serangan DDOS, untuk meminta daftar IP yang kami izinkan, silakan kontak kami atau gabung ke [Discord](https://discord.gg/bebasid-630415907021389825) kami.
 
-</br>
-<img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-black.png#gh-light-mode-only" width="96">
-<img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/warning-web-icon-white.png#gh-dark-mode-only" width="96">
+# 
 
 Untuk Wi-Fi / Provider (ISP) yang memakai [Inspeksi Paket Dalam (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), harap gunakan [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya melakukan terpaksa jika ISP-nya sudah mendukung.
 

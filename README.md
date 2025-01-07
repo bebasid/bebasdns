@@ -41,7 +41,7 @@
 
 Untuk Wi-Fi / Provider (ISP) yang memakai [Inspeksi Paket Dalam (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), harap gunakan [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya melakukan terpaksa jika ISP-nya sudah mendukung.
 
-Bagi Provider ISP yang menggunakan [JSN](https://www.jsn.net.id/) dan memblokir domain DoH/DoT, silahkan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
+Bagi Provider ISP yang menggunakan [JSN](https://www.jsn.net.id/) dan memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
 
 **Ciri-ciri ISP menggunakan DPI:**
 | Protokol HTTP mengalihkan ke [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | Sedangkan Protokol HTTPS mengerluarkan ke `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
@@ -316,7 +316,7 @@ Daftar isi status peladen:
 
 ### <ins>Cara Mengaplikasikan</ins>
 
-Silahkan ikuti panduan yang diberikan di bawah ini:
+silakan ikuti panduan yang diberikan di bawah ini:
 
 | Sistem Operasi | Modem/Router | Mobile | Metode DNS | Alat DPI |
 | :---------: | :---------: |  :---------: |  :---------: | :---------: | 
@@ -330,11 +330,11 @@ Silahkan ikuti panduan yang diberikan di bawah ini:
 
 ### <ins>Cara Melaporkan atau Permintaan</ins>
 
-Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silahkan [membuka isu baru](https://github.com/bebasid/bebasdns/issues/new/choose).
+Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silakan [membuka isu baru](https://github.com/bebasid/bebasdns/issues/new/choose).
 
 ### <ins>Soal Sering Ditanya</ins>
 
-Jika mengalami permasalahan saat menggunakan [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), silahkan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu), atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasDNS / BebasID DNS: [Masalah/pertanyaan anda]**.
+Jika mengalami permasalahan saat menggunakan [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), silakan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu), atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasDNS / BebasID DNS: [Masalah/pertanyaan anda]**.
 
 ## Donasi Kami:
 

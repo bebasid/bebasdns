@@ -11,6 +11,54 @@
 
 </div>
 
+<p align="center">
+
+<img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/bebasdns-black.svg#gh-light-mode-only" alt="bebasDNS Black Logo" width="445">
+<img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/bebasdns-white.svg#gh-dark-mode-only" alt="bebasDNS White Logo" width="445"></br>
+<i>Membantumu berselancar dengan aman dan tidak terbatas!</i>
+
+</p>
+
+<p align="center">
+
+<a href="#">
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=PENONTON+%5BHARI+INI+%2F+TOTAL%5D&edge_flat=true"/>
+</a>
+
+<br>
+
+<a href="LICENSE">
+    <img alt="Static Badge" src="https://img.shields.io/badge/MPL--2.0-white?style=for-the-badge&logo=andela&logoColor=white&label=Lisensi&labelColor=222">
+</a>
+
+<img alt="Static Badge" src="https://img.shields.io/badge/2020-white?style=for-the-badge&logo=fireship&logoColor=white&label=Diluncurkan&labelColor=222">
+
+<br>
+
+<a href="https://discord.gg/bebasid-630415907021389825">
+    <img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=for-the-badge&logo=discord&logoColor=white&label=Discord&labelColor=222&color=white">
+</a>
+
+<a href="https://t.me/bebasidbykini">
+    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram&labelColor=222">
+</a>
+
+<a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi">
+    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
+</a>
+
+<br>
+
+<a href="https://trakteer.id/bebasidbykini">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
+</a>
+
+<a href="https://saweria.co/bebasid">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
+</a>
+
+</p>
+
 <div align="center">
 
 ## Sponsor
@@ -63,55 +111,6 @@ Bagi Provider ISP yang menggunakan [JSN](https://www.jsn.net.id/) dan memblokir 
 </details>
 
 </div>
-<hr>
-
-<p align="center">
-
-<img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/bebasdns-black.svg#gh-light-mode-only" alt="bebasDNS Black Logo" width="445">
-<img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/bebasdns-white.svg#gh-dark-mode-only" alt="bebasDNS White Logo" width="445"></br>
-<i>Membantumu berselancar dengan aman dan tidak terbatas!</i>
-
-</p>
-
-<p align="center">
-
-<a href="#">
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=PENONTON+%5BHARI+INI+%2F+TOTAL%5D&edge_flat=true"/>
-</a>
-
-<br>
-
-<a href="LICENSE">
-    <img alt="Static Badge" src="https://img.shields.io/badge/MPL--2.0-white?style=for-the-badge&logo=andela&logoColor=white&label=Lisensi&labelColor=222">
-</a>
-
-<img alt="Static Badge" src="https://img.shields.io/badge/2020-white?style=for-the-badge&logo=fireship&logoColor=white&label=Diluncurkan&labelColor=222">
-
-<br>
-
-<a href="https://discord.gg/bebasid-630415907021389825">
-    <img alt="Discord" src="https://img.shields.io/discord/630415907021389825?style=for-the-badge&logo=discord&logoColor=white&label=Discord&labelColor=222&color=white">
-</a>
-
-<a href="https://t.me/bebasidbykini">
-    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram&labelColor=222">
-</a>
-
-<a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi">
-    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
-</a>
-
-<br>
-
-<a href="https://trakteer.id/bebasidbykini">
-    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
-</a>
-
-<a href="https://saweria.co/bebasid">
-    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
-</a>
-
-</p>
 
 ---
 

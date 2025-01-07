@@ -316,7 +316,7 @@ Daftar isi status peladen:
 
 ### <ins>Cara Mengaplikasikan</ins>
 
-silakan ikuti panduan yang diberikan di bawah ini:
+Silakan ikuti panduan yang diberikan di bawah ini:
 
 | Sistem Operasi | Modem/Router | Mobile | Metode DNS | Alat DPI |
 | :---------: | :---------: |  :---------: |  :---------: | :---------: | 

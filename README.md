@@ -59,22 +59,6 @@
 
 </p>
 
-<div align="center">
-
-## Sponsor
-
-*Penyedia VPS yang berorientasi pada kebebasan dan netral untuk kebutuhannya.*
-
-| <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/images/logo.jpg" width="380"></a> |
-|-|
-| <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
-
-| <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
-| - |
-| <p align="center">[qdei.co](https://qdei.co)</p> |
-
-</div>
-
 ##
 
 <div align="center">
@@ -109,6 +93,22 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 |:-|:-|:-|
 
 </details>
+
+</div>
+
+<div align="center">
+
+## Sponsor
+
+*Penyedia VPS yang berorientasi pada kebebasan dan netral untuk kebutuhannya.*
+
+| <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/images/logo.jpg" width="380"></a> |
+|-|
+| <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
+
+| <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
+| - |
+| <p align="center">[qdei.co](https://qdei.co)</p> |
 
 </div>
 

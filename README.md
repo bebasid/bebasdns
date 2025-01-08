@@ -3,8 +3,6 @@
   <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh" />
 </head>
 
-<hr>
-
 <div align="center">
   
 #### Bahasa / Language
@@ -12,8 +10,6 @@
 |-|-|
 
 </div>
-
-<hr>
 
 <p align="center">
 
@@ -63,8 +59,6 @@
 
 </p>
 
-<hr>
-
 <div align="center">
 
 ## Sponsor
@@ -81,7 +75,7 @@
 
 </div>
 
-<hr>
+##
 
 <div align="center">
 
@@ -118,8 +112,6 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 
 </div>
 
----
-
 ## Daftar Isi:
 
 - [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns)
@@ -150,9 +142,7 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
   - [Lisensi](#lisensi)
   - [Syarat dan Ketentuan](#syarat-dan-ketentuan)
 
----
-
-# BebasDNS / BebasID DNS
+## BebasDNS / BebasID DNS
 
 [**BebasDNS** / **BebasID DNS**](#bebasdns--bebasid-dns) adalah implementasi sistem DNS sekaligus ad-blocker dan anti-tracking dengan uptime-nya cukup stabil, tidak menyimpan kueri, dan tidak menyimpan log dikarenakan privasi pengguna.
 

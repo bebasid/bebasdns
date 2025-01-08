@@ -3,6 +3,8 @@
   <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh" />
 </head>
 
+<hr>
+
 <div align="center">
   
 #### Bahasa / Language
@@ -10,6 +12,8 @@
 |-|-|
 
 </div>
+
+<hr>
 
 <p align="center">
 
@@ -28,7 +32,7 @@
 <br>
 
 <a href="LICENSE">
-    <img alt="Static Badge" src="https://img.shields.io/badge/MPL--2.0-white?style=for-the-badge&logo=andela&logoColor=white&label=Lisensi&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/MIT-white?style=for-the-badge&logo=andela&logoColor=white&label=Lisensi&labelColor=222">
 </a>
 
 <img alt="Static Badge" src="https://img.shields.io/badge/2020-white?style=for-the-badge&logo=fireship&logoColor=white&label=Diluncurkan&labelColor=222">
@@ -58,6 +62,8 @@
 </a>
 
 </p>
+
+<hr>
 
 <div align="center">
 
@@ -89,7 +95,7 @@
 
 Untuk Wi-Fi / Provider (ISP) yang memakai [Inspeksi Paket Dalam (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), harap gunakan [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya melakukan terpaksa jika ISP-nya sudah mendukung.
 
-Bagi Provider ISP yang menggunakan [JSN](https://www.jsn.net.id/) dan memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
+Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
 
 **Ciri-ciri ISP menggunakan DPI:**
 | Protokol HTTP mengalihkan ke [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | Sedangkan Protokol HTTPS mengerluarkan ke `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
@@ -159,12 +165,12 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 
 Memblokir perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan (ads).
 
-| Protocols       | IP/Domain Addresses                                                                                               | DNSCrypt Stamps & Ports                                                                                                                                                                                                                        |  Supported Ports  |
-| --------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
-| DNS-over-HTTPS  | 1: `https://dns.bebasid.com/dns-query`, </br> 2: ~~`https://loadbalance.dns.bebasid.com/dns-query`~~                             | <ins>IPv4</ins>:</br> `1: sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTQAE2Rucy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`,</br> ~~`2: sdns://AgMAAAAAAAAADTM1LjIxOS42Ny4xNTAAH2xvYWRiYWxhbmNlLmRucy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`~~ </br> <ins>IPv6</ins>:</br> `1 sdns://AgMAAAAAAAAAHVsyYTA2OjlmNDQ6ZjNlMDpiZWJhOjUxZDo6NTNdABNkbnMuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk` </br> ~~`2: sdns://AgMAAAAAAAAAFlsyNjAwOjE5MDE6ODE3MDoyNjg6Ol0AH2xvYWRiYWxhbmNlLmRucy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`~~ |       `443`       |
-`sdns://AQMAAAAAAAAAEjEwMy44Ny42OC4xOTQ6ODQ0MyAxXDKkdrOao8ZeLyu7vTnVrT0C7YlPNNf6trdMkje7QR8yLmRuc2NyeXB0LWNlcnQuZG5zLmJlYmFzaWQuY29t` | `8443` |
-| iOS/macOS, DoH IPv4/6       | `1:` [doh-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_default/doh-default.dns.bebasid.com-signed.mobileconfig) </br> `2:` ~~[doh-loadbalance.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_default/doh-loadbalance.dns.bebasid.com-signed.mobileconfig)~~ | -                                                                                                                                                                                                                                             |         `443`         |
-| iOS/macOS, DoT IPv4/6 | `1:` [dot-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_default/dot-default.dns.bebasid.com-signed.mobileconfig) </br> `2:` ~~[dot-loadbalance.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_default/dot-loadbalance.dns.bebasid.com-signed.mobileconfig)~~ | -                                                                                                                                                                                                                                             |         `853`         |
+| Protocols | Addresses | Ports |
+| --- | --- | :---: |
+| DNS-over-TLS | `dns.bebasid.com` | `853` |
+| DNS-over-HTTPS | `https://dns.bebasid.com/dns-query` | `443` |
+| DoT-iOS/macOS | [dot-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_default/dot-default.dns.bebasid.com-signed.mobileconfig) |-|
+| DoH-iOS/macOS | [doh-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_default/doh-default.dns.bebasid.com-signed.mobileconfig) |-|
 
 ## Peladen Alternatif:
 
@@ -172,21 +178,23 @@ Memblokir perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan 
 
 Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking) dan tidak memblokir iklan (ads).
 
-| Protocols       | IP/Domain Addresses                       | DNSCrypt Stamps & Ports                                                                                                                                                                                                                                           |  Supported Ports  |
-| --------------- | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
-| DNS-over-HTTPS  | `https://antivirus.bebasid.com/dns-query` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTUAGWFudGl2aXJ1cy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAH1syYTA2OjlmNDQ6ZjNlMDpiZWJhOjUxZDo6NTM1M10AGWFudGl2aXJ1cy5iZWJhc2lkLmNvbTo0NDMKL2Rucy1xdWVyeQ` |       `443`       |
-| iOS/macOS, DoH IPv4/6       | [doh-malware.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_malware/doh-malware.dns.bebasid.com-signed.mobileconfig)                                         | -                                                                                                                                                                                                                                                                 |         `443`         |
-| iOS/macOS, DoT IPv4/6       | [dot-malware.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_malware/dot-malware.dns.bebasid.com-signed.mobileconfig)                                         | -                                                                                                                                                                                                                                                                 |         `853`         |
+| Protocols | Addresses | Ports |
+| --- | --- | :---: |
+| DNS-over-TLS | `antivirus.bebasid.com` | `853` |
+| DNS-over-HTTPS | `https://antivirus.bebasid.com/dns-query` | `443` |
+| DoT-iOS/macOS | [dot-malware.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_malware/dot-malware.dns.bebasid.com-signed.mobileconfig) |-|
+| DoH-iOS/macOS | [doh-malware.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_malware/doh-malware.dns.bebasid.com-signed.mobileconfig) |-|
 
 ### <ins>DNS Tanpa Disaring (Unfiltered)</ins>
 
 Khusus tanpa pemblokiran perangkat lunak jahat (malware), tanpa blokir pelacakan (tracking) dan tidak memblokir iklan (ads).
 
-| Protocols       | IP/Domain Addresses                  | DNSCrypt Stamps & Ports                                                                                                                                                                                                                    |  Supported Ports  |
-| --------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------: |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/unfiltered` | <ins>IPv4</ins>:</br> `sdns://AgcAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL3VuZmlsdGVyZWQ`,</br> <ins>IPv6</ins>:</br> `sdns://AgcAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjoyXQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvdW5maWx0ZXJlZA` |       `443`       |
-| iOS/macOS, DoH IPv4/6       | [doh-unfiltered.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_unfiltered/doh-unfiltered.dns.bebasid.com-signed.mobileconfig)                                    | -                                                                                                                                                                                                                                          |         `443`         |
-| iOS/macOS, DoT IPv4/6 | [dot-unfiltered.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_unfiltered/dot-unfiltered.dns.bebasid.com-signed.mobileconfig)                                    | -                                                                                                                                                                                                                                          |         `853`         |
+| Protocols | Addresses | Ports |
+| --- | --- | :---: |
+| DNS-over-TLS | `unfiltered.dns.bebasid.com` | `853` |
+| DNS-over-HTTPS | `https://dns.bebasid.com/unfiltered` | `443` |
+| DoT-iOS/macOS | [dot-unfiltered.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_unfiltered/dot-unfiltered.dns.bebasid.com-signed.mobileconfig) |-|
+| DoH-iOS/macOS | [doh-unfiltered.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_unfiltered/doh-unfiltered.dns.bebasid.com-signed.mobileconfig) |-|
 
 ### <ins>DNS Internet Sehat (Family)</ins>
 
@@ -197,29 +205,34 @@ Anda bisa memilih dari 3 (tiga) varian: [Family Default](#family-default), [Fami
 
 Varian Default. 
 
-| Protocols       | IP/Domain Addresses                           | DNSCrypt Stamps & Ports                                                                                                                                                                                                                                                     |  Supported Ports  |
-| --------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
-| DNS-over-HTTPS  | `https://internetsehat.bebasid.com/dns-query` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTYAHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAH1syYTA2OjlmNDQ6ZjNlMDpiMDBiOmJlYmE6OjUxZF0AHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCi9kbnMtcXVlcnk` |       `443`       |
-| iOS/macOS, DoH IPv4/6       | [doh-familydefault.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familydefault.dns.bebasid.com-signed.mobileconfig)                                             | -                                                                                                                                                                                                                                                                           |         `443`         |
-| iOS/macOS, DoT IPv4/6 | [dot-familydefault.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familydefault.dns.bebasid.com-signed.mobileconfig)                                             | -                                                                                                                                                                                                                                                                           |         `853`         |
+| Protocols | Addresses | Ports |
+| --- | --- | :---: |
+| DNS-over-TLS | `internetsehat.dns.bebasid.com` | `853` |
+| DNS-over-HTTPS | `https://internetsehat.bebasid.com/dns-query` | `443` |
+| DoT-iOS/macOS | [dot-familydefault.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familydefault.dns.bebasid.com-signed.mobileconfig) |-|
+| DoH-iOS/macOS | [doh-familydefault.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familydefault.dns.bebasid.com-signed.mobileconfig) |-|
 
 ### <b><ins>Family Adblock</ins></b>:
 
-Varian ini juga memblokir iklan
+Varian khusus memblokir iklan.
 
-| Protocols       | IP/Domain Addresses                           | DNSCrypt Stamps & Ports                                                                                                                                                                                                                                                     |  Supported Ports  |
-| --------------- | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
-| DNS-over-HTTPS  | `https://internetsehat.bebasid.com/adblock` | |       `443`       |
+| Protocols | Addresses | Ports |
+| --- | --- | :---: |
+| DNS-over-TLS | `family-adblock.bebasid.com` | `853` |
+| DNS-over-HTTPS | `https://internetsehat.bebasid.com/adblock` | `443` |
+| DoT-iOS/macOS | [dot-familyadblock.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familyadblock.dns.bebasid.com-signed.mobileconfig) |-|
+| DoH-iOS/macOS | [doh-familyadblock.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familyadblock.dns.bebasid.com-signed.mobileconfig) |-|
 
 ### <b><ins>Family Strict</ins></b>:
 
-Varian khusus memblokir provider VPN dan DNS penyedia.
+Varian khusus memblokir provider VPN dan DNS.
 
-| Protocols      | IP/Domain Addresses                            | DNSCrypt Stamps & Ports                                                                                                                                                                                                                                                       | Supported Ports |
-| -------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------: |
-| DNS-over-HTTPS | `https://internetsehat.bebasid.com/dns-strict` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTYAHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCy9kbnMtc3RyaWN0`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAH1syYTA2OjlmNDQ6ZjNlMDpiMDBiOmJlYmE6OjUxZF0AHWludGVybmV0c2VoYXQuYmViYXNpZC5jb206NDQzCy9kbnMtc3RyaWN0` |      `443`      |
-| iOS/macOS, DoH IPv4/6      | [doh-familystrict.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familystrict.dns.bebasid.com-signed.mobileconfig)                                              | -                                                                                                                                                                                                                                                                             |        `443`        |
-| iOS/macOS, DoT IPv4/6 | [dot-familystrict.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familystrict.dns.bebasid.com-signed.mobileconfig)                                              | -                                                                                                                                                                                                                                                                             |        `853`        |
+| Protocols | Addresses | Ports |
+| --- | --- | :---: |
+| DNS-over-TLS | `1984.bebasid.com` | `853` |
+| DNS-over-HTTPS | `https://internetsehat.bebasid.com/dns-strict` | `443` |
+| DoT-iOS/macOS | [dot-familystrict.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familystrict.dns.bebasid.com-signed.mobileconfig) |-|
+| DoH-iOS/macOS | [doh-familystrict.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familystrict.dns.bebasid.com-signed.mobileconfig) |-|
 
 ### <ins>DNS Penyaring Kustom</ins>
 
@@ -230,31 +243,34 @@ Memiliki 3 varian penyaring: </br> [OISD Big](#filter-oisd-big), [Hagezi Multi-N
 
 Varian khusus provider filter blocklist OISD.
 
-| Protocols       | IP/Domain Addresses                | DNSCrypt Stamps & Ports                                                                                                                                                                                                              |  Supported Ports  |
-| --------------- | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------: |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-oisd` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMJL2Rucy1vaXNk`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjozXQATZG5zLmJlYmFzaWQuY29tOjQ0MwkvZG5zLW9pc2Q` |       `443`       |
-| iOS/macOS, DoH IPv4/6       | [doh-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-oisdbig.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
-| iOS/macOS, DoT IPv4/6       | [dot-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-oisdbig.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
+| Protocols | Addresses | Ports |
+| --- | --- | :---: |
+| DNS-over-TLS | `oisd.dns.bebasid.com` | `853` |
+| DNS-over-HTTPS | `https://dns.bebasid.com/dns-oisd` | `443` |
+| DoT-iOS/macOS | [dot-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-oisdbig.dns.bebasid.com-signed.mobileconfig) |-|
+| DoH-iOS/macOS | [doh-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-oisdbig.dns.bebasid.com-signed.mobileconfig) |-|
 
 ### <b><ins>Filter Hagezi Multi-Normal</ins></b>:
 
 Varian khusus provider filter blocklist Hagezi.
 
-| Protocols       | IP/Domain Addresses                  | DNSCrypt Stamps & Ports                                                                                                                                                                                                                    |  Supported Ports  |
-| --------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------: |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-hagezi` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMLL2Rucy1oYWdlemk`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo0XQATZG5zLmJlYmFzaWQuY29tOjQ0MwsvZG5zLWhhZ2V6aQ` |       `443`       |
-| iOS/macOS, DoH IPv4/6       | [doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
-| iOS/macOS, DoT IPv4/6       | [dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
+| Protocols | Addresses | Ports |
+| --- | --- | :---: |
+| DNS-over-TLS | `hagezi.dns.bebasid.com` | `853` |
+| DNS-over-HTTPS | `https://dns.bebasid.com/dns-hagezi` | `443` |
+| DoT-iOS/macOS | [dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig) |-|
+| DoH-iOS/macOS | [doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig) |-|
 
 ### <b><ins>Filter StevenBlack</ins></b>:
 
 Varian khusus provider filter blocklist StevenBlack.
 
-| Protocols       | IP/Domain Addresses                       | DNSCrypt Stamps & Ports                                                                                                                                                                                                                                 |  Supported Ports  |
-| --------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
-| DNS-over-HTTPS  | `https://dns.bebasid.com/dns-stevenblack` | <ins>IPv4</ins>:</br> `sdns://AgMAAAAAAAAADTEwMy44Ny42OC4xOTMAE2Rucy5iZWJhc2lkLmNvbTo0NDMQL2Rucy1zdGV2ZW5ibGFjaw`,</br> <ins>IPv6</ins>:</br> `sdns://AgMAAAAAAAAAGFsyYTA2OjlmNDQ6ZjNlMDpkMDFjOjo1XQATZG5zLmJlYmFzaWQuY29tOjQ0MxAvZG5zLXN0ZXZlbmJsYWNr` |       `443`       |
-| iOS/macOS, DoH IPv4/6       | [doh-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-stevenblack.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `443`         |
-| iOS/macOS, DoT IPv4/6       | [dot-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-stevenblack.dns.bebasid.com-signed.mobileconfig)                                  | -                                                                                                                                                                                                                                    |         `853`         |
+| Protocols | Addresses | Ports |
+| --- | --- | :---: |
+| DNS-over-TLS | `stevenblack.dns.bebasid.com` | `853` |
+| DNS-over-HTTPS | `https://dns.bebasid.com/dns-stevenblack` | `443` |
+| DoT-iOS/macOS | [dot-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-stevenblack.dns.bebasid.com-signed.mobileconfig) |-|
+| DoH-iOS/macOS | [doh-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-stevenblack.dns.bebasid.com-signed.mobileconfig) |-|
 
 ## Penyaring (Ad-Blocker & Anti-Tracking):
 
@@ -264,21 +280,21 @@ Penyaring adalah sistem untuk memblokir akses ke konten tertentu di Internet. Sa
 
 Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 | Blocklists - Untuk DNS Default |
-| --------- |
+| --- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
 | [OISD Big](https://oisd.nl/) |
 | [URLHaus](https://urlhaus.abuse.ch/) |
 
-| Blocklists - Untuk DNS Antivirus (Malware)                                                                                                                   |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Blocklists - Untuk DNS Antivirus (Malware) |
+| --- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
-| [URLHaus](https://urlhaus.abuse.ch/)                                                                                                                         |
-| [Hagezi Threat Blocking](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/tif.blocklist.conf)                                            |
+| [URLHaus](https://urlhaus.abuse.ch/) |
+| [Hagezi Threat Blocking](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/tif.blocklist.conf) |
 
-| Blocklists - Untuk DNS Internet Sehat (Family)                                                          |
-| ------------------------------------------------------------------------------------------------------- |
+| Blocklists - Untuk DNS Internet Sehat (Family) |
+| --- |
 | [Daftar isi penyaring yang dipakai DNS Internet Sehat Family](https://internetsehat.bebasid.com/blocklist/2023/) |
-| [URLHaus](https://urlhaus.abuse.ch/)                                                                    |
+| [URLHaus](https://urlhaus.abuse.ch/) |
 | [OISD NSFW](https://oisd.nl/downloads) |
 | [Hagezi Gambling Blocklist](https://github.com/hagezi/dns-blocklists) |
 
@@ -286,7 +302,7 @@ Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 
 Digunakan untuk membolehkan domain yang seharusnya diblokir oleh daftar blokir.</br>
 | Allowlists - Untuk DNS Default |
-|---------------------------------------------------------------------------------------------------------------------------------------|
+| --- |
 | [BebasDNS's Custom Filtering Allowlists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-allowlist) |
 | [BebasDNS's Allowlists](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/allowlist.txt) |
 
@@ -304,12 +320,12 @@ Daftar isi status peladen:
 [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) telah diuji keamanannya dan mendapatkan nilai pada website:
 
 | Situs SSL | Nilai | Tanggal Diperbarui |
-| --------- | --------- |  --------- |
+| --- | --- | --- |
 | [SSL Security Test ImmuniWeb DoH](https://www.immuniweb.com/ssl/dns.bebasid.com/0olenw8Q/) | **A+** | 17 Desember 2023 |
 | [SSL Security Test ImmuniWeb TLS](https://www.immuniweb.com/ssl/dns.bebasid.com/Q4537Du7/) | **A+** | 17 Desember 2023 |
 | [SSL Labs IPv4/IPv6](https://www.ssllabs.com/ssltest/analyze.html?d=dns.bebasid.com) | **A+** | 17 Desember 2023 |
 | [SSL Labs IPv6](https://www.ssllabs.com/ssltest/analyze.html?d=dns.bebasid.com&s=2a06%3a9f44%3af3e0%3abeba%3a51d%3a0%3a0%3a53) | **A+** | 17 Desember 2023 |
-| [Is your site IPv6 ready?](https://ready.chair6.net/?url=https%3A%2F%2Fdns.bebasid.com%2Fdns-query) | **PASS** | - |
+| [Is your site IPv6 ready?](https://ready.chair6.net/?url=https%3A%2F%2Fdns.bebasid.com%2Fdns-query) | **PASS** |-|
 
 ## Isi Tutorial dan Bertanya:
 
@@ -318,7 +334,7 @@ Daftar isi status peladen:
 Silakan ikuti panduan yang diberikan di bawah ini:
 
 | Sistem Operasi | Modem/Router | Mobile | Metode DNS | Alat DPI |
-| :---------: | :---------: |  :---------: |  :---------: | :---------: | 
+| :---: | :---: |  :---: |  :---: | :---: | 
 | [Microsoft Windows 11](https://github.com/bebasid/bebasdns/blob/main/dev/readme/windows11.md) | [MikroTik](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#mikrotik) | [Android](https://github.com/bebasid/bebasdns/blob/main/dev/readme/android.md) | [Plain DNS (Port Alternatif)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#cara-memakai-port-alternatif) | [GoodbyeDPI](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#goodbyedpi) |
 | [Apple macOS](https://translate.google.com/translate?hl=id&sl=en&u=https://simpledns.plus/kb/201/how-to-enable-dns-over-tls-dot-dns-over-https-doh-in-macos-v11&prev=search&pto=aue) | [OpenWRT](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md) | [iOS](https://github.com/bebasid/bebasdns/blob/main/dev/readme/ios.md) | [DNS-over-HTTPS](<https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH)>) | [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel?tab=readme-ov-file#how-to-use) |
 |  |  |  | [DNS-over-TLS](<https://github.com/pengelana/blocklist/wiki/DNS-over-TLS-(DoT)>) | [PowerTunnel](https://github.com/krlvm/PowerTunnel/wiki/Installation) |
@@ -365,7 +381,7 @@ Bantu proyek kami agar VPS [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) teta
 
 ## Lisensi:
 
-[BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) telah lisensikan dibawah [Lisensi MPL-2.0](https://github.com/bebasid/bebasdns/blob/main/LICENSE) tersebut.
+[BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) telah lisensikan dibawah [Lisensi MIT](https://github.com/bebasid/bebasdns/blob/main/LICENSE) tersebut.
 
 ## Syarat dan Ketentuan:
 

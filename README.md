@@ -130,7 +130,7 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
       - [DNS Tanpa Disaring (Unfiltered)](#dns-tanpa-disaring-unfiltered)
       - [DNS Internet Sehat (Family)](#dns-internet-sehat-family)
         - [Family Default](#family-default)
-        - [Family + Ad-blocking](#family-adblock)
+        - [Family Adblock](#family-adblock)
         - [Family Strict](#family-strict)
       - [DNS Penyaring Kustom](#dns-penyaring-kustom)
         - [Filter OISD Big](#filter-oisd-big)

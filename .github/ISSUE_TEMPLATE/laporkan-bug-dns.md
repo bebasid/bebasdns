@@ -3,7 +3,7 @@ name: Laporkan Bug DNS
 about: Laporkan bug mengenai DNS.
 title: "[BUG]"
 labels: bug, dns
-assignees: DarkMProgrammer, icaksh, gvoze32
+assignees: merdekaid
 
 ---
 

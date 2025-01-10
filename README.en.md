@@ -271,14 +271,15 @@ A filter is a mechanism for blocking access to certain content on the Internet. 
 
 ### <ins>Daftar Blokir DNS</ins>
 
-Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
+Used to block domains according to DNS variants.</br>
 | Blocklists - For Default |
 | --- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
 | [OISD Big](https://oisd.nl/) |
 | [URLHaus](https://urlhaus.abuse.ch/) |
 
-| Blocklists - For Antivirus Variant                                                                                                                           | --- |
+| Blocklists - For Antivirus Variant                                                                                                                           | 
+| --- |
 |(https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
 | [URLHaus](https://urlhaus.abuse.ch/)                                                                                                                         
 | [Hagezi Threat Blocking](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/tif.blacklist.conf)                                            |
@@ -292,18 +293,18 @@ Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 
 ### <ins>DNS Allowlists</ins>
 
-Digunakan untuk membolehkan domain yang seharusnya diblokir oleh daftar blokir.</br>
+Used to allow domains that originally blocked by blocklist.</br>
 | Allowlists - For Default DNS |
 | --- |
 | [BebasDNS's Custom Filtering Allowlists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-allowlist) |
 | [BebasDNS's Allowlists](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/allowlist.txt) |
 
-## Pemeliharaan:
+## Maintenance:
 
-### <ins>Status Peladen</ins>
+### <ins>Server Status</ins>
 
-Statistik kondisi servis pelayanan publik dapat dilihat di [Status BebasDNS/BebasID DNS](https://uptime.bebasid.com/).
-Daftar isi status peladen:
+Public service statistics can be seen on [Status BebasDNS/BebasID DNS](https://uptime.bebasid.com/).
+List of server status:
 - [Better Stack](https://bebasid.betteruptime.com/)
 - [UptimeRobot Status](https://stats.uptimerobot.com/w66Jkc0zm7)
 
@@ -319,13 +320,13 @@ Daftar isi status peladen:
 | [SSL Labs IPv6](https://www.ssllabs.com/ssltest/analyze.html?d=dns.bebasid.com&s=2a06%3a9f44%3af3e0%3abeba%3a51d%3a0%3a0%3a53) | **A+** | 17 December 2023 |
 | [Is your site IPv6 ready?](https://ready.chair6.net/?url=https%3A%2F%2Fdns.bebasid.com%2Fdns-query) | **PASS** | - |
 
-## Isi Tutorial dan Bertanya:
+## List of Tutorials and Questions:
 
-### <ins>Cara Mengaplikasikan</ins>
+### <ins>How to Use</ins>
 
-Silakan ikuti panduan yang diberikan di bawah ini:
+Please follow these tutorials:
 
-| Sistem Operasi | Modem/Router | Mobile | Metode DNS | Alat DPI |
+| Operating System | Modem/Router | Mobile | DNS Method | DPI Tool |
 | :---: | :---: |  :---: |  :---: | :---: | 
 | [Microsoft Windows 11](https://github.com/bebasid/bebasdns/blob/main/dev/readme/windows11.md) | [MikroTik](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#mikrotik) | [Android](https://github.com/bebasid/bebasdns/blob/main/dev/readme/android.md) | [Plain DNS (Alternative Port)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#cara-memakai-port-alternatif) | [GoodbyeDPI](https://github.com/bebasid/bebasdns/blob/main/dev/readme/tutoraltport.md#goodbyedpi) |
 | [Apple macOS](https://simpledns.plus/kb/201/how-to-enable-dns-over-tls-dot-dns-over-https-doh-in-macos-v11) | [OpenWRT](https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md) | [iOS](https://github.com/bebasid/bebasdns/blob/main/dev/readme/ios.md) | [DNS-over-HTTPS](<https://github.com/pengelana/blocklist/wiki/DNS-over-HTTPS-(DoH)>) | [GreenTunnel](https://github.com/SadeghHayeri/GreenTunnel?tab=readme-ov-file#how-to-use) |

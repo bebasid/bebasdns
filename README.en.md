@@ -312,7 +312,7 @@ List of server status:
 
 [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) has been tested for security and graded according to website:
 
-| Situs SSL | Nilai | Tanggal Diperbarui |
+| SSL Sites | Grade | Latest Update Date |
 | --- | --- | --- |
 | [SSL Security Test ImmuniWeb DoH](https://www.immuniweb.com/ssl/dns.bebasid.com/0olenw8Q/) | **A+** | 17 December 2023 |
 | [SSL Security Test ImmuniWeb TLS](https://www.immuniweb.com/ssl/dns.bebasid.com/Q4537Du7/) | **A+** | 17 December 2023 |

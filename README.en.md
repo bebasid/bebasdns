@@ -140,7 +140,7 @@ For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please c
     - [How to Use](#how-to-use)
     - [Contributing, Question and Request](#contributing-question-and-request)
     - [Frequently Asked Question](#frequently-asked-questions)
-  - [Support Us](#donate-us)
+  - [Donate Us](#donate-us)
   - [License](#license)
   - [Terms and Conditions](#terms-and-conditions)
 

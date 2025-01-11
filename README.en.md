@@ -50,11 +50,11 @@
 <br>
 
 <a href="https://trakteer.id/bebasidbykini">
-    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donate-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
 </a>
 
 <a href="https://saweria.co/bebasid">
-    <img alt="Static Badge" src="https://img.shields.io/badge/donasi-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donate-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
 </a>
 
 </p>
@@ -380,7 +380,7 @@ Help us maintain this project and keep [BebasDNS / BebasID DNS](#bebasdns--bebas
 
 By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use this service.
 
-For more information about the rules, see them on the [RULES here](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES.
+For more information about the rules, see them on the [RULES here](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES).
 
 ---
 

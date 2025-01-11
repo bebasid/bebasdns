@@ -280,7 +280,7 @@ Used to block domains according to DNS variants.</br>
 
 | Blocklists - For Antivirus Variant                                                                                                                           | 
 | --- |
-|(https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
+| [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
 | [URLHaus](https://urlhaus.abuse.ch/)                                                                                                                         
 | [Hagezi Threat Blocking](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/tif.blacklist.conf)                                            |
 

@@ -15,7 +15,7 @@
 
 <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/bebasdns-black.svg#gh-light-mode-only" alt="bebasDNS Black Logo" width="445">
 <img src="https://github.com/bebasid/bebasdns/blob/main/dev/resources/logo/bebasdns-white.svg#gh-dark-mode-only" alt="bebasDNS White Logo" width="445"></br>
-<i>Helping you surfing securely and without limit!</i>
+<i>Helping you surf securely and without limit!</i>
 
 </p>
 
@@ -67,13 +67,13 @@
 <details>
 <summary>Click to open the announcement</summary>
 
-### Plain DNS is only usable within allowlisted Indonesian and Singaporean IP range to prevent DDOS attack, if you need your IP address to be allowlisted or want to request a list of allowlisted IP, please contact us or join our [Discord](https://discord.gg/bebasid-630415907021389825).
+### Plain DNS is only usable within allowlisted Indonesian and Singaporean IP range to prevent DDOS attacks, if you need your IP address to be allowlisted or want to request a list of allowlisted IPs, please get in touch with us or join our [Discord](https://discord.gg/bebasid-630415907021389825).
 
 # 
 
-For Internet Service Provider (ISP) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI. Or by using Internet Protocol version 6 (IPv6), to force the DNS to use it if the ISP supported it.
+For Internet Service Providers (ISP) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI. Or by using Internet Protocol version 6 (IPv6), to force the DNS to use it if the ISP supports it.
 
-For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please contact us at [dukungan@bebasid.com](mailto:dukungan@bebasid.com) for alternative domain to be able to use BebasID DNS service.
+For Internet Service Providers (ISP) that block DoH/DoT domains, please get in touch with us at [dukungan@bebasid.com](mailto:dukungan@bebasid.com) for the alternative domain to be able to use BebasID DNS service.
 
 **Signs if the ISP is using DPI:**
 | HTTP redirecting to [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | While HTTPS throwing the `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
@@ -82,7 +82,7 @@ For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please c
 
 [See the complete information about DPI](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md).
 
-**Tutorial how to bypass DPI or Lamanlabuh using Modem/Router or in Operating System (OS):**
+**Tutorial on how to bypass DPI or Lamanlabuh using a Modem/Router or in an Operating System (OS):**
 
 **Modem/Router:**
 | <a href="https://github.com/bebasid/bebasit/blob/master/docs/openwrt-tutorial.md"><img src="https://archive.org/download/github.com-openwrt-openwrt_-_2021-04-13_21-34-02/cover.jpg" width="16"/> OpenWRT</a> | <a href="https://github.com/bebasid/bebasit/blob/master/docs/mikrotik-tutorial.md"><img src="https://i.imgur.com/DLGa8wW.png" width="16"/> MikroTik</a> |
@@ -100,7 +100,7 @@ For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please c
 
 ## Sponsor
 
-*A freedom oriented and neutral VPS provider for your need.*
+*A freedom-oriented and neutral VPS provider for your needs.*
 
 | <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/images/logo.jpg" width="380"></a> |
 |-|
@@ -131,8 +131,8 @@ For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please c
       - [Hagezi Multi-Normal Filter](#hagezi-multi-normal-filter)
       - [StevenBlack Filter](#stevenblack-filter)
   - [Filter (Ad-Blocker & Anti-Tracking)](#filter-ad-blocker--anti-tracking)
-    - [DNS Blocklist](#dns-blocklist)
-    - [DNS Allowlist](#dns-allowlist)
+    - [DNS Blocklists](#dns-blocklists)
+    - [DNS Allowlists](#dns-allowlists)
   - [Maintenance](#maintenance)
     - [Server Status](#server-status)
     - [Security Test](#security-test)
@@ -149,7 +149,7 @@ For Internet Service Provider (ISP) that block DoH/DoT domain like JSN, please c
 [**BebasDNS** / **BebasID DNS**](#bebasdns--bebasid-dns) is an implementation of DNS resolver with ad-blocker and anti-tracking with stable-enough uptime, does not record queries, and does not log for user privacy. 
 
 We only record queries if there is a bug report.
-For example, if users can not access a website for troubleshooting purposes, and fixing that bug report.
+For example, if users can not access a website for troubleshooting purposes, fix that bug report.
 
 ## Primary Server:
 
@@ -168,7 +168,7 @@ Blocking malware, trackers, and ads.
 
 ### <ins>Antivirus</ins>
 
-Specialized for malware blocking, without trackers blocking and without adblocking.
+Specialized for malware blocking, without trackers blocking, and without adblocking.
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
@@ -190,9 +190,9 @@ Does not block malware, trackers, and ads.
 
 ### <ins>Family</ins>
 
-Specialized for hate speech/gore, adult (18+), gambling, and other negative things.</br> BebasDNS Internet Sehat is an implementation of Internet Sehat without unnecessary blocking or censorship so you can surfing the internet comfortably. There are two blocklists used BebasDNS Internet Sehat: OISD NSFW and KINI Community Blocklist created by the BebasID community and Indonesian people.<br><br>You can join our Community on [Discord](https://discord.gg/EKrxZyu) or [Telegram](https://t.me/bebasidbykini) to contribute towards BebasDNS Internet Sehat blocklist. You can also open issue to add blocklist or to report false positive.<br></br>
+Specialized for hate speech/gore, adult (18+), gambling, and other negative things.</br> BebasDNS Internet Sehat is an implementation of Internet Sehat without unnecessary blocking or censorship so you can surf the internet comfortably. There are two blocklists used by BebasDNS Internet Sehat: OISD NSFW and KINI Community Blocklist created by the BebasID community and Indonesian people.<br><br>You can join our Community on [Discord](https://discord.gg/EKrxZyu) or [Telegram](https://t.me/bebasidbykini) to contribute towards BebasDNS Internet Sehat blocklist. You can also open an issue to add a blocklist or to report false positives.<br></br>
 
-You can choose from 3 (three) variants: [Family Default](#family-default) and [Family Strict](#family-strict), which blocks DNS resolvers and VPN providers.
+You can choose from 3 (three) variants: [Family Default](#family-default) and [Family Strict](#family-strict), which block DNS resolvers and VPN providers.
 
 ### <b><ins>Family Default</ins></b>:
 
@@ -232,7 +232,7 @@ Specialized for blocking alternative DNS resolvers and VPN providers.
 Specialized in the way that users can choose their own DNS blocking filter list according to their preferences. </br>Only blocking malware, tracking, and ads.<br></br>
 You can choose from 3 (three) variants: [OISD Big](#filter-oisd-big), [Hagezi Multi-Normal](#filter-hagezi-multi-normal), and [StevenBlack](#filter-stevenblack)
 
-### <b><ins>Filter OISD Big</ins></b>:
+### <b><ins>OISD Big Filter</ins></b>:
 
 Specialized variant for OISD blocklist filter.
 
@@ -243,7 +243,7 @@ Specialized variant for OISD blocklist filter.
 | DoT-iOS/macOS | [dot-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-oisdbig.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-oisdbig.dns.bebasid.com-signed.mobileconfig) |-|
 
-### <b><ins>Filter Hagezi Multi-Normal</ins></b>:
+### <b><ins>Hagezi Multi-Normal Filter</ins></b>:
 
 Specialized variant for Hagezi blocklist filter.
 
@@ -254,7 +254,7 @@ Specialized variant for Hagezi blocklist filter.
 | DoT-iOS/macOS | [dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig) |-|
 
-### <b><ins>Filter StevenBlack</ins></b>:
+### <b><ins>StevenBlack Filter</ins></b>:
 
 Specialized variant for StevenBlack blocklist filter.
 
@@ -269,7 +269,7 @@ Specialized variant for StevenBlack blocklist filter.
 
 A filter is a mechanism for blocking access to certain content on the Internet. When going to a website, the browser sends the website name (for example, <code><a href="https://google.com">google.com</a></code>) to a DNS server. The DNS server answers with the IP address of the server hosting this website.</br>
 
-### <ins>Daftar Blokir DNS</ins>
+### <ins>DNS Blocklists</ins>
 
 Used to block domains according to DNS variants.</br>
 | Blocklists - For Default |
@@ -293,7 +293,7 @@ Used to block domains according to DNS variants.</br>
 
 ### <ins>DNS Allowlists</ins>
 
-Used to allow domains that originally blocked by blocklist.</br>
+Used to allow domains that were originally blocked by blocklists.</br>
 | Allowlists - For Default DNS |
 | --- |
 | [BebasDNS's Custom Filtering Allowlists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-allowlist) |
@@ -310,7 +310,7 @@ List of server status:
 
 ### <ins>Security Test</ins>
 
-[BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) has been tested for security and graded according to website:
+[BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) has been tested for security and graded according to the website:
 
 | SSL Sites | Grade | Latest Update Date |
 | --- | --- | --- |
@@ -374,7 +374,7 @@ Help us maintain this project and keep [BebasDNS / BebasID DNS](#bebasdns--bebas
 
 ## License:
 
-[BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) is licensed under [MPL-2.0 License](https://github.com/bebasid/bebasdns/blob/main/LICENSE)
+[BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) is licensed under [MIT License](https://github.com/bebasid/bebasdns/blob/main/LICENSE)
 
 ## Terms and Conditions:
 

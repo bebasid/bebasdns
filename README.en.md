@@ -65,7 +65,7 @@
 
 ### Notice Regarding DPI
 <details>
-<summary>Click to open the announcement</summary>
+<summary>Click to open the announcement:</summary>
 
 ### Plain DNS is only usable within allowlisted Indonesian and Singaporean IP range to prevent DDOS attacks, if you need your IP address to be allowlisted or want to request a list of allowlisted IPs, please get in touch with us or join our [Discord](https://discord.gg/bebasid-630415907021389825).
 
@@ -114,7 +114,7 @@ For Internet Service Providers (ISP) that block DoH/DoT domains, please get in t
 
 </div>
 
-## Table of Content:
+## Table of Contents
 
 - [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns)
   - [Primary Server](#primary-server)
@@ -151,7 +151,7 @@ For Internet Service Providers (ISP) that block DoH/DoT domains, please get in t
 We only record queries if there is a bug report.
 For example, if users can not access a website for troubleshooting purposes, fix that bug report.
 
-## Primary Server:
+## Primary Server
 
 ### <ins>Default DNS</ins>
 
@@ -164,7 +164,7 @@ Blocking malware, trackers, and ads.
 | DoT-iOS/macOS | [dot-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_default/dot-default.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_default/doh-default.dns.bebasid.com-signed.mobileconfig) |-|
 
-## Alternative:
+## Alternative
 
 ### <ins>Antivirus</ins>
 
@@ -265,7 +265,7 @@ Specialized variant for StevenBlack blocklist filter.
 | DoT-iOS/macOS | [dot-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-stevenblack.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-stevenblack.dns.bebasid.com-signed.mobileconfig) |-|
 
-## Filter (Ad-Blocker & Anti-Tracking):
+## Filter (Ad-Blocker & Anti-Tracking)
 
 A filter is a mechanism for blocking access to certain content on the Internet. When going to a website, the browser sends the website name (for example, <code><a href="https://google.com">google.com</a></code>) to a DNS server. The DNS server answers with the IP address of the server hosting this website.</br>
 
@@ -299,7 +299,7 @@ Used to allow domains that were originally blocked by blocklists.</br>
 | [BebasDNS's Custom Filtering Allowlists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-allowlist) |
 | [BebasDNS's Allowlists](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/allowlist.txt) |
 
-## Maintenance:
+## Maintenance
 
 ### <ins>Server Status</ins>
 
@@ -320,7 +320,7 @@ List of server status:
 | [SSL Labs IPv6](https://www.ssllabs.com/ssltest/analyze.html?d=dns.bebasid.com&s=2a06%3a9f44%3af3e0%3abeba%3a51d%3a0%3a0%3a53) | **A+** | 17 December 2023 |
 | [Is your site IPv6 ready?](https://ready.chair6.net/?url=https%3A%2F%2Fdns.bebasid.com%2Fdns-query) | **PASS** | - |
 
-## List of Tutorials and Questions:
+## List of Tutorials and Questions
 
 ### <ins>How to Use</ins>
 
@@ -344,27 +344,43 @@ If you have any requests or bug reports, please [open a new issue](https://githu
 
 If you have any problems using [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), please head to [Discord](https://discord.gg/EKrxZyu) or send email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasDNS / BebasID DNS: [Your problem/question]**
 
-## Donate us:
+## Donate Us
 
 Help us maintain this project and keep [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) VPS running by donating.
 
 <div>
 <details>
- <summary>:coffee: Buy us a coffee: [v]</summary>
+ <summary>:coffee: Buy us a coffee:</summary>
 
 </br>
 
 <table align="center">
 <thead>
 <tr>
-<th><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://img.shields.io/static/v1?label=Trakteer&message=bebasidbykini&color=C02433" alt="Donasi BebasID Trakteer"></a></th>
-<th><a href="https://saweria.co/bebasid" target="_blank"><img src="https://img.shields.io/static/v1?label=Saweria&message=bebasid&color=FAAE2B" alt="Donasi BebasID Saweria"></a></th>
+<th>
+  <a href="https://trakteer.id/bebasidbykini" target="_blank">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donate-white?style=for-the-badge&logo=buymeacoffee&logoColor=white&label=Trakteer&labelColor=222">
+  </a>
+</th>
+<th>
+  <a href="https://saweria.co/bebasid" target="_blank">
+    <img alt="Static Badge" src="https://img.shields.io/badge/donate-white?style=for-the-badge&logo=iconjar&logoColor=white&label=Saweria&labelColor=222">
+</a>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://trakteer.id/bebasidbykini" target="_blank"><img src="https://trakteer.id/images/mix/navbar-logo-lite.png" alt="Donasi BebasID Trakteer" height="76" width="291"></a></td>
-<td><a href="https://saweria.co/bebasid" target="_blank"><img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" alt="Donasi BebasID Saweria" height="72" width="313"></a></td>
+<td>
+  <a href="https://trakteer.id/bebasidbykini" target="_blank">
+    <img src="https://trakteer.id/images/mix/navbar-logo-lite.png" height="76" width="291">
+  </a>
+</td>
+<td>
+  <a href="https://saweria.co/bebasid" target="_blank">
+    <img src="https://user-images.githubusercontent.com/26188697/180601310-e82c63e4-412b-4c36-b7b5-7ba713c80380.png" height="72" width="313">
+</a>
+</td>
 </tr>
 </tbody>
 </table>
@@ -372,11 +388,11 @@ Help us maintain this project and keep [BebasDNS / BebasID DNS](#bebasdns--bebas
 </details>
 </div>
 
-## License:
+## License
 
 [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) is licensed under [MIT License](https://github.com/bebasid/bebasdns/blob/main/LICENSE)
 
-## Terms and Conditions:
+## Terms and Conditions
 
 By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use this service.
 

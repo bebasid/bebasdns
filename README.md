@@ -25,9 +25,9 @@
 <!--
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=PENONTON+%5BHARI+INI+%2F+TOTAL%5D&edge_flat=true"/>
 </a>
-//-->
 
 <br>
+//-->
 
 <a href="LICENSE">
     <img alt="Static Badge" src="https://img.shields.io/badge/MIT-white?style=for-the-badge&logo=andela&logoColor=white&label=Lisensi&labelColor=222">

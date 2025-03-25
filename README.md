@@ -104,9 +104,9 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 
 *Penyedia VPS yang berorientasi pada kebebasan dan netral untuk kebutuhannya.*
 
-| <a href="https://atharva.co.id"><img src="https://member.atharva.co.id/assets/img/logo.png" width="380"></a> |
+| <a href="https://member.atharva.co.id"><img src="https://member.atharva.co.id/assets/img/logo.png" width="380"></a> |
 |-|
-| <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
+| <p align="center">[atharva.co.id](https://member.atharva.co.id)</p> |
 
 <!--
 | <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |

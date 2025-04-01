@@ -121,17 +121,17 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 - [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns)
   - [Peladen Utama](#peladen-utama)
       - [DNS Bawaan (Default)](#dns-bawaan-default)
-  - [Peladen Alternatif](#peladen-alternatif)
-      - [DNS Antivirus (Malware)](#dns-antivirus-malware)
-      - [DNS Tanpa Disaring (Unfiltered)](#dns-tanpa-disaring-unfiltered)
-      - [DNS Internet Sehat (Family)](#dns-internet-sehat-family)
-        - [Family Default](#family-default)
-        - [Family Adblock](#family-adblock)
-        - [Family Strict](#family-strict)
-      - [DNS Penyaring Kustom](#dns-penyaring-kustom)
-        - [Filter OISD Big](#filter-oisd-big)
-        - [Filter Hagezi Multi-Normal](#filter-hagezi-multi-normal)
-        - [Filter StevenBlack](#filter-stevenblack)
+      - [Alternatif](#alternatif)
+          - [DNS Antivirus (Malware)](#dns-antivirus-malware)
+          - [DNS Tanpa Disaring (Unfiltered)](#dns-tanpa-disaring-unfiltered)
+          - [DNS Internet Sehat (Family)](#dns-internet-sehat-family)
+            - [Family Default](#family-default)
+            - [Family Adblock](#family-adblock)
+            - [Family Strict](#family-strict)
+          - [DNS Penyaring Kustom](#dns-penyaring-kustom)
+            - [Filter OISD Big](#filter-oisd-big)
+            - [Filter Hagezi Multi-Normal](#filter-hagezi-multi-normal)
+            - [Filter StevenBlack](#filter-stevenblack)
   - [Penyaring (Ad-Blocker & Anti-Tracking)](#penyaring-ad-blocker--anti-tracking)
     - [Daftar Blokir DNS](#daftar-blokir-dns)
     - [Daftar Boleh DNS](#daftar-boleh-dns)
@@ -166,7 +166,7 @@ Memblokir perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan 
 | DoT-iOS/macOS | [dot-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_default/dot-default.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_default/doh-default.dns.bebasid.com-signed.mobileconfig) |-|
 
-## Peladen Alternatif:
+## Alternatif:
 
 ### <ins>DNS Antivirus (Malware)</ins>
 

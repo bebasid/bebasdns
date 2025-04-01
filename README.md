@@ -384,7 +384,7 @@ Untuk selengkapnya, lihat di [ATURAN-nya pada berikut](https://github.com/bebasi
 
 ---
 
-<p align="center">Bagikan proyek ini</p>
+<p align="center">Bagikan proyek ini!</p>
 <div id="sosial">
  <p align="center">
   <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasdns"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-white?style=for-the-badge&logo=x&logoColor=black"/></a>

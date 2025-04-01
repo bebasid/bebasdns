@@ -230,7 +230,7 @@ Varian khusus memblokir provider VPN dan DNS.
 
 ### <ins>DNS Penyaring Kustom</ins>
 
-Khusus dimana bisa dapat memilih penyaring daftar blokir DNS penyedia sesuai dengan selera diri sendiri. <br></br> Hanya memblokir tergantung dari perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan (ads). <br></br> Memiliki 3 varian penyaring: [OISD Big](#filter-oisd-big), [Hagezi Multi-Normal](#filter-hagezi-multi-normal), dan [StevenBlack](#filter-stevenblack).
+Khusus dimana bisa dapat memilih penyaring daftar blokir DNS penyedia sesuai dengan selera diri sendiri. <br> Hanya memblokir tergantung dari perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan (ads). <br></br> Memiliki 3 varian penyaring: [OISD Big](#filter-oisd-big), [Hagezi Multi-Normal](#filter-hagezi-multi-normal), dan [StevenBlack](#filter-stevenblack).
 
 ### <b><ins>Filter OISD Big</ins></b>:
 

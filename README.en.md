@@ -73,7 +73,7 @@
 
 # 
 
-For Internet Service Providers (ISP) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI or force the DNS to use Internet Protocol version 6 (IPv6) if the ISP supports it.
+For Internet Service Providers (ISP) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI or turn on IPv6 and force the DNS to use Internet Protocol version 6 (IPv6) if the ISP supports it.
 
 For Internet Service Providers (ISP) that block DoH/DoT domains, please contact us at [dukungan@bebasid.com](mailto:dukungan@bebasid.com) for the alternative domain so that you can use BebasID DNS service.
 

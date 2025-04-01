@@ -22,10 +22,12 @@
 <p align="center">
 
 <a href="#">
+<!--
 <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbebasid%2Fbebasdns&count_bg=%23222222&title_bg=%23222222&icon=myspace.svg&icon_color=%23FFFFFF&title=WATCHERS+%5BTODAY+%2F+TOTAL%5D&edge_flat=true"/>
 </a>
 
 <br>
+//-->
 
 <a href="LICENSE">
     <img alt="Static Badge" src="https://img.shields.io/badge/MIT-white?style=for-the-badge&logo=andela&logoColor=white&label=License&labelColor=222">
@@ -67,13 +69,13 @@
 <details>
 <summary>Click to open the announcement:</summary>
 
-### Plain DNS is only usable within allowlisted Indonesian and Singaporean IP range to prevent DDOS attacks, if you need your IP address to be allowlisted or want to request a list of allowlisted IPs, please get in touch with us or join our [Discord](https://discord.gg/bebasid-630415907021389825).
+### Plain DNS is only usable within the allow-listed Indonesian and Singaporean IP range to prevent DDOS attacks. If you need your IP address to be allow-listed or want to request a list of allow-listed IPs, please get in touch with us or join our [Discord](https://discord.gg/bebasid-630415907021389825).
 
 # 
 
-For Internet Service Providers (ISP) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI. Or by using Internet Protocol version 6 (IPv6), to force the DNS to use it if the ISP supports it.
+For Internet Service Providers (ISP) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI or force the DNS to use Internet Protocol version 6 (IPv6) if the ISP supports it.
 
-For Internet Service Providers (ISP) that block DoH/DoT domains, please get in touch with us at [dukungan@bebasid.com](mailto:dukungan@bebasid.com) for the alternative domain to be able to use BebasID DNS service.
+For Internet Service Providers (ISP) that block DoH/DoT domains, please contact us at [dukungan@bebasid.com](mailto:dukungan@bebasid.com) for the alternative domain so that you can use BebasID DNS service.
 
 **Signs if the ISP is using DPI:**
 | HTTP redirecting to [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | While HTTPS throwing the `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
@@ -89,7 +91,7 @@ For Internet Service Providers (ISP) that block DoH/DoT domains, please get in t
 |:-|:-|
 
 **Operating System (OS):**
-| <a href="https://github.com/bebasid/bebasit/blob/master/README.md#windows"><img src="https://seeklogo.com/images/W/windows-11-icon-logo-6C39629E45-seeklogo.com.png" width="16"/> Windows</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#macos"><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="16"/> MacOS</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#linux"><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="16"/> Linux</a> |
+| <a href="https://github.com/bebasid/bebasit/blob/master/README.md#windows"><img src="https://github.com/bebasid/bebasid/blob/master/dev/resources/windows-11-icon-logo-png_seeklogo-406208.png?raw=true" width="16"/> Windows</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#macos"><img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" width="16"/> MacOS</a> | <a href="https://github.com/bebasid/bebasit/blob/master/README.md#linux"><img src="https://cdn-icons-png.flaticon.com/512/226/226772.png" width="16"/> Linux</a> |
 |:-|:-|:-|
 
 </details>
@@ -102,9 +104,9 @@ For Internet Service Providers (ISP) that block DoH/DoT domains, please get in t
 
 *A freedom-oriented and neutral VPS provider for your needs.*
 
-| <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/images/logo.jpg" width="380"></a> |
+| <a href="https://member.atharva.co.id"><img src="https://member.atharva.co.id/assets/img/logo.png" width="380"></a> |
 |-|
-| <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
+| <p align="center">[atharva.co.id](https://member.atharva.co.id)</p> |
 
 <!--
 | <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
@@ -160,7 +162,7 @@ Blocking malware, trackers, and ads.
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
 | DNS-over-TLS | `dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | `https://dns.bebasid.com/dns-query` | `443` |
+| DNS-over-HTTPS | [`https://dns.bebasid.com/dns-query`](https://dns.bebasid.com/dns-query) | `443` |
 | DoT-iOS/macOS | [dot-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_default/dot-default.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_default/doh-default.dns.bebasid.com-signed.mobileconfig) |-|
 
@@ -173,7 +175,7 @@ Specialized for malware blocking, without trackers blocking, and without adblock
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
 | DNS-over-TLS | `antivirus.bebasid.com` | `853` |
-| DNS-over-HTTPS | `https://antivirus.bebasid.com/dns-query` | `443` |
+| DNS-over-HTTPS | [`https://antivirus.bebasid.com/dns-query`](https://antivirus.bebasid.com/dns-query) | `443` |
 | DoT-iOS/macOS | [dot-malware.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_malware/dot-malware.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-malware.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_malware/doh-malware.dns.bebasid.com-signed.mobileconfig) |-|
 
@@ -184,15 +186,15 @@ Does not block malware, trackers, and ads.
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
 | DNS-over-TLS | `unfiltered.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | `https://dns.bebasid.com/unfiltered` | `443` |
+| DNS-over-HTTPS | [`https://dns.bebasid.com/unfiltered`](https://dns.bebasid.com/unfiltered) | `443` |
 | DoT-iOS/macOS | [dot-unfiltered.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_unfiltered/dot-unfiltered.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-unfiltered.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_unfiltered/doh-unfiltered.dns.bebasid.com-signed.mobileconfig) |-|
 
 ### <ins>Family</ins>
 
-Specialized for hate speech/gore, adult (18+), gambling, and other negative things.</br> BebasDNS Internet Sehat is an implementation of Internet Sehat without unnecessary blocking or censorship so you can surf the internet comfortably. There are two blocklists used by BebasDNS Internet Sehat: OISD NSFW and KINI Community Blocklist created by the BebasID community and Indonesian people.<br><br>You can join our Community on [Discord](https://discord.gg/EKrxZyu) or [Telegram](https://t.me/bebasidbykini) to contribute towards BebasDNS Internet Sehat blocklist. You can also open an issue to add a blocklist or to report false positives.<br></br>
+Specialized for hate speech/gore, adult (18+), gambling, and other negative things.</br> BebasDNS Internet Sehat is an implementation of Internet Sehat without unnecessary blocking or censorship so you can surf the internet comfortably. There are two blocklists used by BebasDNS Internet Sehat: OISD NSFW and KINI Community Blocklist, which were created by the BebasID community and Indonesian people.<br><br>You can join our Community on [Discord](https://discord.gg/EKrxZyu) or [Telegram](https://t.me/bebasidbykini) to contribute towards BebasDNS Internet Sehat blocklist. You can also open an issue to add a blocklist or to report false positives.
 
-You can choose from 3 (three) variants: [Family Default](#family-default) and [Family Strict](#family-strict), which block DNS resolvers and VPN providers.
+You can choose from 3 (three) variants: [Family Default](#family-default), [Family with AdBlock](#family-adblock), and [Family Strict](#family-strict), which block DNS resolvers and VPN providers.
 
 ### <b><ins>Family Default</ins></b>:
 
@@ -201,7 +203,7 @@ Default variant.
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
 | DNS-over-TLS | `internetsehat.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | `https://internetsehat.bebasid.com/dns-query` | `443` |
+| DNS-over-HTTPS | [`https://internetsehat.bebasid.com/dns-query`](https://internetsehat.bebasid.com/dns-query) | `443` |
 | DoT-iOS/macOS | [dot-familydefault.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familydefault.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-familydefault.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familydefault.dns.bebasid.com-signed.mobileconfig) |-|
 
@@ -212,7 +214,7 @@ With adblocking.
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
 | DNS-over-TLS | `family-adblock.bebasid.com` | `853` |
-| DNS-over-HTTPS | `https://internetsehat.bebasid.com/adblock` | `443` |
+| DNS-over-HTTPS | [`https://internetsehat.bebasid.com/adblock`](https://internetsehat.bebasid.com/adblock) | `443` |
 | DoT-iOS/macOS | [dot-familyadblock.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familyadblock.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-familyadblock.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familyadblock.dns.bebasid.com-signed.mobileconfig) |-|
 
@@ -223,14 +225,14 @@ Specialized for blocking alternative DNS resolvers and VPN providers.
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
 | DNS-over-TLS | `1984.bebasid.com` | `853` |
-| DNS-over-HTTPS | `https://internetsehat.bebasid.com/dns-strict` | `443` |
+| DNS-over-HTTPS | [`https://internetsehat.bebasid.com/dns-strict`](https://internetsehat.bebasid.com/dns-strict) | `443` |
 | DoT-iOS/macOS | [dot-familystrict.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familystrict.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-familystrict.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familystrict.dns.bebasid.com-signed.mobileconfig) |-|
 
 ### <ins>Custom Filter DNS</ins>
 
 Specialized in the way that users can choose their own DNS blocking filter list according to their preferences. </br>Only blocking malware, tracking, and ads.<br></br>
-You can choose from 3 (three) variants: [OISD Big](#filter-oisd-big), [Hagezi Multi-Normal](#filter-hagezi-multi-normal), and [StevenBlack](#filter-stevenblack)
+You can choose from 3 (three) variants: [OISD Big](#oisd-big-filter), [Hagezi Multi-Normal](#hagezi-multi-normal-filter), and [StevenBlack](#stevenblack-filter).
 
 ### <b><ins>OISD Big Filter</ins></b>:
 
@@ -239,7 +241,7 @@ Specialized variant for OISD blocklist filter.
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
 | DNS-over-TLS | `oisd.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | `https://dns.bebasid.com/dns-oisd` | `443` |
+| DNS-over-HTTPS | [`https://dns.bebasid.com/dns-oisd`](https://dns.bebasid.com/dns-oisd) | `443` |
 | DoT-iOS/macOS | [dot-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-oisdbig.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-oisdbig.dns.bebasid.com-signed.mobileconfig) |-|
 
@@ -250,7 +252,7 @@ Specialized variant for Hagezi blocklist filter.
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
 | DNS-over-TLS | `hagezi.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | `https://dns.bebasid.com/dns-hagezi` | `443` |
+| DNS-over-HTTPS | [`https://dns.bebasid.com/dns-hagezi`](https://dns.bebasid.com/dns-hagezi) | `443` |
 | DoT-iOS/macOS | [dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig) |-|
 
@@ -261,7 +263,7 @@ Specialized variant for StevenBlack blocklist filter.
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
 | DNS-over-TLS | `stevenblack.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | `https://dns.bebasid.com/dns-stevenblack` | `443` |
+| DNS-over-HTTPS | [`https://dns.bebasid.com/dns-stevenblack`](https://dns.bebasid.com/dns-stevenblack) | `443` |
 | DoT-iOS/macOS | [dot-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-stevenblack.dns.bebasid.com-signed.mobileconfig) |-|
 | DoH-iOS/macOS | [doh-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-stevenblack.dns.bebasid.com-signed.mobileconfig) |-|
 
@@ -346,7 +348,7 @@ If you have any problems using [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns),
 
 ## Donate Us
 
-Help us maintain this project and keep [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) VPS running by donating.
+Donating will help us maintain this project and keep [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) VPS running.
 
 <div>
 <details>
@@ -390,11 +392,11 @@ Help us maintain this project and keep [BebasDNS / BebasID DNS](#bebasdns--bebas
 
 ## License
 
-[BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) is licensed under [MIT License](https://github.com/bebasid/bebasdns/blob/main/LICENSE)
+[BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) is licensed under [MIT License](https://github.com/bebasid/bebasdns/blob/main/LICENSE).
 
 ## Terms and Conditions
 
-By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made and you accept all the consequences that will arise. If you do not agree to accept the existing rules, then you are not allowed to use this service.
+By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made, and you accept all the consequences that may arise. If you do not agree to accept the existing rules, then you are not allowed to use this service.
 
 For more information about the rules, see them on the [RULES here](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES).
 

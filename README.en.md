@@ -344,7 +344,7 @@ If you have any requests or bug reports, please [open a new issue](https://githu
 
 ### <ins>Frequently Asked Questions</ins>
 
-If you have any problems using [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), please head to [Discord](https://discord.gg/EKrxZyu) or send email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasDNS / BebasID DNS: [Your problem/question]**
+If you have any problems using [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), please head to [Discord](https://discord.gg/EKrxZyu) or send email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasDNS / BebasID DNS: [Your problem/question]**.
 
 ## Donate Us
 

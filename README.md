@@ -303,9 +303,9 @@ Digunakan untuk membolehkan domain yang seharusnya diblokir oleh daftar blokir.<
 
 ### <ins>Status Peladen</ins>
 
-Statistik kondisi servis pelayanan publik dapat dilihat di [Status BebasDNS/BebasID DNS](https://uptime.bebasid.com/).
+Statistik kondisi servis pelayanan publik dapat dilihat di bawah ini. <br>
 Daftar isi status peladen:
-- [Better Stack](https://bebasid.betteruptime.com/)
+<!---- [Better Stack](https://bebasid.betteruptime.com/)-->
 - [UptimeRobot Status](https://stats.uptimerobot.com/w66Jkc0zm7)
 
 ### <ins>Uji Keamanan</ins>

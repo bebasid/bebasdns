@@ -305,9 +305,9 @@ Used to allow domains that were originally blocked by blocklists.</br>
 
 ### <ins>Server Status</ins>
 
-Public service statistics can be seen on [Status BebasDNS/BebasID DNS](https://uptime.bebasid.com/).
+Public service statistics can be seen on. <br>
 List of server status:
-- [Better Stack](https://bebasid.betteruptime.com/)
+<!---- [Better Stack](https://bebasid.betteruptime.com/)-->
 - [UptimeRobot Status](https://stats.uptimerobot.com/w66Jkc0zm7)
 
 ### <ins>Security Test</ins>

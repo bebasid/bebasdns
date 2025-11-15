@@ -125,13 +125,6 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
           - [DNS Antivirus (Malware)](#dns-antivirus-malware)
           - [DNS Tanpa Disaring (Unfiltered)](#dns-tanpa-disaring-unfiltered)
           - [DNS Internet Sehat (Family)](#dns-internet-sehat-family)
-            - [Family Default](#family-default)
-            - [Family Adblock](#family-adblock)
-            - [Family Strict](#family-strict)
-          - [DNS Penyaring Kustom](#dns-penyaring-kustom)
-            - [Filter OISD Big](#filter-oisd-big)
-            - [Filter Hagezi Multi-Normal](#filter-hagezi-multi-normal)
-            - [Filter StevenBlack](#filter-stevenblack)
   - [Penyaring (Ad-Blocker & Anti-Tracking)](#penyaring-ad-blocker--anti-tracking)
     - [Daftar Blokir DNS](#daftar-blokir-dns)
     - [Daftar Boleh DNS](#daftar-boleh-dns)
@@ -163,8 +156,6 @@ Memblokir perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan 
 | --- | --- | :---: |
 | DNS-over-TLS | `dns.bebasid.com` | `853` |
 | DNS-over-HTTPS | [`https://dns.bebasid.com/dns-query`](https://dns.bebasid.com/dns-query) | `443` |
-| DoT-iOS/macOS | [dot-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_default/dot-default.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_default/doh-default.dns.bebasid.com-signed.mobileconfig) |-|
 
 ## Alternatif:
 
@@ -174,10 +165,8 @@ Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking) dan tid
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
-| DNS-over-TLS | `antivirus.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://antivirus.bebasid.com/dns-query`](https://antivirus.bebasid.com/dns-query) | `443` |
-| DoT-iOS/macOS | [dot-malware.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_malware/dot-malware.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-malware.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_malware/doh-malware.dns.bebasid.com-signed.mobileconfig) |-|
+| DNS-over-TLS | `security.dns.bebasid.com` | `853` |
+| DNS-over-HTTPS | [`https://security.dns.bebasid.com/dns-query`](https://security.dns.bebasid.com/dns-query) | `443` |
 
 ### <ins>DNS Tanpa Disaring (Unfiltered)</ins>
 
@@ -186,118 +175,41 @@ Khusus tanpa pemblokiran perangkat lunak jahat (malware), tanpa blokir pelacakan
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
 | DNS-over-TLS | `unfiltered.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://dns.bebasid.com/unfiltered`](https://dns.bebasid.com/unfiltered) | `443` |
-| DoT-iOS/macOS | [dot-unfiltered.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_unfiltered/dot-unfiltered.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-unfiltered.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_unfiltered/doh-unfiltered.dns.bebasid.com-signed.mobileconfig) |-|
+| DNS-over-HTTPS | [`https://unfiltered.dns.bebasid.com/dns-query`](https://unfiltered.dns.bebasid.com/dns-query) | `443` |
 
 ### <ins>DNS Internet Sehat (Family)</ins>
 
 Khusus pemblokiran situs kebencian, gore, situs dewasa (18+), situs judi, dan situs hal bernegatif lainnya. BebasDNS Internet Sehat merupakan implementasi Internet Sehat tanpa pemblokiran yang tidak perlu atau <i>censorship</i> sehingga anda dapat berselancar di Internet dengan nyaman. Blocklist untuk BebasDNS Internet Sehat ada 2 yaitu OISD NSFW dan Blocklist Komunitas KINI yang dibuat dengan melibatkan seluruh komunitas BebasID dan masyarakat Indonesia.<br><br>Anda dapat bergabung ke Komunitas kami di [Discord](https://discord.gg/EKrxZyu) atau [Telegram](https://t.me/bebasidbykini) untuk berkontribusi dalam blocklist Internet Sehat BebasDNS. Selain itu anda dapat membuka issue untuk menambahkan blocklist atau jika ada situs yang seharusnya tidak diblokir.<br></br>
-Anda bisa memilih dari 3 (tiga) varian: [Family Default](#family-default), [Family with AdBlock](#family-adblock), dan [Family Strict](#family-strict), yang blokir resolver DNS dan provider VPN.
-
-### <b><ins>Family Default</ins></b>:
-
-Varian Default. 
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
-| DNS-over-TLS | `internetsehat.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://internetsehat.bebasid.com/dns-query`](https://internetsehat.bebasid.com/dns-query) | `443` |
-| DoT-iOS/macOS | [dot-familydefault.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familydefault.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-familydefault.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familydefault.dns.bebasid.com-signed.mobileconfig) |-|
-
-### <b><ins>Family Adblock</ins></b>:
-
-Varian khusus memblokir iklan.
-
-| Protocols | Addresses | Ports |
-| --- | --- | :---: |
-| DNS-over-TLS | `family-adblock.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://internetsehat.bebasid.com/adblock`](https://internetsehat.bebasid.com/adblock) | `443` |
-| DoT-iOS/macOS | [dot-familyadblock.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familyadblock.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-familyadblock.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familyadblock.dns.bebasid.com-signed.mobileconfig) |-|
-
-### <b><ins>Family Strict</ins></b>:
-
-Varian khusus memblokir provider VPN dan DNS.
-
-| Protocols | Addresses | Ports |
-| --- | --- | :---: |
-| DNS-over-TLS | `1984.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://internetsehat.bebasid.com/dns-strict`](https://internetsehat.bebasid.com/dns-strict) | `443` |
-| DoT-iOS/macOS | [dot-familystrict.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familystrict.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-familystrict.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familystrict.dns.bebasid.com-signed.mobileconfig) |-|
-
-### <ins>DNS Penyaring Kustom</ins>
-
-Khusus dimana bisa dapat memilih penyaring daftar blokir DNS penyedia sesuai dengan selera diri sendiri. <br> Hanya memblokir tergantung dari perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan (ads). <br></br> Memiliki 3 varian penyaring: [OISD Big](#filter-oisd-big), [Hagezi Multi-Normal](#filter-hagezi-multi-normal), dan [StevenBlack](#filter-stevenblack).
-
-### <b><ins>Filter OISD Big</ins></b>:
-
-Varian khusus provider filter blocklist OISD.
-
-| Protocols | Addresses | Ports |
-| --- | --- | :---: |
-| DNS-over-TLS | `oisd.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://dns.bebasid.com/dns-oisd`](https://dns.bebasid.com/dns-oisd) | `443` |
-| DoT-iOS/macOS | [dot-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-oisdbig.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-oisdbig.dns.bebasid.com-signed.mobileconfig) |-|
-
-### <b><ins>Filter Hagezi Multi-Normal</ins></b>:
-
-Varian khusus provider filter blocklist Hagezi.
-
-| Protocols | Addresses | Ports |
-| --- | --- | :---: |
-| DNS-over-TLS | `hagezi.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://dns.bebasid.com/dns-hagezi`](https://dns.bebasid.com/dns-hagezi) | `443` |
-| DoT-iOS/macOS | [dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig) |-|
-
-### <b><ins>Filter StevenBlack</ins></b>:
-
-Varian khusus provider filter blocklist StevenBlack.
-
-| Protocols | Addresses | Ports |
-| --- | --- | :---: |
-| DNS-over-TLS | `stevenblack.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://dns.bebasid.com/dns-stevenblack`](https://dns.bebasid.com/dns-stevenblack) | `443` |
-| DoT-iOS/macOS | [dot-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-stevenblack.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-stevenblack.dns.bebasid.com-signed.mobileconfig) |-|
-
-## Penyaring (Ad-Blocker & Anti-Tracking):
-
-Penyaring adalah sistem untuk memblokir akses ke konten tertentu di Internet. Saat membuka situs web, browser mengirimkan nama situs web (misalnya, <code><a href="https://google.com">google.com</a></code>) ke server DNS. Server DNS menjawab dengan alamat IP server yang menyimpan situs web ini.</br>
+| DNS-over-TLS | `family.dns.bebasid.com` | `853` |
+| DNS-over-HTTPS | [`https://family.dns.bebasid.com/dns-query`](https://family.dns.bebasid.com/dns-query) | `443` |
 
 ### <ins>Daftar Blokir DNS</ins>
 
 Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 | Blocklists - Untuk DNS Default |
 | --- |
-| [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
 | [OISD Big](https://oisd.nl/) |
 | [URLHaus](https://urlhaus.abuse.ch/) |
+| [1Hosts](https://github.com/badmojr/1Hosts) |
 
 | Blocklists - Untuk DNS Antivirus (Malware) |
 | --- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
 | [URLHaus](https://urlhaus.abuse.ch/) |
-| [Hagezi Threat Blocking](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/tif.blocklist.conf) |
+| [StevenBlack Anti Malware](https://github.com/StevenBlack/hosts) |
+| [Cert PL Anti Malware](https://cert.pl/en/) |
 
 | Blocklists - Untuk DNS Internet Sehat (Family) |
 | --- |
-| [Daftar isi penyaring yang dipakai DNS Internet Sehat Family](https://internetsehat.bebasid.com/blocklist/2023/) |
+| [StevenBlack Anti Malware](https://github.com/StevenBlack/hosts) |
+| [Cert PL Anti Malware](https://cert.pl/en/) |
 | [URLHaus](https://urlhaus.abuse.ch/) |
 | [OISD NSFW](https://oisd.nl/downloads) |
 | [Hagezi Gambling Blocklist](https://github.com/hagezi/dns-blocklists) |
-
-### <ins>Daftar Boleh DNS</ins>
-
-Digunakan untuk membolehkan domain yang seharusnya diblokir oleh daftar blokir.</br>
-| Allowlists - Untuk DNS Default |
-| --- |
-| [BebasDNS's Custom Filtering Allowlists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-allowlist) |
-| [BebasDNS's Allowlists](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/allowlist.txt) |
+| [Indonesian Gambling Blocklist by Alsyundawy](https://github.com/alsyundawy/TrustPositif/blob/main/alsyundawy_gambling.txt) |
 
 ## Pemeliharaan:
 

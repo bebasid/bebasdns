@@ -1,14 +1,77 @@
 # BebasDNS Community Blacklist
 ## Made and requested by BebasID / KINI Community
-## This blocklist should not be used as the main blacklist, as it is community-submitted and customized.
+## This blocklist should not be used as the main blacklist, as it is community-submitted and customized to acompany existing blocklists.
 ## Join our Discord Server or Telegram for contribute or do a pull request!
 
-### Pornography
+### Pornography (Pornografi)
 0.0.0.0 nekopoi.care
 0.0.0.0 pornhub.com
 0.0.0.0 xvideos.com
 0.0.0.0 eporner.com
+0.0.0.0 xhamster.desi
+0.0.0.0 pornhub.org
+0.0.0.0 tubegalore.com 
+0.0.0.0 xhaccess.com
 
-### Gambling
+### Gambling (Penjudian / Judol)
 0.0.0.0 bwin.com
 0.0.0.0 pragmaticplay.com
+0.0.0.0 10bet.com
+0.0.0.0 1xbet.com
+0.0.0.0 888sport.com
+0.0.0.0 aleosports.com
+0.0.0.0 asiabet.org
+0.0.0.0 azino-777.ru
+0.0.0.0 azino-777.win
+0.0.0.0 azino777.com
+0.0.0.0 bet-at-home.com
+0.0.0.0 bet.com
+0.0.0.0 bet365.com
+0.0.0.0 betfair.com
+0.0.0.0 betonline.ag
+0.0.0.0 betstarsnj.com
+0.0.0.0 betting-prime.com
+0.0.0.0 betway.com
+0.0.0.0 bilyoner.com
+0.0.0.0 birebin.com
+0.0.0.0 bonuskazani2.com
+0.0.0.0 bovada.lv
+0.0.0.0 bwin.com
+0.0.0.0 deveril.com
+0.0.0.0 freespin.com
+0.0.0.0 golaro.com
+0.0.0.0 hepsibahis.com
+0.0.0.0 islandbet.com
+0.0.0.0 jenningsbet.com
+0.0.0.0 ladbrokes.com
+0.0.0.0 misli.com
+0.0.0.0 mobilbahis127.com
+0.0.0.0 nairabet.com
+0.0.0.0 nesine.com
+0.0.0.0 novibet.co.uk
+0.0.0.0 olymptrade.com
+0.0.0.0 onlinecricketbetting.net
+0.0.0.0 openbet.com
+0.0.0.0 racebets.com
+0.0.0.0 royalacecasino.com
+0.0.0.0 saltybet.com
+0.0.0.0 skybet.com
+0.0.0.0 slotocash.im
+0.0.0.0 sportsbettingdime.com
+0.0.0.0 sportsfanny.com
+0.0.0.0 tonybet.com
+0.0.0.0 tuttur.com
+0.0.0.0 ubet.com.mt
+0.0.0.0 unibet.com
+0.0.0.0 unikrn.com
+0.0.0.0 wildz.net
+
+## Hate Site (Situs Melanggar SARA)
+0.0.0.0 8kun.top
+0.0.0.0 dailystormer.in
+0.0.0.0 dailystormer.name
+0.0.0.0 lolcow.farm
+0.0.0.0 americannaziparty.com
+
+## Pro Suicide Site (Situs Pro Bunuh Diri)
+0.0.0.0 sanctionedsuicide.net

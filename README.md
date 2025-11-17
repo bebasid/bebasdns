@@ -1,6 +1,6 @@
 <head>
   <meta name="google-site-verification" content="rMj01w-DUdd0GIucGjWQKzZV-w6IE0hYYCWJWYnvfSw">
-  <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh" />
+  <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh.aduankonten.id, buka hypixel, buka duckduckgo, duckduckgo indonesia" />
 </head>
 
 <div align="center">
@@ -141,7 +141,13 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 
 ## BebasDNS / BebasID DNS
 
-[**BebasDNS** / **BebasID DNS**](#bebasdns--bebasid-dns) adalah implementasi sistem DNS sekaligus ad-blocker dan anti-tracking dengan uptime-nya cukup stabil, tidak menyimpan kueri, dan tidak menyimpan log dikarenakan privasi pengguna.
+[**BebasDNS** / **BebasID DNS**](#bebasdns--bebasid-dns) adalah implementasi sistem DNS sekaligus ad-blocker dan anti-tracking dengan uptime-nya cukup stabil, tidak menyimpan kueri, dan tidak menyimpan log dikarenakan privasi pengguna. 
+
+BebasDNS mempunyai 4 varian yang pengguna dapat gunakan yaitu default, security, unfiltered, dan family.
+
+DNS Security kami hanya memblokir malware dan tracker.
+
+DNS Family kami memblokir konten pornografi, judi, SARA, malware, iklan, dan konten lainnya yang membahayakan pengguna. Pengguna dapat berkontribusi dan menerapkan Internet Sehat dengan DNS kami tanpa khawatir terkena sensor atau masalah privasi.
 
 Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri dan log apabila jika adanya laporan bug.
 Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.

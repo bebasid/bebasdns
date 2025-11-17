@@ -189,8 +189,10 @@ Khusus pemblokiran situs kebencian, gore, situs dewasa (18+), situs judi, dan si
 ### <ins>Daftar Blokir DNS</ins>
 
 Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
+
 | Blocklists - Untuk DNS Default |
 | --- |
+| [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
 | [OISD Big](https://oisd.nl/) |
 | [URLHaus](https://urlhaus.abuse.ch/) |
 | [1Hosts](https://github.com/badmojr/1Hosts) |

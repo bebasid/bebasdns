@@ -1,0 +1,14 @@
+# BebasDNS Community Blacklist
+## Made and requested by BebasID / KINI Community
+## This blocklist should not be used as the main blacklist, as it is community-submitted and customized.
+## Join our Discord Server or Telegram for contribute or do a pull request!
+
+### Pornography
+0.0.0.0 nekopoi.care
+0.0.0.0 pornhub.com
+0.0.0.0 xvideos.com
+0.0.0.0 eporner.com
+
+### Gambling
+0.0.0.0 bwin.com
+0.0.0.0 pragmaticplay.com

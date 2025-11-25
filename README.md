@@ -127,7 +127,7 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
           - [DNS Internet Sehat (Family)](#dns-internet-sehat-family)
   - [Penyaring (Ad-Blocker & Anti-Tracking)](#penyaring-ad-blocker--anti-tracking)
     - [Daftar Blokir DNS](#daftar-blokir-dns)
-    - [Daftar Boleh DNS](#daftar-boleh-dns)
+    - [Kontribusi List Blacklist](#kontribusi-link-blacklist)
   - [Pemeliharaan](#pemeliharaan)
     - [Status Peladen](#status-peladen)
     - [Uji Keamanan](#uji-keamanan)

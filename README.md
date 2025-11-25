@@ -127,7 +127,7 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
           - [DNS Internet Sehat (Family)](#dns-internet-sehat-family)
   - [Penyaring (Ad-Blocker & Anti-Tracking)](#penyaring-ad-blocker--anti-tracking)
     - [Daftar Blokir DNS](#daftar-blokir-dns)
-    - [Kontribusi List Blacklist](#kontribusi-link-blacklist)
+    - [Kontribusi List Blocklist](#kontribusi-link-blocklist)
   - [Pemeliharaan](#pemeliharaan)
     - [Status Peladen](#status-peladen)
     - [Uji Keamanan](#uji-keamanan)
@@ -221,7 +221,7 @@ Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 | [Hagezi Gambling Blocklist](https://github.com/hagezi/dns-blocklists) |
 | [Indonesian Gambling Blocklist by Alsyundawy](https://github.com/alsyundawy/TrustPositif/blob/main/alsyundawy_gambling.txt) |
 
-### <ins>Kontribusi List Blacklist</ins>
+### <ins>Kontribusi List Blocklist</ins>
 
 Untuk berkontribusi ke blocklist komunitas dilingkup phishing, malware, tracker, dan iklan annoyance, anda dapat fork [Blocklist Kami](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/custom-filtering-rules-blocklist) dan kirimkan kontribusi anda, atau bergabunglah dengan komunitas kami di [Discord](https://discord.gg/EKrxZyu) kami. Dengan berkontribusi, anda membantu seluruh pengguna BebasDNS dan elemen masyarakat untuk berselancar di internet secara aman.
 

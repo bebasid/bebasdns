@@ -1,6 +1,6 @@
 <head>
   <meta name="google-site-verification" content="rMj01w-DUdd0GIucGjWQKzZV-w6IE0hYYCWJWYnvfSw">
-  <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh" />
+  <meta name="keywords" content="dns bebas blokir, bypass internet positif, bypass lamanlabuh, buka reddit, buka vimeo, dns bebas, dns bebas akses, dns pribadi bebas blokir, bypass trustpositif, alternatif bebasid, cara buka reddit tanpa vpn, lamanlabuh.aduankonten.id, buka hypixel, buka duckduckgo, duckduckgo indonesia" />
 </head>
 
 <div align="center">
@@ -125,16 +125,9 @@ For Internet Service Providers (ISP) that block DoH/DoT domains, please contact 
       - [Antivirus](#antivirus)
       - [Unfiltered DNS](#unfiltered)
       - [Family](#family)
-        - [Family Default](#family-default)
-        - [Family + Ad-blocking](#family-adblock)
-        - [Family Strict](#family-strict)
-      - [Custom Filter DNS](#custom-filter-dns)
-        - [OISD Big Filter](#oisd-big-filter)
-        - [Hagezi Multi-Normal Filter](#hagezi-multi-normal-filter)
-        - [StevenBlack Filter](#stevenblack-filter)
   - [Filter (Ad-Blocker & Anti-Tracking)](#filter-ad-blocker--anti-tracking)
     - [DNS Blocklists](#dns-blocklists)
-    - [DNS Allowlists](#dns-allowlists)
+    - [Blocklist Contribution](#blocklist-contribution)
   - [Maintenance](#maintenance)
     - [Server Status](#server-status)
     - [Security Test](#security-test)
@@ -150,6 +143,12 @@ For Internet Service Providers (ISP) that block DoH/DoT domains, please contact 
 
 [**BebasDNS** / **BebasID DNS**](#bebasdns--bebasid-dns) is an implementation of DNS resolver with ad-blocker and anti-tracking with stable-enough uptime, does not record queries, and does not log for user privacy. 
 
+BebasDNS has 4 variants which users can use, there are default, security, unfiltered, dan family.
+
+Our Security DNS only blocks malware and tracker.
+
+Our Family DNS blocks pornography, gambling, race/religious hate, malware, ad, and other dangerous contents. Users can contribute and implement Healty Internet with our DNS without censorship or privacy concerns.
+
 We only record queries if there is a bug report.
 For example, if users can not access a website for troubleshooting purposes, fix that bug report.
 
@@ -163,8 +162,6 @@ Blocking malware, trackers, and ads.
 | --- | --- | :---: |
 | DNS-over-TLS | `dns.bebasid.com` | `853` |
 | DNS-over-HTTPS | [`https://dns.bebasid.com/dns-query`](https://dns.bebasid.com/dns-query) | `443` |
-| DoT-iOS/macOS | [dot-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_default/dot-default.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-default.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_default/doh-default.dns.bebasid.com-signed.mobileconfig) |-|
 
 ## Alternative
 
@@ -174,10 +171,8 @@ Specialized for malware blocking, without trackers blocking, and without adblock
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
-| DNS-over-TLS | `antivirus.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://antivirus.bebasid.com/dns-query`](https://antivirus.bebasid.com/dns-query) | `443` |
-| DoT-iOS/macOS | [dot-malware.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_malware/dot-malware.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-malware.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_malware/doh-malware.dns.bebasid.com-signed.mobileconfig) |-|
+| DNS-over-TLS | `security.bebasid.com` | `853` |
+| DNS-over-HTTPS | [`https://security.bebasid.com/dns-query`](https://security.bebasid.com/dns-query) | `443` |
 
 ### <ins>Unfiltered</ins>
 
@@ -186,120 +181,53 @@ Does not block malware, trackers, and ads.
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
 | DNS-over-TLS | `unfiltered.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://dns.bebasid.com/unfiltered`](https://dns.bebasid.com/unfiltered) | `443` |
-| DoT-iOS/macOS | [dot-unfiltered.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_unfiltered/dot-unfiltered.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-unfiltered.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_unfiltered/doh-unfiltered.dns.bebasid.com-signed.mobileconfig) |-|
+| DNS-over-HTTPS | [`https://unfiltered.dns.bebasid.com/dns-query`](https://unfiltered.dns.bebasid.com/dns-query) | `443` |
 
 ### <ins>Family</ins>
 
 Specialized for hate speech/gore, adult (18+), gambling, and other negative things.</br> BebasDNS Internet Sehat is an implementation of Internet Sehat without unnecessary blocking or censorship so you can surf the internet comfortably. There are two blocklists used by BebasDNS Internet Sehat: OISD NSFW and KINI Community Blocklist, which were created by the BebasID community and Indonesian people.<br><br>You can join our Community on [Discord](https://discord.gg/EKrxZyu) or [Telegram](https://t.me/bebasidbykini) to contribute towards BebasDNS Internet Sehat blocklist. You can also open an issue to add a blocklist or to report false positives.
 
-You can choose from 3 (three) variants: [Family Default](#family-default), [Family with AdBlock](#family-adblock), and [Family Strict](#family-strict), which block DNS resolvers and VPN providers.
-
-### <b><ins>Family Default</ins></b>:
-
-Default variant. 
-
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
-| DNS-over-TLS | `internetsehat.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://internetsehat.bebasid.com/dns-query`](https://internetsehat.bebasid.com/dns-query) | `443` |
-| DoT-iOS/macOS | [dot-familydefault.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familydefault.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-familydefault.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familydefault.dns.bebasid.com-signed.mobileconfig) |-|
-
-### <b><ins>Family Adblock</ins></b>:
-
-With adblocking.
-
-| Protocols | Addresses | Ports |
-| --- | --- | :---: |
-| DNS-over-TLS | `family-adblock.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://internetsehat.bebasid.com/adblock`](https://internetsehat.bebasid.com/adblock) | `443` |
-| DoT-iOS/macOS | [dot-familyadblock.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familyadblock.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-familyadblock.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familyadblock.dns.bebasid.com-signed.mobileconfig) |-|
-
-### <b><ins>Family Strict</ins></b>:
-
-Specialized for blocking alternative DNS resolvers and VPN providers.
-
-| Protocols | Addresses | Ports |
-| --- | --- | :---: |
-| DNS-over-TLS | `1984.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://internetsehat.bebasid.com/dns-strict`](https://internetsehat.bebasid.com/dns-strict) | `443` |
-| DoT-iOS/macOS | [dot-familystrict.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_family/dot-familystrict.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-familystrict.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_family/doh-familystrict.dns.bebasid.com-signed.mobileconfig) |-|
-
-### <ins>Custom Filter DNS</ins>
-
-Specialized in the way that users can choose their own DNS blocking filter list according to their preferences. </br>Only blocking malware, tracking, and ads.<br></br>
-You can choose from 3 (three) variants: [OISD Big](#oisd-big-filter), [Hagezi Multi-Normal](#hagezi-multi-normal-filter), and [StevenBlack](#stevenblack-filter).
-
-### <b><ins>OISD Big Filter</ins></b>:
-
-Specialized variant for OISD blocklist filter.
-
-| Protocols | Addresses | Ports |
-| --- | --- | :---: |
-| DNS-over-TLS | `oisd.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://dns.bebasid.com/dns-oisd`](https://dns.bebasid.com/dns-oisd) | `443` |
-| DoT-iOS/macOS | [dot-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-oisdbig.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-oisdbig.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-oisdbig.dns.bebasid.com-signed.mobileconfig) |-|
-
-### <b><ins>Hagezi Multi-Normal Filter</ins></b>:
-
-Specialized variant for Hagezi blocklist filter.
-
-| Protocols | Addresses | Ports |
-| --- | --- | :---: |
-| DNS-over-TLS | `hagezi.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://dns.bebasid.com/dns-hagezi`](https://dns.bebasid.com/dns-hagezi) | `443` |
-| DoT-iOS/macOS | [dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-hagezimultinormal.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-hagezimultinormal.dns.bebasid.com-signed.mobileconfig) |-|
-
-### <b><ins>StevenBlack Filter</ins></b>:
-
-Specialized variant for StevenBlack blocklist filter.
-
-| Protocols | Addresses | Ports |
-| --- | --- | :---: |
-| DNS-over-TLS | `stevenblack.dns.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://dns.bebasid.com/dns-stevenblack`](https://dns.bebasid.com/dns-stevenblack) | `443` |
-| DoT-iOS/macOS | [dot-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/dot_ios-macos/dns_customfilter/dot-stevenblack.dns.bebasid.com-signed.mobileconfig) |-|
-| DoH-iOS/macOS | [doh-stevenblack.dns.bebasid.com-signed.mobileconfig](https://github.com/bebasid/bebasdns/raw/main/dev/resources/config/doh_ios-macos/dns_customfilter/doh-stevenblack.dns.bebasid.com-signed.mobileconfig) |-|
-
-## Filter (Ad-Blocker & Anti-Tracking)
-
-A filter is a mechanism for blocking access to certain content on the Internet. When going to a website, the browser sends the website name (for example, <code><a href="https://google.com">google.com</a></code>) to a DNS server. The DNS server answers with the IP address of the server hosting this website.</br>
+| DNS-over-TLS | `family.dns.bebasid.com` | `853` |
+| DNS-over-HTTPS | [`https://family.dns.bebasid.com/dns-query`](https://family.dns.bebasid.com/dns-query) | `443` |
 
 ### <ins>DNS Blocklists</ins>
 
 Used to block domains according to DNS variants.</br>
+
 | Blocklists - For Default |
 | --- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
 | [OISD Big](https://oisd.nl/) |
 | [URLHaus](https://urlhaus.abuse.ch/) |
+| [1Hosts](https://github.com/badmojr/1Hosts) |
 
 | Blocklists - For Antivirus Variant                                                                                                                           | 
 | --- |
 | [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
-| [URLHaus](https://urlhaus.abuse.ch/)                                                                                                                         
-| [Hagezi Threat Blocking](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/unbound/tif.blacklist.conf)                                            |
+| [URLHaus](https://urlhaus.abuse.ch/) |
+| [StevenBlack Anti Malware](https://github.com/StevenBlack/hosts) |
+| [Cert PL Anti Malware](https://cert.pl/en/) |
 
 | Blocklists - For Healthy Internet Variant |
 | --- |
-| [List of Filter used by Healthy Internet DNS](https://internetsehat.bebasid.com/blacklist/2023/) |
+| [BebasID Internet Sehat Community](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/family-community-blacklist) |
+| [BebasDNS's Custom Filtering Blocklists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-blocklist) |
+| [StevenBlack Anti Malware](https://github.com/StevenBlack/hosts) |
+| [Cert PL Anti Malware](https://cert.pl/en/) |
 | [URLHaus](https://urlhaus.abuse.ch/)     
 | [OISD NSFW](https://oisd.nl/downloads) |
 | [Hagezi Gambling Blocklist](https://github.com/hagezi/dns-blocklists) |
+| [Indonesian Gambling Blocklist by Alsyundawy](https://github.com/alsyundawy/TrustPositif/blob/main/alsyundawy_gambling.txt) |
 
-### <ins>DNS Allowlists</ins>
+### <ins>Blocklist Contribution</ins>
 
-Used to allow domains that were originally blocked by blocklists.</br>
-| Allowlists - For Default DNS |
-| --- |
-| [BebasDNS's Custom Filtering Allowlists Rules](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/custom-filtering-rules-allowlist) |
-| [BebasDNS's Allowlists](https://raw.githubusercontent.com/bebasid/bebasdns/main/dev/resources/hosts/allowlist.txt) |
+To contribute to community blocklist in scope of phishing, malware, tracker, and ad annoyance, you can fork [our Blocklist](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/custom-filtering-rules-blocklist) and sending your contribution, or join our community at [Discord](https://discord.gg/EKrxZyu). By contributing, you help all BebasDNS users and the wider public to surf the internet safely.
+
+To contribute to BebasDNS Healthy Internet blocklist project, you can fork [our Family Blocklist](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/family-community-blacklist) nd sending your contribution, or join our community at [Discord](https://discord.gg/EKrxZyu). Let's implement the Healty Internet in neutral, transparent, and without censorship way outside scope of pornography, gambling, race/religious hate, phishing, and other unacceptable contents.
+
+**Please follow the format within the blocklist to contribute by forking!**
 
 ## Maintenance
 

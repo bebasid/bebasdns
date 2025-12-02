@@ -1,7 +1,4 @@
-# Blokir Pelacak
-### [National Censorship Tracker]
 0.0.0.0 lamanlabuh.aduankonten.id
-### [Telkomsel/Indihome]
 0.0.0.0 a01.uadexchange.com
 0.0.0.0 a02.uadexchange.com
 0.0.0.0 a03.uadexchange.com
@@ -51,20 +48,13 @@
 0.0.0.0 internetpositif.uzone.id
 0.0.0.0 v3.mercusuar.uzone.id
 0.0.0.0 internetsehatku.com
-### [XL/Fiber/Liveon/Lite]
 0.0.0.0 ibnads.xl.co.id
-### [Indosat/Hifi]
 0.0.0.0 ads.indosatooredoo.com
 0.0.0.0 netsafe.indosatm2.com
-### [MyRepublic]
-0.0.0.0  block.myrepublic.co.id
-
-# Blokir Phishing & Malware Lokal
-### [Phishing]
+0.0.0.0 block.myrepublic.co.id
 0.0.0.0 steamcomnmunltyy.com
 0.0.0.0 secureapimiddleware.com
-
-### [Malware]
 0.0.0.0 hurx33.com
 0.0.0.0 texcaft.com
 0.0.0.0 trcaft.com
+0.0.0.0 internetpositif.id

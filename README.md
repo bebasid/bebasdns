@@ -69,13 +69,13 @@
 <details>
 <summary>Pencet untuk buka pemberitahuan</summary>
 
-### Plain DNS hanya berfungsi di IP range termasuk negara Indonesia dan Singapura yang sudah didaftarkan untuk menghindari serangan DDOS, untuk meminta daftar IP yang kami izinkan, silakan kontak kami atau gabung ke [Discord](https://discord.gg/bebasid-630415907021389825) kami.
+### Plain DNS hanya berfungsi di IP range termasuk negara Indonesia dan Singapura yang sudah didaftarkan untuk menghindari serangan DDoS. Untuk meminta daftar IP yang kami izinkan, silakan kontak kami atau gabung ke [Discord](https://discord.gg/bebasid-630415907021389825) kami.
 
 # 
 
-Untuk Wi-Fi / Provider (ISP) yang memakai [Inspeksi Paket Dalam (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), harap gunakan [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya melakukan terpaksa jika ISP-nya sudah mendukung.
+Untuk Wi-Fi/provider (ISP) yang memakai [Inspeksi Paket Dalam (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), harap gunakan [BebasIT/BebasID IT](https://github.com/bebasid/bebasit) untuk melewati DPI. Atau dengan menyalakan Protokol Internet versi 6 (IPv6), agar DNS-nya terpaksa jika ISP-nya sudah mendukung.
 
-Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
+Bagi provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukungan@bebasid.com](mailto:dukungan@bebasid.com) untuk mendapatkan alternatif domain lain untuk mengakses layanan DNS BebasID.
 
 **Ciri-ciri ISP menggunakan DPI:**
 | Protokol HTTP mengalihkan ke [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | Sedangkan Protokol HTTPS mengerluarkan ke `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
@@ -104,19 +104,19 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 
 *Penyedia VPS yang berorientasi pada kebebasan dan netral untuk kebutuhannya.*
 
-| <a href="https://member.atharva.co.id"><img src="https://member.atharva.co.id/assets/img/logo.png" width="380"></a> |
-|-|
-| <p align="center">[atharva.co.id](https://member.atharva.co.id)</p> |
+| <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75)</a> | <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/assets/atharva-logo-white-jdBmQylO.png" width="380"></a> |
+| - | - |
+| <p align="center">[qdei.co](https://qdei.co)</p> | <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
 
 <!--
-| <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
-| - |
-| <p align="center">[qdei.co](https://qdei.co)</p> |
+| <a href="https://atharva.co.id"><img src="https://member.atharva.co.id/assets/img/logo.png" width="380"></a> |
+|-|
+| <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
 //-->
 
 </div>
 
-## Daftar Isi:
+## Daftar Isi
 
 - [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns)
   - [Peladen Utama](#peladen-utama)
@@ -125,9 +125,8 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
           - [DNS Antivirus (Malware)](#dns-antivirus-malware)
           - [DNS Tanpa Disaring (Unfiltered)](#dns-tanpa-disaring-unfiltered)
           - [DNS Internet Sehat (Family)](#dns-internet-sehat-family)
-  - [Penyaring (Ad-Blocker & Anti-Tracking)](#penyaring-ad-blocker--anti-tracking)
-    - [Daftar Blokir DNS](#daftar-blokir-dns)
-    - [Kontribusi List Blocklist](#kontribusi-link-blocklist)
+  - [Daftar Blokir DNS](#daftar-blokir-dns)
+  - [Kontribusi List Blocklist](#kontribusi-list-blocklist)
   - [Pemeliharaan](#pemeliharaan)
     - [Status Peladen](#status-peladen)
     - [Uji Keamanan](#uji-keamanan)
@@ -141,18 +140,18 @@ Bagi Provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 
 ## BebasDNS / BebasID DNS
 
-[**BebasDNS** / **BebasID DNS**](#bebasdns--bebasid-dns) adalah implementasi sistem DNS sekaligus ad-blocker dan anti-tracking dengan uptime-nya cukup stabil, tidak menyimpan kueri, dan tidak menyimpan log dikarenakan privasi pengguna. 
+[**BebasDNS** / **BebasID DNS**](#bebasdns--bebasid-dns) adalah implementasi sistem DNS sekaligus ad-blocker dan anti-tracking dengan uptime-nya yang cukup stabil, tidak menyimpan kueri, dan tidak menyimpan log dikarenakan privasi pengguna. 
 
-BebasDNS mempunyai 4 varian yang pengguna dapat gunakan yaitu default, security, unfiltered, dan family.
+BebasDNS mempunyai 4 varian yang pengguna dapat menggunakan, yaitu default, security, unfiltered, dan family.
 
 DNS Security kami hanya memblokir malware dan tracker.
 
 DNS Family kami memblokir konten pornografi, judi, SARA, malware, iklan, dan konten lainnya yang membahayakan pengguna. Pengguna dapat berkontribusi dan menerapkan Internet Sehat dengan DNS kami tanpa khawatir terkena sensor atau masalah privasi.
 
-Sewaktu-waktu hanya akan mengaktifkan menyimpan kueri dan log apabila jika adanya laporan bug.
+Sewaktu-waktu hanya akan mengaktifkan penyimpanan kueri dan log apabila ada laporan bug.
 Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.
 
-## Peladen Utama:
+## Peladen Utama
 
 ### <ins>DNS Bawaan (Default)</ins>
 
@@ -163,11 +162,11 @@ Memblokir perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan 
 | DNS-over-TLS | `dns.bebasid.com` | `853` |
 | DNS-over-HTTPS | [`https://dns.bebasid.com/dns-query`](https://dns.bebasid.com/dns-query) | `443` |
 
-## Alternatif:
+## Alternatif
 
 ### <ins>DNS Antivirus (Malware)</ins>
 
-Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking) dan tidak memblokir iklan (ads).
+Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking), dan tidak memblokir iklan (ads).
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
@@ -185,7 +184,7 @@ Khusus tanpa pemblokiran perangkat lunak jahat (malware), tanpa blokir pelacakan
 
 ### <ins>DNS Internet Sehat (Family)</ins>
 
-Khusus pemblokiran situs kebencian, gore, situs dewasa (18+), situs judi, dan situs hal bernegatif lainnya. BebasDNS Internet Sehat merupakan implementasi Internet Sehat tanpa pemblokiran yang tidak perlu atau <i>censorship</i> sehingga anda dapat berselancar di Internet dengan nyaman. Blocklist untuk BebasDNS Internet Sehat ada 2 yaitu OISD NSFW dan Blocklist Komunitas KINI yang dibuat dengan melibatkan seluruh komunitas BebasID dan masyarakat Indonesia.<br><br>Anda dapat bergabung ke Komunitas kami di [Discord](https://discord.gg/EKrxZyu) atau [Telegram](https://t.me/bebasidbykini) untuk berkontribusi dalam blocklist Internet Sehat BebasDNS. Selain itu anda dapat membuka issue untuk menambahkan blocklist atau jika ada situs yang seharusnya tidak diblokir.<br></br>
+Khusus pemblokiran situs kebencian, gore, situs dewasa (18+), situs judi, dan situs hal negatif lainnya. BebasDNS Internet Sehat merupakan implementasi Internet Sehat tanpa pemblokiran yang tidak perlu atau <i>censorship</i> sehingga Anda dapat berselancar di Internet dengan nyaman. Blocklist untuk BebasDNS Internet Sehat ada 2, yaitu OISD NSFW dan Blocklist Komunitas KINI yang dibuat dengan melibatkan seluruh komunitas BebasID dan masyarakat Indonesia.<br><br>Anda dapat bergabung ke komunitas kami di [Discord](https://discord.gg/EKrxZyu) atau [Telegram](https://t.me/bebasidbykini) untuk berkontribusi dalam blocklist Internet Sehat BebasDNS. Selain itu, Anda dapat membuka issue untuk menambahkan blocklist atau untuk situs yang seharusnya tidak diblokir.<br></br>
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
@@ -223,17 +222,17 @@ Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 
 ### <ins>Kontribusi List Blocklist</ins>
 
-Untuk berkontribusi ke blocklist komunitas dilingkup phishing, malware, tracker, dan iklan annoyance, anda dapat fork [Blocklist Kami](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/custom-filtering-rules-blocklist) dan kirimkan kontribusi anda, atau bergabunglah dengan komunitas kami di [Discord](https://discord.gg/EKrxZyu) kami. Dengan berkontribusi, anda membantu seluruh pengguna BebasDNS dan elemen masyarakat untuk berselancar di internet secara aman.
+Untuk berkontribusi ke blocklist komunitas di lingkup phishing, malware, tracker, dan iklan annoyance, Anda dapat fork [Blocklist Kami](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/custom-filtering-rules-blocklist) dan kirimkan kontribusi Anda, atau bergabunglah dengan komunitas kami di [Discord](https://discord.gg/EKrxZyu). Dengan berkontribusi, Anda membantu seluruh pengguna BebasDNS dan elemen masyarakat untuk berselancar di internet secara aman.
 
-Untuk berkontribusi pada proyek blocklist Internet Sehat BebasDNS, silakan fork [Blocklist Family Kami](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/family-community-blacklist) dan kirimkan kontribusi Anda, atau bergabunglah dengan komunitas kami di [Discord](https://discord.gg/EKrxZyu) kami. Mari kita terapkan Internet Sehat secara netral, transparan, dan tanpa sensor di luar lingkup pornografi, judi, SARA, phishing, serta konten lain yang melanggar norma kesusilaan.
+Untuk berkontribusi pada proyek blocklist Internet Sehat BebasDNS, silakan fork [Blocklist Family Kami](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/family-community-blacklist) dan kirimkan kontribusi Anda, atau bergabunglah dengan komunitas kami di [Discord](https://discord.gg/EKrxZyu). Mari kita terapkan Internet Sehat secara netral, transparan, dan tanpa sensor di luar lingkup pornografi, judi, SARA, phishing, serta konten lain yang melanggar norma kesusilaan.
 
-**Silahkan ikuti format seperti yang ada di blocklist untuk berkontribusi lewat forking!**
+Silakan ikuti format seperti yang ada di blocklist untuk berkontribusi lewat forking!**
 
-## Pemeliharaan:
+## Pemeliharaan
 
 ### <ins>Status Peladen</ins>
 
-Statistik kondisi servis pelayanan publik dapat dilihat di bawah ini. <br>
+Statistik kondisi pelayanan publik dapat dilihat di bawah ini. <br>
 Daftar isi status peladen:
 <!---- [Better Stack](https://bebasid.betteruptime.com/)-->
 - [UptimeRobot Status](https://stats.uptimerobot.com/w66Jkc0zm7)
@@ -250,7 +249,7 @@ Daftar isi status peladen:
 | [SSL Labs IPv6](https://www.ssllabs.com/ssltest/analyze.html?d=dns.bebasid.com&s=2a06%3a9f44%3af3e0%3abeba%3a51d%3a0%3a0%3a53) | **A+** | 17 Desember 2023 |
 | [Is your site IPv6 ready?](https://ready.chair6.net/?url=https%3A%2F%2Fdns.bebasid.com%2Fdns-query) | **PASS** |-|
 
-## Isi Tutorial dan Bertanya:
+## Isi Tutorial dan Bertanya
 
 ### <ins>Cara Mengaplikasikan</ins>
 
@@ -272,9 +271,9 @@ Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silakan [membuka 
 
 ### <ins>Soal Sering Ditanya</ins>
 
-Jika mengalami permasalahan saat menggunakan [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), silakan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu), atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasDNS / BebasID DNS: [Masalah/pertanyaan anda]**.
+Jika mengalami permasalahan saat menggunakan [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), silakan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu) atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasDNS / BebasID DNS: [Masalah/pertanyaan Anda]**.
 
-## Donasi Kami:
+## Donasi Kami
 
 Bantu proyek kami agar VPS [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) tetap berjalan dengan cara berdonasi.
 
@@ -302,22 +301,22 @@ Bantu proyek kami agar VPS [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) teta
 </details>
 </div>
 
-## Lisensi:
+## Lisensi
 
-[BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) telah lisensikan dibawah [Lisensi MIT](https://github.com/bebasid/bebasdns/blob/main/LICENSE) tersebut.
+[BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) telah berlisensi di bawah [Lisensi MIT](https://github.com/bebasid/bebasdns/blob/main/LICENSE) tersebut.
 
-## Syarat dan Ketentuan:
+## Syarat dan Ketentuan
 
-Dengan menggunakan layanan ini, anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan.
+Dengan menggunakan layanan ini, Anda setuju mematuhi peraturan yang kami buat dan menerima segala akibat yang ditimbulkan.
 
-Untuk selengkapnya, lihat di [ATURAN-nya pada berikut](https://github.com/bebasid/bebasdns/blob/main/dev/readme/RULES.md).
+Untuk selengkapnya, lihat [ATURAN-nya berikut](https://github.com/bebasid/bebasdns/blob/main/dev/readme/RULES.md).
 
 ---
 
 <p align="center">Bagikan proyek ini!</p>
 <div id="sosial">
  <p align="center">
-  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasdns"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-white?style=for-the-badge&logo=x&logoColor=black"/></a>
+  <a href="https://twitter.com/intent/tweet?text=https%3A//github.com/bebasid/bebasdns"><img src="https://img.shields.io/badge/X%20%2F%20Twitter-white?style=for-the-badge&logo=x&oColor=black"/></a>
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/bebasid/bebasdns"><img src="https://img.shields.io/badge/Facebook-white?style=for-the-badge&logo=facebook&logoColor=black"/></a>
  </p>
 </div>

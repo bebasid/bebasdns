@@ -6,7 +6,7 @@
 <div align="center">
 
 #### BEBASID Menu
-| [BEBAS🕊️ID](https://github.com/bebasid/bebasid/blob/main/README.en.md) | **BEBAS🕊️DNS** | [BEBAS🕊️IT](https://github.com/bebasid/bebasit/blob/main/README.en.md) | [K🕊️minFudge](https://github.com/bebasid/KominFudge/blob/main/README.en.md) |
+| [BEBAS🕊️ID](https://github.com/bebasid/bebasid/blob/main/README.en.md) | **BEBAS🕊️DNS** | [BEBAS🕊️IT](https://github.com/bebasid/bebasit/blob/master/README.en.md) | [K🕊️minFudge](https://github.com/bebasid/KominFudge/blob/main/README.en.md) |
 |-|-|-|-|
 
 #### Bahasa / Language

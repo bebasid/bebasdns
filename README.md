@@ -138,7 +138,7 @@ Bagi provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
     - [Cara Mengaplikasikan](#cara-mengaplikasikan)
     - [Cara Melaporkan, atau Permintaan](#cara-melaporkan-atau-permintaan)
     - [Soal Sering Ditanya](#soal-sering-ditanya)
-  - [Donasi Kami](#donasi-kami)
+<!--  - [Donasi Kami](#donasi-kami) -->
   - [Lisensi](#lisensi)
   - [Syarat dan Ketentuan](#syarat-dan-ketentuan)
 
@@ -277,13 +277,14 @@ Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silakan [membuka 
 
 Jika mengalami permasalahan saat menggunakan [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), silakan lanjut menanyakannya di [Discord](https://discord.gg/EKrxZyu) atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasDNS / BebasID DNS: [Masalah/pertanyaan Anda]**.
 
+<!--
 ## Donasi Kami
 
 Bantu proyek kami agar VPS [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) tetap berjalan dengan cara berdonasi.
 
 <div>
 <details>
- <summary>:coffee: Traktir kita kopi: [v]</summary>
+ <summary>:coffee: Traktir kita kopi: </summary>
 
 </br>
 
@@ -304,6 +305,7 @@ Bantu proyek kami agar VPS [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) teta
 
 </details>
 </div>
+//-->
 
 ## Lisensi
 

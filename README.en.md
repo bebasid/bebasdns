@@ -139,7 +139,7 @@ For Internet Service Providers (ISPs) that block DoH/DoT domains, please contact
     - [How to Use](#how-to-use)
     - [Contributing, Question and Request](#contributing-question-and-request)
     - [Frequently Asked Question](#frequently-asked-questions)
-  - [Donate Us](#donate-us)
+<!--  - [Donate Us](#donate-us)-->
   - [License](#license)
   - [Terms and Conditions](#terms-and-conditions)
 
@@ -278,6 +278,7 @@ If you have any requests or bug reports, please [open a new issue](https://githu
 
 If you have any problems using [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), please head to [Discord](https://discord.gg/EKrxZyu) or send an email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasDNS / BebasID DNS: [Your problem/question]**.
 
+<!--
 ## Donate Us
 
 Donating will help us maintain this project and keep [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns) VPS running.
@@ -321,6 +322,7 @@ Donating will help us maintain this project and keep [BebasDNS / BebasID DNS](#b
 
 </details>
 </div>
+//-->
 
 ## License
 

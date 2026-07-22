@@ -130,7 +130,7 @@ For Internet Service Providers (ISPs) that block DoH/DoT domains, please contact
   - [Primary Server](#primary-server)
       - [Default DNS](#default-dns)
     - [Alternative](#alternative)
-      - [Antivirus](#antivirus)
+      - [Antivirus (Anti-Malware)](#antivirus-anti-malware)
       - [Unfiltered DNS](#unfiltered)
       - [Family](#family)
   - [DNS Blocklists](#dns-blocklists)
@@ -172,9 +172,9 @@ Blocking malware, trackers, and ads.
 
 ## Alternative
 
-### <ins>Antivirus</ins>
+### <ins>Antivirus (Anti-Malware)</ins>
 
-Specialized for malware blocking, without trackers blocking, and without adblocking.
+Specialized for malware blocking, without tracker blocking, and no adblock.
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |

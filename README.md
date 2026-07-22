@@ -167,7 +167,7 @@ Memblokir perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan 
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
-| DNS-over-TLS | `dns.bebasid.com` | `853` |
+| DNS-over-TLS | `dns.bebasid.com`, `tls://dns.bebasid.com` | `853` |
 | DNS-over-HTTPS | [`https://dns.bebasid.com/dns-query`](https://dns.bebasid.com/dns-query) | `443` |
 
 ## Alternatif
@@ -178,7 +178,7 @@ Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking), dan ti
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
-| DNS-over-TLS | `security.dns.bebasid.com` | `853` |
+| DNS-over-TLS | `security.dns.bebasid.com`, `tls://security.dns.bebasid.com` | `853` |
 | DNS-over-HTTPS | [`https://security.dns.bebasid.com/dns-query`](https://security.dns.bebasid.com/dns-query) | `443` |
 
 ### <ins>DNS Tanpa Disaring (Unfiltered)</ins>
@@ -187,7 +187,7 @@ Khusus tanpa pemblokiran perangkat lunak jahat (malware), tanpa blokir pelacakan
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
-| DNS-over-TLS | `unfiltered.dns.bebasid.com` | `853` |
+| DNS-over-TLS | `unfiltered.dns.bebasid.com`, `tls://unfiltered.dns.bebasid.com` | `853` |
 | DNS-over-HTTPS | [`https://unfiltered.dns.bebasid.com/dns-query`](https://unfiltered.dns.bebasid.com/dns-query) | `443` |
 
 ### <ins>DNS Internet Sehat (Family)</ins>
@@ -196,7 +196,7 @@ Khusus pemblokiran situs kebencian, gore, situs dewasa (18+), situs judi, dan si
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
-| DNS-over-TLS | `family.dns.bebasid.com` | `853` |
+| DNS-over-TLS | `family.dns.bebasid.com`, `tls://family.dns.bebasid.com` | `853` |
 | DNS-over-HTTPS | [`https://family.dns.bebasid.com/dns-query`](https://family.dns.bebasid.com/dns-query) | `443` |
 
 ### <ins>Daftar Blokir DNS</ins>

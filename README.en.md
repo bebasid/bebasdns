@@ -73,13 +73,13 @@
 <details>
 <summary>Click to open the announcement:</summary>
 
-### Plain DNS is only usable within the allowed Indonesian and Singaporean IP range to prevent DDOS attacks. If you need your IP address to be allow-listed or want to request a list of allow-listed IPs, please get in touch with us or join our [Discord](https://discord.gg/bebasid-630415907021389825).
+### Plain DNS is only usable within the allowed Indonesian and Singaporean IP range to prevent DDOS attacks. If you need your IP address to be allow-listed or want to request a list of allow-listed IPs, please get in touch with us or join our [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) or [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi).
 
 # 
 
 For Internet Service Providers (ISPs) that use [Deep Packet Inspection (DPI)](https://github.com/bebasid/bebasdns/blob/main/dev/readme/learnmore.md#apa-itu-dpi), please use [BebasIT / BebasID IT](https://github.com/bebasid/bebasit) to bypass DPI or turn on IPv6 and force the DNS to use Internet Protocol version 6 (IPv6) if the ISP supports it.
 
-For Internet Service Providers (ISPs) that block DoH/DoT domains, please contact us at [dukungan@bebasid.com](mailto:dukungan@bebasid.com) for the alternative domain so that you can use BebasID DNS service.
+For Internet Service Providers (ISPs) that block DoH/DoT domains, please contact us at [dukungan@bebasid.com](mailto:dukungan@bebasid.com) for the alternative domain so that you can use the BebasID DNS service.
 
 **Signs if the ISP is using DPI:**
 | HTTP redirecting to [lamanlabuh.aduankonten.id](http://lamanlabuh.aduankonten.id) | While HTTPS throwing the `ERR_CONNECTION_RESET`/`PR_CONNECT_RESET_ERROR` |
@@ -108,15 +108,18 @@ For Internet Service Providers (ISPs) that block DoH/DoT domains, please contact
 
 *A freedom-oriented and neutral VPS provider for your needs.*
 
+| <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75)</a> | 
+| - |
+| <p align="center">[qdei.co](https://qdei.co)</p> |
+
+<!--
 | <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75)</a> | <a href="https://atharva.co.id"><img src="https://www.atharva.co.id/assets/atharva-logo-white-jdBmQylO.png" width="380"></a> |
 | - | - |
 | <p align="center">[qdei.co](https://qdei.co)</p> | <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
 
-
-<!--
-| <a href="https://qdei.co">![QDEI Cloud](https://qdei.co/_image?href=%2F_astro%2Fqdei-logo.Dh5viwbv.avif&f=webp)</a> |
-| - |
-| <p align="center">[qdei.co](https://qdei.co)</p> |
+| <a href="https://atharva.co.id"><img src="https://member.atharva.co.id/assets/img/logo.png" width="380"></a> |
+|-|
+| <p align="center">[atharva.co.id](https://atharva.co.id)</p> |
 //-->
 
 </div>
@@ -137,8 +140,8 @@ For Internet Service Providers (ISPs) that block DoH/DoT domains, please contact
     - [Security Test](#security-test)
   - [List of Tutorials and Questions](#list-of-tutorials-and-questions)
     - [How to Use](#how-to-use)
-    - [Contributing, Question and Request](#contributing-question-and-request)
-    - [Frequently Asked Question](#frequently-asked-questions)
+    - [Contributing, Questions and Requests](#contributing-questions-and-requests)
+    - [Frequently Asked Questions](#frequently-asked-questions)
 <!--  - [Donate Us](#donate-us)-->
   - [License](#license)
   - [Terms and Conditions](#terms-and-conditions)
@@ -147,11 +150,11 @@ For Internet Service Providers (ISPs) that block DoH/DoT domains, please contact
 
 [**BebasDNS** / **BebasID DNS**](#bebasdns--bebasid-dns) is an implementation of a DNS resolver with an ad-blocker and anti-tracking, with stable-enough uptime, does not record queries, and does not log for user privacy. 
 
-BebasDNS has 4 variants which users can use: default, security, unfiltered, and family.
+BebasDNS has 4 variants that users can use: default, security, unfiltered, and family.
 
 Our Security DNS only blocks malware and trackers.
 
-Our Family DNS blocks pornography, gambling, race/religious hate, malware, ads, and other dangerous content. Users can contribute and implement a Healthy Internet with our DNS without censorship or privacy concerns.
+Our Family DNS blocks pornography, gambling, race/religious hate, malware, ads, and other dangerous content. Users can contribute to and implement a Healthy Internet with our DNS without censorship or privacy concerns.
 
 We only record queries if there is a bug report.
 For example, if users can not access a website for troubleshooting purposes, fix that bug report.
@@ -189,7 +192,7 @@ Does not block malware, trackers, and ads.
 
 ### <ins>Family</ins>
 
-Specialized for hate speech/gore, adult (18+), gambling, and other negative things.</br> BebasDNS Internet Sehat is an implementation of Internet Sehat without unnecessary blocking or censorship, so you can surf the internet comfortably. There are two blocklists used by BebasDNS Internet Sehat: OISD NSFW and KINI Community Blocklist, which were created by the BebasID community and Indonesian people.<br><br>You can join our Community on [Discord](https://discord.gg/EKrxZyu) or [Telegram](https://t.me/bebasidbykini) to contribute towards BebasDNS Internet Sehat blocklist. You can also open an issue to add a blocklist or to report false positives.
+Specialized for hate speech/gore, adult (18+), gambling, and other negative things.</br> BebasDNS Internet Sehat is an implementation of Internet Sehat without unnecessary blocking or censorship so that you can surf the internet comfortably. There are two blocklists used by BebasDNS Internet Sehat: OISD NSFW and KINI Community Blocklist, which were created by the BebasID community and Indonesian people.<br><br>You can join our community [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) or [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) to contribute towards the BebasDNS Internet Sehat blocklist. You can also open an issue to add a blocklist or to report false positives.
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
@@ -227,9 +230,9 @@ Used to block domains according to DNS variants.</br>
 
 ### <ins>Blocklist Contribution</ins>
 
-To contribute to the community blocklist in the scope of phishing, malware, tracker, and ad annoyance, you can fork [our Blocklist](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/custom-filtering-rules-blocklist) and send your contribution, or join our community at [Discord](https://discord.gg/EKrxZyu). By contributing, you help all BebasDNS users and the wider public to surf the internet safely.
+To contribute to the community blocklist in the scope of phishing, malware, tracker, and ad annoyance, you can fork [our Blocklist](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/custom-filtering-rules-blocklist) and send your contribution, or join our community at [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) or [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi). By contributing, you help all BebasDNS users and the wider public to surf the internet safely.
 
-To contribute to the BebasDNS Healthy Internet blocklist project, you can fork [our Family Blocklist](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/family-community-blacklist) nd sending your contribution, or join our community at [Discord](https://discord.gg/EKrxZyu). Let's implement the Healthy Internet in a neutral, transparent, and censorship-free way outside the scope of pornography, gambling, race/religious hate, phishing, and other unacceptable content.
+To contribute to the BebasDNS Healthy Internet blocklist project, you can fork [our Family Blocklist](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/family-community-blacklist) nd sending your contribution, or join our community at [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) or [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi). Let's implement the Healthy Internet in a neutral, transparent, and censorship-free way outside the scope of pornography, gambling, race/religious hate, phishing, and other unacceptable content.
 
 **Please follow the format within the blocklist to contribute by forking!**
 
@@ -270,13 +273,13 @@ Please follow these tutorials:
 |  |  |  | [DNSCrypt-Proxy](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Configuration#an-example-static-server-entry) |
 |  |  |  | [Simple DNSCrypt (Windows) ](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows#installation-on-windows) |
 
-### <ins>Contributing, Question and Request</ins>
+### <ins>Contributing, Questions and Requests</ins>
 
 If you have any requests or bug reports, please [open a new issue](https://github.com/bebasid/bebasid/issues/new/choose).
 
 ### <ins>Frequently Asked Questions</ins>
 
-If you have any problems using [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), please head to [Discord](https://discord.gg/EKrxZyu) or send an email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasDNS / BebasID DNS: [Your problem/question]**.
+If you have any problems using [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), please head to [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) / [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) or send an email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasDNS / BebasID DNS: [Your problem/question]**.
 
 <!--
 ## Donate Us
@@ -330,7 +333,7 @@ Donating will help us maintain this project and keep [BebasDNS / BebasID DNS](#b
 
 ## Terms and Conditions
 
-By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made, and you accept all the consequences that may arise. If you do not agree to accept the existing rules, then you are not allowed to use this service.
+By using this service, you are deemed to have read, understood, and agreed to all the rules that we have made, and you accept all the consequences that may arise. If you do not agree to abide by the existing rules, you are not allowed to use this service.
 
 For more information about the rules, see them on the [RULES here](https://github.com/bebasid/bebasdns/blob/master/dev/readme/RULES).
 

@@ -130,7 +130,7 @@ Bagi provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
   - [Peladen Utama](#peladen-utama)
       - [DNS Bawaan (Default)](#dns-bawaan-default)
       - [Alternatif](#alternatif)
-          - [DNS Antivirus (Malware)](#dns-antivirus-malware)
+          - [DNS Antivirus (Anti-Malware)](#dns-antivirus-anti-malware)
           - [DNS Tanpa Disaring (Unfiltered)](#dns-tanpa-disaring-unfiltered)
           - [DNS Internet Sehat (Family)](#dns-internet-sehat-family)
   - [Daftar Blokir DNS](#daftar-blokir-dns)
@@ -163,7 +163,7 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 
 ### <ins>DNS Bawaan (Default)</ins>
 
-Memblokir perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan (ads).
+Memblokir perangkat lunak jahat (anti-malware), link pelacakan (anti-tracking), dan iklan (anti-ads).
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
@@ -172,9 +172,9 @@ Memblokir perangkat lunak jahat (malware), link pelacakan (tracking), dan iklan 
 
 ## Alternatif
 
-### <ins>DNS Antivirus (Malware)</ins>
+### <ins>DNS Antivirus (Anti-Malware)</ins>
 
-Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking), dan tidak memblokir iklan (ads).
+Khusus pemblokiran perangkat lunak jahat (anti-malware), pelacakan (anti-tracking), dan tidak memblokir iklan (anti-ads).
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
@@ -183,7 +183,7 @@ Khusus pemblokiran perangkat lunak jahat (malware), pelacakan (tracking), dan ti
 
 ### <ins>DNS Tanpa Disaring (Unfiltered)</ins>
 
-Khusus tanpa pemblokiran perangkat lunak jahat (malware), tanpa blokir pelacakan (tracking) dan tidak memblokir iklan (ads).
+Khusus tanpa pemblokiran perangkat lunak jahat (anti-malware), tanpa blokir pelacakan (anti-tracking) dan tidak memblokir iklan (anti-ads).
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |

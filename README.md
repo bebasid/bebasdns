@@ -127,12 +127,12 @@ Bagi provider ISP yang memblokir domain DoH/DoT, silakan kontak kami di [dukunga
 ## Daftar Isi
 
 - [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns)
-  - [Peladen Utama](#peladen-utama)
-      - [DNS Bawaan (Default)](#dns-bawaan-default)
+  - [Peladen DNS Utama](#peladen-dns-utama)
+      - [Bawaan (Default)](#bawaan-default)
       - [Alternatif](#alternatif)
-          - [DNS Antivirus (Anti-Malware)](#dns-antivirus-anti-malware)
-          - [DNS Tanpa Disaring (Unfiltered)](#dns-tanpa-disaring-unfiltered)
-          - [DNS Internet Sehat (Family)](#dns-internet-sehat-family)
+          - [Antivirus (Anti-Malware)](#antivirus-anti-malware)
+          - [Tanpa Disaring (Unfiltered)](tanpa-disaring-unfiltered)
+          - [Internet Sehat (Family)](#internet-sehat-family)
   - [Daftar Blokir DNS](#daftar-blokir-dns)
   - [Kontribusi List Blocklist](#kontribusi-list-blocklist)
   - [Pemeliharaan](#pemeliharaan)
@@ -159,9 +159,9 @@ DNS Family kami memblokir konten pornografi, judi, SARA, malware, iklan, dan kon
 Sewaktu-waktu hanya akan mengaktifkan penyimpanan kueri dan log apabila ada laporan bug.
 Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber masalah dan mengatasi laporan bug tersebut.
 
-## Peladen Utama
+## Peladen DNS Utama
 
-### <ins>DNS Bawaan (Default)</ins>
+### <ins>Bawaan (Default)</ins>
 
 Memblokir perangkat lunak jahat (anti-malware), memblokir link pelacakan (anti-tracking), dan memblokir iklan (anti-ads).
 
@@ -172,7 +172,7 @@ Memblokir perangkat lunak jahat (anti-malware), memblokir link pelacakan (anti-t
 
 ## Alternatif
 
-### <ins>DNS Antivirus (Anti-Malware)</ins>
+### <ins>Antivirus (Anti-Malware)</ins>
 
 Khusus pemblokiran perangkat lunak jahat (anti-malware), tanpa memblokir pelacakan (anti-tracking), dan tidak memblokir iklan (anti-ads).
 
@@ -181,7 +181,7 @@ Khusus pemblokiran perangkat lunak jahat (anti-malware), tanpa memblokir pelacak
 | DNS-over-TLS | `security.dns.bebasid.com`, `tls://security.dns.bebasid.com` | `853` |
 | DNS-over-HTTPS | [`https://security.dns.bebasid.com/dns-query`](https://security.dns.bebasid.com/dns-query) | `443` |
 
-### <ins>DNS Tanpa Disaring (Unfiltered)</ins>
+### <ins>Tanpa Disaring (Unfiltered)</ins>
 
 Khusus tanpa pemblokiran perangkat lunak jahat (anti-malware), tanpa memblokir pelacakan (anti-tracking) dan tidak memblokir iklan (anti-ads).
 
@@ -190,7 +190,7 @@ Khusus tanpa pemblokiran perangkat lunak jahat (anti-malware), tanpa memblokir p
 | DNS-over-TLS | `unfiltered.dns.bebasid.com`, `tls://unfiltered.dns.bebasid.com` | `853` |
 | DNS-over-HTTPS | [`https://unfiltered.dns.bebasid.com/dns-query`](https://unfiltered.dns.bebasid.com/dns-query) | `443` |
 
-### <ins>DNS Internet Sehat (Family)</ins>
+### <ins>Internet Sehat (Family)</ins>
 
 Khusus pemblokiran situs kebencian, gore, situs dewasa (18+), situs judi, dan situs hal negatif lainnya. BebasDNS Internet Sehat merupakan implementasi Internet Sehat tanpa pemblokiran yang tidak perlu atau <i>censorship</i> sehingga Anda dapat berselancar di Internet dengan nyaman. Blocklist untuk BebasDNS Internet Sehat ada 2, yaitu OISD NSFW dan Blocklist Komunitas KINI yang dibuat dengan melibatkan seluruh komunitas BebasID dan masyarakat Indonesia.<br><br>Anda dapat bergabung ke komunitas kami di [Server Discord](https://discord.gg/bebasid-630415907021389825) / [Grup Telegram](https://t.me/bebasidbykini) atau [Grup WhatsApp](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) untuk berkontribusi dalam blocklist Internet Sehat BebasDNS. Selain itu, Anda dapat membuka issue untuk menambahkan blocklist atau untuk situs yang seharusnya tidak diblokir.<br></br>
 

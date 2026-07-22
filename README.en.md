@@ -127,8 +127,8 @@ For Internet Service Providers (ISPs) that block DoH/DoT domains, please contact
 ## Table of Contents
 
 - [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns)
-  - [Primary Server](#primary-server)
-      - [Default DNS](#default-dns)
+  - [Primary DNS](#primary-dns)
+      - [Default](#default)
     - [Alternative](#alternative)
       - [Antivirus (Anti-Malware)](#antivirus-anti-malware)
       - [Unfiltered](#unfiltered)
@@ -159,9 +159,9 @@ Our Family DNS blocks pornography, gambling, race/religious hate, malware, ads, 
 We only record queries if there is a bug report.
 For example, if users can not access a website for troubleshooting purposes, fix that bug report.
 
-## Primary Server
+## Primary DNS
 
-### <ins>Default DNS</ins>
+### <ins>Default</ins>
 
 Blocking malware, trackers, and ads.
 

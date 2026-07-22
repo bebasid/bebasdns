@@ -131,7 +131,7 @@ For Internet Service Providers (ISPs) that block DoH/DoT domains, please contact
       - [Default DNS](#default-dns)
     - [Alternative](#alternative)
       - [Antivirus (Anti-Malware)](#antivirus-anti-malware)
-      - [Unfiltered DNS](#unfiltered)
+      - [Unfiltered](#unfiltered)
       - [Family](#family)
   - [DNS Blocklists](#dns-blocklists)
   - [Blocklist Contribution](#blocklist-contribution)

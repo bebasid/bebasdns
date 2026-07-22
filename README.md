@@ -163,7 +163,7 @@ Misalnya, tidak bisa mengakses sebuah website dengan tujuan untuk melacak sumber
 
 ### <ins>DNS Bawaan (Default)</ins>
 
-Memblokir perangkat lunak jahat (anti-malware), link pelacakan (anti-tracking), dan iklan (anti-ads).
+Memblokir perangkat lunak jahat (anti-malware), memblokir link pelacakan (anti-tracking), dan memblokir iklan (anti-ads).
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
@@ -174,7 +174,7 @@ Memblokir perangkat lunak jahat (anti-malware), link pelacakan (anti-tracking), 
 
 ### <ins>DNS Antivirus (Anti-Malware)</ins>
 
-Khusus pemblokiran perangkat lunak jahat (anti-malware), pelacakan (anti-tracking), dan tidak memblokir iklan (anti-ads).
+Khusus pemblokiran perangkat lunak jahat (anti-malware), tanpa memblokir pelacakan (anti-tracking), dan tidak memblokir iklan (anti-ads).
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
@@ -183,7 +183,7 @@ Khusus pemblokiran perangkat lunak jahat (anti-malware), pelacakan (anti-trackin
 
 ### <ins>DNS Tanpa Disaring (Unfiltered)</ins>
 
-Khusus tanpa pemblokiran perangkat lunak jahat (anti-malware), tanpa blokir pelacakan (anti-tracking) dan tidak memblokir iklan (anti-ads).
+Khusus tanpa pemblokiran perangkat lunak jahat (anti-malware), tanpa memblokir pelacakan (anti-tracking) dan tidak memblokir iklan (anti-ads).
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |

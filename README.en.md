@@ -167,7 +167,7 @@ Blocking malware, trackers, and ads.
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
-| DNS-over-TLS | `dns.bebasid.com` | `853` |
+| DNS-over-TLS | `dns.bebasid.com`, `tls://dns.bebasid.com` | `853` |
 | DNS-over-HTTPS | [`https://dns.bebasid.com/dns-query`](https://dns.bebasid.com/dns-query) | `443` |
 
 ## Alternative
@@ -178,8 +178,8 @@ Specialized for malware blocking, without tracker blocking, and no adblock.
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
-| DNS-over-TLS | `security.bebasid.com` | `853` |
-| DNS-over-HTTPS | [`https://security.bebasid.com/dns-query`](https://security.bebasid.com/dns-query) | `443` |
+| DNS-over-TLS | `security.dns.bebasid.com`, `tls://security.dns.bebasid.com` | `853` |
+| DNS-over-HTTPS | [`https://security.dns.bebasid.com/dns-query`](https://security.dns.bebasid.com/dns-query) | `443` |
 
 ### <ins>Unfiltered</ins>
 
@@ -187,7 +187,7 @@ Does not block malware, trackers, and ads.
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
-| DNS-over-TLS | `unfiltered.dns.bebasid.com` | `853` |
+| DNS-over-TLS | `unfiltered.dns.bebasid.com`, `tls://unfiltered.dns.bebasid.com` | `853` |
 | DNS-over-HTTPS | [`https://unfiltered.dns.bebasid.com/dns-query`](https://unfiltered.dns.bebasid.com/dns-query) | `443` |
 
 ### <ins>Family</ins>
@@ -196,7 +196,7 @@ Specialized for hate speech/gore, adult (18+), gambling, and other negative thin
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
-| DNS-over-TLS | `family.dns.bebasid.com` | `853` |
+| DNS-over-TLS | `family.dns.bebasid.com`, `tls://family.dns.bebasid.com` | `853` |
 | DNS-over-HTTPS | [`https://family.dns.bebasid.com/dns-query`](https://family.dns.bebasid.com/dns-query) | `443` |
 
 ### <ins>DNS Blocklists</ins>

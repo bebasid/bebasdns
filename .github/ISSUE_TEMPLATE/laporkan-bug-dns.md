@@ -3,7 +3,7 @@ name: Laporkan Bug DNS
 about: Laporkan bug mengenai DNS.
 title: "[BUG]"
 labels: bug, dns
-assignees: merdekaid
+assignees: dazolers, HellDarkK
 
 ---
 
@@ -16,3 +16,4 @@ Jika ada, tambahkan screenshot untuk membantu menjelaskan mengenai bug.
 **Device**
  - OS: [cth. Windows 7, tinggi]
  - Browser [cth. Chrome, Firefox, dll]
+ - ISP:

@@ -49,10 +49,6 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram&labelColor=222">
 </a>
 
-<a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi">
-    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
-</a>
-
 <br>
 
 <a href="https://trakteer.id/bebasidbykini">
@@ -73,7 +69,7 @@
 <details>
 <summary>Pencet untuk buka pemberitahuan</summary>
 
-### Plain DNS hanya berfungsi di IP range termasuk negara Indonesia dan Singapura yang sudah didaftarkan untuk menghindari serangan DDoS. Untuk meminta daftar IP yang kami izinkan, silakan kontak kami atau gabung ke [Server Discord](https://discord.gg/bebasid-630415907021389825) / [Grup Telegram](https://t.me/bebasidbykini) atau [Grup WhatsApp](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) kami.
+### Plain DNS hanya berfungsi di IP range termasuk negara Indonesia dan Singapura yang sudah didaftarkan untuk menghindari serangan DDoS. Untuk meminta daftar IP yang kami izinkan, silakan kontak kami atau gabung ke [Server Discord](https://discord.gg/bebasid-630415907021389825) atau [Grup Telegram](https://t.me/bebasidbykini) kami.
 
 # 
 
@@ -192,7 +188,7 @@ Khusus tanpa pemblokiran perangkat lunak jahat (anti-malware), tanpa memblokir p
 
 ### <ins>Internet Sehat (Family)</ins>
 
-Khusus pemblokiran situs kebencian, gore, situs dewasa (18+), situs judi, dan situs hal negatif lainnya. BebasDNS Internet Sehat merupakan implementasi Internet Sehat tanpa pemblokiran yang tidak perlu atau <i>censorship</i> sehingga Anda dapat berselancar di Internet dengan nyaman. Blocklist untuk BebasDNS Internet Sehat ada 2, yaitu OISD NSFW dan Blocklist Komunitas KINI yang dibuat dengan melibatkan seluruh komunitas BebasID dan masyarakat Indonesia.<br><br>Anda dapat bergabung ke komunitas kami di [Server Discord](https://discord.gg/bebasid-630415907021389825) / [Grup Telegram](https://t.me/bebasidbykini) atau [Grup WhatsApp](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) untuk berkontribusi dalam blocklist Internet Sehat BebasDNS. Selain itu, Anda dapat membuka issue untuk menambahkan blocklist atau untuk situs yang seharusnya tidak diblokir.<br></br>
+Khusus pemblokiran situs kebencian, gore, situs dewasa (18+), situs judi, dan situs hal negatif lainnya. BebasDNS Internet Sehat merupakan implementasi Internet Sehat tanpa pemblokiran yang tidak perlu atau <i>censorship</i> sehingga Anda dapat berselancar di Internet dengan nyaman. Blocklist untuk BebasDNS Internet Sehat ada 2, yaitu OISD NSFW dan Blocklist Komunitas KINI yang dibuat dengan melibatkan seluruh komunitas BebasID dan masyarakat Indonesia.<br><br>Anda dapat bergabung ke komunitas kami di [Server Discord](https://discord.gg/bebasid-630415907021389825) atau [Grup Telegram](https://t.me/bebasidbykini) untuk berkontribusi dalam blocklist Internet Sehat BebasDNS. Selain itu, Anda dapat membuka issue untuk menambahkan blocklist atau untuk situs yang seharusnya tidak diblokir.<br></br>
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
@@ -230,9 +226,9 @@ Digunakan untuk memblokir domain menurut varian DNS yang tersedia.</br>
 
 ### <ins>Kontribusi List Blocklist</ins>
 
-Untuk berkontribusi ke blocklist komunitas di lingkup phishing, malware, tracker, dan iklan annoyance, Anda dapat fork [Blocklist Kami](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/custom-filtering-rules-blocklist) dan kirimkan kontribusi Anda, atau bergabunglah dengan komunitas kami di [Server Discord](https://discord.gg/bebasid-630415907021389825) / [Grup Telegram](https://t.me/bebasidbykini) atau [Grup WhatsApp](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi). Dengan berkontribusi, Anda membantu seluruh pengguna BebasDNS dan elemen masyarakat untuk berselancar di internet secara aman.
+Untuk berkontribusi ke blocklist komunitas di lingkup phishing, malware, tracker, dan iklan annoyance, Anda dapat fork [Blocklist Kami](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/custom-filtering-rules-blocklist) dan kirimkan kontribusi Anda, atau bergabunglah dengan komunitas kami di [Server Discord](https://discord.gg/bebasid-630415907021389825) atau [Grup Telegram](https://t.me/bebasidbykini). Dengan berkontribusi, Anda membantu seluruh pengguna BebasDNS dan elemen masyarakat untuk berselancar di internet secara aman.
 
-Untuk berkontribusi pada proyek blocklist Internet Sehat BebasDNS, silakan fork [Blocklist Family Kami](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/family-community-blacklist) dan kirimkan kontribusi Anda, atau bergabunglah dengan komunitas kami di [Server Discord](https://discord.gg/bebasid-630415907021389825) / [Grup Telegram](https://t.me/bebasidbykini) atau [Grup WhatsApp](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi). Mari kita terapkan Internet Sehat secara netral, transparan, dan tanpa sensor di luar lingkup pornografi, judi, SARA, phishing, serta konten lain yang melanggar norma kesusilaan.
+Untuk berkontribusi pada proyek blocklist Internet Sehat BebasDNS, silakan fork [Blocklist Family Kami](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/family-community-blacklist) dan kirimkan kontribusi Anda, atau bergabunglah dengan komunitas kami di [Server Discord](https://discord.gg/bebasid-630415907021389825) atau [Grup Telegram](https://t.me/bebasidbykini). Mari kita terapkan Internet Sehat secara netral, transparan, dan tanpa sensor di luar lingkup pornografi, judi, SARA, phishing, serta konten lain yang melanggar norma kesusilaan.
 
 Silakan ikuti format seperti yang ada di blocklist untuk berkontribusi lewat forking!**
 
@@ -279,7 +275,7 @@ Untuk melakukan permintaan dan melaporkan adanya kutu (_bug_), silakan [membuka 
 
 ### <ins>Soal Sering Ditanya</ins>
 
-Jika mengalami permasalahan saat menggunakan [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), silakan lanjut menanyakannya di [Server Discord](https://discord.gg/bebasid-630415907021389825) / [Grup Telegram](https://t.me/bebasidbykini) / [Grup WhatsApp](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasDNS / BebasID DNS: [Masalah/pertanyaan Anda]**.
+Jika mengalami permasalahan saat menggunakan [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), silakan lanjut menanyakannya di [Server Discord](https://discord.gg/bebasid-630415907021389825) / [Grup Telegram](https://t.me/bebasidbykini) atau mengirimkan email ke [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) dengan subjek **BebasDNS / BebasID DNS: [Masalah/pertanyaan Anda]**.
 
 <!--
 ## Donasi Kami

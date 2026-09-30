@@ -49,10 +49,6 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=telegram&logoColor=white&label=Telegram&labelColor=222">
 </a>
 
-<a href="https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi">
-    <img alt="Static Badge" src="https://img.shields.io/badge/join-white?style=for-the-badge&logo=whatsapp&logoColor=white&label=WhatsApp&labelColor=222">
-</a>
-
 <br>
 
 <a href="https://trakteer.id/bebasidbykini">
@@ -73,7 +69,7 @@
 <details>
 <summary>Click to open the announcement:</summary>
 
-### Plain DNS is only usable within the allowed Indonesian and Singaporean IP range to prevent DDOS attacks. If you need your IP address to be allow-listed or want to request a list of allow-listed IPs, please get in touch with us or join our [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) or [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi).
+### Plain DNS is only usable within the allowed Indonesian and Singaporean IP range to prevent DDOS attacks. If you need your IP address to be allow-listed or want to request a list of allow-listed IPs, please get in touch with us or join our [Discord Server](https://discord.gg/bebasid-630415907021389825) or [Telegram Group](https://t.me/bebasidbykini).
 
 # 
 
@@ -192,7 +188,7 @@ Does not block malware, trackers, and ads.
 
 ### <ins>Family</ins>
 
-Specialized for hate speech/gore, adult (18+), gambling, and other negative things.</br> BebasDNS Internet Sehat is an implementation of Internet Sehat without unnecessary blocking or censorship so that you can surf the internet comfortably. There are two blocklists used by BebasDNS Internet Sehat: OISD NSFW and KINI Community Blocklist, which were created by the BebasID community and Indonesian people.<br><br>You can join our community [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) or [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) to contribute towards the BebasDNS Internet Sehat blocklist. You can also open an issue to add a blocklist or to report false positives.
+Specialized for hate speech/gore, adult (18+), gambling, and other negative things.</br> BebasDNS Internet Sehat is an implementation of Internet Sehat without unnecessary blocking or censorship so that you can surf the internet comfortably. There are two blocklists used by BebasDNS Internet Sehat: OISD NSFW and KINI Community Blocklist, which were created by the BebasID community and Indonesian people.<br><br>You can join our community [Discord Server](https://discord.gg/bebasid-630415907021389825) or [Telegram Group](https://t.me/bebasidbykini) to contribute towards the BebasDNS Internet Sehat blocklist. You can also open an issue to add a blocklist or to report false positives.
 
 | Protocols | Addresses | Ports |
 | --- | --- | :---: |
@@ -230,9 +226,9 @@ Used to block domains according to DNS variants.</br>
 
 ### <ins>Blocklist Contribution</ins>
 
-To contribute to the community blocklist in the scope of phishing, malware, tracker, and ad annoyance, you can fork [our Blocklist](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/custom-filtering-rules-blocklist) and send your contribution, or join our community at [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) or [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi). By contributing, you help all BebasDNS users and the wider public to surf the internet safely.
+To contribute to the community blocklist in the scope of phishing, malware, tracker, and ad annoyance, you can fork [our Blocklist](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/custom-filtering-rules-blocklist) and send your contribution, or join our community at [Discord Server](https://discord.gg/bebasid-630415907021389825) or [Telegram Group](https://t.me/bebasidbykini). By contributing, you help all BebasDNS users and the wider public to surf the internet safely.
 
-To contribute to the BebasDNS Healthy Internet blocklist project, you can fork [our Family Blocklist](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/family-community-blacklist) nd sending your contribution, or join our community at [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) or [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi). Let's implement the Healthy Internet in a neutral, transparent, and censorship-free way outside the scope of pornography, gambling, race/religious hate, phishing, and other unacceptable content.
+To contribute to the BebasDNS Healthy Internet blocklist project, you can fork [our Family Blocklist](https://github.com/bebasid/bebasdns/blob/main/dev/resources/hosts/family-community-blacklist) and sending your contribution, or join our community at [Discord Server](https://discord.gg/bebasid-630415907021389825) or [Telegram Group](https://t.me/bebasidbykini). Let's implement the Healthy Internet in a neutral, transparent, and censorship-free way outside the scope of pornography, gambling, race/religious hate, phishing, and other unacceptable content.
 
 **Please follow the format within the blocklist to contribute by forking!**
 
@@ -279,7 +275,7 @@ If you have any requests or bug reports, please [open a new issue](https://githu
 
 ### <ins>Frequently Asked Questions</ins>
 
-If you have any problems using [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), please head to [Discord Server](https://discord.gg/bebasid-630415907021389825) / [Telegram Group](https://t.me/bebasidbykini) / [WhatsApp Group](https://chat.whatsapp.com/Jmn5Uv4UYj0GdQooI1Jwbi) or send an email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasDNS / BebasID DNS: [Your problem/question]**.
+If you have any problems using [BebasDNS / BebasID DNS](#bebasdns--bebasid-dns), please head to [Discord Server](https://discord.gg/bebasid-630415907021389825) or [Telegram Group](https://t.me/bebasidbykini) or send an email to [`dukungan@bebasid.com`](mailto:dukungan@bebasid.com) with the subject **BebasDNS / BebasID DNS: [Your problem/question]**.
 
 <!--
 ## Donate Us
